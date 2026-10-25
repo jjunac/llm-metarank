@@ -1,0 +1,299 @@
+{
+  "sourceId": "mcp-atlas",
+  "fetchedAt": "2026-10-25T11:43:05.607Z",
+  "sourceUpdatedAt": "2026-09-17",
+  "url": "https://labs.scale.com/leaderboard/mcp_atlas",
+  "entries": [
+    {
+      "rawName": "Muse Spark 1.1",
+      "score": 88.1,
+      "url": "https://labs.scale.com/leaderboard/mcp_atlas",
+      "extra": {
+        "rank": 1
+      }
+    },
+    {
+      "rawName": "Fable 5.1",
+      "score": 87.2,
+      "url": "https://labs.scale.com/leaderboard/mcp_atlas",
+      "extra": {
+        "rank": 2
+      }
+    },
+    {
+      "rawName": "claude-opus-5 (xhigh)",
+      "score": 85.8,
+      "variant": "xhigh",
+      "url": "https://labs.scale.com/leaderboard/mcp_atlas",
+      "extra": {
+        "rank": 3
+      }
+    },
+    {
+      "rawName": "Qwen3.8-2.4T-A95B (xHigh)",
+      "score": 84.5,
+      "variant": "xHigh",
+      "url": "https://labs.scale.com/leaderboard/mcp_atlas",
+      "extra": {
+        "rank": 4
+      }
+    },
+    {
+      "rawName": "GLM 5.3",
+      "score": 84.2,
+      "url": "https://labs.scale.com/leaderboard/mcp_atlas",
+      "extra": {
+        "rank": 5
+      }
+    },
+    {
+      "rawName": "Gemini 3.5 Flash (high)",
+      "score": 83.6,
+      "variant": "high",
+      "url": "https://labs.scale.com/leaderboard/mcp_atlas",
+      "extra": {
+        "rank": 6
+      }
+    },
+    {
+      "rawName": "Claude Fable 5",
+      "score": 83.3,
+      "url": "https://labs.scale.com/leaderboard/mcp_atlas",
+      "extra": {
+        "rank": 7
+      }
+    },
+    {
+      "rawName": "kimi-k3 (max)",
+      "score": 82.3,
+      "variant": "max",
+      "url": "https://labs.scale.com/leaderboard/mcp_atlas",
+      "extra": {
+        "rank": 8
+      }
+    },
+    {
+      "rawName": "Muse Spark",
+      "score": 82.2,
+      "url": "https://labs.scale.com/leaderboard/mcp_atlas",
+      "extra": {
+        "rank": 9
+      }
+    },
+    {
+      "rawName": "claude-opus-4-8 (max)",
+      "score": 82.2,
+      "variant": "max",
+      "url": "https://labs.scale.com/leaderboard/mcp_atlas",
+      "extra": {
+        "rank": 10
+      }
+    },
+    {
+      "rawName": "gpt-5.6 (sol)",
+      "score": 81.8,
+      "url": "https://labs.scale.com/leaderboard/mcp_atlas",
+      "extra": {
+        "rank": 11
+      }
+    },
+    {
+      "rawName": "Inkling-small",
+      "score": 79.2,
+      "url": "https://labs.scale.com/leaderboard/mcp_atlas",
+      "extra": {
+        "rank": 12
+      }
+    },
+    {
+      "rawName": "claude-opus-4-7 (max)",
+      "score": 79.1,
+      "variant": "max",
+      "url": "https://labs.scale.com/leaderboard/mcp_atlas",
+      "extra": {
+        "rank": 13
+      }
+    },
+    {
+      "rawName": "gemini-3.1-pro-preview (high)",
+      "score": 78.2,
+      "variant": "high",
+      "url": "https://labs.scale.com/leaderboard/mcp_atlas",
+      "extra": {
+        "rank": 14
+      }
+    },
+    {
+      "rawName": "glm-5p2",
+      "score": 77.8,
+      "url": "https://labs.scale.com/leaderboard/mcp_atlas",
+      "extra": {
+        "rank": 15
+      }
+    },
+    {
+      "rawName": "claude-opus-4-6 (max)",
+      "score": 76.8,
+      "variant": "max",
+      "url": "https://labs.scale.com/leaderboard/mcp_atlas",
+      "extra": {
+        "rank": 16
+      }
+    },
+    {
+      "rawName": "Inkling (xHigh)",
+      "score": 76,
+      "variant": "xHigh",
+      "url": "https://labs.scale.com/leaderboard/mcp_atlas",
+      "extra": {
+        "rank": 17
+      }
+    },
+    {
+      "rawName": "glm-5p1",
+      "score": 75.6,
+      "url": "https://labs.scale.com/leaderboard/mcp_atlas",
+      "extra": {
+        "rank": 18
+      }
+    },
+    {
+      "rawName": "gpt-5.5 (xhigh)",
+      "score": 75.3,
+      "variant": "xhigh",
+      "url": "https://labs.scale.com/leaderboard/mcp_atlas",
+      "extra": {
+        "rank": 19
+      }
+    },
+    {
+      "rawName": "gpt-5.4 (xhigh)",
+      "score": 70.6,
+      "variant": "xhigh",
+      "url": "https://labs.scale.com/leaderboard/mcp_atlas",
+      "extra": {
+        "rank": 20
+      }
+    },
+    {
+      "rawName": "gemini-3-pro-preview",
+      "score": 70.3,
+      "url": "https://labs.scale.com/leaderboard/mcp_atlas",
+      "extra": {
+        "rank": 21
+      }
+    },
+    {
+      "rawName": "claude-opus-4-5 (high)",
+      "score": 69.8,
+      "variant": "high",
+      "url": "https://labs.scale.com/leaderboard/mcp_atlas",
+      "extra": {
+        "rank": 22
+      }
+    },
+    {
+      "rawName": "claude-sonnet-4-6",
+      "score": 69.5,
+      "url": "https://labs.scale.com/leaderboard/mcp_atlas",
+      "extra": {
+        "rank": 23
+      }
+    },
+    {
+      "rawName": "gpt-5.2 (xhigh)",
+      "score": 67.6,
+      "variant": "xhigh",
+      "url": "https://labs.scale.com/leaderboard/mcp_atlas",
+      "extra": {
+        "rank": 24
+      }
+    },
+    {
+      "rawName": "kimi-k2p5",
+      "score": 64.4,
+      "url": "https://labs.scale.com/leaderboard/mcp_atlas",
+      "extra": {
+        "rank": 25
+      }
+    },
+    {
+      "rawName": "Nemotron 3 Ultra (thinking)",
+      "score": 63.1,
+      "variant": "thinking",
+      "url": "https://labs.scale.com/leaderboard/mcp_atlas",
+      "extra": {
+        "rank": 26
+      }
+    },
+    {
+      "rawName": "gemini-3-flash-preview",
+      "score": 62,
+      "url": "https://labs.scale.com/leaderboard/mcp_atlas",
+      "extra": {
+        "rank": 27
+      }
+    },
+    {
+      "rawName": "claude-sonnet-4-5 (thinking)",
+      "score": 59.5,
+      "variant": "thinking",
+      "url": "https://labs.scale.com/leaderboard/mcp_atlas",
+      "extra": {
+        "rank": 28
+      }
+    },
+    {
+      "rawName": "glm-4p7",
+      "score": 58.1,
+      "url": "https://labs.scale.com/leaderboard/mcp_atlas",
+      "extra": {
+        "rank": 29
+      }
+    },
+    {
+      "rawName": "gemini-3.1-flash-lite (high)",
+      "score": 57.1,
+      "variant": "high",
+      "url": "https://labs.scale.com/leaderboard/mcp_atlas",
+      "extra": {
+        "rank": 30
+      }
+    },
+    {
+      "rawName": "gpt-5.4-mini (xhigh)",
+      "score": 56.7,
+      "variant": "xhigh",
+      "url": "https://labs.scale.com/leaderboard/mcp_atlas",
+      "extra": {
+        "rank": 31
+      }
+    },
+    {
+      "rawName": "gpt-5.1 (high)",
+      "score": 50.1,
+      "variant": "high",
+      "url": "https://labs.scale.com/leaderboard/mcp_atlas",
+      "extra": {
+        "rank": 32
+      }
+    },
+    {
+      "rawName": "o3-pro",
+      "score": 44.5,
+      "url": "https://labs.scale.com/leaderboard/mcp_atlas",
+      "extra": {
+        "rank": 33
+      }
+    },
+    {
+      "rawName": "claude-haiku-4-5",
+      "score": 40.2,
+      "url": "https://labs.scale.com/leaderboard/mcp_atlas",
+      "extra": {
+        "rank": 34
+      }
+    }
+  ],
+  "warnings": []
+}

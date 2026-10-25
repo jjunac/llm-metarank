@@ -1,0 +1,215 @@
+[
+  {
+    "id": "artificial-analysis",
+    "name": "Artificial Analysis Intelligence Index",
+    "shortName": "Artificial Analysis",
+    "url": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index",
+    "access": "html",
+    "metricLabel": "Intelligence Index",
+    "scoreType": "index",
+    "description": "A composite of ten challenging evaluations covering reasoning, science, coding, and long-horizon work. The public page exposes a 27-model highlighted set; the full model dataset requires an API key.",
+    "categories": {
+      "general": "overall",
+      "reasoning": "overall"
+    },
+    "weight": 1,
+    "composite": true,
+    "accent": "#f97316",
+    "note": "Composite index. Includes several benchmarks that also appear separately on this site; it is counted once in the overall score. Uses the 27-model set available on the public leaderboard page.",
+    "costMethodology": {
+      "statistic": "weighted-mean",
+      "url": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index#cost",
+      "note": "Usage-based weighted cost per Intelligence Index task, including caching, reasoning and fallback models. The audited v4.3.2 task counts and weights are version-guarded; unknown versions are not estimated."
+    }
+  },
+  {
+    "id": "livebench",
+    "name": "LiveBench 2.0",
+    "shortName": "LiveBench",
+    "url": "https://livebench.ai/",
+    "access": "json",
+    "metricLabel": "LiveBench score",
+    "scoreType": "percent",
+    "description": "Contamination-free long-horizon tasks across coding, agentic work, reasoning, browser use, research, and design.",
+    "categories": {
+      "general": "overall",
+      "coding": "coding",
+      "agentic": "long_agentic",
+      "reasoning": "reasoning"
+    },
+    "weight": 1,
+    "composite": true,
+    "accent": "#6366f1",
+    "note": "The overall score is the weighted category score published by LiveBench. Category tabs use the underlying category scores.",
+    "costMethodology": {
+      "statistic": "mean",
+      "url": "https://livebench.ai/#/methodology",
+      "note": "Release-matched cost.csv: total model-under-test spend divided by task count, including failures. Excludes fixed starting state and harness helper calls. Category costs use their own tasks."
+    }
+  },
+  {
+    "id": "lmarena-text",
+    "name": "LMArena Text Arena",
+    "shortName": "LMArena Text",
+    "url": "https://arena.ai/leaderboard/chat/text",
+    "access": "browser",
+    "metricLabel": "Arena Elo",
+    "scoreType": "elo",
+    "description": "Blind human preference votes on open-ended chat prompts. The score is an Elo-style rating.",
+    "categories": {
+      "general": "overall"
+    },
+    "weight": 1,
+    "accent": "#0ea5e9",
+    "note": "The page is protected by Cloudflare; the refresh script uses a headless browser.",
+    "costMethodology": {
+      "statistic": "median",
+      "url": "https://arena.ai/leaderboard/chat/text",
+      "note": "Cost/Task (P50) is a median, not a mean. The Playwright table scrape reads the Cost/Task (P50) column into each exact scored row; P50 is available only in single-benchmark views and is never pooled with means. API Price $/M is never substituted."
+    }
+  },
+  {
+    "id": "swebench-pro-v2",
+    "name": "SWE-bench Pro V2",
+    "shortName": "SWE-bench Pro",
+    "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
+    "access": "html",
+    "metricLabel": "Resolve score",
+    "scoreType": "percent",
+    "description": "Long-horizon software engineering tasks in real repositories, graded by hidden tests.",
+    "categories": {
+      "coding": "overall"
+    },
+    "weight": 1,
+    "accent": "#10b981",
+    "note": "Results are model + coding harness. The best reported harness is used and shown in the model detail.",
+    "costMethodology": {
+      "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
+      "note": "No monetary cost per task matched to the current leaderboard runs was found in the public page payload. Cost limits are not actual spend and are not used."
+    }
+  },
+  {
+    "id": "terminal-bench-4",
+    "name": "Terminal-Bench 4.0",
+    "shortName": "Terminal-Bench",
+    "url": "https://www.tbench.ai/",
+    "access": "api",
+    "metricLabel": "Resolution rate",
+    "scoreType": "percent",
+    "description": "End-to-end terminal tasks completed by an autonomous agent in a sandbox.",
+    "categories": {
+      "coding": "overall",
+      "agentic": "overall"
+    },
+    "weight": 1,
+    "accent": "#8b5cf6",
+    "note": "Results are model + agent. The best reported agent is used and shown in the model detail.",
+    "costMethodology": {
+      "statistic": "mean",
+      "url": "https://www.tbench.ai/",
+      "note": "API total_cost_usd divided by n_trials, including failures and repeated tasks. The website's Cost column is total spend, not cost per unique task."
+    }
+  },
+  {
+    "id": "hle",
+    "name": "Humanity's Last Exam",
+    "shortName": "HLE",
+    "url": "https://labs.scale.com/leaderboard/humanitys_last_exam",
+    "access": "html",
+    "metricLabel": "Accuracy",
+    "scoreType": "percent",
+    "description": "Expert-written questions across mathematics, science, humanities, and other fields.",
+    "categories": {
+      "general": "overall",
+      "reasoning": "overall"
+    },
+    "weight": 1,
+    "accent": "#f59e0b",
+    "note": "Scaled independently by Scale AI, with confidence intervals where published.",
+    "costMethodology": {
+      "url": "https://labs.scale.com/leaderboard/humanitys_last_exam",
+      "note": "No matching task cost is published in the inspected Scale leaderboard payload. Costs from Artificial Analysis's different HLE runs are not borrowed."
+    }
+  },
+  {
+    "id": "gso",
+    "name": "GSO",
+    "shortName": "GSO",
+    "url": "https://gso-bench.github.io/",
+    "access": "json",
+    "metricLabel": "Opt@1 score",
+    "scoreType": "percent",
+    "description": "Software optimization tasks measuring whether agents can make real code faster.",
+    "categories": {
+      "coding": "overall"
+    },
+    "weight": 1,
+    "accent": "#ec4899",
+    "note": "Best reported OpenHands run is used.",
+    "costMethodology": {
+      "url": "https://gso-bench.github.io/",
+      "note": "The public leaderboard and compute_metrics.json publish scores, median runtime and turns, but no monetary task cost. Runtime and turns are not converted to dollars."
+    }
+  },
+  {
+    "id": "arc-agi-3",
+    "name": "ARC-AGI-3",
+    "shortName": "ARC-AGI-3",
+    "url": "https://arcprize.org/leaderboard",
+    "access": "json",
+    "metricLabel": "Score",
+    "scoreType": "percent",
+    "description": "Interactive, novel problem-solving environments designed to test adaptation and agentic reasoning.",
+    "categories": {
+      "agentic": "overall",
+      "reasoning": "overall"
+    },
+    "weight": 1,
+    "accent": "#ef4444",
+    "note": "Semi-private v3 results. Provider-adapter runs and native runs are both considered; the best reported result is shown.",
+    "costMethodology": {
+      "url": "https://arcprize.org/leaderboard",
+      "note": "The v3 cost field is total run spend. Per-run attempt counts and completeness are not in the feed, and some runs are incomplete; totals are retained but not mislabeled $/task."
+    }
+  },
+  {
+    "id": "code-arena-webdev",
+    "name": "Code Arena — WebDev",
+    "shortName": "Code Arena",
+    "url": "https://arena.ai/leaderboard/code/webdev",
+    "access": "browser",
+    "metricLabel": "Arena Elo",
+    "scoreType": "elo",
+    "description": "Blind human preference votes on frontend and full-stack coding tasks.",
+    "categories": {
+      "coding": "overall"
+    },
+    "weight": 1,
+    "accent": "#06b6d4",
+    "note": "The page is protected by Cloudflare; the refresh script uses a headless browser.",
+    "costMethodology": {
+      "statistic": "median",
+      "url": "https://arena.ai/leaderboard/code/webdev",
+      "note": "Reported Cost/Task (P50), read from the leaderboard table and kept separate from benchmark means. P50 is available only in single-benchmark views; the scraper never uses the adjacent API price column."
+    }
+  },
+  {
+    "id": "mcp-atlas",
+    "name": "MCP Atlas",
+    "shortName": "MCP Atlas",
+    "url": "https://labs.scale.com/leaderboard/mcp_atlas",
+    "access": "html",
+    "metricLabel": "Score",
+    "scoreType": "percent",
+    "description": "Agentic evaluation of tool use through the Model Context Protocol, built by Scale AI.",
+    "categories": {
+      "agentic": "overall"
+    },
+    "weight": 1,
+    "accent": "#84cc16",
+    "costMethodology": {
+      "url": "https://labs.scale.com/leaderboard/mcp_atlas",
+      "note": "The inspected public leaderboard payload does not publish monetary cost per task for its scored runs. Missing costs remain unknown."
+    }
+  }
+]

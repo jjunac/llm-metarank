@@ -1,0 +1,2284 @@
+{
+  "sourceId": "artificial-analysis",
+  "fetchedAt": "2026-10-25T14:11:16.844Z",
+  "url": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index",
+  "entries": [
+    {
+      "rawName": "Claude Opus 5.5 (Max, Default Fallback)",
+      "score": 57.6223698102963,
+      "variant": "Max, Default Fallback",
+      "vendor": "Anthropic",
+      "date": "2026-09-22",
+      "url": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index",
+      "runId": "2f3c4dc9-a450-4303-8697-0237257cf08f",
+      "cost": {
+        "usd": 5.982012019521066,
+        "currency": "USD",
+        "unit": "task",
+        "statistic": "weighted-mean",
+        "method": "usage-estimate",
+        "scope": "Intelligence Index v4.3.2",
+        "sourceUrl": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index#cost",
+        "methodologyUrl": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+        "fetchedAt": "2026-10-25T14:11:16.844Z",
+        "complete": true,
+        "breakdown": [
+          {
+            "label": "AA-Briefcase v1.1",
+            "usdPerTask": 21.045972715658653,
+            "weight": 0.15,
+            "tasks": 91
+          },
+          {
+            "label": "GDPval-AA v2.1",
+            "usdPerTask": 8.918386645138963,
+            "weight": 0.1,
+            "tasks": 220
+          },
+          {
+            "label": "AutomationBench-AA",
+            "usdPerTask": 1.4287551105421121,
+            "weight": 0.05,
+            "tasks": 657
+          },
+          {
+            "label": "Terminal-Bench 4.0",
+            "usdPerTask": 13.109276120148786,
+            "weight": 0.1,
+            "tasks": 66
+          },
+          {
+            "label": "SciCode",
+            "usdPerTask": 0.4691160138888889,
+            "weight": 0.1,
+            "tasks": 288
+          },
+          {
+            "label": "Humanity's Last Exam",
+            "usdPerTask": 0.7184060055607043,
+            "weight": 0.1,
+            "tasks": 2158
+          },
+          {
+            "label": "GDP.pdf",
+            "usdPerTask": 1.5523354799999998,
+            "weight": 0.1,
+            "tasks": 100
+          },
+          {
+            "label": "CritPt",
+            "usdPerTask": 2.189617085714286,
+            "weight": 0.1,
+            "tasks": 70
+          },
+          {
+            "label": "AA-Omniscience",
+            "usdPerTask": 0.16091283733333334,
+            "weight": 0.15,
+            "tasks": 6000
+          },
+          {
+            "label": "AA-LCR v1.1",
+            "usdPerTask": 0.6765539199999999,
+            "weight": 0.05,
+            "tasks": 100
+          }
+        ],
+        "notes": [
+          "Source's usage-based estimate, not an invoice. Includes input, cache, reasoning, answer and fallback usage; canonical counts are already repeat-normalized."
+        ]
+      },
+      "extra": {
+        "slug": "claude-opus-5-5",
+        "isOpenWeights": false
+      }
+    },
+    {
+      "rawName": "Claude Sonnet 5.5 (Max, Default Fallback)",
+      "score": 56.0001286580794,
+      "variant": "Max, Default Fallback",
+      "vendor": "Anthropic",
+      "date": "2026-09-28",
+      "url": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index",
+      "runId": "b171d979-5ec1-45de-b8b9-db1ee65e77ec",
+      "cost": {
+        "usd": 5.4608525948098325,
+        "currency": "USD",
+        "unit": "task",
+        "statistic": "weighted-mean",
+        "method": "usage-estimate",
+        "scope": "Intelligence Index v4.3.2",
+        "sourceUrl": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index#cost",
+        "methodologyUrl": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+        "fetchedAt": "2026-10-25T14:11:16.844Z",
+        "complete": true,
+        "breakdown": [
+          {
+            "label": "AA-Briefcase v1.1",
+            "usdPerTask": 20.47390908599261,
+            "weight": 0.15,
+            "tasks": 91
+          },
+          {
+            "label": "GDPval-AA v2.1",
+            "usdPerTask": 6.83774629514869,
+            "weight": 0.1,
+            "tasks": 220
+          },
+          {
+            "label": "AutomationBench-AA",
+            "usdPerTask": 1.0324439998102977,
+            "weight": 0.05,
+            "tasks": 657
+          },
+          {
+            "label": "Terminal-Bench 4.0",
+            "usdPerTask": 12.646441608317136,
+            "weight": 0.1,
+            "tasks": 66
+          },
+          {
+            "label": "SciCode",
+            "usdPerTask": 0.27800963194444445,
+            "weight": 0.1,
+            "tasks": 288
+          },
+          {
+            "label": "Humanity's Last Exam",
+            "usdPerTask": 0.5438353660797034,
+            "weight": 0.1,
+            "tasks": 2158
+          },
+          {
+            "label": "GDP.pdf",
+            "usdPerTask": 0.7943279200000001,
+            "weight": 0.1,
+            "tasks": 100
+          },
+          {
+            "label": "CritPt",
+            "usdPerTask": 1.8915142857142857,
+            "weight": 0.1,
+            "tasks": 70
+          },
+          {
+            "label": "AA-Omniscience",
+            "usdPerTask": 0.14660985466666668,
+            "weight": 0.15,
+            "tasks": 6000
+          },
+          {
+            "label": "AA-LCR v1.1",
+            "usdPerTask": 0.33930086000000004,
+            "weight": 0.05,
+            "tasks": 100
+          }
+        ],
+        "notes": [
+          "Source's usage-based estimate, not an invoice. Includes input, cache, reasoning, answer and fallback usage; canonical counts are already repeat-normalized."
+        ]
+      },
+      "extra": {
+        "slug": "claude-sonnet-5-5",
+        "isOpenWeights": false
+      }
+    },
+    {
+      "rawName": "Muse Wonder Full (Max)",
+      "score": 55.8021199855616,
+      "variant": "Max",
+      "vendor": "Meta",
+      "date": "2026-10-12",
+      "url": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index",
+      "runId": "e994a6e0-d36b-4dab-8ae1-c1b469e4d9e2",
+      "costUnavailableReason": "Source has no priced evaluation usage for this run.",
+      "extra": {
+        "slug": "muse-wonder-full",
+        "isOpenWeights": false
+      }
+    },
+    {
+      "rawName": "Kimi K3.1 Pro",
+      "score": 55.0869210959395,
+      "vendor": "Kimi",
+      "date": "2026-10-23",
+      "url": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index",
+      "runId": "665c67ca-09eb-48f0-a7a3-0096e1d5de51",
+      "cost": {
+        "usd": 2.114505291876728,
+        "currency": "USD",
+        "unit": "task",
+        "statistic": "weighted-mean",
+        "method": "usage-estimate",
+        "scope": "Intelligence Index v4.3.2",
+        "sourceUrl": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index#cost",
+        "methodologyUrl": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+        "fetchedAt": "2026-10-25T14:11:16.844Z",
+        "complete": true,
+        "breakdown": [
+          {
+            "label": "AA-Briefcase v1.1",
+            "usdPerTask": 7.220636366641113,
+            "weight": 0.15,
+            "tasks": 91
+          },
+          {
+            "label": "GDPval-AA v2.1",
+            "usdPerTask": 3.0181638378640225,
+            "weight": 0.1,
+            "tasks": 220
+          },
+          {
+            "label": "AutomationBench-AA",
+            "usdPerTask": 0.8287553527406801,
+            "weight": 0.05,
+            "tasks": 657
+          },
+          {
+            "label": "Terminal-Bench 4.0",
+            "usdPerTask": 5.265564268428178,
+            "weight": 0.1,
+            "tasks": 66
+          },
+          {
+            "label": "SciCode",
+            "usdPerTask": 0.06983243055555555,
+            "weight": 0.1,
+            "tasks": 288
+          },
+          {
+            "label": "Humanity's Last Exam",
+            "usdPerTask": 0.24584799165894344,
+            "weight": 0.1,
+            "tasks": 2158
+          },
+          {
+            "label": "GDP.pdf",
+            "usdPerTask": 0.52183804,
+            "weight": 0.1,
+            "tasks": 100
+          },
+          {
+            "label": "CritPt",
+            "usdPerTask": 0.6121963714285714,
+            "weight": 0.1,
+            "tasks": 70
+          },
+          {
+            "label": "AA-Omniscience",
+            "usdPerTask": 0.03952076166666667,
+            "weight": 0.15,
+            "tasks": 6000
+          },
+          {
+            "label": "AA-LCR v1.1",
+            "usdPerTask": 0.21399322,
+            "weight": 0.05,
+            "tasks": 100
+          }
+        ],
+        "notes": [
+          "Source's usage-based estimate, not an invoice. Includes input, cache, reasoning, answer and fallback usage; canonical counts are already repeat-normalized."
+        ]
+      },
+      "extra": {
+        "slug": "kimi-k3-1-pro",
+        "isOpenWeights": false
+      }
+    },
+    {
+      "rawName": "Claude Fable 5.1 (Max, Default Fallback)",
+      "score": 53.3549259623252,
+      "variant": "Max, Default Fallback",
+      "vendor": "Anthropic",
+      "date": "2026-09-01",
+      "url": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index",
+      "runId": "3e87c73e-a257-495e-9730-367a66229811",
+      "cost": {
+        "usd": 7.62970636400484,
+        "currency": "USD",
+        "unit": "task",
+        "statistic": "weighted-mean",
+        "method": "usage-estimate",
+        "scope": "Intelligence Index v4.3.2",
+        "sourceUrl": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index#cost",
+        "methodologyUrl": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+        "fetchedAt": "2026-10-25T14:11:16.844Z",
+        "complete": true,
+        "breakdown": [
+          {
+            "label": "AA-Briefcase v1.1",
+            "usdPerTask": 22.71345865423513,
+            "weight": 0.15,
+            "tasks": 91
+          },
+          {
+            "label": "GDPval-AA v2.1",
+            "usdPerTask": 9.774869276879295,
+            "weight": 0.1,
+            "tasks": 220
+          },
+          {
+            "label": "AutomationBench-AA",
+            "usdPerTask": 2.6112942575885434,
+            "weight": 0.05,
+            "tasks": 657
+          },
+          {
+            "label": "Terminal-Bench 4.0",
+            "usdPerTask": 19.218480031061162,
+            "weight": 0.1,
+            "tasks": 66
+          },
+          {
+            "label": "SciCode",
+            "usdPerTask": 0.6585189583333333,
+            "weight": 0.1,
+            "tasks": 288
+          },
+          {
+            "label": "Humanity's Last Exam",
+            "usdPerTask": 1.5858915690099744,
+            "weight": 0.1,
+            "tasks": 2158
+          },
+          {
+            "label": "GDP.pdf",
+            "usdPerTask": 2.7748912999999997,
+            "weight": 0.1,
+            "tasks": 100
+          },
+          {
+            "label": "CritPt",
+            "usdPerTask": 5.713794857142857,
+            "weight": 0.1,
+            "tasks": 70
+          },
+          {
+            "label": "AA-Omniscience",
+            "usdPerTask": 0.2683618295521425,
+            "weight": 0.15,
+            "tasks": 6000
+          },
+          {
+            "label": "AA-LCR v1.1",
+            "usdPerTask": 1.5844795862932,
+            "weight": 0.05,
+            "tasks": 100
+          }
+        ],
+        "notes": [
+          "Source's usage-based estimate, not an invoice. Includes input, cache, reasoning, answer and fallback usage; canonical counts are already repeat-normalized."
+        ]
+      },
+      "extra": {
+        "slug": "claude-fable-5-1",
+        "isOpenWeights": false
+      }
+    },
+    {
+      "rawName": "GPT-6 Astra (Max)",
+      "score": 52.673669395513,
+      "variant": "Max",
+      "vendor": "OpenAI",
+      "date": "2026-09-03",
+      "url": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index",
+      "runId": "2f339a97-9a0d-499a-9cb5-e0db665bfa25",
+      "cost": {
+        "usd": 3.2575003134834164,
+        "currency": "USD",
+        "unit": "task",
+        "statistic": "weighted-mean",
+        "method": "usage-estimate",
+        "scope": "Intelligence Index v4.3.2",
+        "sourceUrl": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index#cost",
+        "methodologyUrl": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+        "fetchedAt": "2026-10-25T14:11:16.844Z",
+        "complete": true,
+        "breakdown": [
+          {
+            "label": "AA-Briefcase v1.1",
+            "usdPerTask": 9.502083915057868,
+            "weight": 0.15,
+            "tasks": 91
+          },
+          {
+            "label": "GDPval-AA v2.1",
+            "usdPerTask": 4.529484400556546,
+            "weight": 0.1,
+            "tasks": 220
+          },
+          {
+            "label": "AutomationBench-AA",
+            "usdPerTask": 1.5955923111377626,
+            "weight": 0.05,
+            "tasks": 657
+          },
+          {
+            "label": "Terminal-Bench 4.0",
+            "usdPerTask": 8.498119471851334,
+            "weight": 0.1,
+            "tasks": 66
+          },
+          {
+            "label": "SciCode",
+            "usdPerTask": 0.23225916666666668,
+            "weight": 0.1,
+            "tasks": 288
+          },
+          {
+            "label": "Humanity's Last Exam",
+            "usdPerTask": 0.3780767979610751,
+            "weight": 0.1,
+            "tasks": 2158
+          },
+          {
+            "label": "GDP.pdf",
+            "usdPerTask": 2.0758207,
+            "weight": 0.1,
+            "tasks": 100
+          },
+          {
+            "label": "CritPt",
+            "usdPerTask": 1.166161857142857,
+            "weight": 0.1,
+            "tasks": 70
+          },
+          {
+            "label": "AA-Omniscience",
+            "usdPerTask": 0.09700390833333333,
+            "weight": 0.15,
+            "tasks": 6000
+          },
+          {
+            "label": "AA-LCR v1.1",
+            "usdPerTask": 0.9973057,
+            "weight": 0.05,
+            "tasks": 100
+          }
+        ],
+        "notes": [
+          "Source's usage-based estimate, not an invoice. Includes input, cache, reasoning, answer and fallback usage; canonical counts are already repeat-normalized."
+        ]
+      },
+      "extra": {
+        "slug": "gpt-6-astra",
+        "isOpenWeights": false
+      }
+    },
+    {
+      "rawName": "Gemini 4 Argon (High)",
+      "score": 52.5605655745982,
+      "variant": "High",
+      "vendor": "Google",
+      "date": "2026-09-30",
+      "url": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index",
+      "runId": "d366dfa1-d940-4788-aa73-d298c45699b3",
+      "cost": {
+        "usd": 1.990322379299008,
+        "currency": "USD",
+        "unit": "task",
+        "statistic": "weighted-mean",
+        "method": "usage-estimate",
+        "scope": "Intelligence Index v4.3.2",
+        "sourceUrl": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index#cost",
+        "methodologyUrl": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+        "fetchedAt": "2026-10-25T14:11:16.844Z",
+        "complete": true,
+        "breakdown": [
+          {
+            "label": "AA-Briefcase v1.1",
+            "usdPerTask": 5.82774938044829,
+            "weight": 0.15,
+            "tasks": 91
+          },
+          {
+            "label": "GDPval-AA v2.1",
+            "usdPerTask": 1.8192251097173668,
+            "weight": 0.1,
+            "tasks": 220
+          },
+          {
+            "label": "AutomationBench-AA",
+            "usdPerTask": 0.608656439032925,
+            "weight": 0.05,
+            "tasks": 657
+          },
+          {
+            "label": "Terminal-Bench 4.0",
+            "usdPerTask": 6.780140181187823,
+            "weight": 0.1,
+            "tasks": 66
+          },
+          {
+            "label": "SciCode",
+            "usdPerTask": 0.10567819444444444,
+            "weight": 0.1,
+            "tasks": 288
+          },
+          {
+            "label": "Humanity's Last Exam",
+            "usdPerTask": 0.17642913623725673,
+            "weight": 0.1,
+            "tasks": 2158
+          },
+          {
+            "label": "GDP.pdf",
+            "usdPerTask": 0.25933138,
+            "weight": 0.1,
+            "tasks": 100
+          },
+          {
+            "label": "CritPt",
+            "usdPerTask": 1.5838644857142856,
+            "weight": 0.1,
+            "tasks": 70
+          },
+          {
+            "label": "AA-Omniscience",
+            "usdPerTask": 0.009616510333333333,
+            "weight": 0.15,
+            "tasks": 6000
+          },
+          {
+            "label": "AA-LCR v1.1",
+            "usdPerTask": 0.23635650000000002,
+            "weight": 0.05,
+            "tasks": 100
+          }
+        ],
+        "notes": [
+          "Source's usage-based estimate, not an invoice. Includes input, cache, reasoning, answer and fallback usage; canonical counts are already repeat-normalized."
+        ]
+      },
+      "extra": {
+        "slug": "gemini-4-argon",
+        "isOpenWeights": false
+      }
+    },
+    {
+      "rawName": "Muse Wonder (Max)",
+      "score": 52.393894697293,
+      "variant": "Max",
+      "vendor": "Meta",
+      "date": "2026-10-12",
+      "url": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index",
+      "runId": "ff2f3f3d-783f-4e27-8a39-47237501a313",
+      "cost": {
+        "usd": 4.540034681803926,
+        "currency": "USD",
+        "unit": "task",
+        "statistic": "weighted-mean",
+        "method": "usage-estimate",
+        "scope": "Intelligence Index v4.3.2",
+        "sourceUrl": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index#cost",
+        "methodologyUrl": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+        "fetchedAt": "2026-10-25T14:11:16.844Z",
+        "complete": true,
+        "breakdown": [
+          {
+            "label": "AA-Briefcase v1.1",
+            "usdPerTask": 12.45058628648352,
+            "weight": 0.15,
+            "tasks": 91
+          },
+          {
+            "label": "GDPval-AA v2.1",
+            "usdPerTask": 5.132032557272728,
+            "weight": 0.1,
+            "tasks": 220
+          },
+          {
+            "label": "AutomationBench-AA",
+            "usdPerTask": 0.8297143319482496,
+            "weight": 0.05,
+            "tasks": 657
+          },
+          {
+            "label": "Terminal-Bench 4.0",
+            "usdPerTask": 17.96813655,
+            "weight": 0.1,
+            "tasks": 66
+          },
+          {
+            "label": "SciCode",
+            "usdPerTask": 0.134993125,
+            "weight": 0.1,
+            "tasks": 288
+          },
+          {
+            "label": "Humanity's Last Exam",
+            "usdPerTask": 0.5718624096385542,
+            "weight": 0.1,
+            "tasks": 2158
+          },
+          {
+            "label": "GDP.pdf",
+            "usdPerTask": 0.72263932,
+            "weight": 0.1,
+            "tasks": 100
+          },
+          {
+            "label": "CritPt",
+            "usdPerTask": 1.4862429714285716,
+            "weight": 0.1,
+            "tasks": 70
+          },
+          {
+            "label": "AA-Omniscience",
+            "usdPerTask": 0.05012439266666666,
+            "weight": 0.15,
+            "tasks": 6000
+          },
+          {
+            "label": "AA-LCR v1.1",
+            "usdPerTask": 0.43703339999999996,
+            "weight": 0.05,
+            "tasks": 100
+          }
+        ],
+        "notes": [
+          "Source's usage-based estimate, not an invoice. Includes input, cache, reasoning, answer and fallback usage; canonical counts are already repeat-normalized."
+        ]
+      },
+      "extra": {
+        "slug": "muse-wonder",
+        "isOpenWeights": false
+      }
+    },
+    {
+      "rawName": "GPT-6.1 Sol (Max)",
+      "score": 51.8332597011541,
+      "variant": "Max",
+      "vendor": "OpenAI",
+      "date": "2026-09-29",
+      "url": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index",
+      "runId": "b25ac058-1e33-4c31-bbc9-a20c3ad0717a",
+      "cost": {
+        "usd": 0.7241670655535033,
+        "currency": "USD",
+        "unit": "task",
+        "statistic": "weighted-mean",
+        "method": "usage-estimate",
+        "scope": "Intelligence Index v4.3.2",
+        "sourceUrl": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index#cost",
+        "methodologyUrl": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+        "fetchedAt": "2026-10-25T14:11:16.844Z",
+        "complete": true,
+        "breakdown": [
+          {
+            "label": "AA-Briefcase v1.1",
+            "usdPerTask": 2.3126027773097606,
+            "weight": 0.15,
+            "tasks": 91
+          },
+          {
+            "label": "GDPval-AA v2.1",
+            "usdPerTask": 0.8935140711105689,
+            "weight": 0.1,
+            "tasks": 220
+          },
+          {
+            "label": "AutomationBench-AA",
+            "usdPerTask": 0.29681948517470735,
+            "weight": 0.05,
+            "tasks": 657
+          },
+          {
+            "label": "Terminal-Bench 4.0",
+            "usdPerTask": 1.8227634618325743,
+            "weight": 0.1,
+            "tasks": 66
+          },
+          {
+            "label": "SciCode",
+            "usdPerTask": 0.04341916666666666,
+            "weight": 0.1,
+            "tasks": 288
+          },
+          {
+            "label": "Humanity's Last Exam",
+            "usdPerTask": 0.07757399165894346,
+            "weight": 0.1,
+            "tasks": 2158
+          },
+          {
+            "label": "GDP.pdf",
+            "usdPerTask": 0.41986644,
+            "weight": 0.1,
+            "tasks": 100
+          },
+          {
+            "label": "CritPt",
+            "usdPerTask": 0.2424142857142857,
+            "weight": 0.1,
+            "tasks": 70
+          },
+          {
+            "label": "AA-Omniscience",
+            "usdPerTask": 0.016735740000000002,
+            "weight": 0.15,
+            "tasks": 6000
+          },
+          {
+            "label": "AA-LCR v1.1",
+            "usdPerTask": 0.19940344000000004,
+            "weight": 0.05,
+            "tasks": 100
+          }
+        ],
+        "notes": [
+          "Source's usage-based estimate, not an invoice. Includes input, cache, reasoning, answer and fallback usage; canonical counts are already repeat-normalized."
+        ]
+      },
+      "extra": {
+        "slug": "gpt-6-1-sol",
+        "isOpenWeights": false
+      }
+    },
+    {
+      "rawName": "Grok 4.7 (Xhigh)",
+      "score": 46.4465506302286,
+      "variant": "Xhigh",
+      "vendor": "SpaceXAI",
+      "date": "2026-09-21",
+      "url": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index",
+      "runId": "59627802-1546-422c-9a65-65b61c022d36",
+      "cost": {
+        "usd": 3.738325952106939,
+        "currency": "USD",
+        "unit": "task",
+        "statistic": "weighted-mean",
+        "method": "usage-estimate",
+        "scope": "Intelligence Index v4.3.2",
+        "sourceUrl": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index#cost",
+        "methodologyUrl": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+        "fetchedAt": "2026-10-25T14:11:16.844Z",
+        "complete": true,
+        "breakdown": [
+          {
+            "label": "AA-Briefcase v1.1",
+            "usdPerTask": 9.303489823929851,
+            "weight": 0.15,
+            "tasks": 91
+          },
+          {
+            "label": "GDPval-AA v2.1",
+            "usdPerTask": 6.432607874441748,
+            "weight": 0.1,
+            "tasks": 220
+          },
+          {
+            "label": "AutomationBench-AA",
+            "usdPerTask": 1.0767665596390679,
+            "weight": 0.05,
+            "tasks": 657
+          },
+          {
+            "label": "Terminal-Bench 4.0",
+            "usdPerTask": 14.60376693082783,
+            "weight": 0.1,
+            "tasks": 66
+          },
+          {
+            "label": "SciCode",
+            "usdPerTask": 0.13300160416666665,
+            "weight": 0.1,
+            "tasks": 288
+          },
+          {
+            "label": "Humanity's Last Exam",
+            "usdPerTask": 0.3099274494902688,
+            "weight": 0.1,
+            "tasks": 2158
+          },
+          {
+            "label": "GDP.pdf",
+            "usdPerTask": 0.32434356000000003,
+            "weight": 0.1,
+            "tasks": 100
+          },
+          {
+            "label": "CritPt",
+            "usdPerTask": 0.9118277714285714,
+            "weight": 0.1,
+            "tasks": 70
+          },
+          {
+            "label": "AA-Omniscience",
+            "usdPerTask": 0.03439565666666667,
+            "weight": 0.15,
+            "tasks": 6000
+          },
+          {
+            "label": "AA-LCR v1.1",
+            "usdPerTask": 0.24514566,
+            "weight": 0.05,
+            "tasks": 100
+          }
+        ],
+        "notes": [
+          "Source's usage-based estimate, not an invoice. Includes input, cache, reasoning, answer and fallback usage; canonical counts are already repeat-normalized."
+        ]
+      },
+      "extra": {
+        "slug": "grok-4-7",
+        "isOpenWeights": false
+      }
+    },
+    {
+      "rawName": "MiMo-V2.6-Pro",
+      "score": 46.3242065310383,
+      "vendor": "Xiaomi",
+      "date": "2026-09-21",
+      "url": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index",
+      "runId": "24d8fdfe-6241-424e-b7b7-1b6efb06e4fb",
+      "cost": {
+        "usd": 0.13322318937213493,
+        "currency": "USD",
+        "unit": "task",
+        "statistic": "weighted-mean",
+        "method": "usage-estimate",
+        "scope": "Intelligence Index v4.3.2",
+        "sourceUrl": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index#cost",
+        "methodologyUrl": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+        "fetchedAt": "2026-10-25T14:11:16.844Z",
+        "complete": true,
+        "breakdown": [
+          {
+            "label": "AA-Briefcase v1.1",
+            "usdPerTask": 0.3801825468509968,
+            "weight": 0.15,
+            "tasks": 91
+          },
+          {
+            "label": "GDPval-AA v2.1",
+            "usdPerTask": 0.16121702931689816,
+            "weight": 0.1,
+            "tasks": 220
+          },
+          {
+            "label": "AutomationBench-AA",
+            "usdPerTask": 0.04226169250637003,
+            "weight": 0.05,
+            "tasks": 657
+          },
+          {
+            "label": "Terminal-Bench 4.0",
+            "usdPerTask": 0.4380502238483265,
+            "weight": 0.1,
+            "tasks": 66
+          },
+          {
+            "label": "SciCode",
+            "usdPerTask": 0.007795844947916666,
+            "weight": 0.1,
+            "tasks": 288
+          },
+          {
+            "label": "Humanity's Last Exam",
+            "usdPerTask": 0.019710484559777572,
+            "weight": 0.1,
+            "tasks": 2158
+          },
+          {
+            "label": "GDP.pdf",
+            "usdPerTask": 0.02402207025,
+            "weight": 0.1,
+            "tasks": 100
+          },
+          {
+            "label": "CritPt",
+            "usdPerTask": 0.060400576500000004,
+            "weight": 0.1,
+            "tasks": 70
+          },
+          {
+            "label": "AA-Omniscience",
+            "usdPerTask": 0.0039608522625,
+            "weight": 0.15,
+            "tasks": 6000
+          },
+          {
+            "label": "AA-LCR v1.1",
+            "usdPerTask": 0.04737943874999999,
+            "weight": 0.05,
+            "tasks": 100
+          }
+        ],
+        "notes": [
+          "Source's usage-based estimate, not an invoice. Includes input, cache, reasoning, answer and fallback usage; canonical counts are already repeat-normalized."
+        ]
+      },
+      "extra": {
+        "slug": "mimo-v2-6-pro",
+        "isOpenWeights": true
+      }
+    },
+    {
+      "rawName": "Qwen3.8 Max (0902)",
+      "score": 45.4152084980521,
+      "variant": "0902",
+      "vendor": "Alibaba",
+      "date": "2026-09-02",
+      "url": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index",
+      "runId": "b112af07-3bd5-4647-b09f-b23204361bb2",
+      "cost": {
+        "usd": 5.408509428374017,
+        "currency": "USD",
+        "unit": "task",
+        "statistic": "weighted-mean",
+        "method": "usage-estimate",
+        "scope": "Intelligence Index v4.3.2",
+        "sourceUrl": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index#cost",
+        "methodologyUrl": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+        "fetchedAt": "2026-10-25T14:11:16.844Z",
+        "complete": true,
+        "breakdown": [
+          {
+            "label": "AA-Briefcase v1.1",
+            "usdPerTask": 19.57685760227068,
+            "weight": 0.15,
+            "tasks": 91
+          },
+          {
+            "label": "GDPval-AA v2.1",
+            "usdPerTask": 4.538143258221448,
+            "weight": 0.1,
+            "tasks": 220
+          },
+          {
+            "label": "AutomationBench-AA",
+            "usdPerTask": 0.39823602532586094,
+            "weight": 0.05,
+            "tasks": 657
+          },
+          {
+            "label": "Terminal-Bench 4.0",
+            "usdPerTask": 18.6760733252611,
+            "weight": 0.1,
+            "tasks": 66
+          },
+          {
+            "label": "SciCode",
+            "usdPerTask": 0.11307818750000001,
+            "weight": 0.1,
+            "tasks": 288
+          },
+          {
+            "label": "Humanity's Last Exam",
+            "usdPerTask": 0.22338034661723818,
+            "weight": 0.1,
+            "tasks": 2158
+          },
+          {
+            "label": "GDP.pdf",
+            "usdPerTask": 0.3331069,
+            "weight": 0.1,
+            "tasks": 100
+          },
+          {
+            "label": "CritPt",
+            "usdPerTask": 0.5089532285714286,
+            "weight": 0.1,
+            "tasks": 70
+          },
+          {
+            "label": "AA-Omniscience",
+            "usdPerTask": 0.009033827666666666,
+            "weight": 0.15,
+            "tasks": 6000
+          },
+          {
+            "label": "AA-LCR v1.1",
+            "usdPerTask": 0.22880776,
+            "weight": 0.05,
+            "tasks": 100
+          }
+        ],
+        "notes": [
+          "Source's usage-based estimate, not an invoice. Includes input, cache, reasoning, answer and fallback usage; canonical counts are already repeat-normalized."
+        ]
+      },
+      "extra": {
+        "slug": "qwen3-8-max",
+        "isOpenWeights": false
+      }
+    },
+    {
+      "rawName": "DeepSeek V4.1 Flash 1017 (Max)",
+      "score": 45.0965048681912,
+      "variant": "Max",
+      "vendor": "DeepSeek",
+      "date": "2026-10-17",
+      "url": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index",
+      "runId": "f151fd0b-2139-40cf-a3ec-995e8cedc592",
+      "cost": {
+        "usd": 0.2620484273114172,
+        "currency": "USD",
+        "unit": "task",
+        "statistic": "weighted-mean",
+        "method": "usage-estimate",
+        "scope": "Intelligence Index v4.3.2",
+        "sourceUrl": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index#cost",
+        "methodologyUrl": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+        "fetchedAt": "2026-10-25T14:11:16.844Z",
+        "complete": true,
+        "breakdown": [
+          {
+            "label": "AA-Briefcase v1.1",
+            "usdPerTask": 0.6782852929995618,
+            "weight": 0.15,
+            "tasks": 91
+          },
+          {
+            "label": "GDPval-AA v2.1",
+            "usdPerTask": 0.3541332356528292,
+            "weight": 0.1,
+            "tasks": 220
+          },
+          {
+            "label": "AutomationBench-AA",
+            "usdPerTask": 0.1739090533216626,
+            "weight": 0.05,
+            "tasks": 657
+          },
+          {
+            "label": "Terminal-Bench 4.0",
+            "usdPerTask": 0.8800788931797693,
+            "weight": 0.1,
+            "tasks": 66
+          },
+          {
+            "label": "SciCode",
+            "usdPerTask": 0.016143957291666663,
+            "weight": 0.1,
+            "tasks": 288
+          },
+          {
+            "label": "Humanity's Last Exam",
+            "usdPerTask": 0.045761349397590356,
+            "weight": 0.1,
+            "tasks": 2158
+          },
+          {
+            "label": "GDP.pdf",
+            "usdPerTask": 0.042338361000000005,
+            "weight": 0.1,
+            "tasks": 100
+          },
+          {
+            "label": "CritPt",
+            "usdPerTask": 0.15868660285714287,
+            "weight": 0.1,
+            "tasks": 70
+          },
+          {
+            "label": "AA-Omniscience",
+            "usdPerTask": 0.00177007305,
+            "weight": 0.15,
+            "tasks": 6000
+          },
+          {
+            "label": "AA-LCR v1.1",
+            "usdPerTask": 0.032608596,
+            "weight": 0.05,
+            "tasks": 100
+          }
+        ],
+        "notes": [
+          "Source's usage-based estimate, not an invoice. Includes input, cache, reasoning, answer and fallback usage; canonical counts are already repeat-normalized."
+        ]
+      },
+      "extra": {
+        "slug": "deepseek-v4-1-flash-1017",
+        "isOpenWeights": true
+      }
+    },
+    {
+      "rawName": "GLM-5.3 (Max)",
+      "score": 44.777392385614,
+      "variant": "Max",
+      "vendor": "Z AI",
+      "date": "2026-08-18",
+      "url": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index",
+      "runId": "cd684ea4-b475-4269-b001-d469d06d8a7a",
+      "cost": {
+        "usd": 2.005637515044959,
+        "currency": "USD",
+        "unit": "task",
+        "statistic": "weighted-mean",
+        "method": "usage-estimate",
+        "scope": "Intelligence Index v4.3.2",
+        "sourceUrl": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index#cost",
+        "methodologyUrl": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+        "fetchedAt": "2026-10-25T14:11:16.844Z",
+        "complete": true,
+        "breakdown": [
+          {
+            "label": "AA-Briefcase v1.1",
+            "usdPerTask": 5.648789747084111,
+            "weight": 0.15,
+            "tasks": 91
+          },
+          {
+            "label": "GDPval-AA v2.1",
+            "usdPerTask": 2.2569955738459915,
+            "weight": 0.1,
+            "tasks": 220
+          },
+          {
+            "label": "AutomationBench-AA",
+            "usdPerTask": 0.46044681620223443,
+            "weight": 0.05,
+            "tasks": 657
+          },
+          {
+            "label": "Terminal-Bench 4.0",
+            "usdPerTask": 8.064202070800423,
+            "weight": 0.1,
+            "tasks": 66
+          },
+          {
+            "label": "SciCode",
+            "usdPerTask": 0.08202589583333333,
+            "weight": 0.1,
+            "tasks": 288
+          },
+          {
+            "label": "Humanity's Last Exam",
+            "usdPerTask": 0.23284347052826695,
+            "weight": 0.1,
+            "tasks": 2158
+          },
+          {
+            "label": "GDP.pdf",
+            "usdPerTask": 0.17337380999999996,
+            "weight": 0.1,
+            "tasks": 100
+          },
+          {
+            "label": "CritPt",
+            "usdPerTask": 0.45218096571428573,
+            "weight": 0.1,
+            "tasks": 70
+          },
+          {
+            "label": "AA-Omniscience",
+            "usdPerTask": 0.011366686666666667,
+            "weight": 0.15,
+            "tasks": 6000
+          },
+          {
+            "label": "AA-LCR v1.1",
+            "usdPerTask": 0.14859060999999998,
+            "weight": 0.05,
+            "tasks": 100
+          }
+        ],
+        "notes": [
+          "Source's usage-based estimate, not an invoice. Includes input, cache, reasoning, answer and fallback usage; canonical counts are already repeat-normalized."
+        ]
+      },
+      "extra": {
+        "slug": "glm-5-3",
+        "isOpenWeights": true
+      }
+    },
+    {
+      "rawName": "Step 5 Preview",
+      "score": 43.7343049141614,
+      "vendor": "StepFun",
+      "date": "2026-09-18",
+      "url": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index",
+      "runId": "094ea3e3-ce41-419e-8bd1-723389663158",
+      "cost": {
+        "usd": 1.0264068637684054,
+        "currency": "USD",
+        "unit": "task",
+        "statistic": "weighted-mean",
+        "method": "usage-estimate",
+        "scope": "Intelligence Index v4.3.2",
+        "sourceUrl": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index#cost",
+        "methodologyUrl": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+        "fetchedAt": "2026-10-25T14:11:16.844Z",
+        "complete": true,
+        "breakdown": [
+          {
+            "label": "AA-Briefcase v1.1",
+            "usdPerTask": 2.3728512169424163,
+            "weight": 0.15,
+            "tasks": 91
+          },
+          {
+            "label": "GDPval-AA v2.1",
+            "usdPerTask": 0.979128029896363,
+            "weight": 0.1,
+            "tasks": 220
+          },
+          {
+            "label": "AutomationBench-AA",
+            "usdPerTask": 0.22479176355993907,
+            "weight": 0.05,
+            "tasks": 657
+          },
+          {
+            "label": "Terminal-Bench 4.0",
+            "usdPerTask": 5.175400077426664,
+            "weight": 0.1,
+            "tasks": 66
+          },
+          {
+            "label": "SciCode",
+            "usdPerTask": 0.020311520138888886,
+            "weight": 0.1,
+            "tasks": 288
+          },
+          {
+            "label": "Humanity's Last Exam",
+            "usdPerTask": 0.06486026482854496,
+            "weight": 0.1,
+            "tasks": 2158
+          },
+          {
+            "label": "GDP.pdf",
+            "usdPerTask": 0.122188105,
+            "weight": 0.1,
+            "tasks": 100
+          },
+          {
+            "label": "CritPt",
+            "usdPerTask": 0.15762519,
+            "weight": 0.1,
+            "tasks": 70
+          },
+          {
+            "label": "AA-Omniscience",
+            "usdPerTask": 0.015089091800000001,
+            "weight": 0.15,
+            "tasks": 6000
+          },
+          {
+            "label": "AA-LCR v1.1",
+            "usdPerTask": 0.10049821099999999,
+            "weight": 0.05,
+            "tasks": 100
+          }
+        ],
+        "notes": [
+          "Source's usage-based estimate, not an invoice. Includes input, cache, reasoning, answer and fallback usage; canonical counts are already repeat-normalized."
+        ]
+      },
+      "extra": {
+        "slug": "step-5",
+        "isOpenWeights": true
+      }
+    },
+    {
+      "rawName": "Claude Haiku 5.5 (Max)",
+      "score": 43.3950199670746,
+      "variant": "Max",
+      "vendor": "Anthropic",
+      "date": "2026-10-07",
+      "url": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index",
+      "runId": "7d064a11-6e78-4030-b535-cdf940615041",
+      "cost": {
+        "usd": 0.21276971216992022,
+        "currency": "USD",
+        "unit": "task",
+        "statistic": "weighted-mean",
+        "method": "usage-estimate",
+        "scope": "Intelligence Index v4.3.2",
+        "sourceUrl": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index#cost",
+        "methodologyUrl": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+        "fetchedAt": "2026-10-25T14:11:16.844Z",
+        "complete": true,
+        "breakdown": [
+          {
+            "label": "AA-Briefcase v1.1",
+            "usdPerTask": 0.674864167266941,
+            "weight": 0.15,
+            "tasks": 91
+          },
+          {
+            "label": "GDPval-AA v2.1",
+            "usdPerTask": 0.22229297310982069,
+            "weight": 0.1,
+            "tasks": 220
+          },
+          {
+            "label": "AutomationBench-AA",
+            "usdPerTask": 0.04231589574649746,
+            "weight": 0.05,
+            "tasks": 657
+          },
+          {
+            "label": "Terminal-Bench 4.0",
+            "usdPerTask": 0.6518847460144606,
+            "weight": 0.1,
+            "tasks": 66
+          },
+          {
+            "label": "SciCode",
+            "usdPerTask": 0.010939723611111112,
+            "weight": 0.1,
+            "tasks": 288
+          },
+          {
+            "label": "Humanity's Last Exam",
+            "usdPerTask": 0.04385731621872104,
+            "weight": 0.1,
+            "tasks": 2158
+          },
+          {
+            "label": "GDP.pdf",
+            "usdPerTask": 0.052690258,
+            "weight": 0.1,
+            "tasks": 100
+          },
+          {
+            "label": "CritPt",
+            "usdPerTask": 0.09352919857142858,
+            "weight": 0.1,
+            "tasks": 70
+          },
+          {
+            "label": "AA-Omniscience",
+            "usdPerTask": 0.006261468933333334,
+            "weight": 0.15,
+            "tasks": 6000
+          },
+          {
+            "label": "AA-LCR v1.1",
+            "usdPerTask": 0.019313008,
+            "weight": 0.05,
+            "tasks": 100
+          }
+        ],
+        "notes": [
+          "Source's usage-based estimate, not an invoice. Includes input, cache, reasoning, answer and fallback usage; canonical counts are already repeat-normalized."
+        ]
+      },
+      "extra": {
+        "slug": "claude-haiku-5-5",
+        "isOpenWeights": false
+      }
+    },
+    {
+      "rawName": "MiniMax-M3.1-Flash",
+      "score": 42.7057475126235,
+      "vendor": "MiniMax",
+      "date": "2026-10-19",
+      "url": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index",
+      "runId": "d49c8680-e29b-400e-9511-824f7ddebe07",
+      "cost": {
+        "usd": 0.2201135746720313,
+        "currency": "USD",
+        "unit": "task",
+        "statistic": "weighted-mean",
+        "method": "usage-estimate",
+        "scope": "Intelligence Index v4.3.2",
+        "sourceUrl": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index#cost",
+        "methodologyUrl": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+        "fetchedAt": "2026-10-25T14:11:16.844Z",
+        "complete": true,
+        "breakdown": [
+          {
+            "label": "AA-Briefcase v1.1",
+            "usdPerTask": 0.5286065582201501,
+            "weight": 0.15,
+            "tasks": 91
+          },
+          {
+            "label": "GDPval-AA v2.1",
+            "usdPerTask": 0.34110671587692865,
+            "weight": 0.1,
+            "tasks": 220
+          },
+          {
+            "label": "AutomationBench-AA",
+            "usdPerTask": 0.06648588938093164,
+            "weight": 0.05,
+            "tasks": 657
+          },
+          {
+            "label": "Terminal-Bench 4.0",
+            "usdPerTask": 0.9241412160844686,
+            "weight": 0.1,
+            "tasks": 66
+          },
+          {
+            "label": "SciCode",
+            "usdPerTask": 0.0047956984375,
+            "weight": 0.1,
+            "tasks": 288
+          },
+          {
+            "label": "Humanity's Last Exam",
+            "usdPerTask": 0.01343524406858202,
+            "weight": 0.1,
+            "tasks": 2158
+          },
+          {
+            "label": "GDP.pdf",
+            "usdPerTask": 0.036343149,
+            "weight": 0.1,
+            "tasks": 100
+          },
+          {
+            "label": "CritPt",
+            "usdPerTask": 0.04340621785714286,
+            "weight": 0.1,
+            "tasks": 70
+          },
+          {
+            "label": "AA-Omniscience",
+            "usdPerTask": 0.0028008622499999998,
+            "weight": 0.15,
+            "tasks": 6000
+          },
+          {
+            "label": "AA-LCR v1.1",
+            "usdPerTask": 0.01510686,
+            "weight": 0.05,
+            "tasks": 100
+          }
+        ],
+        "notes": [
+          "Source's usage-based estimate, not an invoice. Includes input, cache, reasoning, answer and fallback usage; canonical counts are already repeat-normalized."
+        ]
+      },
+      "extra": {
+        "slug": "minimax-m3-1-flash",
+        "isOpenWeights": false
+      }
+    },
+    {
+      "rawName": "GLM-5.3-Flash",
+      "score": 41.807466113455,
+      "vendor": "Z AI",
+      "date": "2026-08-26",
+      "url": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index",
+      "runId": "19496b81-9f41-4214-a77a-1df803b3c5ae",
+      "cost": {
+        "usd": 0.2835948232103717,
+        "currency": "USD",
+        "unit": "task",
+        "statistic": "weighted-mean",
+        "method": "usage-estimate",
+        "scope": "Intelligence Index v4.3.2",
+        "sourceUrl": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index#cost",
+        "methodologyUrl": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+        "fetchedAt": "2026-10-25T14:11:16.844Z",
+        "complete": true,
+        "breakdown": [
+          {
+            "label": "AA-Briefcase v1.1",
+            "usdPerTask": 0.9839855425157803,
+            "weight": 0.15,
+            "tasks": 91
+          },
+          {
+            "label": "GDPval-AA v2.1",
+            "usdPerTask": 0.33580878422570914,
+            "weight": 0.1,
+            "tasks": 220
+          },
+          {
+            "label": "AutomationBench-AA",
+            "usdPerTask": 0.03234353191176864,
+            "weight": 0.05,
+            "tasks": 657
+          },
+          {
+            "label": "Terminal-Bench 4.0",
+            "usdPerTask": 0.8891509918482425,
+            "weight": 0.1,
+            "tasks": 66
+          },
+          {
+            "label": "SciCode",
+            "usdPerTask": 0.013985710069444447,
+            "weight": 0.1,
+            "tasks": 288
+          },
+          {
+            "label": "Humanity's Last Exam",
+            "usdPerTask": 0.02165517108433735,
+            "weight": 0.1,
+            "tasks": 2158
+          },
+          {
+            "label": "GDP.pdf",
+            "usdPerTask": 0.031873035499999994,
+            "weight": 0.1,
+            "tasks": 100
+          },
+          {
+            "label": "CritPt",
+            "usdPerTask": 0.04199942857142857,
+            "weight": 0.1,
+            "tasks": 70
+          },
+          {
+            "label": "AA-Omniscience",
+            "usdPerTask": 0.00059824855,
+            "weight": 0.15,
+            "tasks": 6000
+          },
+          {
+            "label": "AA-LCR v1.1",
+            "usdPerTask": 0.0168553165,
+            "weight": 0.05,
+            "tasks": 100
+          }
+        ],
+        "notes": [
+          "Source's usage-based estimate, not an invoice. Includes input, cache, reasoning, answer and fallback usage; canonical counts are already repeat-normalized."
+        ]
+      },
+      "extra": {
+        "slug": "glm-5-3-flash",
+        "isOpenWeights": true
+      }
+    },
+    {
+      "rawName": "Gemini 3.8 Flash (High)",
+      "score": 40.9262321765904,
+      "variant": "High",
+      "vendor": "Google",
+      "date": "2026-09-02",
+      "url": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index",
+      "runId": "8a999846-4c1d-4ce7-a8b7-1310a7166fd7",
+      "cost": {
+        "usd": 1.2427947606950427,
+        "currency": "USD",
+        "unit": "task",
+        "statistic": "weighted-mean",
+        "method": "usage-estimate",
+        "scope": "Intelligence Index v4.3.2",
+        "sourceUrl": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index#cost",
+        "methodologyUrl": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+        "fetchedAt": "2026-10-25T14:11:16.844Z",
+        "complete": true,
+        "breakdown": [
+          {
+            "label": "AA-Briefcase v1.1",
+            "usdPerTask": 2.701867128827097,
+            "weight": 0.15,
+            "tasks": 91
+          },
+          {
+            "label": "GDPval-AA v2.1",
+            "usdPerTask": 1.6946334455685028,
+            "weight": 0.1,
+            "tasks": 220
+          },
+          {
+            "label": "AutomationBench-AA",
+            "usdPerTask": 0.4241944487031561,
+            "weight": 0.05,
+            "tasks": 657
+          },
+          {
+            "label": "Terminal-Bench 4.0",
+            "usdPerTask": 5.841502462967339,
+            "weight": 0.1,
+            "tasks": 66
+          },
+          {
+            "label": "SciCode",
+            "usdPerTask": 0.07681339583333333,
+            "weight": 0.1,
+            "tasks": 288
+          },
+          {
+            "label": "Humanity's Last Exam",
+            "usdPerTask": 0.09198539457831326,
+            "weight": 0.1,
+            "tasks": 2158
+          },
+          {
+            "label": "GDP.pdf",
+            "usdPerTask": 0.108961305,
+            "weight": 0.1,
+            "tasks": 100
+          },
+          {
+            "label": "CritPt",
+            "usdPerTask": 0.28004601428571424,
+            "weight": 0.1,
+            "tasks": 70
+          },
+          {
+            "label": "AA-Omniscience",
+            "usdPerTask": 0.013132380749999999,
+            "weight": 0.15,
+            "tasks": 6000
+          },
+          {
+            "label": "AA-LCR v1.1",
+            "usdPerTask": 0.09881820000000001,
+            "weight": 0.05,
+            "tasks": 100
+          }
+        ],
+        "notes": [
+          "Source's usage-based estimate, not an invoice. Includes input, cache, reasoning, answer and fallback usage; canonical counts are already repeat-normalized."
+        ]
+      },
+      "extra": {
+        "slug": "gemini-3-8-flash",
+        "isOpenWeights": false
+      }
+    },
+    {
+      "rawName": "Muse Spark Open (Xhigh)",
+      "score": 38.8666662997805,
+      "variant": "Xhigh",
+      "vendor": "Meta",
+      "date": "2026-10-15",
+      "url": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index",
+      "runId": "3661c8fb-caf7-4118-aa18-65b84fea8e44",
+      "cost": {
+        "usd": 0.8441853713458678,
+        "currency": "USD",
+        "unit": "task",
+        "statistic": "weighted-mean",
+        "method": "usage-estimate",
+        "scope": "Intelligence Index v4.3.2",
+        "sourceUrl": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index#cost",
+        "methodologyUrl": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+        "fetchedAt": "2026-10-25T14:11:16.844Z",
+        "complete": true,
+        "breakdown": [
+          {
+            "label": "AA-Briefcase v1.1",
+            "usdPerTask": 1.4654022178021984,
+            "weight": 0.15,
+            "tasks": 91
+          },
+          {
+            "label": "GDPval-AA v2.1",
+            "usdPerTask": 0.697309097659091,
+            "weight": 0.1,
+            "tasks": 220
+          },
+          {
+            "label": "AutomationBench-AA",
+            "usdPerTask": 0.46275161079908683,
+            "weight": 0.05,
+            "tasks": 657
+          },
+          {
+            "label": "Terminal-Bench 4.0",
+            "usdPerTask": 4.656965702348484,
+            "weight": 0.1,
+            "tasks": 66
+          },
+          {
+            "label": "SciCode",
+            "usdPerTask": 0.040471086805555556,
+            "weight": 0.1,
+            "tasks": 288
+          },
+          {
+            "label": "Humanity's Last Exam",
+            "usdPerTask": 0.0818189593373494,
+            "weight": 0.1,
+            "tasks": 2158
+          },
+          {
+            "label": "GDP.pdf",
+            "usdPerTask": 0.1876498175,
+            "weight": 0.1,
+            "tasks": 100
+          },
+          {
+            "label": "CritPt",
+            "usdPerTask": 0.27148715714285715,
+            "weight": 0.1,
+            "tasks": 70
+          },
+          {
+            "label": "AA-Omniscience",
+            "usdPerTask": 0.007969981208333332,
+            "weight": 0.15,
+            "tasks": 6000
+          },
+          {
+            "label": "AA-LCR v1.1",
+            "usdPerTask": 0.1294355775,
+            "weight": 0.05,
+            "tasks": 100
+          }
+        ],
+        "notes": [
+          "Source's usage-based estimate, not an invoice. Includes input, cache, reasoning, answer and fallback usage; canonical counts are already repeat-normalized."
+        ]
+      },
+      "extra": {
+        "slug": "muse-spark-open",
+        "isOpenWeights": true
+      }
+    },
+    {
+      "rawName": "Mistral Large 4 Preview",
+      "score": 38.3770408917494,
+      "vendor": "Mistral",
+      "date": "2026-10-06",
+      "url": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index",
+      "runId": "34fc646a-0174-470e-9e62-d8df452210b3",
+      "cost": {
+        "usd": 1.1344391582388638,
+        "currency": "USD",
+        "unit": "task",
+        "statistic": "weighted-mean",
+        "method": "usage-estimate",
+        "scope": "Intelligence Index v4.3.2",
+        "sourceUrl": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index#cost",
+        "methodologyUrl": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+        "fetchedAt": "2026-10-25T14:11:16.844Z",
+        "complete": true,
+        "breakdown": [
+          {
+            "label": "AA-Briefcase v1.1",
+            "usdPerTask": 2.379588552513245,
+            "weight": 0.15,
+            "tasks": 91
+          },
+          {
+            "label": "GDPval-AA v2.1",
+            "usdPerTask": 0.8772443245306704,
+            "weight": 0.1,
+            "tasks": 220
+          },
+          {
+            "label": "AutomationBench-AA",
+            "usdPerTask": 0.3126525405297714,
+            "weight": 0.05,
+            "tasks": 657
+          },
+          {
+            "label": "Terminal-Bench 4.0",
+            "usdPerTask": 5.810090019381636,
+            "weight": 0.1,
+            "tasks": 66
+          },
+          {
+            "label": "SciCode",
+            "usdPerTask": 0.066954509375,
+            "weight": 0.1,
+            "tasks": 288
+          },
+          {
+            "label": "Humanity's Last Exam",
+            "usdPerTask": 0.19936633621872102,
+            "weight": 0.1,
+            "tasks": 2158
+          },
+          {
+            "label": "GDP.pdf",
+            "usdPerTask": 0.21647267239999998,
+            "weight": 0.1,
+            "tasks": 100
+          },
+          {
+            "label": "CritPt",
+            "usdPerTask": 0.3544726451428571,
+            "weight": 0.1,
+            "tasks": 70
+          },
+          {
+            "label": "AA-Omniscience",
+            "usdPerTask": 0.016606633336666662,
+            "weight": 0.15,
+            "tasks": 6000
+          },
+          {
+            "label": "AA-LCR v1.1",
+            "usdPerTask": 0.1383440526,
+            "weight": 0.05,
+            "tasks": 100
+          }
+        ],
+        "notes": [
+          "Source's usage-based estimate, not an invoice. Includes input, cache, reasoning, answer and fallback usage; canonical counts are already repeat-normalized."
+        ]
+      },
+      "extra": {
+        "slug": "mistral-large-4",
+        "isOpenWeights": false
+      }
+    },
+    {
+      "rawName": "GPT-6 Luna (Max)",
+      "score": 38.1245186869738,
+      "variant": "Max",
+      "vendor": "OpenAI",
+      "date": "2026-09-22",
+      "url": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index",
+      "runId": "6fb13851-40ce-4bda-ad3f-6b38e0c5daa7",
+      "cost": {
+        "usd": 0.06782295669812204,
+        "currency": "USD",
+        "unit": "task",
+        "statistic": "weighted-mean",
+        "method": "usage-estimate",
+        "scope": "Intelligence Index v4.3.2",
+        "sourceUrl": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index#cost",
+        "methodologyUrl": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+        "fetchedAt": "2026-10-25T14:11:16.844Z",
+        "complete": true,
+        "breakdown": [
+          {
+            "label": "AA-Briefcase v1.1",
+            "usdPerTask": 0.16999207407261593,
+            "weight": 0.15,
+            "tasks": 91
+          },
+          {
+            "label": "GDPval-AA v2.1",
+            "usdPerTask": 0.08935398436610914,
+            "weight": 0.1,
+            "tasks": 220
+          },
+          {
+            "label": "AutomationBench-AA",
+            "usdPerTask": 0.03639964442044852,
+            "weight": 0.05,
+            "tasks": 657
+          },
+          {
+            "label": "Terminal-Bench 4.0",
+            "usdPerTask": 0.23621085607736897,
+            "weight": 0.1,
+            "tasks": 66
+          },
+          {
+            "label": "SciCode",
+            "usdPerTask": 0.0036765802083333333,
+            "weight": 0.1,
+            "tasks": 288
+          },
+          {
+            "label": "Humanity's Last Exam",
+            "usdPerTask": 0.011812253938832253,
+            "weight": 0.1,
+            "tasks": 2158
+          },
+          {
+            "label": "GDP.pdf",
+            "usdPerTask": 0.028547064,
+            "weight": 0.1,
+            "tasks": 100
+          },
+          {
+            "label": "CritPt",
+            "usdPerTask": 0.02656206857142857,
+            "weight": 0.1,
+            "tasks": 70
+          },
+          {
+            "label": "AA-Omniscience",
+            "usdPerTask": 0.002523373666666667,
+            "weight": 0.15,
+            "tasks": 6000
+          },
+          {
+            "label": "AA-LCR v1.1",
+            "usdPerTask": 0.010187532,
+            "weight": 0.05,
+            "tasks": 100
+          }
+        ],
+        "notes": [
+          "Source's usage-based estimate, not an invoice. Includes input, cache, reasoning, answer and fallback usage; canonical counts are already repeat-normalized."
+        ]
+      },
+      "extra": {
+        "slug": "gpt-6-luna",
+        "isOpenWeights": false
+      }
+    },
+    {
+      "rawName": "Qwen3.8 27B (Xhigh)",
+      "score": 33.6762858057476,
+      "variant": "Xhigh",
+      "vendor": "Alibaba",
+      "date": "2026-08-14",
+      "url": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index",
+      "runId": "b01dee41-c62b-48ed-8d16-984adc405e5c",
+      "cost": {
+        "usd": 1.0074896941565945,
+        "currency": "USD",
+        "unit": "task",
+        "statistic": "weighted-mean",
+        "method": "usage-estimate",
+        "scope": "Intelligence Index v4.3.2",
+        "sourceUrl": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index#cost",
+        "methodologyUrl": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+        "fetchedAt": "2026-10-25T14:11:16.844Z",
+        "complete": true,
+        "breakdown": [
+          {
+            "label": "AA-Briefcase v1.1",
+            "usdPerTask": 2.82922071556044,
+            "weight": 0.15,
+            "tasks": 91
+          },
+          {
+            "label": "GDPval-AA v2.1",
+            "usdPerTask": 1.0965725161090911,
+            "weight": 0.1,
+            "tasks": 220
+          },
+          {
+            "label": "AutomationBench-AA",
+            "usdPerTask": 0.2541982624414003,
+            "weight": 0.05,
+            "tasks": 657
+          },
+          {
+            "label": "Terminal-Bench 4.0",
+            "usdPerTask": 3.9447222465454552,
+            "weight": 0.1,
+            "tasks": 66
+          },
+          {
+            "label": "SciCode",
+            "usdPerTask": 0.06447482291666667,
+            "weight": 0.1,
+            "tasks": 288
+          },
+          {
+            "label": "Humanity's Last Exam",
+            "usdPerTask": 0.13257006232622798,
+            "weight": 0.1,
+            "tasks": 2158
+          },
+          {
+            "label": "GDP.pdf",
+            "usdPerTask": 0.09627436499999999,
+            "weight": 0.1,
+            "tasks": 100
+          },
+          {
+            "label": "CritPt",
+            "usdPerTask": 0.3217224928571429,
+            "weight": 0.1,
+            "tasks": 70
+          },
+          {
+            "label": "AA-Omniscience",
+            "usdPerTask": 0.011175304166666665,
+            "weight": 0.15,
+            "tasks": 6000
+          },
+          {
+            "label": "AA-LCR v1.1",
+            "usdPerTask": 0.061734550000000006,
+            "weight": 0.05,
+            "tasks": 100
+          }
+        ],
+        "notes": [
+          "Source's usage-based estimate, not an invoice. Includes input, cache, reasoning, answer and fallback usage; canonical counts are already repeat-normalized."
+        ]
+      },
+      "extra": {
+        "slug": "qwen3-8-27b",
+        "isOpenWeights": true
+      }
+    },
+    {
+      "rawName": "K2 Horizon 375B A23B",
+      "score": 30.5015302696723,
+      "vendor": "Institute of Foundation Models",
+      "date": "2026-09-03",
+      "url": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index",
+      "runId": "bb3d7e75-8e22-4082-b9d6-1db0803e042f",
+      "cost": {
+        "usd": 0,
+        "currency": "USD",
+        "unit": "task",
+        "statistic": "weighted-mean",
+        "method": "usage-estimate",
+        "scope": "Intelligence Index v4.3.2",
+        "sourceUrl": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index#cost",
+        "methodologyUrl": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+        "fetchedAt": "2026-10-25T14:11:16.844Z",
+        "complete": true,
+        "breakdown": [
+          {
+            "label": "AA-Briefcase v1.1",
+            "usdPerTask": 0,
+            "weight": 0.15,
+            "tasks": 91
+          },
+          {
+            "label": "GDPval-AA v2.1",
+            "usdPerTask": 0,
+            "weight": 0.1,
+            "tasks": 220
+          },
+          {
+            "label": "AutomationBench-AA",
+            "usdPerTask": 0,
+            "weight": 0.05,
+            "tasks": 657
+          },
+          {
+            "label": "Terminal-Bench 4.0",
+            "usdPerTask": 0,
+            "weight": 0.1,
+            "tasks": 66
+          },
+          {
+            "label": "SciCode",
+            "usdPerTask": 0,
+            "weight": 0.1,
+            "tasks": 288
+          },
+          {
+            "label": "Humanity's Last Exam",
+            "usdPerTask": 0,
+            "weight": 0.1,
+            "tasks": 2158
+          },
+          {
+            "label": "GDP.pdf",
+            "usdPerTask": 0,
+            "weight": 0.1,
+            "tasks": 100
+          },
+          {
+            "label": "CritPt",
+            "usdPerTask": 0,
+            "weight": 0.1,
+            "tasks": 70
+          },
+          {
+            "label": "AA-Omniscience",
+            "usdPerTask": 0,
+            "weight": 0.15,
+            "tasks": 6000
+          },
+          {
+            "label": "AA-LCR v1.1",
+            "usdPerTask": 0,
+            "weight": 0.05,
+            "tasks": 100
+          }
+        ],
+        "notes": [
+          "Source's usage-based estimate, not an invoice. Includes input, cache, reasoning, answer and fallback usage; canonical counts are already repeat-normalized."
+        ]
+      },
+      "extra": {
+        "slug": "k2-horizon-375b-a23b",
+        "isOpenWeights": true
+      }
+    },
+    {
+      "rawName": "Beam 1.0",
+      "score": 30.3334426348039,
+      "vendor": "Reflection",
+      "date": "2026-10-16",
+      "url": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index",
+      "runId": "69468cce-7b5c-414a-b498-41df4c34df85",
+      "cost": {
+        "usd": 0.2262416928604755,
+        "currency": "USD",
+        "unit": "task",
+        "statistic": "weighted-mean",
+        "method": "usage-estimate",
+        "scope": "Intelligence Index v4.3.2",
+        "sourceUrl": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index#cost",
+        "methodologyUrl": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+        "fetchedAt": "2026-10-25T14:11:16.844Z",
+        "complete": true,
+        "breakdown": [
+          {
+            "label": "AA-Briefcase v1.1",
+            "usdPerTask": 0.3715627102131868,
+            "weight": 0.15,
+            "tasks": 91
+          },
+          {
+            "label": "GDPval-AA v2.1",
+            "usdPerTask": 0.15467134347090908,
+            "weight": 0.1,
+            "tasks": 220
+          },
+          {
+            "label": "AutomationBench-AA",
+            "usdPerTask": 0.1462672970067732,
+            "weight": 0.05,
+            "tasks": 657
+          },
+          {
+            "label": "Terminal-Bench 4.0",
+            "usdPerTask": 1.3074493791234847,
+            "weight": 0.1,
+            "tasks": 66
+          },
+          {
+            "label": "SciCode",
+            "usdPerTask": 0.007135851388888888,
+            "weight": 0.1,
+            "tasks": 288
+          },
+          {
+            "label": "Humanity's Last Exam",
+            "usdPerTask": 0.019176549026876735,
+            "weight": 0.1,
+            "tasks": 2158
+          },
+          {
+            "label": "GDP.pdf",
+            "usdPerTask": 0.028136308000000002,
+            "weight": 0.1,
+            "tasks": 100
+          },
+          {
+            "label": "CritPt",
+            "usdPerTask": 0.09032146857142857,
+            "weight": 0.1,
+            "tasks": 70
+          },
+          {
+            "label": "AA-Omniscience",
+            "usdPerTask": 0.0019143927999999998,
+            "weight": 0.15,
+            "tasks": 6000
+          },
+          {
+            "label": "AA-LCR v1.1",
+            "usdPerTask": 0.044353451999999995,
+            "weight": 0.05,
+            "tasks": 100
+          }
+        ],
+        "notes": [
+          "Source's usage-based estimate, not an invoice. Includes input, cache, reasoning, answer and fallback usage; canonical counts are already repeat-normalized."
+        ]
+      },
+      "extra": {
+        "slug": "reflection-beam",
+        "isOpenWeights": true
+      }
+    },
+    {
+      "rawName": "Nemotron 3.5 Super VL",
+      "score": 26.4910658661689,
+      "vendor": "NVIDIA",
+      "date": "2026-10-15",
+      "url": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index",
+      "runId": "e2c0623e-c855-4a61-bb66-be1f1ed43234",
+      "cost": {
+        "usd": 0.18823665957318256,
+        "currency": "USD",
+        "unit": "task",
+        "statistic": "weighted-mean",
+        "method": "usage-estimate",
+        "scope": "Intelligence Index v4.3.2",
+        "sourceUrl": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index#cost",
+        "methodologyUrl": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+        "fetchedAt": "2026-10-25T14:11:16.844Z",
+        "complete": true,
+        "breakdown": [
+          {
+            "label": "AA-Briefcase v1.1",
+            "usdPerTask": 0.5189919177239073,
+            "weight": 0.15,
+            "tasks": 91
+          },
+          {
+            "label": "GDPval-AA v2.1",
+            "usdPerTask": 0.11764443122945718,
+            "weight": 0.1,
+            "tasks": 220
+          },
+          {
+            "label": "AutomationBench-AA",
+            "usdPerTask": 0.12644392028330195,
+            "weight": 0.05,
+            "tasks": 657
+          },
+          {
+            "label": "Terminal-Bench 4.0",
+            "usdPerTask": 0.8017442317506609,
+            "weight": 0.1,
+            "tasks": 66
+          },
+          {
+            "label": "SciCode",
+            "usdPerTask": 0.004460846961805555,
+            "weight": 0.1,
+            "tasks": 288
+          },
+          {
+            "label": "Humanity's Last Exam",
+            "usdPerTask": 0.021936624131139944,
+            "weight": 0.1,
+            "tasks": 2158
+          },
+          {
+            "label": "GDP.pdf",
+            "usdPerTask": 0.02282825575,
+            "weight": 0.1,
+            "tasks": 100
+          },
+          {
+            "label": "CritPt",
+            "usdPerTask": 0.0540330775,
+            "weight": 0.1,
+            "tasks": 70
+          },
+          {
+            "label": "AA-Omniscience",
+            "usdPerTask": 0.003278057454166667,
+            "weight": 0.15,
+            "tasks": 6000
+          },
+          {
+            "label": "AA-LCR v1.1",
+            "usdPerTask": 0.026184411,
+            "weight": 0.05,
+            "tasks": 100
+          }
+        ],
+        "notes": [
+          "Source's usage-based estimate, not an invoice. Includes input, cache, reasoning, answer and fallback usage; canonical counts are already repeat-normalized."
+        ]
+      },
+      "extra": {
+        "slug": "nemotron-3-5-super-vl",
+        "isOpenWeights": true
+      }
+    },
+    {
+      "rawName": "Inkling (Xhigh)",
+      "score": 24.9847810999384,
+      "variant": "Xhigh",
+      "vendor": "Thinking Machines",
+      "date": "2026-07-15",
+      "url": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index",
+      "runId": "0de09623-2b1a-4c8d-86ef-7f5245d4e24b",
+      "costUnavailableReason": "Missing or invalid cache measurements for AA-Briefcase v1.1.",
+      "extra": {
+        "slug": "inkling",
+        "isOpenWeights": true
+      }
+    }
+  ],
+  "warnings": [
+    "Task cost available for 25/27 rows; missing usage/cache metadata is not imputed."
+  ],
+  "costStatus": {
+    "status": "available",
+    "url": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index#cost",
+    "note": "Weighted cost per Intelligence Index task, reconstructed from the source's measured usage, caching and fallback metadata. Not a token-price proxy or an invoice."
+  }
+}
