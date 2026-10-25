@@ -61,11 +61,10 @@
     },
     "weight": 1,
     "accent": "#0ea5e9",
-    "note": "The page is protected by Cloudflare; the refresh script uses a headless browser.",
     "costMethodology": {
       "statistic": "median",
       "url": "https://arena.ai/leaderboard/chat/text",
-      "note": "Cost/Task (P50) is a median, not a mean. The Playwright table scrape reads the Cost/Task (P50) column into each exact scored row; P50 is available only in single-benchmark views and is never pooled with means. API Price $/M is never substituted."
+      "note": "Cost/Task (P50) is a median, not a mean. P50 is available only in single-benchmark views and is never pooled with means. API Price $/M is never substituted."
     }
   },
   {
@@ -186,11 +185,10 @@
     },
     "weight": 1,
     "accent": "#06b6d4",
-    "note": "The page is protected by Cloudflare; the refresh script uses a headless browser.",
     "costMethodology": {
       "statistic": "median",
       "url": "https://arena.ai/leaderboard/code/webdev",
-      "note": "Reported Cost/Task (P50), read from the leaderboard table and kept separate from benchmark means. P50 is available only in single-benchmark views; the scraper never uses the adjacent API price column."
+      "note": "Reported Cost/Task (P50), a median kept separate from benchmark means. P50 is available only in single-benchmark views; API Price $/M is never substituted."
     }
   },
   {

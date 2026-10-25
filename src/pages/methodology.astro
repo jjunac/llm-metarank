@@ -127,10 +127,10 @@ matched_score(m, b) = Σ w_s × percentile(s, m) / Σ w_s</code></pre>
       </p>
       <ul class="mt-4 space-y-3 text-xs leading-6 text-muted">
         <li><strong class="text-ink">One selection, one axis.</strong> The overall view starts on the largest eligible mean-cost basket, {basketLabel(leaderboard.costAnalysis.baskets.overall.find((basket) => basket.id === defaultOverallBasketId)?.sourceIds ?? [])}. Select one benchmark for its own frontier, or select two or more mean-cost benchmarks to compose a matched basket. Every point in a basket must have complete usable paired score and cost data for every selected benchmark. Each selection has its own fixed references, matched score and frontier membership; points from different selections are never plotted or ranked against each other.</li>
-        <li><strong class="text-ink">An index, not a dollar price.</strong> 1× is the geometric mean of the selected basket's reference costs (or the single benchmark's reference), not $1/task. References are medians of each source's measured task costs at its reported statistic, fixed when the dataset is built over the full tracked pool. Different benchmarks' dollar costs are not averaged into an invented universal task price.</li>
+        <li><strong class="text-ink">An index, not a dollar price.</strong> 1× is the geometric mean of the selected basket's reference costs (or the single benchmark's reference), not $1/task. References are medians of each source's measured task costs at its reported statistic, fixed for the full tracked pool. Different benchmarks' dollar costs are not averaged into an invented universal task price.</li>
         <li><strong class="text-ink">Exact score / cost pairing.</strong> Each cost belongs to the same source run, model version, effort and harness as its score. The frontier retains the ranking's best-score configuration per source, even when a cheaper alternative exists. Alternate cost-bearing configurations remain in the source data for audit but are not plotted. A multi-source model point is a bundle of source-specific setups, not a single deployable configuration.</li>
-        <li><strong class="text-ink">Means and medians stay separate.</strong> Matched baskets require means (including Artificial Analysis's weighted mean). Arena's reported P50 is a median and is available only in its single-benchmark view after a successful refresh. It is never silently pooled with means.</li>
-        <li><strong class="text-ink">Unknown is not free.</strong> Missing costs, unverified units, displayed upper bounds, incomplete runs, and stale sources cannot establish membership in a basket. Zero costs are retained but cannot enter the positive logarithmic cost index. Run totals without a verified attempt denominator are shown as totals, never $/task. Cost-feed failure does not attach old costs to new scores.</li>
+        <li><strong class="text-ink">Means and medians stay separate.</strong> Matched baskets require means (including Artificial Analysis's weighted mean). Arena's reported P50 is a median and is available only in its single-benchmark view. It is never silently pooled with means.</li>
+        <li><strong class="text-ink">Unknown is not free.</strong> Missing costs, unverified units, displayed upper bounds, incomplete runs, and stale sources cannot establish membership in a basket. Zero costs are retained but cannot enter the positive logarithmic cost index. Run totals without a verified attempt denominator are shown as totals, never $/task. Stale costs are never attached to newer scores.</li>
         <li><strong class="text-ink">Strict point-estimate dominance.</strong> A point is dominated only if another eligible point in the same basket costs no more and scores no worse, with at least one strict improvement. Identical points both remain on the frontier. These are descriptive comparisons, not claims of statistically significant superiority; rounding and measurement uncertainty still matter.</li>
       </ul>
       <div class="mt-8 rounded-2xl border border-line bg-surface/40 p-5">
@@ -154,7 +154,7 @@ matched_score(m, b) = Σ w_s × percentile(s, m) / Σ w_s</code></pre>
       <div class="mt-5 grid gap-3 sm:grid-cols-2">
         <div class="surface-card rounded-xl p-4"><h3 class="text-xs font-semibold">Artificial Analysis</h3><p class="mt-2 text-[11px] leading-5 text-muted">Reconstructs its published v4.3.2 weighted task-cost calculation from evaluation usage, task counts, cache reads/writes, reasoning, answers and fallback-model usage. Counts are already normalized for repeated runs; repeats are not divided out again. A new index version disables this calculation until its methodology is audited. These are source-repriced usage estimates, not invoices.</p></div>
         <div class="surface-card rounded-xl p-4"><h3 class="text-xs font-semibold">LiveBench &amp; Terminal-Bench</h3><p class="mt-2 text-[11px] leading-5 text-muted">LiveBench's release-matched cost.csv joins on exact source identifiers: total spend ÷ all tasks, not the mean of suite averages. It excludes fixed starting state and harness helper calls. Terminal-Bench's total_cost_usd is divided by n_trials, including repeated attempts and failures, not by the number of unique tasks or successful tasks.</p></div>
-        <div class="surface-card rounded-xl p-4"><h3 class="text-xs font-semibold">Arena &amp; ARC-AGI-3</h3><p class="mt-2 text-[11px] leading-5 text-muted">Arena's Playwright scraper reads the Cost/Task (P50) column and never reads the adjacent API Price $/M column. P50 values are used only in single-benchmark views and are never pooled with means. ARC-AGI-3's cost field is total run spend. Its feed does not include verified per-run attempted-environment counts, and some evaluations are incomplete; these totals are kept for auditing but excluded from task-cost frontiers.</p></div>
+        <div class="surface-card rounded-xl p-4"><h3 class="text-xs font-semibold">Arena &amp; ARC-AGI-3</h3><p class="mt-2 text-[11px] leading-5 text-muted">Arena's reported Cost/Task (P50) is used as-is; the adjacent API Price $/M column is not a task cost and is not used. P50 values are used only in single-benchmark views and are never pooled with means. ARC-AGI-3's cost field is total run spend. Its feed does not include verified per-run attempted-environment counts, and some evaluations are incomplete; these totals are kept for auditing but excluded from task-cost frontiers.</p></div>
         <div class="surface-card rounded-xl p-4"><h3 class="text-xs font-semibold">Limits of published spend</h3><p class="mt-2 text-[11px] leading-5 text-muted">SWE-bench Pro, Scale HLE, MCP Atlas and GSO do not publish matching monetary task cost in the inspected leaderboard payloads. Costs from other evaluators are not borrowed. Runtime is not converted into dollars. Published model spend is not necessarily all-in operating cost: sandbox, tool, infrastructure and judging expenses may be omitted. Each source's audit trail states its own scope and retrieval date.</p></div>
       </div>
       <a href="/#frontier" class="mt-5 inline-flex items-center gap-1 text-xs text-accent hover:underline">Explore the task-cost frontier ↗</a>
@@ -277,26 +277,6 @@ matched_score(m, b) = Σ w_s × percentile(s, m) / Σ w_s</code></pre>
           </div>
         ))}
       </div>
-    </section>
-
-    <section class="mt-16 max-w-4xl">
-      <h2 class="display text-4xl">Refresh and validation</h2>
-      <p class="mt-3 text-xs leading-6 text-muted">
-        The site is a pre-rendered Astro build. Data is refreshed manually with a script, stored as
-        dated snapshots, and baked into the next build. If a fetch fails, the last good snapshot is
-        kept and the source is marked stale rather than silently dropping it.
-      </p>
-      <div class="mt-5 overflow-hidden rounded-2xl border border-line bg-surface/60">
-        <div class="border-b border-line px-5 py-3 text-[10px] uppercase tracking-[0.14em] text-muted">Local commands</div>
-        <pre class="overflow-x-auto p-5 font-mono text-xs leading-7"><code>npm run data:refresh   # fetch all sources, rebuild the dataset
-npm run data:check     # validate coverage, ranks, and source snapshots
-npm run dev            # preview the static site locally
-npm run build          # generate the static dist/ output</code></pre>
-      </div>
-      <p class="mt-4 text-[11px] leading-5 text-muted/70">
-        LMArena Text and Code Arena are protected by Cloudflare; their refresh path uses a headless
-        browser. The other sources are fetched from public HTML, JSON, or API endpoints.
-      </p>
     </section>
 
     <div class="mt-16 flex flex-col justify-between gap-4 border-t border-line pt-6 sm:flex-row sm:items-center">

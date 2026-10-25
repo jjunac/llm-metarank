@@ -256,7 +256,7 @@ export default function CostFrontier({ data, onSelectModel }: { data: Leaderboar
         {mode === "meta" && (
           <>
             <div className="border-t border-line px-4 py-3 text-[10px] leading-5 text-muted sm:px-5">
-              <p>1× is the median reference of the selected benchmark or basket—not $1/task. References are each benchmark's median measured task cost at its reported statistic, fixed at build time. Switching the selection changes both axes; different selections are never compared.</p>
+              <p>1× is the median reference of the selected benchmark or basket—not $1/task. References are each benchmark's median measured task cost at its reported statistic, fixed for the full tracked pool. Switching the selection changes both axes; different selections are never compared.</p>
               <p>Frontier status is calculated across all eligible points in the selected benchmark or basket; search only hides points. Single-benchmark views use the source's own statistic; P50 is never pooled with means.</p>
             </div>
 
