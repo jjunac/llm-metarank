@@ -251,7 +251,7 @@ export default function ModelDetail({
                           <p>{entry.costUnavailableReason ?? source.costCoverage.note}</p>
                         </div>
                       )}
-                      {source.status === "stale" && entry.cost && <p className="mt-2 text-[10px] text-amber-700 dark:text-amber-300">Last refresh failed; this historical cost is excluded from the frontier.</p>}
+                      {source.status === "stale" && entry.cost && <p className="mt-2 text-[10px] text-amber-700 dark:text-amber-300">Stale source; this historical cost is excluded from the frontier.</p>}
                     </div>
                   );
                 })}

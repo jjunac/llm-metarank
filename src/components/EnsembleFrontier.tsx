@@ -315,7 +315,7 @@ export default function EnsembleFrontier({ data, onSelectModel }: { data: Leader
 
       <div className="border-t border-line px-4 py-3 text-[10px] leading-5 text-muted sm:px-5">
         <p>Best-score configuration per model. Alternate harness/effort runs remain in the source data for audit but are not plotted. Median-cost benchmarks are available as single-benchmark views and are not mixed into this ensemble.</p>
-        <p>Within-benchmark dominance only. Search and the 2+ filter narrow the points and table rows, not the curves; percentile references are fixed at build time.</p>
+        <p>Within-benchmark dominance only. Search and the 2+ filter narrow the points and table rows, not the curves; percentile references are fixed for the full tracked pool.</p>
       </div>
 
       <details className="border-t border-line">

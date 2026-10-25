@@ -143,8 +143,26 @@ const updated = data ? formatDate(data.generatedAt.slice(0, 10)) : null;
           </div>
         </div>
         <div class="mt-8 flex flex-col gap-2 border-t border-line pt-5 text-[11px] text-muted/70 sm:flex-row sm:items-center sm:justify-between">
-          <span>© 2026 LLM MetaRank. Local-first static build.</span>
-          <span class="font-mono">methodology v{data?.methodologyVersion ?? "1.0"}</span>
+          <span>
+            Open source under the{" "}
+            <a
+              href="https://github.com/jjunac/llm-metarank/blob/main/LICENSE"
+              target="_blank"
+              rel="noreferrer"
+              class="underline-offset-2 transition-colors hover:text-ink hover:underline"
+            >MIT License</a>.
+          </span>
+          <div class="flex flex-wrap items-center gap-x-4 gap-y-1">
+            <a
+              href="https://github.com/jjunac/llm-metarank"
+              target="_blank"
+              rel="noreferrer"
+              class="inline-flex items-center gap-1 transition-colors hover:text-ink"
+            >
+              View source on GitHub <span aria-hidden="true">↗</span>
+            </a>
+            <span class="font-mono">methodology v{data?.methodologyVersion ?? "1.0"}</span>
+          </div>
         </div>
       </div>
     </footer>
