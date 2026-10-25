@@ -1,0 +1,312 @@
+---
+import Base from "../layouts/Base.astro";
+import { leaderboard } from "../lib/data";
+import { CATEGORY_COPY, CATEGORY_ORDER, formatDate } from "../lib/format";
+import { Badge } from "../components/ui";
+
+const categoryLabel = (category: string) =>
+  CATEGORY_COPY[category as keyof typeof CATEGORY_COPY]?.label ?? category;
+const updated = formatDate(leaderboard.generatedAt.slice(0, 10));
+const defaultOverallBasketId = leaderboard.costAnalysis.defaultBasketId.overall;
+const basketLabel = (sourceIds: string[]) =>
+  sourceIds.map((sourceId) => leaderboard.sources.find((source) => source.id === sourceId)?.shortName ?? sourceId).join(" + ");
+---
+
+<Base
+  title="Methodology — LLM MetaRank"
+  description="How LLM MetaRank normalizes ten benchmark leaderboards into one relative meta score, including matched cost baskets, coverage rules, category weights, and limitations."
+  data={leaderboard}
+>
+  <article class="container-page py-14 sm:py-20">
+    <div class="max-w-3xl">
+      <div class="eyebrow mb-3">Methodology · v{leaderboard.methodologyVersion}</div>
+      <h1 class="display text-5xl leading-[0.95] sm:text-7xl">Relative, not absolute.</h1>
+      <p class="mt-6 text-base leading-7 text-muted sm:text-lg sm:leading-8">
+        A meta score is a way to compare models across leaderboards that use incompatible scales. It
+        is not a measure of absolute intelligence, product quality, or value. It answers a narrower
+        question: <em class="text-ink">how consistently do these benchmarks rank a model near the top of its peer group?</em>
+      </p>
+    </div>
+
+    <div class="mt-12 grid gap-4 sm:grid-cols-3">
+      <div class="surface-card rounded-2xl p-5">
+        <div class="num text-xs text-accent">01</div>
+        <h2 class="mt-4 text-sm font-semibold">Percentile, not raw score</h2>
+        <p class="mt-2 text-xs leading-5 text-muted">
+          An Elo rating, a resolve rate, and a composite index cannot be averaged directly. Each
+          source is converted to a percentile within its own tracked model pool.
+        </p>
+      </div>
+      <div class="surface-card rounded-2xl p-5">
+        <div class="num text-xs text-accent">02</div>
+        <h2 class="mt-4 text-sm font-semibold">Coverage before rank</h2>
+        <p class="mt-2 text-xs leading-5 text-muted">
+          A model needs at least five of ten sources, including at least one general and one coding
+          source, to receive an overall rank. Missing scores are not imputed.
+        </p>
+      </div>
+      <div class="surface-card rounded-2xl p-5">
+        <div class="num text-xs text-accent">03</div>
+        <h2 class="mt-4 text-sm font-semibold">Equal weight by default</h2>
+        <p class="mt-2 text-xs leading-5 text-muted">
+          Every source has weight 1.0. Composites are counted once, not decomposed. Category scores
+          use only their relevant sources.
+        </p>
+      </div>
+    </div>
+
+    <section class="mt-16 max-w-4xl">
+      <h2 class="display text-4xl">The formula</h2>
+      <div class="mt-5 overflow-hidden rounded-2xl border border-line bg-surface/60">
+        <div class="border-b border-line px-5 py-3 text-[10px] uppercase tracking-[0.14em] text-muted">
+          Percentile and meta score
+        </div>
+        <pre class="overflow-x-auto p-5 font-mono text-xs leading-7 text-ink"><code>percentile(s, m) = 100 × (# scores below m + 0.5 × # ties) / N_s
+
+meta(m) = Σ w_s × percentile(s, m) / Σ w_s</code></pre>
+        <div class="border-t border-line px-5 py-4 text-xs leading-6 text-muted">
+          <p><strong class="text-ink">s</strong> is a source, <strong class="text-ink">m</strong> is a canonical model, <strong class="text-ink">N_s</strong> is the number of tracked models in that source, and <strong class="text-ink">w_s</strong> is the source weight (1.0 by default).</p>
+        </div>
+      </div>
+      <p class="mt-4 text-xs leading-6 text-muted">
+        Ties receive the midrank so that a duplicated score does not become a 0th or 100th percentile.
+        The overall score uses every source where the model has data, renormalizing by the available
+        weights. Category scores require at least two sources and are normalized the same way.
+      </p>
+    </section>
+
+    <section id="task-cost" class="mt-16 max-w-4xl scroll-mt-6">
+      <div class="eyebrow mb-3">A separate cost / capability view</div>
+      <h2 class="display text-4xl">The meta Pareto frontier</h2>
+      <p class="mt-4 text-xs leading-6 text-muted">
+        The capability ranking above is unchanged by cost. The frontier compares measured or
+        source-estimated <strong class="text-ink">cost per attempted task</strong>, including failures,
+        against capability. A token price is not a task cost: different models can use very different
+        numbers of tokens, reasoning steps, cached inputs, tool calls and retries to do the same work.
+      </p>
+      <div class="mt-5 overflow-hidden rounded-2xl border border-line bg-surface/60">
+        <div class="border-b border-line px-5 py-3 text-[10px] uppercase tracking-[0.14em] text-muted">Matched scores and relative task-cost index</div>
+        <pre class="overflow-x-auto p-5 font-mono text-xs leading-7"><code>reference(s) = median usable task cost of tracked best-score runs
+               (matching the source's reported statistic)
+
+cost_index(m, b) = exp(Σ w_s × log(cost_per_task(s, m) / reference(s)) / Σ w_s)
+
+matched_score(m, b) = Σ w_s × percentile(s, m) / Σ w_s</code></pre>
+      </div>
+      <div class="mt-5 overflow-hidden rounded-2xl border border-line bg-surface/60">
+        <div class="border-b border-line px-5 py-3 text-[10px] uppercase tracking-[0.14em] text-muted">Supported multi-source overall baskets</div>
+        <table class="w-full text-left text-xs">
+          <thead class="border-b border-line bg-wash/30 text-[10px] text-muted">
+            <tr>
+              <th class="px-5 py-2 font-medium">Selected benchmarks</th>
+              <th class="px-3 py-2 text-right font-medium">Models</th>
+              <th class="px-3 py-2 text-right font-medium">Non-dominated</th>
+              <th class="px-5 py-2 text-right font-medium">Default</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-line">
+            {leaderboard.costAnalysis.baskets.overall.map((basket) => {
+              const view = leaderboard.costAnalysis.frontiers.overall[basket.id];
+              return (
+                <tr class="bg-surface/40">
+                  <td class="px-5 py-2.5">{basketLabel(basket.sourceIds)}</td>
+                  <td class="num px-3 py-2.5 text-right">{view.points.length}</td>
+                  <td class="num px-3 py-2.5 text-right">{view.points.filter((point) => point.frontier).length}</td>
+                  <td class="px-5 py-2.5 text-right">{basket.id === defaultOverallBasketId ? <Badge tone="green">default</Badge> : <span class="text-[10px] text-muted">—</span>}</td>
+                </tr>
+              );
+            })}
+          </tbody>
+        </table>
+      </div>
+      <p class="mt-3 text-[11px] leading-5 text-muted">
+        Only the overall view lets you compose the selected set. General and reasoning use
+        Artificial Analysis + LiveBench; coding and agentic use LiveBench + Terminal-Bench. The
+        category mapping fixes those sources. In the overall view, any cost-bearing benchmark can
+        also be viewed alone.
+      </p>
+      <ul class="mt-4 space-y-3 text-xs leading-6 text-muted">
+        <li><strong class="text-ink">One selection, one axis.</strong> The overall view starts on the largest eligible mean-cost basket, {basketLabel(leaderboard.costAnalysis.baskets.overall.find((basket) => basket.id === defaultOverallBasketId)?.sourceIds ?? [])}. Select one benchmark for its own frontier, or select two or more mean-cost benchmarks to compose a matched basket. Every point in a basket must have complete usable paired score and cost data for every selected benchmark. Each selection has its own fixed references, matched score and frontier membership; points from different selections are never plotted or ranked against each other.</li>
+        <li><strong class="text-ink">An index, not a dollar price.</strong> 1× is the geometric mean of the selected basket's reference costs (or the single benchmark's reference), not $1/task. References are medians of each source's measured task costs at its reported statistic, fixed when the dataset is built over the full tracked pool. Different benchmarks' dollar costs are not averaged into an invented universal task price.</li>
+        <li><strong class="text-ink">Exact score / cost pairing.</strong> Each cost belongs to the same source run, model version, effort and harness as its score. The frontier retains the ranking's best-score configuration per source, even when a cheaper alternative exists. Alternate cost-bearing configurations remain in the source data for audit but are not plotted. A multi-source model point is a bundle of source-specific setups, not a single deployable configuration.</li>
+        <li><strong class="text-ink">Means and medians stay separate.</strong> Matched baskets require means (including Artificial Analysis's weighted mean). Arena's reported P50 is a median and is available only in its single-benchmark view after a successful refresh. It is never silently pooled with means.</li>
+        <li><strong class="text-ink">Unknown is not free.</strong> Missing costs, unverified units, displayed upper bounds, incomplete runs, and stale sources cannot establish membership in a basket. Zero costs are retained but cannot enter the positive logarithmic cost index. Run totals without a verified attempt denominator are shown as totals, never $/task. Cost-feed failure does not attach old costs to new scores.</li>
+        <li><strong class="text-ink">Strict point-estimate dominance.</strong> A point is dominated only if another eligible point in the same basket costs no more and scores no worse, with at least one strict improvement. Identical points both remain on the frontier. These are descriptive comparisons, not claims of statistically significant superiority; rounding and measurement uncertainty still matter.</li>
+      </ul>
+      <div class="mt-8 rounded-2xl border border-line bg-surface/40 p-5">
+        <div class="eyebrow mb-2">A descriptive companion view</div>
+        <h3 class="display text-2xl">The benchmark frontier ensemble</h3>
+        <p class="mt-2 text-xs leading-6 text-muted">
+          The ensemble tab overlays each benchmark's own frontier in within-benchmark percentile
+          space. The X axis is cost percentile and the Y axis is score percentile inside that
+          benchmark. It is descriptive: it shows where benchmarks agree on the shape of the
+          cost/capability trade-off and which models are frontier members in more than one benchmark.
+          It does not create a cross-benchmark dominance claim. The band is the range across benchmark
+          frontiers, not a confidence interval. Median-cost benchmarks are available as
+          single-benchmark views in the meta frontier; alternate harness/effort configurations remain
+          in the source data but are not plotted. Models without a usable paired cost do not enter
+          either view. The ensemble is a separate descriptive tab, not a decomposition of
+          the matched frontier: a model can be non-dominated in a matched basket without being on any
+          single benchmark's frontier, and a model can be on several benchmark frontiers without
+          complete paired coverage for a chosen basket.
+        </p>
+      </div>
+      <div class="mt-5 grid gap-3 sm:grid-cols-2">
+        <div class="surface-card rounded-xl p-4"><h3 class="text-xs font-semibold">Artificial Analysis</h3><p class="mt-2 text-[11px] leading-5 text-muted">Reconstructs its published v4.3.2 weighted task-cost calculation from evaluation usage, task counts, cache reads/writes, reasoning, answers and fallback-model usage. Counts are already normalized for repeated runs; repeats are not divided out again. A new index version disables this calculation until its methodology is audited. These are source-repriced usage estimates, not invoices.</p></div>
+        <div class="surface-card rounded-xl p-4"><h3 class="text-xs font-semibold">LiveBench &amp; Terminal-Bench</h3><p class="mt-2 text-[11px] leading-5 text-muted">LiveBench's release-matched cost.csv joins on exact source identifiers: total spend ÷ all tasks, not the mean of suite averages. It excludes fixed starting state and harness helper calls. Terminal-Bench's total_cost_usd is divided by n_trials, including repeated attempts and failures, not by the number of unique tasks or successful tasks.</p></div>
+        <div class="surface-card rounded-xl p-4"><h3 class="text-xs font-semibold">Arena &amp; ARC-AGI-3</h3><p class="mt-2 text-[11px] leading-5 text-muted">Arena's Playwright scraper reads the Cost/Task (P50) column and never reads the adjacent API Price $/M column. P50 values are used only in single-benchmark views and are never pooled with means. ARC-AGI-3's cost field is total run spend. Its feed does not include verified per-run attempted-environment counts, and some evaluations are incomplete; these totals are kept for auditing but excluded from task-cost frontiers.</p></div>
+        <div class="surface-card rounded-xl p-4"><h3 class="text-xs font-semibold">Limits of published spend</h3><p class="mt-2 text-[11px] leading-5 text-muted">SWE-bench Pro, Scale HLE, MCP Atlas and GSO do not publish matching monetary task cost in the inspected leaderboard payloads. Costs from other evaluators are not borrowed. Runtime is not converted into dollars. Published model spend is not necessarily all-in operating cost: sandbox, tool, infrastructure and judging expenses may be omitted. Each source's audit trail states its own scope and retrieval date.</p></div>
+      </div>
+      <a href="/#frontier" class="mt-5 inline-flex items-center gap-1 text-xs text-accent hover:underline">Explore the task-cost frontier ↗</a>
+    </section>
+
+    <section class="mt-16">
+      <div class="mb-5 flex flex-col justify-between gap-3 sm:flex-row sm:items-end">
+        <div>
+          <h2 class="display text-4xl">The ten sources</h2>
+          <p class="mt-2 max-w-2xl text-xs leading-5 text-muted">
+            Sources are kept as published. The overall score counts each source once; category tabs
+            use the relevant benchmark or sub-score.
+          </p>
+        </div>
+        <span class="text-[10px] text-muted">Updated {updated}</span>
+      </div>
+
+      <div class="overflow-hidden rounded-2xl border border-line">
+        <table class="w-full text-left text-xs">
+          <thead class="border-b border-line bg-wash/40 text-[10px] uppercase tracking-[0.12em] text-muted">
+            <tr>
+              <th class="px-4 py-3 font-medium">Source</th>
+              <th class="hidden px-4 py-3 font-medium sm:table-cell">Categories</th>
+              <th class="px-4 py-3 text-right font-medium">Data as of</th>
+              <th class="px-4 py-3 text-right font-medium">Weight</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-line">
+            {leaderboard.sources.map((source) => (
+              <tr class="bg-surface/40">
+                <td class="px-4 py-3.5">
+                  <a href={source.url} target="_blank" rel="noreferrer" class="inline-flex items-center gap-2 font-medium hover:text-accent">
+                    <span class="h-2 w-2 rounded-full" style={`background:${source.accent}`}></span>
+                    {source.name}
+                    {source.composite && <Badge>composite</Badge>}
+                  </a>
+                  <div class="mt-1 max-w-md text-[10px] leading-4 text-muted">{source.description}</div>
+                </td>
+                <td class="hidden px-4 py-3.5 sm:table-cell">
+                  <div class="flex flex-wrap gap-1">
+                    {Object.keys(source.categories).map((category) => (
+                      <span class="rounded-full border border-line bg-paper/60 px-2 py-0.5 text-[10px] text-muted">
+                        {categoryLabel(category)}
+                      </span>
+                    ))}
+                  </div>
+                </td>
+                <td class="whitespace-nowrap px-4 py-3.5 text-right text-[10px] text-muted">
+                  {formatDate(source.dataDate)}
+                  <div class="mt-0.5 text-muted/60">{source.status}</div>
+                </td>
+                <td class="px-4 py-3.5 text-right num text-[11px]">{source.weight.toFixed(1)}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="mt-16 grid gap-10 lg:grid-cols-2">
+      <div>
+        <h2 class="display text-4xl">Coverage rules</h2>
+        <ul class="mt-4 space-y-3 text-xs leading-6 text-muted">
+          <li class="flex gap-3">
+            <span class="num text-accent">01</span>
+            <span><strong class="text-ink">Overall rank:</strong> at least 5 of 10 sources, with at least one general and one coding source. A model with a high average but only three sources is shown as “limited coverage,” not ranked.</span>
+          </li>
+          <li class="flex gap-3">
+            <span class="num text-accent">02</span>
+            <span><strong class="text-ink">Category rank:</strong> at least 2 sources tagged for that category. Category ranks can include models that do not have enough coverage for an overall rank.</span>
+          </li>
+          <li class="flex gap-3">
+            <span class="num text-accent">03</span>
+            <span><strong class="text-ink">No imputation:</strong> a missing benchmark is not replaced with the model's average or a peer score. The missing source is listed in the model breakdown.</span>
+          </li>
+          <li class="flex gap-3">
+            <span class="num text-accent">04</span>
+            <span><strong class="text-ink">Best reported variant:</strong> when a source publishes multiple reasoning efforts or harnesses, the highest score is used. The exact variant or harness is displayed in the audit trail.</span>
+          </li>
+          <li class="flex gap-3">
+            <span class="num text-accent">05</span>
+            <span><strong class="text-ink">Optional all-model view:</strong> the leaderboard’s “Overall coverage → All models” setting ranks every tracked model by its available-source meta score. Those ranks are not official; coverage still varies and missing sources are not imputed.</span>
+          </li>
+        </ul>
+      </div>
+
+      <div>
+        <h2 class="display text-4xl">What this is not</h2>
+        <ul class="mt-4 space-y-3 text-xs leading-6 text-muted">
+          <li><strong class="text-ink">Not an absolute capability score.</strong> Percentiles depend on the tracked pool and the benchmark's difficulty.</li>
+          <li><strong class="text-ink">Not a product recommendation.</strong> Cost, latency, privacy, tooling, and reliability are not in the meta score.</li>
+          <li><strong class="text-ink">Not immune to overlap.</strong> Artificial Analysis and LiveBench are composite indexes. Each is counted once, but some of their ingredients appear as separate sources too.</li>
+          <li><strong class="text-ink">Not harness-neutral.</strong> Coding and agentic results can depend on Claude Code, Codex, mini-swe-agent, OpenHands, or another scaffold. The harness is shown for every result.</li>
+          <li><strong class="text-ink">Not financial advice.</strong> Obviously.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="mt-16 max-w-4xl">
+      <h2 class="display text-4xl">Category mapping</h2>
+      <p class="mt-2 text-xs leading-5 text-muted">
+        A source can contribute to more than one category, but only once to the overall score.
+      </p>
+      <div class="mt-5 grid gap-3 sm:grid-cols-2">
+        {CATEGORY_ORDER.map((category) => (
+          <div class="surface-card rounded-2xl p-5">
+            <div class="flex items-center justify-between">
+              <h3 class="text-sm font-semibold">{CATEGORY_COPY[category].label}</h3>
+              <span class="num text-[10px] text-muted">{leaderboard.categorySources[category].length} sources</span>
+            </div>
+            <p class="mt-1.5 text-[11px] leading-5 text-muted">{CATEGORY_COPY[category].description}</p>
+            <div class="mt-3 flex flex-wrap gap-1.5">
+              {leaderboard.categorySources[category].map((sourceId) => {
+                const source = leaderboard.sources.find((item) => item.id === sourceId);
+                return source ? (
+                  <span class="rounded-full border border-line bg-wash/40 px-2 py-0.5 text-[10px] text-muted">{source.shortName}</span>
+                ) : null;
+              })}
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <section class="mt-16 max-w-4xl">
+      <h2 class="display text-4xl">Refresh and validation</h2>
+      <p class="mt-3 text-xs leading-6 text-muted">
+        The site is a pre-rendered Astro build. Data is refreshed manually with a script, stored as
+        dated snapshots, and baked into the next build. If a fetch fails, the last good snapshot is
+        kept and the source is marked stale rather than silently dropping it.
+      </p>
+      <div class="mt-5 overflow-hidden rounded-2xl border border-line bg-surface/60">
+        <div class="border-b border-line px-5 py-3 text-[10px] uppercase tracking-[0.14em] text-muted">Local commands</div>
+        <pre class="overflow-x-auto p-5 font-mono text-xs leading-7"><code>npm run data:refresh   # fetch all sources, rebuild the dataset
+npm run data:check     # validate coverage, ranks, and source snapshots
+npm run dev            # preview the static site locally
+npm run build          # generate the static dist/ output</code></pre>
+      </div>
+      <p class="mt-4 text-[11px] leading-5 text-muted/70">
+        LMArena Text and Code Arena are protected by Cloudflare; their refresh path uses a headless
+        browser. The other sources are fetched from public HTML, JSON, or API endpoints.
+      </p>
+    </section>
+
+    <div class="mt-16 flex flex-col justify-between gap-4 border-t border-line pt-6 sm:flex-row sm:items-center">
+      <p class="text-[11px] text-muted/70">
+        Source data belongs to the respective benchmark providers. This project displays scores with
+        attribution and is not affiliated with any of them.
+      </p>
+      <a href="/#leaderboard" class="inline-flex items-center gap-1 text-xs text-accent hover:underline">
+        Back to the ranking <span aria-hidden="true">↗</span>
+      </a>
+    </div>
+  </article>
+</Base>

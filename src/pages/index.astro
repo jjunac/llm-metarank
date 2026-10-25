@@ -1,0 +1,265 @@
+---
+import Base from "../layouts/Base.astro";
+import Leaderboard from "../components/Leaderboard";
+import { leaderboard } from "../lib/data";
+import { CATEGORY_COPY, CATEGORY_ORDER, formatDate, formatScore } from "../lib/format";
+import { Badge, ModelAvatar } from "../components/ui";
+
+const ranked = leaderboard.models.filter((model) => model.status === "ranked");
+const topThree = ranked.slice(0, 3);
+const updated = formatDate(leaderboard.generatedAt.slice(0, 10));
+const categoryLabel = (category: string) =>
+  CATEGORY_COPY[category as keyof typeof CATEGORY_COPY]?.label ?? category;
+---
+
+<Base
+  title="LLM MetaRank — The meta ranking for AI models"
+  description="A Metacritic-style meta ranking for large language models, built from ten independent benchmarks and normalized into one relative score."
+  data={leaderboard}
+>
+  <section class="paper-grid border-b border-line">
+    <div class="container-page py-16 sm:py-24">
+      <div class="grid gap-12 lg:grid-cols-[1.45fr_0.75fr] lg:items-end">
+        <div>
+          <div class="mb-5 flex flex-wrap items-center gap-2">
+            <span class="eyebrow">Ten leaderboards. One relative score.</span>
+            <span class="inline-flex items-center gap-1.5 rounded-full border border-line bg-surface/60 px-2.5 py-1 text-[10px] text-muted">
+              <span class="h-1.5 w-1.5 rounded-full bg-emerald-500"></span>
+              Updated {updated}
+            </span>
+          </div>
+          <h1 class="display max-w-4xl text-6xl leading-[0.92] sm:text-7xl lg:text-[6.4rem]">
+            The <span class="italic text-accent">meta</span> ranking
+            <br class="hidden sm:block" /> for AI models.
+          </h1>
+          <p class="mt-7 max-w-2xl text-base leading-7 text-muted sm:text-lg sm:leading-8">
+            One score, compiled from ten independent benchmarks — coding, agentic work, reasoning,
+            and human preference. No single leaderboard gets the final word.
+          </p>
+          <div class="mt-8 flex flex-wrap items-center gap-3">
+            <a
+              href="#leaderboard"
+              class="focus-ring inline-flex items-center gap-2 rounded-full bg-ink px-5 py-3 text-xs font-semibold text-paper transition-transform hover:-translate-y-0.5"
+            >
+              Explore the ranking
+              <span aria-hidden="true">↓</span>
+            </a>
+            <a
+              href="#frontier"
+              class="focus-ring inline-flex items-center gap-2 rounded-full border border-line bg-surface/60 px-5 py-3 text-xs font-medium text-muted transition-colors hover:border-ink hover:text-ink"
+            >
+              Explore the cost frontier
+              <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-3 gap-3 lg:grid-cols-1">
+          <div class="surface-card rounded-2xl p-4">
+            <div class="eyebrow mb-2">Ranked models</div>
+            <div class="num text-3xl">{leaderboard.rankedModelCount}</div>
+            <p class="mt-1 text-[10px] text-muted">with 5+ sources</p>
+          </div>
+          <div class="surface-card rounded-2xl p-4">
+            <div class="eyebrow mb-2">Sources</div>
+            <div class="num text-3xl">{leaderboard.sourceCount}</div>
+            <p class="mt-1 text-[10px] text-muted">active benchmarks</p>
+          </div>
+          <div class="surface-card rounded-2xl p-4">
+            <div class="eyebrow mb-2">Model pool</div>
+            <div class="num text-3xl">{leaderboard.trackedModelCount}</div>
+            <p class="mt-1 text-[10px] text-muted">tracked models</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container-page py-14 sm:py-20">
+    <div class="mb-6 flex flex-col justify-between gap-3 sm:flex-row sm:items-end">
+      <div>
+        <div class="eyebrow mb-2">Top of the meta ranking</div>
+        <h2 class="display text-4xl leading-none sm:text-5xl">The front runners.</h2>
+      </div>
+      <p class="max-w-md text-xs leading-5 text-muted">
+        Ranked by the default equal-weight meta score. Open a row in the leaderboard for the full
+        benchmark-by-benchmark audit trail.
+      </p>
+    </div>
+
+    <div class="grid gap-4 md:grid-cols-3">
+      {topThree.map((model, index) => (
+        <a
+          href="#leaderboard"
+          class:list={[
+            "group relative overflow-hidden rounded-2xl border p-5 transition-transform hover:-translate-y-1",
+            index === 0
+              ? "border-ink bg-ink text-paper md:col-span-1"
+              : "border-line bg-surface/70 text-ink",
+          ]}
+        >
+          <div class="flex items-start justify-between gap-3">
+            <span class:list={["num text-xs", index === 0 ? "text-paper/60" : "text-muted"]}>
+              #{model.rank}
+            </span>
+            <span
+              class:list={[
+                "rounded-full border px-2 py-0.5 text-[10px]",
+                index === 0 ? "border-paper/20 text-paper/70" : "border-line text-muted",
+              ]}
+            >
+              {model.coverage.used}/{model.coverage.total} sources
+            </span>
+          </div>
+
+          <div class="mt-8 flex items-center gap-3">
+            <ModelAvatar name={model.name} vendor={model.vendor} size="lg" />
+            <div>
+              <div class="display text-2xl leading-none">{model.name}</div>
+              <div class:list={["mt-1 text-[10px]", index === 0 ? "text-paper/60" : "text-muted"]}>
+                {model.vendor}
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-6 flex items-end justify-between gap-4">
+            <div>
+              <div class:list={["eyebrow mb-1", index === 0 ? "text-paper/50" : ""]}>Meta score</div>
+              <div class="num text-5xl leading-none tracking-[-0.08em]">{formatScore(model.overall)}</div>
+            </div>
+            <div class="flex items-end gap-1.5">
+              {CATEGORY_ORDER.map((category) => {
+                const value = model.categories[category].score;
+                return (
+                  <div class="w-6 text-center">
+                    <div class:list={["mx-auto w-2 rounded-t-sm", index === 0 ? "bg-paper/70" : "bg-accent"]} style={`height: ${Math.max(4, (value ?? 0) * 0.55)}px`}></div>
+                    <div class:list={["mt-1 text-[8px] uppercase", index === 0 ? "text-paper/40" : "text-muted/60"]}>
+                      {CATEGORY_COPY[category].label.slice(0, 3)}
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+
+          <div class:list={["mt-5 flex flex-wrap gap-1.5", index === 0 ? "text-paper/70" : "text-muted"]}>
+            {CATEGORY_ORDER.filter((category) => model.categories[category].score !== null)
+              .slice(0, 3)
+              .map((category) => (
+                <span class:list={["rounded-full border px-2 py-0.5 text-[10px]", index === 0 ? "border-paper/15" : "border-line"]}>
+                  {CATEGORY_COPY[category].label} {formatScore(model.categories[category].score)}
+                </span>
+              ))}
+          </div>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <Leaderboard client:load data={leaderboard} />
+
+  <section id="sources" class="border-y border-line bg-surface/35">
+    <div class="container-page py-14 sm:py-20">
+      <div class="mb-8 grid gap-4 md:grid-cols-[1fr_1fr] md:items-end">
+        <div>
+          <div class="eyebrow mb-2">The scorecard</div>
+          <h2 class="display text-4xl leading-none sm:text-5xl">Ten sources.<br />No single benchmark wins.</h2>
+        </div>
+        <p class="max-w-lg text-sm leading-6 text-muted md:justify-self-end">
+          The set mixes expert-written evals, real software tasks, agentic environments, and human
+          preference. Each source contributes one percentile; composites are marked so their overlap
+          is visible.
+        </p>
+      </div>
+
+      <div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-2">
+        {leaderboard.sources.map((source) => (
+          <a
+            href={source.url}
+            target="_blank"
+            rel="noreferrer"
+            class="group surface-card flex flex-col justify-between rounded-2xl p-4 transition-colors hover:border-ink/30"
+          >
+            <div class="flex items-start justify-between gap-4">
+              <div class="flex items-start gap-3">
+                <span class="mt-1 h-2.5 w-2.5 shrink-0 rounded-full" style={`background:${source.accent}`}></span>
+                <div>
+                  <div class="flex flex-wrap items-center gap-2">
+                    <h3 class="text-sm font-semibold">{source.name}</h3>
+                    {source.composite && <Badge>composite</Badge>}
+                  </div>
+                  <p class="mt-1 max-w-lg text-[11px] leading-5 text-muted">{source.description}</p>
+                </div>
+              </div>
+              <span class="text-muted/40 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5">↗</span>
+            </div>
+            <div class="mt-4 flex flex-wrap items-center gap-x-3 gap-y-1 text-[10px] text-muted/80">
+              {Object.keys(source.categories).map((category) => (
+                <span class="rounded-full border border-line bg-wash/40 px-2 py-0.5">
+                  {categoryLabel(category)}
+                </span>
+              ))}
+              <span class="ml-auto num">Data {formatDate(source.dataDate)}</span>
+              <span class="inline-flex items-center gap-1">
+                <span class:list={["h-1.5 w-1.5 rounded-full", source.status === "current" ? "bg-emerald-500" : "bg-amber-500"]}></span>
+                {source.status}
+              </span>
+            </div>
+            <p class="mt-2 text-[10px] text-muted/70">
+              Task cost: {source.costCoverage.status.replace("-", " ")} · {source.costCoverage.mappedModels}/{source.mappedCount} tracked models
+              {source.costCoverage.statistics.includes("median") ? " · P50 · single-benchmark only" : ""}
+              {source.costCoverage.runTotalEntries > 0 ? " · run totals only" : ""}
+            </p>
+          </a>
+        ))}
+      </div>
+
+      <p class="mt-5 max-w-3xl text-[11px] leading-5 text-muted/70">
+        Artificial Analysis and LiveBench are composite indexes; each is counted once in the overall
+        score, and their overlap is documented in the methodology.
+      </p>
+    </div>
+  </section>
+
+  <section class="container-page py-14 sm:py-20">
+    <div class="grid gap-10 lg:grid-cols-[0.8fr_1.2fr]">
+      <div>
+        <div class="eyebrow mb-2">Methodology, in one breath</div>
+        <h2 class="display text-4xl leading-none sm:text-5xl">Relative, not absolute.</h2>
+        <p class="mt-4 max-w-md text-sm leading-6 text-muted">
+          Elo ratings, percentages, and composite indexes cannot be averaged directly. We convert
+          every benchmark to a percentile rank, then take a weighted average of what is available.
+        </p>
+        <a href="/methodology" class="mt-6 inline-flex items-center gap-2 rounded-full border border-line px-4 py-2.5 text-xs text-muted transition-colors hover:border-ink hover:text-ink">
+          Read the full methodology <span aria-hidden="true">↗</span>
+        </a>
+      </div>
+
+      <div class="grid gap-3 sm:grid-cols-3">
+        <div class="surface-card rounded-2xl p-5">
+          <div class="num text-xs text-accent">01</div>
+          <h3 class="mt-4 text-sm font-semibold">Normalize</h3>
+          <p class="mt-2 text-[11px] leading-5 text-muted">
+            Each raw score becomes a 0–100 percentile within that source’s tracked model pool.
+          </p>
+        </div>
+        <div class="surface-card rounded-2xl p-5">
+          <div class="num text-xs text-accent">02</div>
+          <h3 class="mt-4 text-sm font-semibold">Cover</h3>
+          <p class="mt-2 text-[11px] leading-5 text-muted">
+            A model needs five sources, including general and coding signal, to receive an overall
+            rank. Missing sources are not imputed.
+          </p>
+        </div>
+        <div class="surface-card rounded-2xl p-5">
+          <div class="num text-xs text-accent">03</div>
+          <h3 class="mt-4 text-sm font-semibold">Average</h3>
+          <p class="mt-2 text-[11px] leading-5 text-muted">
+            The overall score is an equal-weight average of source percentiles. Category tabs use only
+            their relevant benchmarks.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+</Base>

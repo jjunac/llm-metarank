@@ -1,0 +1,152 @@
+---
+import "@fontsource-variable/inter";
+import "@fontsource/instrument-serif";
+import "@fontsource-variable/jetbrains-mono";
+import "../styles/global.css";
+import type { LeaderboardDataset } from "../../scripts/types";
+import { formatDate } from "../lib/format";
+
+interface Props {
+  title?: string;
+  description?: string;
+  data?: LeaderboardDataset;
+}
+
+const {
+  title = "LLM MetaRank — The meta ranking for AI models",
+  description = "A Metacritic-style meta ranking for large language models, built from ten independent benchmarks.",
+  data,
+} = Astro.props;
+
+const updated = data ? formatDate(data.generatedAt.slice(0, 10)) : null;
+---
+
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#f5f3ed" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <title>{title}</title>
+    <script is:inline>
+      (() => {
+        const root = document.documentElement;
+        const stored = localStorage.getItem("theme");
+        const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+        root.dataset.theme = stored || (prefersDark ? "dark" : "light");
+
+        const applyLabel = () => {
+          const button = document.getElementById("theme-toggle");
+          if (button) {
+            const isDark = root.dataset.theme === "dark";
+            button.textContent = isDark ? "Light" : "Dark";
+            button.setAttribute("aria-label", isDark ? "Switch to light theme" : "Switch to dark theme");
+          }
+        };
+
+        window.addEventListener("DOMContentLoaded", () => {
+          applyLabel();
+          document.getElementById("theme-toggle")?.addEventListener("click", () => {
+            root.dataset.theme = root.dataset.theme === "dark" ? "light" : "dark";
+            localStorage.setItem("theme", root.dataset.theme);
+            applyLabel();
+          });
+        });
+      })();
+    </script>
+  </head>
+  <body class="min-h-screen font-sans">
+    <header class="relative z-20 border-b border-line bg-paper/80 backdrop-blur">
+      <div class="container-page flex h-16 items-center justify-between gap-4">
+        <a href="/" class="group flex items-center gap-3 focus-ring" aria-label="LLM MetaRank home">
+          <span class="relative flex h-8 w-8 items-center justify-center overflow-hidden rounded-full border border-ink bg-ink text-paper">
+            <span class="absolute inset-x-0 top-1/2 h-px bg-paper/40"></span>
+            <span class="relative -translate-y-0.5 font-mono text-[10px] font-semibold tracking-tighter">MR</span>
+          </span>
+          <span class="flex items-baseline gap-1.5">
+            <span class="text-sm font-semibold tracking-tight">LLM MetaRank</span>
+            <span class="hidden text-[10px] uppercase tracking-[0.14em] text-muted sm:inline">beta</span>
+          </span>
+        </a>
+
+        <nav class="hidden items-center gap-6 text-xs font-medium text-muted md:flex" aria-label="Main navigation">
+          <a href="/#leaderboard" class="transition-colors hover:text-ink">Leaderboard</a>
+          <a href="/#frontier" class="transition-colors hover:text-ink">Cost frontier</a>
+          <a href="/#sources" class="transition-colors hover:text-ink">Sources</a>
+          <a href="/methodology" class="transition-colors hover:text-ink">Methodology</a>
+        </nav>
+
+        <div class="flex items-center gap-3">
+          {updated && (
+            <span class="hidden items-center gap-1.5 text-[11px] text-muted sm:flex">
+              <span class="h-1.5 w-1.5 rounded-full bg-emerald-500"></span>
+              Updated {updated}
+            </span>
+          )}
+          <a href="/methodology" class="text-[11px] text-muted transition-colors hover:text-ink md:hidden">
+            Methodology
+          </a>
+          <button
+            id="theme-toggle"
+            type="button"
+            class="focus-ring rounded-full border border-line px-3 py-1.5 text-[11px] font-medium text-muted transition-colors hover:border-ink hover:text-ink"
+            aria-label="Toggle theme"
+          >
+            Dark
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <slot />
+    </main>
+
+    <footer class="border-t border-line bg-surface/50">
+      <div class="container-page py-10">
+        <div class="grid gap-8 md:grid-cols-[1.2fr_1fr]">
+          <div>
+            <div class="mb-3 flex items-center gap-2">
+              <span class="h-2 w-2 rounded-full bg-accent"></span>
+              <span class="eyebrow">About this project</span>
+            </div>
+            <p class="max-w-xl text-sm leading-6 text-muted">
+              LLM MetaRank compiles publicly displayed scores from independent leaderboards into one
+              relative score. It is an editorial aggregation, not an official benchmark, and it is not
+              affiliated with any of the source providers.
+            </p>
+            <p class="mt-3 max-w-xl text-xs leading-5 text-muted/80">
+              A meta score answers “how highly do these benchmarks rank this model relative to its
+              peers?” It does not measure absolute capability or fitness for a specific product.
+              Measured task costs are compared separately in the Pareto frontier.
+            </p>
+          </div>
+          <div>
+            <div class="eyebrow mb-3">Data sources</div>
+            <ul class="grid grid-cols-1 gap-x-5 gap-y-2 text-xs text-muted sm:grid-cols-2">
+              {data?.sources.map((source) => (
+                <li>
+                  <a
+                    href={source.url}
+                    target="_blank"
+                    rel="noreferrer"
+                    class="group inline-flex items-center gap-1.5 transition-colors hover:text-ink"
+                  >
+                    <span class="truncate">{source.shortName}</span>
+                    <span class="text-muted/50 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5">↗</span>
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+        <div class="mt-8 flex flex-col gap-2 border-t border-line pt-5 text-[11px] text-muted/70 sm:flex-row sm:items-center sm:justify-between">
+          <span>© 2026 LLM MetaRank. Local-first static build.</span>
+          <span class="font-mono">methodology v{data?.methodologyVersion ?? "1.0"}</span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
