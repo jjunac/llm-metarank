@@ -7,7 +7,7 @@
     "access": "html",
     "metricLabel": "Intelligence Index",
     "scoreType": "index",
-    "description": "A composite of ten challenging evaluations covering reasoning, science, coding, and long-horizon work. The public page exposes a 27-model highlighted set; the full model dataset requires an API key.",
+    "description": "A composite of challenging evaluations covering reasoning, science, coding, and long-horizon work. Uses the highlighted model set on the public page; the full model dataset requires an API key.",
     "categories": {
       "general": "overall",
       "reasoning": "overall"
@@ -15,7 +15,7 @@
     "weight": 1,
     "composite": true,
     "accent": "#f97316",
-    "note": "Composite index. Includes several benchmarks that also appear separately on this site; it is counted once in the overall score. Uses the 27-model set available on the public leaderboard page.",
+    "note": "Composite index. Includes several benchmarks that also appear separately on this site; it is counted once in the overall score. The public highlighted set can change as models are added.",
     "costMethodology": {
       "statistic": "weighted-mean",
       "url": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index#cost",

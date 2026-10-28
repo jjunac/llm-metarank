@@ -1,5 +1,6 @@
 import type { TaskCost } from "../types.js";
 import { nonNegative } from "./cost.js";
+export { extractNextPayload, extractJsonProperty } from "./next-data.js";
 
 export const AA_COST_METHODOLOGY_URL = "https://artificialanalysis.ai/methodology/intelligence-benchmarking";
 
@@ -55,38 +56,6 @@ export interface AAModel {
   cacheHitPrice?: number | null;
   cacheWritePrice?: number | null;
   cacheHitRate?: number | null;
-}
-
-export function extractNextPayload(html: string): string {
-  const parts = [...html.matchAll(/self\.__next_f\.push\(\[1,"((?:[^"\\]|\\.)*)"\]\)/gs)];
-  if (!parts.length) throw new Error("Artificial Analysis: no Next.js payload found");
-  return parts.map((match) => JSON.parse(`"${match[1]}"`) as string).join("");
-}
-
-/** Extract an embedded JSON object/array without evaluating any website JavaScript. */
-export function extractJsonProperty<T>(payload: string, key: string): T | undefined {
-  const marker = `"${key}":`;
-  const markerIndex = payload.indexOf(marker);
-  if (markerIndex < 0) return undefined;
-  const start = markerIndex + marker.length;
-  if (payload[start] !== "[" && payload[start] !== "{") return undefined;
-  let depth = 0;
-  let inString = false;
-  let escaped = false;
-  for (let index = start; index < payload.length; index += 1) {
-    const char = payload[index];
-    if (inString) {
-      if (escaped) escaped = false;
-      else if (char === "\\") escaped = true;
-      else if (char === '"') inString = false;
-    } else if (char === '"') inString = true;
-    else if (char === "[" || char === "{") depth += 1;
-    else if (char === "]" || char === "}") {
-      depth -= 1;
-      if (depth === 0) return JSON.parse(payload.slice(start, index + 1)) as T;
-    }
-  }
-  throw new Error(`Artificial Analysis: could not parse ${key}`);
 }
 
 function validPrices(prices: Prices): boolean {

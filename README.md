@@ -10,8 +10,8 @@ one relative score. The site is pre-rendered with Astro and has no backend.
   views.
 - **Coverage-gated ranks**: a model needs at least 5 of 10 sources, including one general and one
   coding source, to receive an official overall rank. Category ranks require at least 2 sources.
-  The leaderboard can remove the five-source floor to rank all tracked models by available-source
-  score; those ranks are not official and coverage varies.
+  The leaderboard defaults to ranking all tracked models by available-source score; those ranks are
+  not official and coverage varies. Switching to 5+ sources shows only official overall ranks.
 - **Audit trail**: every model row opens a breakdown with raw score, percentile, rank, harness /
   variant, data date, and source link.
 - **Source status**: data date, row counts, and stale-source warnings are visible on the page.
@@ -41,7 +41,7 @@ See `/methodology` for category mappings, coverage rules, and caveats.
 
 ```bash
 npm install
-npx playwright install chromium   # only needed for the LMArena / Code Arena fetchers
+npx playwright install chromium   # full Chromium needed for the LMArena / Code Arena fetchers
 
 npm run data:refresh              # fetch all sources, write snapshots, rebuild data/leaderboard.json
 npm run data:build                # rebuild data/leaderboard.json from existing snapshots
@@ -86,12 +86,13 @@ product recommendation, or a cost/value score.
 
 Costs stay separate from capability ranks. The matched-basket view computes a separate frontier for
 every supported combination of mean-cost sources. The default overall basket is currently
-**Artificial Analysis + LiveBench**, the largest eligible set at build time; adding Terminal-Bench
-gives the strict three-source basket. A model needs usable paired score/cost observations for every
+**LiveBench + Terminal-Bench**, the largest eligible set at build time. Artificial Analysis v5.0
+scores are collected, but its costs are excluded until the new methodology is audited; v4.3.2 costs
+are not reused with newer scores. A model needs usable paired score/cost observations for every
 source in the selected basket. The overall view also supports a single benchmark, including
 P50-only Arena sources; median costs are never pooled into a multi-source basket. Category views
-have one fixed basket because the category mapping determines the sources. The Y-axis is a
-percentile average over the same selected sources, not the ten-source overall score.
+use their available sources, falling back to a single benchmark when a matched basket is unavailable.
+The Y-axis is a percentile average over the same selected sources, not the ten-source overall score.
 
 ```text
 reference(s) = median usable task cost of the tracked best-score runs for source s
@@ -109,10 +110,7 @@ for audit but are not plotted.
 
 | Overall basket | Eligible models | Non-dominated |
 |---|---:|---:|
-| Artificial Analysis + LiveBench (default) | 22 | 8 |
-| LiveBench + Terminal-Bench | 12 | 5 |
-| Artificial Analysis + Terminal-Bench | 11 | 5 |
-| Artificial Analysis + LiveBench + Terminal-Bench | 10 | 5 |
+| LiveBench + Terminal-Bench (default) | 12 | 5 |
 
 The counts above reflect the current dataset; `npm run data:check` prints the same table. In addition,
 the overall view can show any single cost-bearing benchmark on its own; these single-benchmark
@@ -179,12 +177,24 @@ src/
 ## Refresh behavior
 
 `npm run data:refresh` fetches each source, writes a dated snapshot and `latest.json`, then rebuilds
-`data/leaderboard.json`. If a fetch fails, the previous `latest.json` is kept and the source is marked
-stale. The build still succeeds so a temporary source outage does not take the site down.
+`data/leaderboard.json`. Results are downloaded on every run, even when the benchmark release has not
+changed. Dated snapshot filenames are retrieval dates, not benchmark releases.
 
-LMArena Text and Code Arena are protected by Cloudflare. Their fetchers use a headless Chromium
-browser with a public-DNS fallback when the sandbox resolver fails; if the environment blocks it,
-the last good snapshot is retained. The other sources use public HTML, JSON, or API endpoints.
+LiveBench's benchmark release is stored separately from its results update date (the score file's
+HTTP `Last-Modified`). Scale uses the latest published result timestamp or page update date for the
+selected leaderboard variant, not unrelated metadata or another benchmark tab. Model release dates
+are not treated as result dates. When an update date is unknown, the site labels the date as fetched.
+
+If a fetch fails or returns empty, invalid, or incomplete results, the previous good `latest.json` is
+kept and the source is marked stale. The dataset is still rebuilt so an outage does not take the site
+down, but the refresh command reports failed sources and exits nonzero. Unregistered model names are
+printed during refresh; use `npm run data:review` and update `data/models.json` to track new models.
+
+LMArena Text and Code Arena are protected by Cloudflare. Their fetchers use full Chromium's modern
+headless mode (`channel: "chromium"`), not the legacy headless shell, with a public-DNS fallback when
+the sandbox resolver fails. Blocked navigations and partially loaded tables are failures; if the
+environment blocks access, the last good snapshot is retained. The other sources use public HTML,
+JSON, or API endpoints.
 
 ## Notes on data
 

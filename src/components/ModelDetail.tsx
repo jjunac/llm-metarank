@@ -243,7 +243,7 @@ export default function ModelDetail({
                         <span>
                           #{entry.rankInSource} of {entry.sourceSize} tracked
                         </span>
-                        <span>Data {formatDate(source.dataDate)}</span>
+                        <span>{source.sourceUpdatedAt ? "Data" : "Fetched"} {formatDate(source.dataDate)}</span>
                        </div>
                       {entry.cost ? <TaskCostDetail cost={entry.cost} /> : (
                         <div className="mt-3 border-t border-line/70 pt-2 text-[10px] leading-5 text-muted/80">

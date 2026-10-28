@@ -109,7 +109,7 @@ function main(): void {
 
     if (new Set(baskets.map((basket) => basket.id)).size !== baskets.length) errors.push(`${scope}: duplicate cost basket ids.`);
     if (baskets.length > 0 && !defaultId) errors.push(`${scope}: cost basket has no default.`);
-    if (defaultId && !views[defaultId]) errors.push(`${scope}: default cost basket ${defaultId} has no frontier.`);
+    if (defaultId && !views[defaultId] && !dataset.costAnalysis.singleSourceFrontiers[scope]?.[defaultId]) errors.push(`${scope}: default cost selection ${defaultId} has no frontier.`);
 
     for (const basket of baskets) {
       if (basket.id !== canonicalBasketId(basket.sourceIds)) errors.push(`${scope}/${basket.id}: basket id is not canonical.`);

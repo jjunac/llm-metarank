@@ -15,6 +15,9 @@ describe("canonical model registry", () => {
       ["Claude Fable 5.1 (Max, Default Fallback)", "claude-fable-5-1"],
       ["GPT-6 Astra (Codex) high", "gpt-6-astra"],
       ["OpenAI GPT-6 Astra", "gpt-6-astra"],
+      ["gpt-6.1-terra", "gpt-6-1-terra"],
+      ["GPT-6.1 Terra (Max)", "gpt-6-1-terra"],
+      ["GPT-6.1 Terra (Codex) xhigh", "gpt-6-1-terra"],
       ["gpt-5.6 (sol)", "gpt-5-6-sol"],
       ["Gemini Argon 4", "gemini-4-argon"],
       ["Gemini 4 Argon (High)", "gemini-4-argon"],
@@ -40,6 +43,8 @@ describe("canonical model registry", () => {
     expect(matchModel(registry, "Claude Fable 5.1")).toBe("claude-fable-5-1");
     expect(matchModel(registry, "GPT-6 Sol")).toBe("gpt-6-sol");
     expect(matchModel(registry, "GPT-6.1 Sol")).toBe("gpt-6-1-sol");
+    expect(matchModel(registry, "GPT-6.1 Terra")).toBe("gpt-6-1-terra");
+    expect(matchModel(registry, "GPT-5.6 Terra")).toBe("gpt-5-6-terra");
   });
 
   it("ignores unknown legacy models", () => {

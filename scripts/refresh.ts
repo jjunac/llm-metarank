@@ -1,6 +1,8 @@
 import { resolve } from "node:path";
 import type { SourceConfig, SourceSnapshot } from "./types.js";
-import { DATA_DIR, SNAPSHOT_DIR, nowISO, readJson, todayISO, writeJson } from "./util.js";
+import { DATA_DIR, readJson } from "./util.js";
+import { refreshSource } from "./refresh-source.js";
+import { loadModelRegistry, matchModel } from "./normalize/models.js";
 import { fetchArtificialAnalysis } from "./fetch/artificial-analysis.js";
 import { fetchLiveBench } from "./fetch/livebench.js";
 import { fetchLmArenaText, fetchCodeArenaWebdev } from "./fetch/arena.js";
@@ -22,14 +24,6 @@ const FETCHERS: Record<string, () => Promise<SourceSnapshot>> = {
   "mcp-atlas": fetchMcpAtlas,
 };
 
-async function loadPrevious(sourceId: string): Promise<SourceSnapshot | null> {
-  try {
-    return await readJson<SourceSnapshot>(resolve(SNAPSHOT_DIR, sourceId, "latest.json"));
-  } catch {
-    return null;
-  }
-}
-
 async function main(): Promise<void> {
   const args = new Set(process.argv.slice(2));
   const fetchOnly = args.has("--fetch-only");
@@ -42,31 +36,27 @@ async function main(): Promise<void> {
     throw new Error(`Unknown source "${only}"`);
   }
 
-  const snapshots: SourceSnapshot[] = [];
-  const date = todayISO();
+  const registry = await loadModelRegistry();
+  const failed: string[] = [];
 
   for (const source of selected) {
     const fetcher = FETCHERS[source.id];
     if (!fetcher) throw new Error(`No fetcher registered for ${source.id}`);
 
     process.stdout.write(`\n→ ${source.shortName}... `);
-    try {
-      const snapshot = await fetcher();
-      snapshot.fetchedAt = snapshot.fetchedAt || nowISO();
-      await writeJson(resolve(SNAPSHOT_DIR, source.id, "latest.json"), snapshot);
-      await writeJson(resolve(SNAPSHOT_DIR, source.id, `${date}.json`), snapshot);
-      snapshots.push(snapshot);
-      console.log(`${snapshot.entries.length} rows${snapshot.sourceUpdatedAt ? ` · data ${snapshot.sourceUpdatedAt}` : ""}`);
+    const result = await refreshSource(source.id, fetcher);
+    if (result.ok) {
+      const { snapshot } = result;
+      const mapped = new Set(snapshot.entries.map((entry) => matchModel(registry, entry.rawName)).filter(Boolean));
+      const unmapped = [...new Set(snapshot.entries.filter((entry) => !matchModel(registry, entry.rawName)).map((entry) => entry.rawName))];
+      console.log(`${snapshot.entries.length} rows · ${mapped.size} tracked models${snapshot.sourceUpdatedAt ? ` · data ${snapshot.sourceUpdatedAt}` : ""}${snapshot.benchmarkRelease ? ` · benchmark release ${snapshot.benchmarkRelease}` : ""}`);
       for (const warning of snapshot.warnings) console.log(`  ! ${warning}`);
-    } catch (error) {
-      const message = error instanceof Error ? error.message : String(error);
-      console.log(`FAILED: ${message}`);
-      const previous = await loadPrevious(source.id);
-      if (previous) {
-        previous.warnings = [...new Set([...previous.warnings, `Refresh failed ${nowISO()}: ${message}`])];
-        await writeJson(resolve(SNAPSHOT_DIR, source.id, "latest.json"), previous);
-        snapshots.push(previous);
-        console.log(`  using last good snapshot from ${previous.fetchedAt}`);
+      if (unmapped.length) console.log(`  ? ${unmapped.length} unregistered names: ${unmapped.slice(0, 5).join("; ")}${unmapped.length > 5 ? "; … (npm run data:review)" : ""}`);
+    } else {
+      failed.push(source.id);
+      console.log(`FAILED: ${result.error}`);
+      if (result.snapshot) {
+        console.log(`  using last good snapshot from ${result.snapshot.fetchedAt}`);
       } else {
         console.log("  no previous snapshot available");
       }
@@ -78,7 +68,8 @@ async function main(): Promise<void> {
     await buildDataset();
   }
 
-  console.log("\nRefresh complete.");
+  console.log(`\nRefresh complete: ${selected.length - failed.length}/${selected.length} sources refreshed.${failed.length ? ` Failed: ${failed.join(", ")}.` : ""}`);
+  if (failed.length) process.exitCode = 1;
 }
 
 main().catch((error) => {

@@ -42,7 +42,7 @@ const MONTHS: Record<string, string> = {
 
 /** Finds dates like "September 22, 2026", "2026-09-22", or "Sep 22, 2026". */
 export function findDate(text: string): string | undefined {
-  const iso = text.match(/\b(20\d{2}-\d{2}-\d{2})\b/);
+  const iso = text.match(/\b(20\d{2}-\d{2}-\d{2})(?=T|\b)/);
   if (iso) return iso[1];
 
   const long = text.match(
@@ -89,8 +89,16 @@ export async function writeJson(path: string, value: unknown): Promise<void> {
 export async function fetchText(
   url: string,
   init: RequestInit = {},
-  { retries = 3, timeoutMs = 45_000 }: { retries?: number; timeoutMs?: number } = {},
+  options: { retries?: number; timeoutMs?: number } = {},
 ): Promise<string> {
+  return (await fetchTextWithMetadata(url, init, options)).text;
+}
+
+export async function fetchTextWithMetadata(
+  url: string,
+  init: RequestInit = {},
+  { retries = 3, timeoutMs = 45_000 }: { retries?: number; timeoutMs?: number } = {},
+): Promise<{ text: string; lastModified?: string }> {
   let lastError: unknown;
   for (let attempt = 0; attempt <= retries; attempt += 1) {
     try {
@@ -107,7 +115,12 @@ export async function fetchText(
       if (!response.ok) {
         throw new Error(`${url} returned HTTP ${response.status}`);
       }
-      return await response.text();
+      const modified = response.headers.get("last-modified");
+      const timestamp = modified ? Date.parse(modified) : NaN;
+      return {
+        text: await response.text(),
+        lastModified: Number.isFinite(timestamp) ? new Date(timestamp).toISOString() : undefined,
+      };
     } catch (error) {
       lastError = error;
       if (attempt < retries) {

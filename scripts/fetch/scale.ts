@@ -6,26 +6,17 @@ async function fetchScaleSnapshot(
   sourceId: string,
   url: string,
   expectMinRows: number,
-  options: { createdAtFallback?: boolean } = {},
 ): Promise<SourceSnapshot> {
-  const html = await fetchText(url);
+  const html = await fetchText(url, { cache: "no-cache" });
   const parsed = parseScaleLeaderboard(html, url);
-  let sourceUpdatedAt = parsed.sourceUpdatedAt;
-  if (options.createdAtFallback) {
-    const dates = [...html.matchAll(/createdAt\\?":\\?"(20\d{2}-\d{2}-\d{2})/g)]
-      .map((match) => match[1])
-      .sort()
-      .reverse();
-    if (dates[0]) sourceUpdatedAt = dates[0];
-  }
   const warnings = [...parsed.warnings];
   if (parsed.entries.length < expectMinRows) {
-    warnings.push(`Expected at least ${expectMinRows} rows, found ${parsed.entries.length}.`);
+    throw new Error(`Scale: incomplete leaderboard; expected at least ${expectMinRows} rows, found ${parsed.entries.length}`);
   }
   return {
     sourceId,
     fetchedAt: nowISO(),
-    sourceUpdatedAt,
+    sourceUpdatedAt: parsed.sourceUpdatedAt,
     url,
     entries: parsed.entries,
     warnings,
@@ -58,6 +49,5 @@ export function fetchMcpAtlas(): Promise<SourceSnapshot> {
     "mcp-atlas",
     "https://labs.scale.com/leaderboard/mcp_atlas",
     15,
-    { createdAtFallback: true },
   );
 }

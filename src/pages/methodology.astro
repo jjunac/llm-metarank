@@ -120,10 +120,9 @@ matched_score(m, b) = Σ w_s × percentile(s, m) / Σ w_s</code></pre>
         </table>
       </div>
       <p class="mt-3 text-[11px] leading-5 text-muted">
-        Only the overall view lets you compose the selected set. General and reasoning use
-        Artificial Analysis + LiveBench; coding and agentic use LiveBench + Terminal-Bench. The
-        category mapping fixes those sources. In the overall view, any cost-bearing benchmark can
-        also be viewed alone.
+        Only the overall view lets you compose the selected set. Category views use the available
+        mean-cost sources in their category mapping, falling back to one benchmark when a matched
+        basket is unavailable. In the overall view, any cost-bearing benchmark can also be viewed alone.
       </p>
       <ul class="mt-4 space-y-3 text-xs leading-6 text-muted">
         <li><strong class="text-ink">One selection, one axis.</strong> The overall view starts on the largest eligible mean-cost basket, {basketLabel(leaderboard.costAnalysis.baskets.overall.find((basket) => basket.id === defaultOverallBasketId)?.sourceIds ?? [])}. Select one benchmark for its own frontier, or select two or more mean-cost benchmarks to compose a matched basket. Every point in a basket must have complete usable paired score and cost data for every selected benchmark. Each selection has its own fixed references, matched score and frontier membership; points from different selections are never plotted or ranked against each other.</li>
@@ -203,7 +202,8 @@ matched_score(m, b) = Σ w_s × percentile(s, m) / Σ w_s</code></pre>
                   </div>
                 </td>
                 <td class="whitespace-nowrap px-4 py-3.5 text-right text-[10px] text-muted">
-                  {formatDate(source.dataDate)}
+                  {source.sourceUpdatedAt ? "Data" : "Fetched"} {formatDate(source.dataDate)}
+                  {source.benchmarkRelease && <div class="mt-0.5 text-muted/60">Release {formatDate(source.benchmarkRelease)}</div>}
                   <div class="mt-0.5 text-muted/60">{source.status}</div>
                 </td>
                 <td class="px-4 py-3.5 text-right num text-[11px]">{source.weight.toFixed(1)}</td>
@@ -236,7 +236,7 @@ matched_score(m, b) = Σ w_s × percentile(s, m) / Σ w_s</code></pre>
           </li>
           <li class="flex gap-3">
             <span class="num text-accent">05</span>
-            <span><strong class="text-ink">Optional all-model view:</strong> the leaderboard’s “Overall coverage → All models” setting ranks every tracked model by its available-source meta score. Those ranks are not official; coverage still varies and missing sources are not imputed.</span>
+            <span><strong class="text-ink">All-model default:</strong> the leaderboard’s “Overall coverage → All models” setting ranks every tracked model by its available-source meta score. Those ranks are not official; coverage still varies and missing sources are not imputed. Switch to “5+ sources” to show only official overall ranks.</span>
           </li>
         </ul>
       </div>

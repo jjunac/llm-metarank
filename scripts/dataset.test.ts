@@ -1,8 +1,9 @@
 import { describe, expect, it } from "vitest";
 import { resolve } from "node:path";
-import type { LeaderboardDataset } from "./types.js";
+import type { LeaderboardDataset, SourceSnapshot } from "./types.js";
 import { DATA_DIR, readJson } from "./util.js";
 import { buildCostAnalysis, canonicalBasketId, isUsableTaskCost } from "./costs.js";
+import { loadModelRegistry, matchModel } from "./normalize/models.js";
 
 const dataset = await readJson<LeaderboardDataset>(resolve(DATA_DIR, "leaderboard.json"));
 
@@ -62,6 +63,19 @@ describe("generated leaderboard dataset", () => {
     }
   });
 
+  it("includes every registered model found in the refreshed source snapshots", async () => {
+    const registry = await loadModelRegistry();
+    for (const source of dataset.sources) {
+      const snapshot = await readJson<SourceSnapshot>(resolve(DATA_DIR, "snapshots", source.id, "latest.json"));
+      for (const entry of snapshot.entries) {
+        const id = matchModel(registry, entry.rawName);
+        if (!id) continue;
+        const model = dataset.models.find((model) => model.id === id);
+        expect(model?.sources.some((entry) => entry.sourceId === source.id), `${source.id}: ${entry.rawName}`).toBe(true);
+      }
+    }
+  });
+
   it("reproduces its matched-basket task-cost analysis without changing capability scores", () => {
     expect(buildCostAnalysis(dataset.models, dataset.sources)).toEqual(dataset.costAnalysis);
     for (const [scope, views] of Object.entries(dataset.costAnalysis.frontiers)) {
@@ -87,8 +101,10 @@ describe("generated leaderboard dataset", () => {
       }
     }
     for (const [scope, sourceIds] of Object.entries(dataset.costAnalysis.applicableSourceIds)) {
-      expect(sourceIds.length).toBeGreaterThanOrEqual(2);
-      expect(dataset.costAnalysis.defaultBasketId[scope as keyof typeof dataset.costAnalysis.defaultBasketId]).toBeTruthy();
+      const key = scope as keyof typeof dataset.costAnalysis.defaultBasketId;
+      if (sourceIds.length >= 2 || dataset.costAnalysis.singleSourceIds[key].length) {
+        expect(dataset.costAnalysis.defaultBasketId[key]).toBeTruthy();
+      }
     }
 
     for (const [scope, sourceIds] of Object.entries(dataset.costAnalysis.singleSourceIds)) {

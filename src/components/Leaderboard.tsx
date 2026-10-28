@@ -55,7 +55,7 @@ export default function Leaderboard({ data }: { data: LeaderboardDataset }) {
   const [tab, setTab] = useState<Tab>("overall");
   const [query, setQuery] = useState("");
   const [vendor, setVendor] = useState("all");
-  const [ignoreCoverageFloor, setIgnoreCoverageFloor] = useState(false);
+  const [ignoreCoverageFloor, setIgnoreCoverageFloor] = useState(true);
   const [sort, setSort] = useState<SortMode>("rank");
   const [selectedId, setSelectedId] = useState<string | null>(null);
 
@@ -251,16 +251,6 @@ export default function Leaderboard({ data }: { data: LeaderboardDataset }) {
               <div className="flex rounded-full border border-line bg-paper/70 p-1" role="group" aria-label="Overall coverage floor">
                 <button
                   type="button"
-                  aria-pressed={!ignoreCoverageFloor}
-                  onClick={() => setIgnoreCoverageFloor(false)}
-                  className={`focus-ring rounded-full px-2.5 py-1 text-[10px] font-medium transition-colors ${
-                    !ignoreCoverageFloor ? "bg-ink text-paper" : "text-muted hover:text-ink"
-                  }`}
-                >
-                  5+ sources
-                </button>
-                <button
-                  type="button"
                   aria-pressed={ignoreCoverageFloor}
                   onClick={() => setIgnoreCoverageFloor(true)}
                   className={`focus-ring rounded-full px-2.5 py-1 text-[10px] font-medium transition-colors ${
@@ -268,6 +258,16 @@ export default function Leaderboard({ data }: { data: LeaderboardDataset }) {
                   }`}
                 >
                   All models
+                </button>
+                <button
+                  type="button"
+                  aria-pressed={!ignoreCoverageFloor}
+                  onClick={() => setIgnoreCoverageFloor(false)}
+                  className={`focus-ring rounded-full px-2.5 py-1 text-[10px] font-medium transition-colors ${
+                    !ignoreCoverageFloor ? "bg-ink text-paper" : "text-muted hover:text-ink"
+                  }`}
+                >
+                  5+ sources
                 </button>
               </div>
             </div>

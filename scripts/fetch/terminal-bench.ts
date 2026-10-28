@@ -73,8 +73,7 @@ export async function fetchTerminalBench(): Promise<SourceSnapshot> {
     return [entry];
   });
 
-  const updatedDates = (response.rows ?? [])
-    .map((row) => row.updated_at)
+  const updatedDates = [response.leaderboard?.updated_at, ...(response.rows ?? []).map((row) => row.updated_at)]
     .filter((value): value is string => Boolean(value))
     .sort()
     .reverse();
