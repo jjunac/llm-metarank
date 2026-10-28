@@ -1,7 +1,7 @@
 {
   "sourceId": "swebench-pro-v2",
-  "fetchedAt": "2026-10-25T11:42:56.892Z",
-  "sourceUpdatedAt": "2026-09-22",
+  "fetchedAt": "2026-10-28T19:57:19.662Z",
+  "sourceUpdatedAt": "2026-10-16",
   "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
   "entries": [
     {
@@ -9,9 +9,12 @@
       "score": 98,
       "variant": "xhigh",
       "harness": "Claude Code",
+      "date": "2026-09-22",
       "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
       "extra": {
-        "rank": 1
+        "rank": 1,
+        "version": "",
+        "leaderboardVariant": "hard"
       }
     },
     {
@@ -19,9 +22,12 @@
       "score": 92.2,
       "variant": "high",
       "harness": "Claude Code",
+      "date": "2026-09-22",
       "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
       "extra": {
-        "rank": 2
+        "rank": 2,
+        "version": "",
+        "leaderboardVariant": "hard"
       }
     },
     {
@@ -29,9 +35,12 @@
       "score": 92.16,
       "variant": "high",
       "harness": "mini-swe-agent",
+      "date": "2026-10-14",
       "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
       "extra": {
-        "rank": 3
+        "rank": 3,
+        "version": "openai/gemini/gemini-4-argon",
+        "leaderboardVariant": "hard"
       }
     },
     {
@@ -39,9 +48,12 @@
       "score": 90.2,
       "variant": "high",
       "harness": "Codex",
+      "date": "2026-09-22",
       "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
       "extra": {
-        "rank": 4
+        "rank": 4,
+        "version": "",
+        "leaderboardVariant": "hard"
       }
     },
     {
@@ -49,9 +61,12 @@
       "score": 90.2,
       "variant": "xhigh",
       "harness": "mini-swe-agent",
+      "date": "2026-10-14",
       "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
       "extra": {
-        "rank": 5
+        "rank": 5,
+        "version": "openai/meta_ai/muse-wonder-1.0",
+        "leaderboardVariant": "hard"
       }
     },
     {
@@ -59,9 +74,12 @@
       "score": 88.2,
       "variant": "max",
       "harness": "mini-swe-agent",
+      "date": "2026-09-22",
       "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
       "extra": {
-        "rank": 6
+        "rank": 6,
+        "version": "",
+        "leaderboardVariant": "hard"
       }
     },
     {
@@ -69,9 +87,12 @@
       "score": 88.2,
       "variant": "xhigh",
       "harness": "Claude Code",
+      "date": "2026-09-22",
       "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
       "extra": {
-        "rank": 7
+        "rank": 7,
+        "version": "",
+        "leaderboardVariant": "hard"
       }
     },
     {
@@ -79,9 +100,12 @@
       "score": 86.3,
       "variant": "xhigh",
       "harness": "Codex",
+      "date": "2026-09-22",
       "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
       "extra": {
-        "rank": 8
+        "rank": 8,
+        "version": "",
+        "leaderboardVariant": "hard"
       }
     },
     {
@@ -89,9 +113,12 @@
       "score": 84.3,
       "variant": "max",
       "harness": "mini-swe-agent",
+      "date": "2026-09-22",
       "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
       "extra": {
-        "rank": 9
+        "rank": 9,
+        "version": "",
+        "leaderboardVariant": "hard"
       }
     },
     {
@@ -99,9 +126,12 @@
       "score": 82.4,
       "variant": "xhigh",
       "harness": "Codex",
+      "date": "2026-09-22",
       "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
       "extra": {
-        "rank": 10
+        "rank": 10,
+        "version": "",
+        "leaderboardVariant": "hard"
       }
     },
     {
@@ -109,9 +139,12 @@
       "score": 82.35,
       "variant": "xhigh",
       "harness": "mini-swe-agent",
+      "date": "2026-10-16",
       "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
       "extra": {
-        "rank": 11
+        "rank": 11,
+        "version": "openai/fireworks_ai/muse-spark-open",
+        "leaderboardVariant": "hard"
       }
     },
     {
@@ -119,9 +152,12 @@
       "score": 70.59,
       "variant": "xhigh",
       "harness": "mini-swe-agent",
+      "date": "2026-10-12",
       "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
       "extra": {
-        "rank": 12
+        "rank": 12,
+        "version": "anthropic/claude-sonnet-5-5",
+        "leaderboardVariant": "hard"
       }
     },
     {
@@ -129,9 +165,12 @@
       "score": 58.8,
       "variant": "high",
       "harness": "mini-swe-agent",
+      "date": "2026-09-22",
       "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
       "extra": {
-        "rank": 13
+        "rank": 13,
+        "version": "",
+        "leaderboardVariant": "hard"
       }
     },
     {
@@ -139,9 +178,12 @@
       "score": 56.9,
       "variant": "xhigh",
       "harness": "mini-swe-agent",
+      "date": "2026-09-22",
       "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
       "extra": {
-        "rank": 14
+        "rank": 14,
+        "version": "",
+        "leaderboardVariant": "hard"
       }
     },
     {
@@ -149,9 +191,12 @@
       "score": 52.94,
       "variant": "high",
       "harness": "mini-swe-agent",
+      "date": "2026-10-08",
       "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
       "extra": {
-        "rank": 15
+        "rank": 15,
+        "version": "claude-haiku-5-5",
+        "leaderboardVariant": "hard"
       }
     },
     {
@@ -159,11 +204,19 @@
       "score": 25.5,
       "variant": "xhigh",
       "harness": "Claude Code",
+      "date": "2026-09-22",
       "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
       "extra": {
-        "rank": 16
+        "rank": 16,
+        "version": "",
+        "leaderboardVariant": "hard"
       }
     }
   ],
-  "warnings": []
+  "warnings": [],
+  "costStatus": {
+    "status": "not-reported",
+    "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
+    "note": "The public leaderboard payload does not publish monetary task cost matched to these runs. Budget caps, API prices and costs from other evaluators are not substituted."
+  }
 }

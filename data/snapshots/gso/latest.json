@@ -1,6 +1,6 @@
 {
   "sourceId": "gso",
-  "fetchedAt": "2026-10-25T11:43:00.253Z",
+  "fetchedAt": "2026-10-28T19:57:22.505Z",
   "sourceUpdatedAt": "2026-09-27",
   "url": "https://gso-bench.github.io/",
   "entries": [
@@ -406,5 +406,10 @@
       }
     }
   ],
-  "warnings": []
+  "warnings": [],
+  "costStatus": {
+    "status": "not-reported",
+    "url": "https://gso-bench.github.io/",
+    "note": "The public leaderboard and compute profile do not report monetary cost per task. Median runtime and turns are not dollar-cost proxies."
+  }
 }

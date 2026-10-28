@@ -94,7 +94,10 @@ export interface RawEntry {
 export interface SourceSnapshot {
   sourceId: string;
   fetchedAt: string;
+  /** Results/feed update time, never the benchmark or model release date. */
   sourceUpdatedAt?: string;
+  /** Benchmark dataset release, separate from updates to its leaderboard results. */
+  benchmarkRelease?: string;
   url: string;
   entries: RawEntry[];
   warnings: string[];
@@ -167,6 +170,8 @@ export interface ModelRank {
 
 export interface DatasetSource extends SourceConfig {
   dataDate: string;
+  sourceUpdatedAt?: string;
+  benchmarkRelease?: string;
   fetchedAt: string;
   entryCount: number;
   mappedCount: number;

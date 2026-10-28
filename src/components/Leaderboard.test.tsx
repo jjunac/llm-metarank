@@ -16,4 +16,22 @@ describe("leaderboard coverage setting", () => {
     expect(html).not.toContain("Show emerging");
     expect(html).not.toContain("Remove 5-source minimum");
   });
+
+  it("defaults to all models and places that option first", () => {
+    const html = renderToStaticMarkup(<Leaderboard data={data} />);
+
+    expect(html).toMatch(/aria-pressed="true"[^>]*>All models<\/button>/);
+    expect(html).toMatch(/aria-pressed="false"[^>]*>5\+ sources<\/button>/);
+
+    const allModelsIndex = html.indexOf(">All models</button>");
+    const coverageFloorIndex = html.indexOf(">5+ sources</button>");
+    expect(allModelsIndex).toBeGreaterThan(-1);
+    expect(coverageFloorIndex).toBeGreaterThan(allModelsIndex);
+
+    const limitedModel = data.models.find(
+      (model) => model.status !== "ranked" && model.overall !== null,
+    );
+    expect(limitedModel).toBeDefined();
+    expect(html).toContain(limitedModel!.name);
+  });
 });

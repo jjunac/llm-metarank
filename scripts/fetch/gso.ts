@@ -14,8 +14,9 @@ interface GsoModel {
 
 export async function fetchGso(): Promise<SourceSnapshot> {
   const url = "https://gso-bench.github.io/";
-  const data = await fetchJson<{ models?: GsoModel[] }>(
+  const data = await fetchJson<{ models?: GsoModel[]; metadata?: { last_updated?: string } }>(
     "https://gso-bench.github.io/assets/leaderboard.json",
+    { cache: "no-cache" },
   );
 
   const models = (data.models ?? []).filter((model) => model.setting === "Opt@1" && typeof model.score === "number");
@@ -33,8 +34,7 @@ export async function fetchGso(): Promise<SourceSnapshot> {
     },
   }));
 
-  const dates = models
-    .map((model) => model.date)
+  const dates = [data.metadata?.last_updated, ...models.map((model) => model.date)]
     .filter((value): value is string => Boolean(value))
     .sort()
     .reverse();

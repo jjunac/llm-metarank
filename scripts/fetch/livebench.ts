@@ -1,5 +1,5 @@
 import type { RawEntry, SourceSnapshot } from "../types.js";
-import { fetchJson, fetchText, nowISO, parseCsv, parseNumber, sleep } from "../util.js";
+import { fetchText, fetchTextWithMetadata, nowISO, parseCsv, parseNumber } from "../util.js";
 import { indexLiveBenchCosts, liveBenchTaskCost } from "../parse/livebench.js";
 
 interface LiveBenchCategoryConfig {
@@ -10,45 +10,44 @@ function formatRelease(id: string): string {
   return `${id.slice(0, 4)}-${id.slice(4, 6)}-${id.slice(6, 8)}`;
 }
 
-async function discoverRelease(): Promise<{ releaseId: string; tableCsv: string; categoriesJson: LiveBenchCategoryConfig }> {
-  const siteHtml = await fetchText("https://livebench.ai/new/");
+async function discoverRelease(): Promise<{ releaseId: string; dataQuery: string; tableCsv: string; categoriesJson: LiveBenchCategoryConfig; sourceUpdatedAt?: string }> {
+  const siteUrl = "https://livebench.ai/";
+  const siteHtml = await fetchText(siteUrl, { cache: "no-cache" });
   const scriptMatch = siteHtml.match(/src="\.?\/?([^"]*main\.[^"]+\.js)"/);
   if (!scriptMatch) throw new Error("LiveBench: could not find main JS bundle");
 
-  const bundle = await fetchText(`https://livebench.ai/${scriptMatch[1]}`);
-  const dates = [...new Set([...bundle.matchAll(/"(\d{8})"/g)].map((match) => match[1]))]
-    .filter((date) => /^20\d{6}$/.test(date) && date >= "20250101")
+  const bundle = await fetchText(new URL(scriptMatch[1], siteUrl).href, { cache: "no-cache" });
+  // Use the site's v2 release lists, not arbitrary dates in model identifiers.
+  const releaseLists = [...bundle.matchAll(/\[\s*"20\d{6}"(?:\s*,\s*"20\d{6}")*\s*\]/g)];
+  const dates = releaseLists.flatMap((match) => [...match[0].matchAll(/"(20\d{6})"/g)].map((date) => date[1]))
     .sort()
-    .reverse()
-    .slice(0, 15);
+    .reverse();
+  const releaseId = dates[0];
+  if (!releaseId) throw new Error("LiveBench: could not find the current v2 release");
 
-  // The current release is sometimes added conditionally for /new, so include
-  // the newest dates found in the bundle even if they are not in the main list.
-  for (const releaseId of dates) {
-    try {
-      const tableCsv = await fetchText(`https://livebench.ai/data/${releaseId}/table.csv`);
-      if (!tableCsv.startsWith("model,")) continue;
-      const categoriesJson = await fetchJson<LiveBenchCategoryConfig>(
-        `https://livebench.ai/data/${releaseId}/categories.json`,
-      );
-      return { releaseId, tableCsv, categoriesJson };
-    } catch {
-      await sleep(150);
-    }
+  // Match the site's cache-buster: results can change within the same release.
+  const dataQuery = bundle.match(/["'](\?v=\d+)["']/)?.[1] ?? `?v=${Date.now()}`;
+  const baseUrl = `${siteUrl}data/${releaseId}/`;
+  const [table, categories] = await Promise.all([
+    fetchTextWithMetadata(`${baseUrl}table.csv${dataQuery}`, { cache: "no-cache" }),
+    fetchText(`${baseUrl}categories.json${dataQuery}`, { cache: "no-cache" }),
+  ]);
+  if (!/^\uFEFF?model,/.test(table.text)) {
+    throw new Error(`LiveBench: invalid table.csv for current release ${releaseId}`);
   }
-
-  throw new Error("LiveBench: no working release found");
+  // A broken current feed must fail, not silently downgrade to an older release.
+  return { releaseId, dataQuery, tableCsv: table.text, categoriesJson: JSON.parse(categories) as LiveBenchCategoryConfig, sourceUpdatedAt: table.lastModified?.slice(0, 10) };
 }
 
 export async function fetchLiveBench(): Promise<SourceSnapshot> {
-  const { releaseId, tableCsv, categoriesJson } = await discoverRelease();
-  const rows = parseCsv(tableCsv);
+  const { releaseId, dataQuery, tableCsv, categoriesJson, sourceUpdatedAt } = await discoverRelease();
+  const rows = parseCsv(tableCsv.replace(/^\uFEFF/, ""));
   const fetchedAt = nowISO();
   const costUrl = `https://livebench.ai/data/${releaseId}/cost.csv`;
   let costRows = new Map<string, Record<string, string>>();
   let costError: string | undefined;
   try {
-    costRows = indexLiveBenchCosts(parseCsv(await fetchText(costUrl, {}, { retries: 1 })));
+    costRows = indexLiveBenchCosts(parseCsv(await fetchText(`${costUrl}${dataQuery}`, { cache: "no-cache" }, { retries: 1 })));
   } catch (error) {
     costError = error instanceof Error ? error.message : String(error);
   }
@@ -61,6 +60,9 @@ export async function fetchLiveBench(): Promise<SourceSnapshot> {
       column: (columns as string[])[0],
       weight: overallWeights[label] ?? 1,
     }));
+  if (!categoryColumns.length || categoryColumns.some(({ weight }) => !Number.isFinite(weight) || weight <= 0)) {
+    throw new Error("LiveBench: missing categories or invalid overall weights");
+  }
 
   const entries: RawEntry[] = [];
   for (const row of rows) {
@@ -101,7 +103,6 @@ export async function fetchLiveBench(): Promise<SourceSnapshot> {
       rawName: model,
       score: overall,
       metrics,
-      date: formatRelease(releaseId),
       url: `https://livebench.ai/#/release/${formatRelease(releaseId)}`,
       extra: { releaseId },
       runId: `${releaseId}:${model}`,
@@ -116,7 +117,8 @@ export async function fetchLiveBench(): Promise<SourceSnapshot> {
   return {
     sourceId: "livebench",
     fetchedAt,
-    sourceUpdatedAt: formatRelease(releaseId),
+    sourceUpdatedAt,
+    benchmarkRelease: formatRelease(releaseId),
     url: `https://livebench.ai/#/release/${formatRelease(releaseId)}`,
     entries,
     warnings: [

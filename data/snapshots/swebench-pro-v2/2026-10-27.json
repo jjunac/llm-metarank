@@ -1,0 +1,174 @@
+{
+  "sourceId": "swebench-pro-v2",
+  "fetchedAt": "2026-10-27T19:12:33.294Z",
+  "sourceUpdatedAt": "2026-09-22",
+  "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
+  "entries": [
+    {
+      "rawName": "Opus 5 (Claude Code) xhigh",
+      "score": 98,
+      "variant": "xhigh",
+      "harness": "Claude Code",
+      "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
+      "extra": {
+        "rank": 1
+      }
+    },
+    {
+      "rawName": "Fable 5.1 (Claude Code) high",
+      "score": 92.2,
+      "variant": "high",
+      "harness": "Claude Code",
+      "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
+      "extra": {
+        "rank": 2
+      }
+    },
+    {
+      "rawName": "Gemini 4 Argon (mini-swe-agent) high",
+      "score": 92.16,
+      "variant": "high",
+      "harness": "mini-swe-agent",
+      "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
+      "extra": {
+        "rank": 3
+      }
+    },
+    {
+      "rawName": "GPT-6 Astra (Codex) high",
+      "score": 90.2,
+      "variant": "high",
+      "harness": "Codex",
+      "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
+      "extra": {
+        "rank": 4
+      }
+    },
+    {
+      "rawName": "Muse Wonder 1.0 (mini-swe-agent) xhigh",
+      "score": 90.2,
+      "variant": "xhigh",
+      "harness": "mini-swe-agent",
+      "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
+      "extra": {
+        "rank": 5
+      }
+    },
+    {
+      "rawName": "Kimi-K3 (mini-swe-agent) max",
+      "score": 88.2,
+      "variant": "max",
+      "harness": "mini-swe-agent",
+      "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
+      "extra": {
+        "rank": 6
+      }
+    },
+    {
+      "rawName": "Sonnet 5 (Claude Code) xhigh",
+      "score": 88.2,
+      "variant": "xhigh",
+      "harness": "Claude Code",
+      "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
+      "extra": {
+        "rank": 7
+      }
+    },
+    {
+      "rawName": "GPT-5.6 Terra (Codex) xhigh",
+      "score": 86.3,
+      "variant": "xhigh",
+      "harness": "Codex",
+      "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
+      "extra": {
+        "rank": 8
+      }
+    },
+    {
+      "rawName": "GLM-5.3 (mini-swe-agent) max",
+      "score": 84.3,
+      "variant": "max",
+      "harness": "mini-swe-agent",
+      "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
+      "extra": {
+        "rank": 9
+      }
+    },
+    {
+      "rawName": "GPT-5.6 Sol (Codex) xhigh",
+      "score": 82.4,
+      "variant": "xhigh",
+      "harness": "Codex",
+      "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
+      "extra": {
+        "rank": 10
+      }
+    },
+    {
+      "rawName": "Muse Spark Open (mini-swe-agent) xhigh",
+      "score": 82.35,
+      "variant": "xhigh",
+      "harness": "mini-swe-agent",
+      "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
+      "extra": {
+        "rank": 11
+      }
+    },
+    {
+      "rawName": "Sonnet 5.5 (mini-swe-agent) xhigh",
+      "score": 70.59,
+      "variant": "xhigh",
+      "harness": "mini-swe-agent",
+      "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
+      "extra": {
+        "rank": 12
+      }
+    },
+    {
+      "rawName": "Gemini 3.8 Flash (mini-swe-agent) high",
+      "score": 58.8,
+      "variant": "high",
+      "harness": "mini-swe-agent",
+      "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
+      "extra": {
+        "rank": 13
+      }
+    },
+    {
+      "rawName": "Inkling (mini-swe-agent) xhigh",
+      "score": 56.9,
+      "variant": "xhigh",
+      "harness": "mini-swe-agent",
+      "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
+      "extra": {
+        "rank": 14
+      }
+    },
+    {
+      "rawName": "Haiku 5.5 (mini-swe-agent) high",
+      "score": 52.94,
+      "variant": "high",
+      "harness": "mini-swe-agent",
+      "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
+      "extra": {
+        "rank": 15
+      }
+    },
+    {
+      "rawName": "Haiku 4.5 (Claude Code) xhigh",
+      "score": 25.5,
+      "variant": "xhigh",
+      "harness": "Claude Code",
+      "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
+      "extra": {
+        "rank": 16
+      }
+    }
+  ],
+  "warnings": [],
+  "costStatus": {
+    "status": "not-reported",
+    "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
+    "note": "The public leaderboard payload does not publish monetary task cost matched to these runs. Budget caps, API prices and costs from other evaluators are not substituted."
+  }
+}

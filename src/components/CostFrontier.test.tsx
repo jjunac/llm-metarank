@@ -1,13 +1,13 @@
 import { describe, expect, it } from "vitest";
 import { renderToStaticMarkup } from "react-dom/server";
-import datasetJson from "../../data/leaderboard.json";
-import type { LeaderboardDataset } from "../../scripts/types";
+import { createCostDataset } from "../../scripts/fixtures/cost-dataset";
+import { buildCostAnalysis } from "../../scripts/costs";
 import CostFrontier from "./CostFrontier";
 import ModelDetail from "./ModelDetail";
-import { resolveCostView, selectableSourceIds } from "../lib/cost-view";
+import { defaultSourceIds, resolveCostView, selectableSourceIds } from "../lib/cost-view";
 import { formatCostIndex, formatPercentile, formatUsd } from "../lib/format";
 
-const data = datasetJson as unknown as LeaderboardDataset;
+const data = createCostDataset();
 
 describe("task-cost UI rendering", () => {
   it("pre-renders the default matched basket, its accessible points and comparison table", () => {
@@ -39,6 +39,26 @@ describe("task-cost UI rendering", () => {
     expect(resolveCostView(data, "overall", ["lmarena-text", "livebench"]).kind).toBe("invalid");
     expect(selectableSourceIds(data, "overall")).toContain("lmarena-text");
     expect(selectableSourceIds(data, "overall")).toContain("code-arena-webdev");
+  });
+
+  it("falls back to available baskets and single benchmarks when an index changes cost methodology", () => {
+    const refreshed = createCostDataset();
+    const aa = refreshed.sources.find((source) => source.id === "artificial-analysis")!;
+    aa.costCoverage.status = "unavailable";
+    aa.costCoverage.usableModels = 0;
+    for (const model of refreshed.models) {
+      for (const entry of model.sources.filter((entry) => entry.sourceId === aa.id)) {
+        delete entry.cost;
+        delete entry.metricCosts;
+      }
+    }
+    refreshed.costAnalysis = buildCostAnalysis(refreshed.models, refreshed.sources);
+    expect(defaultSourceIds(refreshed, "overall")).toEqual(["livebench", "terminal-bench-4"]);
+    expect(defaultSourceIds(refreshed, "reasoning")).toEqual(["livebench"]);
+    expect(resolveCostView(refreshed, "reasoning", defaultSourceIds(refreshed, "reasoning")).kind).toBe("single");
+    const html = renderToStaticMarkup(<CostFrontier data={refreshed} onSelectModel={() => {}} />);
+    expect(html).toContain("LiveBench + Terminal-Bench");
+    expect(html).not.toMatch(/\b(?:NaN|Infinity)\b/);
   });
 
   it("names the missing cost sources for a model outside the default basket", () => {

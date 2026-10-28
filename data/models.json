@@ -160,6 +160,16 @@
     ]
   },
   {
+    "id": "gpt-6-1-terra",
+    "name": "GPT-6.1 Terra",
+    "vendor": "OpenAI",
+    "releaseDate": "2026-10-26",
+    "openWeights": false,
+    "aliases": [
+      "gpt 6 1 terra"
+    ]
+  },
+  {
     "id": "gpt-6-sol",
     "name": "GPT-6 Sol",
     "vendor": "OpenAI",

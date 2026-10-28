@@ -21,7 +21,7 @@ export async function fetchArcAgi3(): Promise<SourceSnapshot> {
     version?: string;
     generatedAt?: string;
     evaluations?: ArcEvaluation[];
-  }>("https://arcprize.org/media/data/leaderboard/v3.json");
+  }>("https://arcprize.org/media/data/leaderboard/v3.json", { cache: "no-cache" });
 
   const evaluations = (data.evaluations ?? []).filter(
     (entry) =>
@@ -39,13 +39,13 @@ export async function fetchArcAgi3(): Promise<SourceSnapshot> {
       variant: annotations.variant,
       harness: annotations.harness,
       vendor: entry.providerDisplayName,
-      date: entry.modelReleaseDate?.slice(0, 10),
       url,
       runId: `${entry.datasetId}:${entry.modelId}`,
       runCostUsd: nonNegative(entry.cost) ? entry.cost : undefined,
       costUnavailableReason: "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       extra: {
         modelId: entry.modelId,
+        modelReleaseDate: entry.modelReleaseDate,
         dataset: entry.datasetId,
         resultsUrl: entry.resultsUrl || undefined,
       },

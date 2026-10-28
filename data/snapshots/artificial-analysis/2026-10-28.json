@@ -1,0 +1,398 @@
+{
+  "sourceId": "artificial-analysis",
+  "fetchedAt": "2026-10-28T19:57:11.438Z",
+  "url": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index",
+  "entries": [
+    {
+      "rawName": "Gemini 4 Carbon (High)",
+      "score": 59.425738829526,
+      "variant": "High",
+      "vendor": "Google",
+      "url": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index",
+      "runId": "909ed0ba-bcc5-4f38-8162-08a4e187a772",
+      "costUnavailableReason": "Task-cost methodology not verified for Intelligence Index v5.0.",
+      "extra": {
+        "slug": "gemini-4-carbon",
+        "modelReleaseDate": "2026-10-28",
+        "isOpenWeights": false
+      }
+    },
+    {
+      "rawName": "Claude Opus 5.5 (Max, Default Fallback)",
+      "score": 58.4060336078904,
+      "variant": "Max, Default Fallback",
+      "vendor": "Anthropic",
+      "url": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index",
+      "runId": "2f3c4dc9-a450-4303-8697-0237257cf08f",
+      "costUnavailableReason": "Task-cost methodology not verified for Intelligence Index v5.0.",
+      "extra": {
+        "slug": "claude-opus-5-5",
+        "modelReleaseDate": "2026-09-22",
+        "isOpenWeights": false
+      }
+    },
+    {
+      "rawName": "GPT-6 Astra (Max)",
+      "score": 56.8538559596797,
+      "variant": "Max",
+      "vendor": "OpenAI",
+      "url": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index",
+      "runId": "2f339a97-9a0d-499a-9cb5-e0db665bfa25",
+      "costUnavailableReason": "Task-cost methodology not verified for Intelligence Index v5.0.",
+      "extra": {
+        "slug": "gpt-6-astra",
+        "modelReleaseDate": "2026-09-03",
+        "isOpenWeights": false
+      }
+    },
+    {
+      "rawName": "GPT-6.1 Sol (Max)",
+      "score": 54.5087338138148,
+      "variant": "Max",
+      "vendor": "OpenAI",
+      "url": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index",
+      "runId": "b25ac058-1e33-4c31-bbc9-a20c3ad0717a",
+      "costUnavailableReason": "Task-cost methodology not verified for Intelligence Index v5.0.",
+      "extra": {
+        "slug": "gpt-6-1-sol",
+        "modelReleaseDate": "2026-09-29",
+        "isOpenWeights": false
+      }
+    },
+    {
+      "rawName": "Claude Sonnet 5.5 (Max, Default Fallback)",
+      "score": 54.24133407109,
+      "variant": "Max, Default Fallback",
+      "vendor": "Anthropic",
+      "url": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index",
+      "runId": "b171d979-5ec1-45de-b8b9-db1ee65e77ec",
+      "costUnavailableReason": "Task-cost methodology not verified for Intelligence Index v5.0.",
+      "extra": {
+        "slug": "claude-sonnet-5-5",
+        "modelReleaseDate": "2026-09-28",
+        "isOpenWeights": false
+      }
+    },
+    {
+      "rawName": "GPT-6.1 Terra (Max)",
+      "score": 50.9765188577015,
+      "variant": "Max",
+      "vendor": "OpenAI",
+      "url": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index",
+      "runId": "b0c462cf-f2d0-4126-9434-28db9502219f",
+      "costUnavailableReason": "Task-cost methodology not verified for Intelligence Index v5.0.",
+      "extra": {
+        "slug": "gpt-6-1-terra",
+        "modelReleaseDate": "2026-10-26",
+        "isOpenWeights": false
+      }
+    },
+    {
+      "rawName": "Muse Wonder Full (Max)",
+      "score": 49.7272123627021,
+      "variant": "Max",
+      "vendor": "Meta",
+      "url": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index",
+      "runId": "e994a6e0-d36b-4dab-8ae1-c1b469e4d9e2",
+      "costUnavailableReason": "Task-cost methodology not verified for Intelligence Index v5.0.",
+      "extra": {
+        "slug": "muse-wonder-full",
+        "modelReleaseDate": "2026-10-12",
+        "isOpenWeights": false
+      }
+    },
+    {
+      "rawName": "Claude Fable 5.1 (Max, Default Fallback)",
+      "score": 49.0102124158081,
+      "variant": "Max, Default Fallback",
+      "vendor": "Anthropic",
+      "url": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index",
+      "runId": "3e87c73e-a257-495e-9730-367a66229811",
+      "costUnavailableReason": "Task-cost methodology not verified for Intelligence Index v5.0.",
+      "extra": {
+        "slug": "claude-fable-5-1",
+        "modelReleaseDate": "2026-09-01",
+        "isOpenWeights": false
+      }
+    },
+    {
+      "rawName": "Kimi K3.1 Pro",
+      "score": 46.0026236744189,
+      "vendor": "Kimi",
+      "url": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index",
+      "runId": "665c67ca-09eb-48f0-a7a3-0096e1d5de51",
+      "costUnavailableReason": "Task-cost methodology not verified for Intelligence Index v5.0.",
+      "extra": {
+        "slug": "kimi-k3-1-pro",
+        "modelReleaseDate": "2026-10-23",
+        "isOpenWeights": false
+      }
+    },
+    {
+      "rawName": "Muse Wonder (Max)",
+      "score": 43.3248225998431,
+      "variant": "Max",
+      "vendor": "Meta",
+      "url": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index",
+      "runId": "ff2f3f3d-783f-4e27-8a39-47237501a313",
+      "costUnavailableReason": "Task-cost methodology not verified for Intelligence Index v5.0.",
+      "extra": {
+        "slug": "muse-wonder",
+        "modelReleaseDate": "2026-10-12",
+        "isOpenWeights": false
+      }
+    },
+    {
+      "rawName": "Claude Haiku 5.5 (Max)",
+      "score": 36.2345435880142,
+      "variant": "Max",
+      "vendor": "Anthropic",
+      "url": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index",
+      "runId": "7d064a11-6e78-4030-b535-cdf940615041",
+      "costUnavailableReason": "Task-cost methodology not verified for Intelligence Index v5.0.",
+      "extra": {
+        "slug": "claude-haiku-5-5",
+        "modelReleaseDate": "2026-10-07",
+        "isOpenWeights": false
+      }
+    },
+    {
+      "rawName": "Grok 4.7 (Xhigh)",
+      "score": 34.3350117067196,
+      "variant": "Xhigh",
+      "vendor": "SpaceXAI",
+      "url": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index",
+      "runId": "59627802-1546-422c-9a65-65b61c022d36",
+      "costUnavailableReason": "Task-cost methodology not verified for Intelligence Index v5.0.",
+      "extra": {
+        "slug": "grok-4-7",
+        "modelReleaseDate": "2026-09-21",
+        "isOpenWeights": false
+      }
+    },
+    {
+      "rawName": "Qwen3.8 Max (0902)",
+      "score": 33.5545627367888,
+      "variant": "0902",
+      "vendor": "Alibaba",
+      "url": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index",
+      "runId": "b112af07-3bd5-4647-b09f-b23204361bb2",
+      "costUnavailableReason": "Task-cost methodology not verified for Intelligence Index v5.0.",
+      "extra": {
+        "slug": "qwen3-8-max",
+        "modelReleaseDate": "2026-09-02",
+        "isOpenWeights": false
+      }
+    },
+    {
+      "rawName": "DeepSeek V4.1 Flash 1017 (Max)",
+      "score": 32.4896393532027,
+      "variant": "Max",
+      "vendor": "DeepSeek",
+      "url": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index",
+      "runId": "f151fd0b-2139-40cf-a3ec-995e8cedc592",
+      "costUnavailableReason": "Task-cost methodology not verified for Intelligence Index v5.0.",
+      "extra": {
+        "slug": "deepseek-v4-1-flash-1017",
+        "modelReleaseDate": "2026-10-17",
+        "isOpenWeights": true
+      }
+    },
+    {
+      "rawName": "GLM-5.3 (Max)",
+      "score": 31.653381843882,
+      "variant": "Max",
+      "vendor": "Z AI",
+      "url": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index",
+      "runId": "cd684ea4-b475-4269-b001-d469d06d8a7a",
+      "costUnavailableReason": "Task-cost methodology not verified for Intelligence Index v5.0.",
+      "extra": {
+        "slug": "glm-5-3",
+        "modelReleaseDate": "2026-08-18",
+        "isOpenWeights": true
+      }
+    },
+    {
+      "rawName": "Gemini 3.8 Flash (High)",
+      "score": 30.5468119957291,
+      "variant": "High",
+      "vendor": "Google",
+      "url": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index",
+      "runId": "8a999846-4c1d-4ce7-a8b7-1310a7166fd7",
+      "costUnavailableReason": "Task-cost methodology not verified for Intelligence Index v5.0.",
+      "extra": {
+        "slug": "gemini-3-8-flash",
+        "modelReleaseDate": "2026-09-02",
+        "isOpenWeights": false
+      }
+    },
+    {
+      "rawName": "MiMo-V2.6-Pro",
+      "score": 29.8897833093321,
+      "vendor": "Xiaomi",
+      "url": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index",
+      "runId": "24d8fdfe-6241-424e-b7b7-1b6efb06e4fb",
+      "costUnavailableReason": "Task-cost methodology not verified for Intelligence Index v5.0.",
+      "extra": {
+        "slug": "mimo-v2-6-pro",
+        "modelReleaseDate": "2026-09-21",
+        "isOpenWeights": true
+      }
+    },
+    {
+      "rawName": "Ling 3.1 Flash 1019",
+      "score": 29.470119369837,
+      "vendor": "InclusionAI",
+      "url": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index",
+      "runId": "539ed227-38f4-4bea-a015-117057c14b18",
+      "costUnavailableReason": "Task-cost methodology not verified for Intelligence Index v5.0.",
+      "extra": {
+        "slug": "ling-3-1-flash-1019",
+        "modelReleaseDate": "2026-10-22",
+        "isOpenWeights": true
+      }
+    },
+    {
+      "rawName": "MiniMax-M3.1-Flash",
+      "score": 28.9095214290458,
+      "vendor": "MiniMax",
+      "url": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index",
+      "runId": "d49c8680-e29b-400e-9511-824f7ddebe07",
+      "costUnavailableReason": "Task-cost methodology not verified for Intelligence Index v5.0.",
+      "extra": {
+        "slug": "minimax-m3-1-flash",
+        "modelReleaseDate": "2026-10-19",
+        "isOpenWeights": false
+      }
+    },
+    {
+      "rawName": "Step 5 Preview",
+      "score": 28.5283090216016,
+      "vendor": "StepFun",
+      "url": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index",
+      "runId": "094ea3e3-ce41-419e-8bd1-723389663158",
+      "costUnavailableReason": "Task-cost methodology not verified for Intelligence Index v5.0.",
+      "extra": {
+        "slug": "step-5",
+        "modelReleaseDate": "2026-09-18",
+        "isOpenWeights": true
+      }
+    },
+    {
+      "rawName": "GPT-6 Luna (Max)",
+      "score": 27.7552004938153,
+      "variant": "Max",
+      "vendor": "OpenAI",
+      "url": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index",
+      "runId": "6fb13851-40ce-4bda-ad3f-6b38e0c5daa7",
+      "costUnavailableReason": "Task-cost methodology not verified for Intelligence Index v5.0.",
+      "extra": {
+        "slug": "gpt-6-luna",
+        "modelReleaseDate": "2026-09-22",
+        "isOpenWeights": false
+      }
+    },
+    {
+      "rawName": "Mistral Large 4 Preview",
+      "score": 25.286451488165,
+      "vendor": "Mistral",
+      "url": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index",
+      "runId": "34fc646a-0174-470e-9e62-d8df452210b3",
+      "costUnavailableReason": "Task-cost methodology not verified for Intelligence Index v5.0.",
+      "extra": {
+        "slug": "mistral-large-4",
+        "modelReleaseDate": "2026-10-06",
+        "isOpenWeights": false
+      }
+    },
+    {
+      "rawName": "Muse Spark Open (Xhigh)",
+      "score": 24.6815868992913,
+      "variant": "Xhigh",
+      "vendor": "Meta",
+      "url": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index",
+      "runId": "3661c8fb-caf7-4118-aa18-65b84fea8e44",
+      "costUnavailableReason": "Task-cost methodology not verified for Intelligence Index v5.0.",
+      "extra": {
+        "slug": "muse-spark-open",
+        "modelReleaseDate": "2026-10-15",
+        "isOpenWeights": true
+      }
+    },
+    {
+      "rawName": "Qwen3.8 27B (Xhigh)",
+      "score": 20.1068756031705,
+      "variant": "Xhigh",
+      "vendor": "Alibaba",
+      "url": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index",
+      "runId": "b01dee41-c62b-48ed-8d16-984adc405e5c",
+      "costUnavailableReason": "Task-cost methodology not verified for Intelligence Index v5.0.",
+      "extra": {
+        "slug": "qwen3-8-27b",
+        "modelReleaseDate": "2026-08-14",
+        "isOpenWeights": true
+      }
+    },
+    {
+      "rawName": "K2 Horizon 375B A23B",
+      "score": 17.7702731734027,
+      "vendor": "Institute of Foundation Models",
+      "url": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index",
+      "runId": "bb3d7e75-8e22-4082-b9d6-1db0803e042f",
+      "costUnavailableReason": "Task-cost methodology not verified for Intelligence Index v5.0.",
+      "extra": {
+        "slug": "k2-horizon-375b-a23b",
+        "modelReleaseDate": "2026-09-03",
+        "isOpenWeights": true
+      }
+    },
+    {
+      "rawName": "Beam 1.0",
+      "score": 17.7307282547205,
+      "vendor": "Reflection",
+      "url": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index",
+      "runId": "69468cce-7b5c-414a-b498-41df4c34df85",
+      "costUnavailableReason": "Task-cost methodology not verified for Intelligence Index v5.0.",
+      "extra": {
+        "slug": "reflection-beam",
+        "modelReleaseDate": "2026-10-16",
+        "isOpenWeights": true
+      }
+    },
+    {
+      "rawName": "Nemotron 3.5 Super VL",
+      "score": 13.6203422723141,
+      "vendor": "NVIDIA",
+      "url": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index",
+      "runId": "e2c0623e-c855-4a61-bb66-be1f1ed43234",
+      "costUnavailableReason": "Task-cost methodology not verified for Intelligence Index v5.0.",
+      "extra": {
+        "slug": "nemotron-3-5-super-vl",
+        "modelReleaseDate": "2026-10-15",
+        "isOpenWeights": true
+      }
+    },
+    {
+      "rawName": "Inkling (Xhigh)",
+      "score": 12.4781698715401,
+      "variant": "Xhigh",
+      "vendor": "Thinking Machines",
+      "url": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index",
+      "runId": "0de09623-2b1a-4c8d-86ef-7f5245d4e24b",
+      "costUnavailableReason": "Task-cost methodology not verified for Intelligence Index v5.0.",
+      "extra": {
+        "slug": "inkling",
+        "modelReleaseDate": "2026-07-15",
+        "isOpenWeights": true
+      }
+    }
+  ],
+  "warnings": [
+    "Intelligence Index v5.0 scores refreshed; task-cost methodology is only verified for v4.3.2, so older costs were not reused."
+  ],
+  "costStatus": {
+    "status": "unavailable",
+    "url": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index#cost",
+    "note": "Weighted cost per Intelligence Index task, reconstructed from the source's measured usage, caching and fallback metadata. Not a token-price proxy or an invoice."
+  }
+}

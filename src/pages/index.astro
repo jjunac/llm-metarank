@@ -56,9 +56,9 @@ const categoryLabel = (category: string) =>
 
         <div class="grid grid-cols-3 gap-3 lg:grid-cols-1">
           <div class="surface-card rounded-2xl p-4">
-            <div class="eyebrow mb-2">Ranked models</div>
-            <div class="num text-3xl">{leaderboard.rankedModelCount}</div>
-            <p class="mt-1 text-[10px] text-muted">with 5+ sources</p>
+            <div class="eyebrow mb-2">Model pool</div>
+            <div class="num text-3xl">{leaderboard.trackedModelCount}</div>
+            <p class="mt-1 text-[10px] text-muted">tracked models</p>
           </div>
           <div class="surface-card rounded-2xl p-4">
             <div class="eyebrow mb-2">Sources</div>
@@ -66,9 +66,9 @@ const categoryLabel = (category: string) =>
             <p class="mt-1 text-[10px] text-muted">active benchmarks</p>
           </div>
           <div class="surface-card rounded-2xl p-4">
-            <div class="eyebrow mb-2">Model pool</div>
-            <div class="num text-3xl">{leaderboard.trackedModelCount}</div>
-            <p class="mt-1 text-[10px] text-muted">tracked models</p>
+            <div class="eyebrow mb-2">Ranked models</div>
+            <div class="num text-3xl">{leaderboard.rankedModelCount}</div>
+            <p class="mt-1 text-[10px] text-muted">with 5+ sources</p>
           </div>
         </div>
       </div>
@@ -199,12 +199,15 @@ const categoryLabel = (category: string) =>
                   {categoryLabel(category)}
                 </span>
               ))}
-              <span class="ml-auto num">Data {formatDate(source.dataDate)}</span>
+              <span class="ml-auto num">{source.sourceUpdatedAt ? "Data" : "Fetched"} {formatDate(source.dataDate)}</span>
               <span class="inline-flex items-center gap-1">
                 <span class:list={["h-1.5 w-1.5 rounded-full", source.status === "current" ? "bg-emerald-500" : "bg-amber-500"]}></span>
                 {source.status}
               </span>
             </div>
+            {source.benchmarkRelease && (
+              <p class="mt-2 text-[10px] text-muted/70">Benchmark release {formatDate(source.benchmarkRelease)} · results checked {formatDate(source.fetchedAt)}</p>
+            )}
             <p class="mt-2 text-[10px] text-muted/70">
               Task cost: {source.costCoverage.status.replace("-", " ")} · {source.costCoverage.mappedModels}/{source.mappedCount} tracked models
               {source.costCoverage.statistics.includes("median") ? " · P50 · single-benchmark only" : ""}

@@ -310,6 +310,8 @@ export async function buildDataset(): Promise<LeaderboardDataset> {
     return {
       ...work.config,
       dataDate,
+      sourceUpdatedAt: work.snapshot.sourceUpdatedAt,
+      benchmarkRelease: work.snapshot.benchmarkRelease,
       fetchedAt: work.snapshot.fetchedAt,
       entryCount: work.snapshot.entries.length,
       mappedCount,

@@ -37,13 +37,11 @@ async function scrapeArena({ sourceId, url, expectMinRows }: ArenaOptions): Prom
   try {
     const resolverArgs = await hostResolverArgs(["arena.ai", "www.arena.ai"]);
     browser = await chromium.launch({
+      // The legacy headless shell gets stuck on Cloudflare's verification page.
+      // Use real Chromium's current headless mode, with normal process isolation.
+      channel: "chromium",
       headless: true,
       args: [
-        "--disable-crashpad",
-        "--no-zygote",
-        "--single-process",
-        "--no-sandbox",
-        "--disable-gpu",
         "--disable-blink-features=AutomationControlled",
         ...resolverArgs,
       ],
@@ -55,7 +53,10 @@ async function scrapeArena({ sourceId, url, expectMinRows }: ArenaOptions): Prom
       locale: "en-US",
     });
     const page = await context.newPage();
-    await page.goto(url, { waitUntil: "domcontentloaded", timeout: 60_000 });
+    const response = await page.goto(url, { waitUntil: "domcontentloaded", timeout: 60_000 });
+    if (response && !response.ok()) {
+      throw new Error(`Arena: HTTP ${response.status()} (${await page.title()}); leaderboard access was blocked`);
+    }
     await page.waitForSelector("table tbody tr", { timeout: 45_000 });
 
     const headers = await page.locator("table").first().locator("thead th").allInnerTexts().catch(() => [] as string[]);
@@ -90,6 +91,11 @@ async function scrapeArena({ sourceId, url, expectMinRows }: ArenaOptions): Prom
     const { entries, warnings } = parseArenaTable(table.headers, table.rows, { url, fetchedAt });
 
     const bodyText = await page.locator("body").innerText().catch(() => "");
+    const reportedRows = bodyText.match(/\b([\d,]+)\s+models\b/i)?.[1];
+    const expectedRows = Math.max(expectMinRows, reportedRows ? Number(reportedRows.replaceAll(",", "")) : 0);
+    if (entries.length < expectedRows) {
+      throw new Error(`Arena: incomplete leaderboard; expected at least ${expectedRows} rows, found ${entries.length}`);
+    }
     const updatedMatch = bodyText.match(/(?:Last updated|Updated)[:\s]*([A-Z][a-z]+ \d{1,2}, 20\d{2})/)
       ?? bodyText.match(/([A-Z][a-z]{2} \d{1,2}, 20\d{2})\s*[\d,]+\s+votes/);
     const sourceUpdatedAt = updatedMatch
@@ -103,7 +109,7 @@ async function scrapeArena({ sourceId, url, expectMinRows }: ArenaOptions): Prom
       sourceUpdatedAt,
       url,
       entries,
-      warnings: [...warnings, ...(entries.length < expectMinRows ? [`Expected at least ${expectMinRows} rows, found ${entries.length}.`] : [])],
+      warnings,
       costStatus: {
         status: costRows > 0 ? "available" : "unavailable",
         url,

@@ -1,22 +1,22 @@
 {
   "sourceId": "code-arena-webdev",
-  "fetchedAt": "2026-10-25T20:33:26.724Z",
-  "sourceUpdatedAt": "2026-10-22",
+  "fetchedAt": "2026-10-28T19:57:27.590Z",
+  "sourceUpdatedAt": "2026-10-27",
   "url": "https://arena.ai/leaderboard/code/webdev",
   "entries": [
     {
       "rawName": "Claude Opus 5.5 (Max)",
-      "score": 1807,
+      "score": 1810,
       "variant": "Max",
       "vendor": "Anthropic",
       "url": "https://arena.ai/leaderboard/code/webdev",
       "runId": "https://arena.ai/leaderboard/code/webdev:Claude Opus 5.5 (Max)",
       "cost": {
-        "usd": 8.96,
+        "usd": 9.01,
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -25,25 +25,25 @@
       },
       "extra": {
         "rank": 1,
-        "votes": 3140,
-        "costPerTask": "$8.96",
+        "votes": 3473,
+        "costPerTask": "$9.01",
         "price": "$4 / $20",
         "context": "1M"
       }
     },
     {
       "rawName": "GPT-6 Astra (Max)",
-      "score": 1774,
+      "score": 1773,
       "variant": "Max",
       "vendor": "OpenAI",
       "url": "https://arena.ai/leaderboard/code/webdev",
       "runId": "https://arena.ai/leaderboard/code/webdev:GPT-6 Astra (Max)",
       "cost": {
-        "usd": 9.35,
+        "usd": 9.39,
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -52,25 +52,25 @@
       },
       "extra": {
         "rank": 2,
-        "votes": 6579,
-        "costPerTask": "$9.35",
+        "votes": 7210,
+        "costPerTask": "$9.39",
         "price": "$10 / $50",
         "context": "1.1M"
       }
     },
     {
       "rawName": "Claude Sonnet 5.5 (xHigh)",
-      "score": 1769,
+      "score": 1770,
       "variant": "xHigh",
       "vendor": "Anthropic",
       "url": "https://arena.ai/leaderboard/code/webdev",
       "runId": "https://arena.ai/leaderboard/code/webdev:Claude Sonnet 5.5 (xHigh)",
       "cost": {
-        "usd": 2.92,
+        "usd": 2.96,
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -79,25 +79,25 @@
       },
       "extra": {
         "rank": 3,
-        "votes": 3822,
-        "costPerTask": "$2.92",
+        "votes": 4469,
+        "costPerTask": "$2.96",
         "price": "$2 / $10",
         "context": "1M"
       }
     },
     {
-      "rawName": "GPT-6.1 Sol (Max)",
-      "score": 1749,
-      "variant": "Max",
-      "vendor": "OpenAI",
+      "rawName": "Gemini 4 Carbon (High)",
+      "score": 1768,
+      "variant": "High",
+      "vendor": "Google",
       "url": "https://arena.ai/leaderboard/code/webdev",
-      "runId": "https://arena.ai/leaderboard/code/webdev:GPT-6.1 Sol (Max)",
+      "runId": "https://arena.ai/leaderboard/code/webdev:Gemini 4 Carbon (High)",
       "cost": {
-        "usd": 1.6,
+        "usd": 1.62,
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -106,25 +106,25 @@
       },
       "extra": {
         "rank": 4,
-        "votes": 3469,
-        "costPerTask": "$1.60",
+        "votes": 2230,
+        "costPerTask": "$1.62",
         "price": "$2 / $10",
-        "context": "1.1M"
+        "context": "N/A"
       }
     },
     {
-      "rawName": "Claude Fable 5.1 (Max)",
-      "score": 1742,
+      "rawName": "GPT-6.1 Sol (Max)",
+      "score": 1751,
       "variant": "Max",
-      "vendor": "Anthropic",
+      "vendor": "OpenAI",
       "url": "https://arena.ai/leaderboard/code/webdev",
-      "runId": "https://arena.ai/leaderboard/code/webdev:Claude Fable 5.1 (Max)",
+      "runId": "https://arena.ai/leaderboard/code/webdev:GPT-6.1 Sol (Max)",
       "cost": {
-        "usd": 11.34,
+        "usd": 1.61,
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -133,41 +133,25 @@
       },
       "extra": {
         "rank": 5,
-        "votes": 8098,
-        "costPerTask": "$11.34",
-        "price": "$10 / $50",
-        "context": "1M"
+        "votes": 4092,
+        "costPerTask": "$1.61",
+        "price": "$2 / $10",
+        "context": "1.1M"
       }
     },
     {
-      "rawName": "Muse Wonder Full (Max)",
-      "score": 1726,
+      "rawName": "Claude Fable 5.1 (Max)",
+      "score": 1746,
       "variant": "Max",
-      "vendor": "Meta",
-      "url": "https://arena.ai/leaderboard/code/webdev",
-      "runId": "https://arena.ai/leaderboard/code/webdev:Muse Wonder Full (Max)",
-      "costUnavailableReason": "The source does not report a numeric median task cost for this run.",
-      "extra": {
-        "rank": 6,
-        "votes": 2253,
-        "costPerTask": "N/A",
-        "price": "N/A",
-        "context": "N/A"
-      }
-    },
-    {
-      "rawName": "Claude Sonnet 5.5 (High)",
-      "score": 1709,
-      "variant": "High",
       "vendor": "Anthropic",
       "url": "https://arena.ai/leaderboard/code/webdev",
-      "runId": "https://arena.ai/leaderboard/code/webdev:Claude Sonnet 5.5 (High)",
+      "runId": "https://arena.ai/leaderboard/code/webdev:Claude Fable 5.1 (Max)",
       "cost": {
-        "usd": 1.24,
+        "usd": 11.37,
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -175,26 +159,42 @@
         "complete": true
       },
       "extra": {
-        "rank": 7,
-        "votes": 5632,
-        "costPerTask": "$1.24",
-        "price": "$2 / $10",
+        "rank": 6,
+        "votes": 8614,
+        "costPerTask": "$11.37",
+        "price": "$10 / $50",
         "context": "1M"
       }
     },
     {
-      "rawName": "Kimi K3.1 Pro (Max)",
-      "score": 1692,
+      "rawName": "Muse Wonder Full (Max)",
+      "score": 1725,
       "variant": "Max",
-      "vendor": "Moonshot",
+      "vendor": "Meta",
       "url": "https://arena.ai/leaderboard/code/webdev",
-      "runId": "https://arena.ai/leaderboard/code/webdev:Kimi K3.1 Pro (Max)",
+      "runId": "https://arena.ai/leaderboard/code/webdev:Muse Wonder Full (Max)",
+      "costUnavailableReason": "The source does not report a numeric median task cost for this run.",
+      "extra": {
+        "rank": 7,
+        "votes": 2248,
+        "costPerTask": "N/A",
+        "price": "N/A",
+        "context": "N/A"
+      }
+    },
+    {
+      "rawName": "Claude Sonnet 5.5 (High)",
+      "score": 1711,
+      "variant": "High",
+      "vendor": "Anthropic",
+      "url": "https://arena.ai/leaderboard/code/webdev",
+      "runId": "https://arena.ai/leaderboard/code/webdev:Claude Sonnet 5.5 (High)",
       "cost": {
-        "usd": 1.22,
+        "usd": 1.26,
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -203,8 +203,35 @@
       },
       "extra": {
         "rank": 8,
-        "votes": 2451,
-        "costPerTask": "$1.22",
+        "votes": 6371,
+        "costPerTask": "$1.26",
+        "price": "$2 / $10",
+        "context": "1M"
+      }
+    },
+    {
+      "rawName": "Kimi K3.1 Pro (Max)",
+      "score": 1695,
+      "variant": "Max",
+      "vendor": "Moonshot",
+      "url": "https://arena.ai/leaderboard/code/webdev",
+      "runId": "https://arena.ai/leaderboard/code/webdev:Kimi K3.1 Pro (Max)",
+      "cost": {
+        "usd": 1.23,
+        "upperBound": false,
+        "statistic": "median",
+        "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
+        "scope": "Arena · Cost/Task (P50)",
+        "currency": "USD",
+        "unit": "task",
+        "method": "reported",
+        "complete": true
+      },
+      "extra": {
+        "rank": 9,
+        "votes": 2671,
+        "costPerTask": "$1.23",
         "price": "$2 / $10",
         "context": "1M"
       }
@@ -217,38 +244,11 @@
       "url": "https://arena.ai/leaderboard/code/webdev",
       "runId": "https://arena.ai/leaderboard/code/webdev:Claude Opus 5 (Max)",
       "cost": {
-        "usd": 4.73,
+        "usd": 4.75,
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
-        "scope": "Arena · Cost/Task (P50)",
-        "currency": "USD",
-        "unit": "task",
-        "method": "reported",
-        "complete": true
-      },
-      "extra": {
-        "rank": 9,
-        "votes": 18995,
-        "costPerTask": "$4.73",
-        "price": "$5 / $25",
-        "context": "1M"
-      }
-    },
-    {
-      "rawName": "GPT-6 Sol (Max)",
-      "score": 1681,
-      "variant": "Max",
-      "vendor": "OpenAI",
-      "url": "https://arena.ai/leaderboard/code/webdev",
-      "runId": "https://arena.ai/leaderboard/code/webdev:GPT-6 Sol (Max)",
-      "cost": {
-        "usd": 1.65,
-        "upperBound": false,
-        "statistic": "median",
-        "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -257,25 +257,25 @@
       },
       "extra": {
         "rank": 10,
-        "votes": 5008,
-        "costPerTask": "$1.65",
-        "price": "$2 / $10",
-        "context": "1.1M"
+        "votes": 19641,
+        "costPerTask": "$4.75",
+        "price": "$5 / $25",
+        "context": "1M"
       }
     },
     {
       "rawName": "Gemini 4 Argon (High)",
-      "score": 1674,
+      "score": 1679,
       "variant": "High",
       "vendor": "Google",
       "url": "https://arena.ai/leaderboard/code/webdev",
       "runId": "https://arena.ai/leaderboard/code/webdev:Gemini 4 Argon (High)",
       "cost": {
-        "usd": 1.23,
+        "usd": 1.2,
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -284,24 +284,25 @@
       },
       "extra": {
         "rank": 11,
-        "votes": 2729,
-        "costPerTask": "$1.23",
+        "votes": 3437,
+        "costPerTask": "$1.20",
         "price": "$2 / $10",
         "context": "1M"
       }
     },
     {
-      "rawName": "Qwen3.8-Max (0902)",
-      "score": 1673,
-      "vendor": "Alibaba",
+      "rawName": "GPT-6 Sol (Max)",
+      "score": 1678,
+      "variant": "Max",
+      "vendor": "OpenAI",
       "url": "https://arena.ai/leaderboard/code/webdev",
-      "runId": "https://arena.ai/leaderboard/code/webdev:Qwen3.8-Max (0902)",
+      "runId": "https://arena.ai/leaderboard/code/webdev:GPT-6 Sol (Max)",
       "cost": {
-        "usd": 1.68,
+        "usd": 1.7,
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -310,10 +311,63 @@
       },
       "extra": {
         "rank": 12,
-        "votes": 15637,
-        "costPerTask": "$1.68",
+        "votes": 5714,
+        "costPerTask": "$1.70",
+        "price": "$2 / $10",
+        "context": "1.1M"
+      }
+    },
+    {
+      "rawName": "Qwen3.8-Max (0902)",
+      "score": 1676,
+      "vendor": "Alibaba",
+      "url": "https://arena.ai/leaderboard/code/webdev",
+      "runId": "https://arena.ai/leaderboard/code/webdev:Qwen3.8-Max (0902)",
+      "cost": {
+        "usd": 1.72,
+        "upperBound": false,
+        "statistic": "median",
+        "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
+        "scope": "Arena · Cost/Task (P50)",
+        "currency": "USD",
+        "unit": "task",
+        "method": "reported",
+        "complete": true
+      },
+      "extra": {
+        "rank": 13,
+        "votes": 17936,
+        "costPerTask": "$1.72",
         "price": "$2 / $6",
         "context": "N/A"
+      }
+    },
+    {
+      "rawName": "GPT-6.1 Terra (Max)",
+      "score": 1673,
+      "variant": "Max",
+      "vendor": "OpenAI",
+      "url": "https://arena.ai/leaderboard/code/webdev",
+      "runId": "https://arena.ai/leaderboard/code/webdev:GPT-6.1 Terra (Max)",
+      "cost": {
+        "usd": 0.45,
+        "upperBound": false,
+        "statistic": "median",
+        "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
+        "scope": "Arena · Cost/Task (P50)",
+        "currency": "USD",
+        "unit": "task",
+        "method": "reported",
+        "complete": true
+      },
+      "extra": {
+        "rank": 14,
+        "votes": 1821,
+        "costPerTask": "$0.45",
+        "price": "$1 / $5",
+        "context": "1.1M"
       }
     },
     {
@@ -327,7 +381,7 @@
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -335,8 +389,8 @@
         "complete": true
       },
       "extra": {
-        "rank": 13,
-        "votes": 3429,
+        "rank": 15,
+        "votes": 3406,
         "costPerTask": "$2.31",
         "price": "$2 / $6",
         "context": "1M"
@@ -350,65 +404,11 @@
       "url": "https://arena.ai/leaderboard/code/webdev",
       "runId": "https://arena.ai/leaderboard/code/webdev:DeepSeek-V4.1-Flash-20261017 (Max)",
       "cost": {
-        "usd": 0.13,
+        "usd": 0.12,
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
-        "scope": "Arena · Cost/Task (P50)",
-        "currency": "USD",
-        "unit": "task",
-        "method": "reported",
-        "complete": true
-      },
-      "extra": {
-        "rank": 14,
-        "votes": 2500,
-        "costPerTask": "$0.13",
-        "price": "$0.30 / $1.20",
-        "context": "1M"
-      }
-    },
-    {
-      "rawName": "Claude Opus 5 (High)",
-      "score": 1659,
-      "variant": "High",
-      "vendor": "Anthropic",
-      "url": "https://arena.ai/leaderboard/code/webdev",
-      "runId": "https://arena.ai/leaderboard/code/webdev:Claude Opus 5 (High)",
-      "cost": {
-        "usd": 2.89,
-        "upperBound": false,
-        "statistic": "median",
-        "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
-        "scope": "Arena · Cost/Task (P50)",
-        "currency": "USD",
-        "unit": "task",
-        "method": "reported",
-        "complete": true
-      },
-      "extra": {
-        "rank": 15,
-        "votes": 25607,
-        "costPerTask": "$2.89",
-        "price": "$5 / $25",
-        "context": "1M"
-      }
-    },
-    {
-      "rawName": "Muse Spark 1.3 (Max)",
-      "score": 1657,
-      "variant": "Max",
-      "vendor": "Meta",
-      "url": "https://arena.ai/leaderboard/code/webdev",
-      "runId": "https://arena.ai/leaderboard/code/webdev:Muse Spark 1.3 (Max)",
-      "cost": {
-        "usd": 0.82,
-        "upperBound": false,
-        "statistic": "median",
-        "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -417,25 +417,25 @@
       },
       "extra": {
         "rank": 16,
-        "votes": 9921,
-        "costPerTask": "$0.82",
-        "price": "$1.25 / $4.25",
+        "votes": 7842,
+        "costPerTask": "$0.12",
+        "price": "$0.15 / $0.60",
         "context": "1M"
       }
     },
     {
-      "rawName": "Kimi K3 (Max)",
-      "score": 1655,
-      "variant": "Max",
-      "vendor": "Moonshot",
+      "rawName": "Claude Opus 5 (High)",
+      "score": 1658,
+      "variant": "High",
+      "vendor": "Anthropic",
       "url": "https://arena.ai/leaderboard/code/webdev",
-      "runId": "https://arena.ai/leaderboard/code/webdev:Kimi K3 (Max)",
+      "runId": "https://arena.ai/leaderboard/code/webdev:Claude Opus 5 (High)",
       "cost": {
-        "usd": 1.72,
+        "usd": 2.92,
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -444,25 +444,25 @@
       },
       "extra": {
         "rank": 17,
-        "votes": 20312,
-        "costPerTask": "$1.72",
-        "price": "$3 / $15",
+        "votes": 26887,
+        "costPerTask": "$2.92",
+        "price": "$5 / $25",
         "context": "1M"
       }
     },
     {
-      "rawName": "Muse Wonder (Max)",
-      "score": 1651,
+      "rawName": "Kimi K3 (Max)",
+      "score": 1656,
       "variant": "Max",
-      "vendor": "Meta",
+      "vendor": "Moonshot",
       "url": "https://arena.ai/leaderboard/code/webdev",
-      "runId": "https://arena.ai/leaderboard/code/webdev:Muse Wonder (Max)",
+      "runId": "https://arena.ai/leaderboard/code/webdev:Kimi K3 (Max)",
       "cost": {
-        "usd": 1.88,
+        "usd": 1.73,
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -471,25 +471,25 @@
       },
       "extra": {
         "rank": 18,
-        "votes": 2733,
-        "costPerTask": "$1.88",
-        "price": "$4 / $20",
+        "votes": 21281,
+        "costPerTask": "$1.73",
+        "price": "$3 / $15",
         "context": "1M"
       }
     },
     {
-      "rawName": "Grok 4.7 (xHigh)",
-      "score": 1638,
-      "variant": "xHigh",
-      "vendor": "SpaceXAI",
+      "rawName": "Muse Spark 1.3 (Max)",
+      "score": 1656,
+      "variant": "Max",
+      "vendor": "Meta",
       "url": "https://arena.ai/leaderboard/code/webdev",
-      "runId": "https://arena.ai/leaderboard/code/webdev:Grok 4.7 (xHigh)",
+      "runId": "https://arena.ai/leaderboard/code/webdev:Muse Spark 1.3 (Max)",
       "cost": {
-        "usd": 3.28,
+        "usd": 0.81,
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -498,24 +498,25 @@
       },
       "extra": {
         "rank": 19,
-        "votes": 5725,
-        "costPerTask": "$3.28",
-        "price": "$2 / $6",
-        "context": "500K"
+        "votes": 10796,
+        "costPerTask": "$0.81",
+        "price": "$1.25 / $4.25",
+        "context": "1M"
       }
     },
     {
-      "rawName": "MiMo-V2.6-Flash",
-      "score": 1635,
-      "vendor": "Xiaomi",
+      "rawName": "Muse Wonder (Max)",
+      "score": 1652,
+      "variant": "Max",
+      "vendor": "Meta",
       "url": "https://arena.ai/leaderboard/code/webdev",
-      "runId": "https://arena.ai/leaderboard/code/webdev:MiMo-V2.6-Flash",
+      "runId": "https://arena.ai/leaderboard/code/webdev:Muse Wonder (Max)",
       "cost": {
-        "usd": 0.05,
+        "usd": 1.76,
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -524,7 +525,60 @@
       },
       "extra": {
         "rank": 20,
-        "votes": 5749,
+        "votes": 3724,
+        "costPerTask": "$1.76",
+        "price": "$4 / $20",
+        "context": "1M"
+      }
+    },
+    {
+      "rawName": "Grok 4.7 (xHigh)",
+      "score": 1637,
+      "variant": "xHigh",
+      "vendor": "SpaceXAI",
+      "url": "https://arena.ai/leaderboard/code/webdev",
+      "runId": "https://arena.ai/leaderboard/code/webdev:Grok 4.7 (xHigh)",
+      "cost": {
+        "usd": 3.32,
+        "upperBound": false,
+        "statistic": "median",
+        "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
+        "scope": "Arena · Cost/Task (P50)",
+        "currency": "USD",
+        "unit": "task",
+        "method": "reported",
+        "complete": true
+      },
+      "extra": {
+        "rank": 21,
+        "votes": 6572,
+        "costPerTask": "$3.32",
+        "price": "$2 / $6",
+        "context": "500K"
+      }
+    },
+    {
+      "rawName": "MiMo-V2.6-Flash",
+      "score": 1637,
+      "vendor": "Xiaomi",
+      "url": "https://arena.ai/leaderboard/code/webdev",
+      "runId": "https://arena.ai/leaderboard/code/webdev:MiMo-V2.6-Flash",
+      "cost": {
+        "usd": 0.05,
+        "upperBound": false,
+        "statistic": "median",
+        "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
+        "scope": "Arena · Cost/Task (P50)",
+        "currency": "USD",
+        "unit": "task",
+        "method": "reported",
+        "complete": true
+      },
+      "extra": {
+        "rank": 22,
+        "votes": 7068,
         "costPerTask": "$0.05",
         "price": "$0.14 / $0.28",
         "context": "1.1M"
@@ -537,11 +591,11 @@
       "url": "https://arena.ai/leaderboard/code/webdev",
       "runId": "https://arena.ai/leaderboard/code/webdev:Hy4 preview",
       "cost": {
-        "usd": 0.35,
+        "usd": 0.33,
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -549,16 +603,16 @@
         "complete": true
       },
       "extra": {
-        "rank": 21,
-        "votes": 4788,
-        "costPerTask": "$0.35",
+        "rank": 23,
+        "votes": 4765,
+        "costPerTask": "$0.33",
         "price": "$0.75 / $2.25",
         "context": "1M"
       }
     },
     {
       "rawName": "Qwen3.8-Flash-Next",
-      "score": 1629,
+      "score": 1628,
       "vendor": "Alibaba",
       "url": "https://arena.ai/leaderboard/code/webdev",
       "runId": "https://arena.ai/leaderboard/code/webdev:Qwen3.8-Flash-Next",
@@ -567,7 +621,7 @@
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -575,8 +629,8 @@
         "complete": true
       },
       "extra": {
-        "rank": 22,
-        "votes": 8866,
+        "rank": 24,
+        "votes": 9703,
         "costPerTask": "$0.17",
         "price": "$0.16 / $0.47",
         "context": "1M"
@@ -593,7 +647,7 @@
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -601,8 +655,8 @@
         "complete": true
       },
       "extra": {
-        "rank": 23,
-        "votes": 5678,
+        "rank": 25,
+        "votes": 6820,
         "costPerTask": "$0.10",
         "price": "$0.43 / $0.87",
         "context": "1.1M"
@@ -616,11 +670,11 @@
       "url": "https://arena.ai/leaderboard/code/webdev",
       "runId": "https://arena.ai/leaderboard/code/webdev:Claude Fable 5 (High)",
       "cost": {
-        "usd": 3.07,
+        "usd": 3.09,
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -628,9 +682,9 @@
         "complete": true
       },
       "extra": {
-        "rank": 24,
-        "votes": 16342,
-        "costPerTask": "$3.07",
+        "rank": 26,
+        "votes": 16951,
+        "costPerTask": "$3.09",
         "price": "$10 / $50",
         "context": "1M"
       }
@@ -643,11 +697,11 @@
       "url": "https://arena.ai/leaderboard/code/webdev",
       "runId": "https://arena.ai/leaderboard/code/webdev:GLM-5.3 (Max)",
       "cost": {
-        "usd": 1.33,
+        "usd": 1.34,
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -655,9 +709,9 @@
         "complete": true
       },
       "extra": {
-        "rank": 25,
-        "votes": 10315,
-        "costPerTask": "$1.33",
+        "rank": 27,
+        "votes": 11150,
+        "costPerTask": "$1.34",
         "price": "$1.40 / $4.40",
         "context": "1M"
       }
@@ -674,7 +728,7 @@
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -682,8 +736,8 @@
         "complete": true
       },
       "extra": {
-        "rank": 26,
-        "votes": 9289,
+        "rank": 28,
+        "votes": 10243,
         "costPerTask": "$0.49",
         "price": "$1.25 / $4.25",
         "context": "1M"
@@ -701,7 +755,7 @@
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -709,8 +763,8 @@
         "complete": true
       },
       "extra": {
-        "rank": 27,
-        "votes": 3530,
+        "rank": 29,
+        "votes": 3510,
         "costPerTask": "$0.06",
         "price": "$0.30 / $1.20",
         "context": "1M"
@@ -718,7 +772,7 @@
     },
     {
       "rawName": "Grok 4.6 (High)",
-      "score": 1617,
+      "score": 1616,
       "variant": "High",
       "vendor": "SpaceXAI",
       "url": "https://arena.ai/leaderboard/code/webdev",
@@ -728,7 +782,7 @@
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -736,8 +790,8 @@
         "complete": true
       },
       "extra": {
-        "rank": 28,
-        "votes": 11022,
+        "rank": 30,
+        "votes": 11966,
         "costPerTask": "$1.25",
         "price": "$2 / $6",
         "context": "500K"
@@ -745,7 +799,7 @@
     },
     {
       "rawName": "GPT-5.6 Sol (xHigh, Codex Harness)",
-      "score": 1615,
+      "score": 1616,
       "harness": "xHigh, Codex Harness",
       "vendor": "OpenAI",
       "url": "https://arena.ai/leaderboard/code/webdev",
@@ -755,60 +809,7 @@
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
-        "scope": "Arena · Cost/Task (P50)",
-        "currency": "USD",
-        "unit": "task",
-        "method": "reported",
-        "complete": true
-      },
-      "extra": {
-        "rank": 29,
-        "votes": 18243,
-        "costPerTask": "$1.48",
-        "price": "$4 / $20",
-        "context": "1.1M"
-      }
-    },
-    {
-      "rawName": "GLM-5.3-Flash",
-      "score": 1608,
-      "vendor": "Z.ai",
-      "url": "https://arena.ai/leaderboard/code/webdev",
-      "runId": "https://arena.ai/leaderboard/code/webdev:GLM-5.3-Flash",
-      "cost": {
-        "usd": 0.15,
-        "upperBound": false,
-        "statistic": "median",
-        "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
-        "scope": "Arena · Cost/Task (P50)",
-        "currency": "USD",
-        "unit": "task",
-        "method": "reported",
-        "complete": true
-      },
-      "extra": {
-        "rank": 30,
-        "votes": 19680,
-        "costPerTask": "$0.15",
-        "price": "$0.05 / $0.18",
-        "context": "1M"
-      }
-    },
-    {
-      "rawName": "GLM-5.2 (Max)",
-      "score": 1604,
-      "variant": "Max",
-      "vendor": "Z.ai",
-      "url": "https://arena.ai/leaderboard/code/webdev",
-      "runId": "https://arena.ai/leaderboard/code/webdev:GLM-5.2 (Max)",
-      "cost": {
-        "usd": 0.92,
-        "upperBound": false,
-        "statistic": "median",
-        "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -817,24 +818,24 @@
       },
       "extra": {
         "rank": 31,
-        "votes": 17082,
-        "costPerTask": "$0.92",
-        "price": "$1.40 / $4.40",
-        "context": "1M"
+        "votes": 18884,
+        "costPerTask": "$1.48",
+        "price": "$4 / $20",
+        "context": "1.1M"
       }
     },
     {
-      "rawName": "Qwen3.8-27B",
-      "score": 1591,
-      "vendor": "Alibaba",
+      "rawName": "GLM-5.3-Flash",
+      "score": 1607,
+      "vendor": "Z.ai",
       "url": "https://arena.ai/leaderboard/code/webdev",
-      "runId": "https://arena.ai/leaderboard/code/webdev:Qwen3.8-27B",
+      "runId": "https://arena.ai/leaderboard/code/webdev:GLM-5.3-Flash",
       "cost": {
-        "usd": 0.43,
+        "usd": 0.15,
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -843,7 +844,60 @@
       },
       "extra": {
         "rank": 32,
-        "votes": 17186,
+        "votes": 21587,
+        "costPerTask": "$0.15",
+        "price": "$0.05 / $0.18",
+        "context": "1M"
+      }
+    },
+    {
+      "rawName": "GLM-5.2 (Max)",
+      "score": 1606,
+      "variant": "Max",
+      "vendor": "Z.ai",
+      "url": "https://arena.ai/leaderboard/code/webdev",
+      "runId": "https://arena.ai/leaderboard/code/webdev:GLM-5.2 (Max)",
+      "cost": {
+        "usd": 0.93,
+        "upperBound": false,
+        "statistic": "median",
+        "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
+        "scope": "Arena · Cost/Task (P50)",
+        "currency": "USD",
+        "unit": "task",
+        "method": "reported",
+        "complete": true
+      },
+      "extra": {
+        "rank": 33,
+        "votes": 17817,
+        "costPerTask": "$0.93",
+        "price": "$1.40 / $4.40",
+        "context": "1M"
+      }
+    },
+    {
+      "rawName": "Qwen3.8-27B",
+      "score": 1590,
+      "vendor": "Alibaba",
+      "url": "https://arena.ai/leaderboard/code/webdev",
+      "runId": "https://arena.ai/leaderboard/code/webdev:Qwen3.8-27B",
+      "cost": {
+        "usd": 0.43,
+        "upperBound": false,
+        "statistic": "median",
+        "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
+        "scope": "Arena · Cost/Task (P50)",
+        "currency": "USD",
+        "unit": "task",
+        "method": "reported",
+        "complete": true
+      },
+      "extra": {
+        "rank": 34,
+        "votes": 18752,
         "costPerTask": "$0.43",
         "price": "$0.40 / $3",
         "context": "N/A"
@@ -861,7 +915,7 @@
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -869,42 +923,16 @@
         "complete": true
       },
       "extra": {
-        "rank": 33,
-        "votes": 13307,
+        "rank": 35,
+        "votes": 14473,
         "costPerTask": "$0.70",
         "price": "$0.75 / $3.75",
         "context": "1M"
       }
     },
     {
-      "rawName": "MiniMax-M3.1-Flash",
-      "score": 1589,
-      "vendor": "MiniMax",
-      "url": "https://arena.ai/leaderboard/code/webdev",
-      "runId": "https://arena.ai/leaderboard/code/webdev:MiniMax-M3.1-Flash",
-      "cost": {
-        "usd": 0.16,
-        "upperBound": false,
-        "statistic": "median",
-        "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
-        "scope": "Arena · Cost/Task (P50)",
-        "currency": "USD",
-        "unit": "task",
-        "method": "reported",
-        "complete": true
-      },
-      "extra": {
-        "rank": 34,
-        "votes": 2212,
-        "costPerTask": "$0.16",
-        "price": "$0.15 / $0.60",
-        "context": "N/A"
-      }
-    },
-    {
       "rawName": "Claude Haiku 5.5 (High)",
-      "score": 1586,
+      "score": 1589,
       "variant": "High",
       "vendor": "Anthropic",
       "url": "https://arena.ai/leaderboard/code/webdev",
@@ -914,7 +942,7 @@
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -922,8 +950,8 @@
         "complete": true
       },
       "extra": {
-        "rank": 35,
-        "votes": 3917,
+        "rank": 36,
+        "votes": 4758,
         "costPerTask": "$0.10",
         "price": "$0.10 / $0.50",
         "context": "1M"
@@ -931,7 +959,7 @@
     },
     {
       "rawName": "Gemini 3.8 Flash (High)",
-      "score": 1585,
+      "score": 1583,
       "variant": "High",
       "vendor": "Google",
       "url": "https://arena.ai/leaderboard/code/webdev",
@@ -941,7 +969,7 @@
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -949,11 +977,37 @@
         "complete": true
       },
       "extra": {
-        "rank": 36,
-        "votes": 11405,
+        "rank": 37,
+        "votes": 12342,
         "costPerTask": "$0.68",
         "price": "$0.75 / $3.75",
         "context": "1M"
+      }
+    },
+    {
+      "rawName": "MiniMax-M3.1-Flash",
+      "score": 1582,
+      "vendor": "MiniMax",
+      "url": "https://arena.ai/leaderboard/code/webdev",
+      "runId": "https://arena.ai/leaderboard/code/webdev:MiniMax-M3.1-Flash",
+      "cost": {
+        "usd": 0.16,
+        "upperBound": false,
+        "statistic": "median",
+        "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
+        "scope": "Arena · Cost/Task (P50)",
+        "currency": "USD",
+        "unit": "task",
+        "method": "reported",
+        "complete": true
+      },
+      "extra": {
+        "rank": 38,
+        "votes": 3062,
+        "costPerTask": "$0.16",
+        "price": "$0.15 / $0.60",
+        "context": "N/A"
       }
     },
     {
@@ -968,7 +1022,7 @@
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -976,8 +1030,8 @@
         "complete": true
       },
       "extra": {
-        "rank": 37,
-        "votes": 4714,
+        "rank": 39,
+        "votes": 4676,
         "costPerTask": "$0.37",
         "price": "$1.32 / $3.96",
         "context": "N/A"
@@ -995,7 +1049,7 @@
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -1003,8 +1057,8 @@
         "complete": true
       },
       "extra": {
-        "rank": 38,
-        "votes": 4939,
+        "rank": 40,
+        "votes": 4927,
         "costPerTask": "$0.12",
         "price": "$0.30 / $1.20",
         "context": "1M"
@@ -1022,7 +1076,7 @@
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -1030,8 +1084,8 @@
         "complete": true
       },
       "extra": {
-        "rank": 39,
-        "votes": 24354,
+        "rank": 41,
+        "votes": 27808,
         "costPerTask": "$0.06",
         "price": "$0.10 / $0.50",
         "context": "1.1M"
@@ -1039,7 +1093,7 @@
     },
     {
       "rawName": "Step 5 Preview (High)",
-      "score": 1568,
+      "score": 1571,
       "variant": "High",
       "vendor": "StepFun",
       "url": "https://arena.ai/leaderboard/code/webdev",
@@ -1049,7 +1103,7 @@
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -1057,8 +1111,8 @@
         "complete": true
       },
       "extra": {
-        "rank": 40,
-        "votes": 5193,
+        "rank": 42,
+        "votes": 5966,
         "costPerTask": "$0.83",
         "price": "$1 / $2.70",
         "context": "1M"
@@ -1076,7 +1130,7 @@
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -1084,8 +1138,8 @@
         "complete": true
       },
       "extra": {
-        "rank": 41,
-        "votes": 17920,
+        "rank": 43,
+        "votes": 17859,
         "costPerTask": "$1.34",
         "price": "$5 / $25",
         "context": "1M"
@@ -1103,7 +1157,7 @@
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -1111,8 +1165,8 @@
         "complete": true
       },
       "extra": {
-        "rank": 42,
-        "votes": 18486,
+        "rank": 44,
+        "votes": 18408,
         "costPerTask": "$1.71",
         "price": "$5 / $25",
         "context": "1M"
@@ -1129,7 +1183,7 @@
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -1137,8 +1191,8 @@
         "complete": true
       },
       "extra": {
-        "rank": 43,
-        "votes": 18243,
+        "rank": 45,
+        "votes": 18167,
         "costPerTask": "$1.22",
         "price": "$5 / $25",
         "context": "1M"
@@ -1155,7 +1209,7 @@
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -1163,8 +1217,8 @@
         "complete": true
       },
       "extra": {
-        "rank": 44,
-        "votes": 11083,
+        "rank": 46,
+        "votes": 11018,
         "costPerTask": "$0.35",
         "price": "$2 / $6",
         "context": "500K"
@@ -1182,7 +1236,7 @@
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -1190,8 +1244,8 @@
         "complete": true
       },
       "extra": {
-        "rank": 45,
-        "votes": 19404,
+        "rank": 47,
+        "votes": 19316,
         "costPerTask": "$1.69",
         "price": "$5 / $25",
         "context": "1M"
@@ -1199,16 +1253,16 @@
     },
     {
       "rawName": "Mistral Large 4",
-      "score": 1545,
+      "score": 1544,
       "vendor": "Mistral",
       "url": "https://arena.ai/leaderboard/code/webdev",
       "runId": "https://arena.ai/leaderboard/code/webdev:Mistral Large 4",
       "cost": {
-        "usd": 1.29,
+        "usd": 1.24,
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -1216,9 +1270,9 @@
         "complete": true
       },
       "extra": {
-        "rank": 46,
-        "votes": 3269,
-        "costPerTask": "$1.29",
+        "rank": 48,
+        "votes": 4068,
+        "costPerTask": "$1.24",
         "price": "$0.68 / $2.09",
         "context": "1M"
       }
@@ -1234,7 +1288,7 @@
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -1242,8 +1296,8 @@
         "complete": true
       },
       "extra": {
-        "rank": 47,
-        "votes": 7970,
+        "rank": 49,
+        "votes": 7935,
         "costPerTask": "$0.37",
         "price": "$1.25 / $4.25",
         "context": "N/A"
@@ -1251,17 +1305,17 @@
     },
     {
       "rawName": "Claude Sonnet 5 (High)",
-      "score": 1541,
+      "score": 1540,
       "variant": "High",
       "vendor": "Anthropic",
       "url": "https://arena.ai/leaderboard/code/webdev",
       "runId": "https://arena.ai/leaderboard/code/webdev:Claude Sonnet 5 (High)",
       "cost": {
-        "usd": 0.99,
+        "usd": 1,
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -1269,9 +1323,9 @@
         "complete": true
       },
       "extra": {
-        "rank": 48,
-        "votes": 16187,
-        "costPerTask": "$0.99",
+        "rank": 50,
+        "votes": 16832,
+        "costPerTask": "$1.00",
         "price": "$2 / $10",
         "context": "1M"
       }
@@ -1288,7 +1342,7 @@
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -1296,8 +1350,8 @@
         "complete": true
       },
       "extra": {
-        "rank": 49,
-        "votes": 8758,
+        "rank": 51,
+        "votes": 8722,
         "costPerTask": "$0.76",
         "price": "$0.75 / $3.75",
         "context": "1M"
@@ -1314,7 +1368,7 @@
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -1322,8 +1376,8 @@
         "complete": true
       },
       "extra": {
-        "rank": 50,
-        "votes": 20647,
+        "rank": 52,
+        "votes": 20576,
         "costPerTask": "$1.59",
         "price": "$5 / $25",
         "context": "1M"
@@ -1340,7 +1394,7 @@
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -1348,8 +1402,8 @@
         "complete": true
       },
       "extra": {
-        "rank": 51,
-        "votes": 17386,
+        "rank": 53,
+        "votes": 17323,
         "costPerTask": "$1.47",
         "price": "$5 / $25",
         "context": "1M"
@@ -1357,7 +1411,7 @@
     },
     {
       "rawName": "Muse Spark 1.2 (xHigh)",
-      "score": 1533,
+      "score": 1534,
       "variant": "xHigh",
       "vendor": "Meta",
       "url": "https://arena.ai/leaderboard/code/webdev",
@@ -1367,7 +1421,7 @@
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -1375,8 +1429,8 @@
         "complete": true
       },
       "extra": {
-        "rank": 52,
-        "votes": 2163,
+        "rank": 54,
+        "votes": 2155,
         "costPerTask": "$0.37",
         "price": "$1.25 / $4.25",
         "context": "N/A"
@@ -1389,11 +1443,22 @@
       "vendor": "Meta",
       "url": "https://arena.ai/leaderboard/code/webdev",
       "runId": "https://arena.ai/leaderboard/code/webdev:Muse Spark Open (Max)",
-      "costUnavailableReason": "The source does not report a numeric median task cost for this run.",
+      "cost": {
+        "usd": 0.15,
+        "upperBound": false,
+        "statistic": "median",
+        "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
+        "scope": "Arena · Cost/Task (P50)",
+        "currency": "USD",
+        "unit": "task",
+        "method": "reported",
+        "complete": true
+      },
       "extra": {
-        "rank": 53,
-        "votes": 1476,
-        "costPerTask": "N/A",
+        "rank": 55,
+        "votes": 1721,
+        "costPerTask": "$0.15",
         "price": "$1.25 / $4.25",
         "context": "1M"
       }
@@ -1409,7 +1474,7 @@
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -1417,8 +1482,8 @@
         "complete": true
       },
       "extra": {
-        "rank": 54,
-        "votes": 22852,
+        "rank": 56,
+        "votes": 22733,
         "costPerTask": "$1.08",
         "price": "$1.50 / $7.50",
         "context": "1M"
@@ -1426,7 +1491,7 @@
     },
     {
       "rawName": "GPT-5.6 Terra (xHigh, Codex Harness)",
-      "score": 1521,
+      "score": 1520,
       "harness": "xHigh, Codex Harness",
       "vendor": "OpenAI",
       "url": "https://arena.ai/leaderboard/code/webdev",
@@ -1436,7 +1501,7 @@
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -1444,8 +1509,8 @@
         "complete": true
       },
       "extra": {
-        "rank": 55,
-        "votes": 14450,
+        "rank": 57,
+        "votes": 15388,
         "costPerTask": "$0.56",
         "price": "$2 / $12",
         "context": "1M"
@@ -1453,7 +1518,7 @@
     },
     {
       "rawName": "Seed2.1 Pro Preview",
-      "score": 1520,
+      "score": 1519,
       "vendor": "Bytedance",
       "url": "https://arena.ai/leaderboard/code/webdev",
       "runId": "https://arena.ai/leaderboard/code/webdev:Seed2.1 Pro Preview",
@@ -1462,7 +1527,7 @@
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -1470,8 +1535,8 @@
         "complete": true
       },
       "extra": {
-        "rank": 56,
-        "votes": 15499,
+        "rank": 58,
+        "votes": 16294,
         "costPerTask": "$0.32",
         "price": "$0.88 / $4.42",
         "context": "262.1K"
@@ -1489,7 +1554,7 @@
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -1497,8 +1562,8 @@
         "complete": true
       },
       "extra": {
-        "rank": 57,
-        "votes": 12575,
+        "rank": 59,
+        "votes": 12522,
         "costPerTask": "$0.08",
         "price": "$0.20 / $1.20",
         "context": "1M"
@@ -1515,7 +1580,7 @@
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -1523,8 +1588,8 @@
         "complete": true
       },
       "extra": {
-        "rank": 58,
-        "votes": 8888,
+        "rank": 60,
+        "votes": 8855,
         "costPerTask": "$0.55",
         "price": "$1.48 / $4.42",
         "context": "1M"
@@ -1542,7 +1607,7 @@
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -1550,8 +1615,8 @@
         "complete": true
       },
       "extra": {
-        "rank": 59,
-        "votes": 15620,
+        "rank": 61,
+        "votes": 15553,
         "costPerTask": "$1.45",
         "price": "$5 / $30",
         "context": "N/A"
@@ -1568,7 +1633,7 @@
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -1576,8 +1641,8 @@
         "complete": true
       },
       "extra": {
-        "rank": 60,
-        "votes": 10172,
+        "rank": 62,
+        "votes": 10119,
         "costPerTask": "$0.24",
         "price": "$0.95 / $4",
         "context": "262.1K"
@@ -1594,59 +1659,7 @@
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
-        "scope": "Arena · Cost/Task (P50)",
-        "currency": "USD",
-        "unit": "task",
-        "method": "reported",
-        "complete": true
-      },
-      "extra": {
-        "rank": 61,
-        "votes": 10703,
-        "costPerTask": "$0.31",
-        "price": "$1.40 / $4.40",
-        "context": "202.8K"
-      }
-    },
-    {
-      "rawName": "Hy3",
-      "score": 1506,
-      "vendor": "Tencent",
-      "url": "https://arena.ai/leaderboard/code/webdev",
-      "runId": "https://arena.ai/leaderboard/code/webdev:Hy3",
-      "cost": {
-        "usd": 0.04,
-        "upperBound": false,
-        "statistic": "median",
-        "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
-        "scope": "Arena · Cost/Task (P50)",
-        "currency": "USD",
-        "unit": "task",
-        "method": "reported",
-        "complete": true
-      },
-      "extra": {
-        "rank": 62,
-        "votes": 6408,
-        "costPerTask": "$0.04",
-        "price": "$0.08 / $0.33",
-        "context": "262.1K"
-      }
-    },
-    {
-      "rawName": "gemini-3.5-flash",
-      "score": 1503,
-      "vendor": "Google",
-      "url": "https://arena.ai/leaderboard/code/webdev",
-      "runId": "https://arena.ai/leaderboard/code/webdev:gemini-3.5-flash",
-      "cost": {
-        "usd": 0.95,
-        "upperBound": false,
-        "statistic": "median",
-        "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -1655,7 +1668,59 @@
       },
       "extra": {
         "rank": 63,
-        "votes": 1877,
+        "votes": 10647,
+        "costPerTask": "$0.31",
+        "price": "$1.40 / $4.40",
+        "context": "202.8K"
+      }
+    },
+    {
+      "rawName": "Hy3",
+      "score": 1505,
+      "vendor": "Tencent",
+      "url": "https://arena.ai/leaderboard/code/webdev",
+      "runId": "https://arena.ai/leaderboard/code/webdev:Hy3",
+      "cost": {
+        "usd": 0.04,
+        "upperBound": false,
+        "statistic": "median",
+        "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
+        "scope": "Arena · Cost/Task (P50)",
+        "currency": "USD",
+        "unit": "task",
+        "method": "reported",
+        "complete": true
+      },
+      "extra": {
+        "rank": 64,
+        "votes": 6844,
+        "costPerTask": "$0.04",
+        "price": "$0.08 / $0.33",
+        "context": "262.1K"
+      }
+    },
+    {
+      "rawName": "gemini-3.5-flash",
+      "score": 1504,
+      "vendor": "Google",
+      "url": "https://arena.ai/leaderboard/code/webdev",
+      "runId": "https://arena.ai/leaderboard/code/webdev:gemini-3.5-flash",
+      "cost": {
+        "usd": 0.95,
+        "upperBound": false,
+        "statistic": "median",
+        "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
+        "scope": "Arena · Cost/Task (P50)",
+        "currency": "USD",
+        "unit": "task",
+        "method": "reported",
+        "complete": true
+      },
+      "extra": {
+        "rank": 65,
+        "votes": 1860,
         "costPerTask": "$0.95",
         "price": "$0.75 / $4.50",
         "context": "1M"
@@ -1673,7 +1738,7 @@
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -1681,8 +1746,8 @@
         "complete": true
       },
       "extra": {
-        "rank": 64,
-        "votes": 9382,
+        "rank": 66,
+        "votes": 9331,
         "costPerTask": "$0.99",
         "price": "$0.75 / $4.50",
         "context": "1M"
@@ -1697,8 +1762,8 @@
       "runId": "https://arena.ai/leaderboard/code/webdev:Claude Opus 4.5 (High, 32K, 20251101)",
       "costUnavailableReason": "The source does not report a numeric median task cost for this run.",
       "extra": {
-        "rank": 65,
-        "votes": 11033,
+        "rank": 67,
+        "votes": 10981,
         "costPerTask": "N/A",
         "price": "$5 / $25",
         "context": "200K"
@@ -1716,7 +1781,7 @@
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -1724,8 +1789,8 @@
         "complete": true
       },
       "extra": {
-        "rank": 66,
-        "votes": 12139,
+        "rank": 68,
+        "votes": 12075,
         "costPerTask": "$0.97",
         "price": "$0.75 / $4.50",
         "context": "1M"
@@ -1743,7 +1808,7 @@
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -1751,8 +1816,8 @@
         "complete": true
       },
       "extra": {
-        "rank": 67,
-        "votes": 17940,
+        "rank": 69,
+        "votes": 17853,
         "costPerTask": "$1.04",
         "price": "$5 / $30",
         "context": "N/A"
@@ -1760,16 +1825,16 @@
     },
     {
       "rawName": "MiniMax-M3",
-      "score": 1482,
+      "score": 1483,
       "vendor": "MiniMax",
       "url": "https://arena.ai/leaderboard/code/webdev",
       "runId": "https://arena.ai/leaderboard/code/webdev:MiniMax-M3",
       "cost": {
-        "usd": 0.1,
+        "usd": 0.11,
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -1777,11 +1842,37 @@
         "complete": true
       },
       "extra": {
-        "rank": 68,
-        "votes": 20251,
-        "costPerTask": "$0.10",
+        "rank": 70,
+        "votes": 21032,
+        "costPerTask": "$0.11",
         "price": "$0.30 / $1.20",
         "context": "524.3K"
+      }
+    },
+    {
+      "rawName": "Spark-X2.6",
+      "score": 1482,
+      "vendor": "XHToken",
+      "url": "https://arena.ai/leaderboard/code/webdev",
+      "runId": "https://arena.ai/leaderboard/code/webdev:Spark-X2.6",
+      "cost": {
+        "usd": 0.08,
+        "upperBound": false,
+        "statistic": "median",
+        "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
+        "scope": "Arena · Cost/Task (P50)",
+        "currency": "USD",
+        "unit": "task",
+        "method": "reported",
+        "complete": true
+      },
+      "extra": {
+        "rank": 71,
+        "votes": 1210,
+        "costPerTask": "$0.08",
+        "price": "$0.14 / $0.54",
+        "context": "1M"
       }
     },
     {
@@ -1795,85 +1886,7 @@
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
-        "scope": "Arena · Cost/Task (P50)",
-        "currency": "USD",
-        "unit": "task",
-        "method": "reported",
-        "complete": true
-      },
-      "extra": {
-        "rank": 69,
-        "votes": 2716,
-        "costPerTask": "$0.79",
-        "price": "$1.27 / $7.61",
-        "context": "262.1K"
-      }
-    },
-    {
-      "rawName": "MiMo-V2.5-Pro",
-      "score": 1481,
-      "vendor": "Xiaomi",
-      "url": "https://arena.ai/leaderboard/code/webdev",
-      "runId": "https://arena.ai/leaderboard/code/webdev:MiMo-V2.5-Pro",
-      "cost": {
-        "usd": 0.05,
-        "upperBound": false,
-        "statistic": "median",
-        "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
-        "scope": "Arena · Cost/Task (P50)",
-        "currency": "USD",
-        "unit": "task",
-        "method": "reported",
-        "complete": true
-      },
-      "extra": {
-        "rank": 70,
-        "votes": 22766,
-        "costPerTask": "$0.05",
-        "price": "$0.30 / $0.61",
-        "context": "1.1M"
-      }
-    },
-    {
-      "rawName": "Spark-X2.6",
-      "score": 1480,
-      "vendor": "XHToken",
-      "url": "https://arena.ai/leaderboard/code/webdev",
-      "runId": "https://arena.ai/leaderboard/code/webdev:Spark-X2.6",
-      "cost": {
-        "usd": 0.08,
-        "upperBound": false,
-        "statistic": "median",
-        "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
-        "scope": "Arena · Cost/Task (P50)",
-        "currency": "USD",
-        "unit": "task",
-        "method": "reported",
-        "complete": true
-      },
-      "extra": {
-        "rank": 71,
-        "votes": 1144,
-        "costPerTask": "$0.08",
-        "price": "$0.14 / $0.54",
-        "context": "1M"
-      }
-    },
-    {
-      "rawName": "Kimi K2.7 Code",
-      "score": 1473,
-      "vendor": "Moonshot",
-      "url": "https://arena.ai/leaderboard/code/webdev",
-      "runId": "https://arena.ai/leaderboard/code/webdev:Kimi K2.7 Code",
-      "cost": {
-        "usd": 0.2,
-        "upperBound": false,
-        "statistic": "median",
-        "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -1882,22 +1895,74 @@
       },
       "extra": {
         "rank": 72,
-        "votes": 4961,
+        "votes": 2700,
+        "costPerTask": "$0.79",
+        "price": "$1.27 / $7.61",
+        "context": "262.1K"
+      }
+    },
+    {
+      "rawName": "MiMo-V2.5-Pro",
+      "score": 1480,
+      "vendor": "Xiaomi",
+      "url": "https://arena.ai/leaderboard/code/webdev",
+      "runId": "https://arena.ai/leaderboard/code/webdev:MiMo-V2.5-Pro",
+      "cost": {
+        "usd": 0.07,
+        "upperBound": false,
+        "statistic": "median",
+        "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
+        "scope": "Arena · Cost/Task (P50)",
+        "currency": "USD",
+        "unit": "task",
+        "method": "reported",
+        "complete": true
+      },
+      "extra": {
+        "rank": 73,
+        "votes": 22604,
+        "costPerTask": "$0.07",
+        "price": "$0.48 / $1.80",
+        "context": "1.1M"
+      }
+    },
+    {
+      "rawName": "Kimi K2.7 Code",
+      "score": 1474,
+      "vendor": "Moonshot",
+      "url": "https://arena.ai/leaderboard/code/webdev",
+      "runId": "https://arena.ai/leaderboard/code/webdev:Kimi K2.7 Code",
+      "cost": {
+        "usd": 0.2,
+        "upperBound": false,
+        "statistic": "median",
+        "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
+        "scope": "Arena · Cost/Task (P50)",
+        "currency": "USD",
+        "unit": "task",
+        "method": "reported",
+        "complete": true
+      },
+      "extra": {
+        "rank": 74,
+        "votes": 4950,
         "costPerTask": "$0.20",
-        "price": "$0.67 / $3.35",
+        "price": "$0.56 / $3.10",
         "context": "262.1K"
       }
     },
     {
       "rawName": "Claude Opus 4.5 (20251101)",
-      "score": 1470,
+      "score": 1469,
       "vendor": "Anthropic",
       "url": "https://arena.ai/leaderboard/code/webdev",
       "runId": "https://arena.ai/leaderboard/code/webdev:Claude Opus 4.5 (20251101)",
       "costUnavailableReason": "The source does not report a numeric median task cost for this run.",
       "extra": {
-        "rank": 73,
-        "votes": 13427,
+        "rank": 75,
+        "votes": 13362,
         "costPerTask": "N/A",
         "price": "$5 / $25",
         "context": "200K"
@@ -1915,7 +1980,7 @@
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -1923,8 +1988,8 @@
         "complete": true
       },
       "extra": {
-        "rank": 74,
-        "votes": 13164,
+        "rank": 76,
+        "votes": 13087,
         "costPerTask": "$0.06",
         "price": "$1.32 / $3.96",
         "context": "1M"
@@ -1932,15 +1997,15 @@
     },
     {
       "rawName": "GPT-5.4 (High, Codex Harness)",
-      "score": 1464,
+      "score": 1463,
       "harness": "High, Codex Harness",
       "vendor": "OpenAI",
       "url": "https://arena.ai/leaderboard/code/webdev",
       "runId": "https://arena.ai/leaderboard/code/webdev:GPT-5.4 (High, Codex Harness)",
       "costUnavailableReason": "The source does not report a numeric median task cost for this run.",
       "extra": {
-        "rank": 75,
-        "votes": 1351,
+        "rank": 77,
+        "votes": 1345,
         "costPerTask": "N/A",
         "price": "$2.50 / $15",
         "context": "1.1M"
@@ -1957,7 +2022,7 @@
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -1965,8 +2030,8 @@
         "complete": true
       },
       "extra": {
-        "rank": 76,
-        "votes": 18585,
+        "rank": 78,
+        "votes": 18511,
         "costPerTask": "$0.37",
         "price": "$0.50 / $3",
         "context": "1M"
@@ -1984,7 +2049,7 @@
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -1992,8 +2057,8 @@
         "complete": true
       },
       "extra": {
-        "rank": 77,
-        "votes": 15872,
+        "rank": 79,
+        "votes": 15811,
         "costPerTask": "$0.65",
         "price": "$5 / $30",
         "context": "N/A"
@@ -2010,7 +2075,7 @@
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -2018,8 +2083,8 @@
         "complete": true
       },
       "extra": {
-        "rank": 78,
-        "votes": 13978,
+        "rank": 80,
+        "votes": 13931,
         "costPerTask": "$0.05",
         "price": "$1.32 / $3.96",
         "context": "1M"
@@ -2036,7 +2101,7 @@
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -2044,8 +2109,8 @@
         "complete": true
       },
       "extra": {
-        "rank": 79,
-        "votes": 24232,
+        "rank": 81,
+        "votes": 24129,
         "costPerTask": "$0.50",
         "price": "$1 / $6",
         "context": "1M"
@@ -2060,26 +2125,11 @@
       "runId": "https://arena.ai/leaderboard/code/webdev:GPT-5.4 (Medium, Codex Harness)",
       "costUnavailableReason": "The source does not report a numeric median task cost for this run.",
       "extra": {
-        "rank": 80,
-        "votes": 1376,
+        "rank": 82,
+        "votes": 1374,
         "costPerTask": "N/A",
         "price": "$2.50 / $15",
         "context": "1.1M"
-      }
-    },
-    {
-      "rawName": "Gemini 3 Pro",
-      "score": 1440,
-      "vendor": "Google",
-      "url": "https://arena.ai/leaderboard/code/webdev",
-      "runId": "https://arena.ai/leaderboard/code/webdev:Gemini 3 Pro",
-      "costUnavailableReason": "The source does not report a numeric median task cost for this run.",
-      "extra": {
-        "rank": 81,
-        "votes": 14098,
-        "costPerTask": "N/A",
-        "price": "$2 / $12",
-        "context": "1M"
       }
     },
     {
@@ -2090,10 +2140,25 @@
       "runId": "https://arena.ai/leaderboard/code/webdev:Gemini 3 Flash",
       "costUnavailableReason": "The source does not report a numeric median task cost for this run.",
       "extra": {
-        "rank": 82,
-        "votes": 10893,
+        "rank": 83,
+        "votes": 10845,
         "costPerTask": "N/A",
         "price": "$0.50 / $3",
+        "context": "1M"
+      }
+    },
+    {
+      "rawName": "Gemini 3 Pro",
+      "score": 1440,
+      "vendor": "Google",
+      "url": "https://arena.ai/leaderboard/code/webdev",
+      "runId": "https://arena.ai/leaderboard/code/webdev:Gemini 3 Pro",
+      "costUnavailableReason": "The source does not report a numeric median task cost for this run.",
+      "extra": {
+        "rank": 84,
+        "votes": 14054,
+        "costPerTask": "N/A",
+        "price": "$2 / $12",
         "context": "1M"
       }
     },
@@ -2104,11 +2169,11 @@
       "url": "https://arena.ai/leaderboard/code/webdev",
       "runId": "https://arena.ai/leaderboard/code/webdev:MiMo-V2.5",
       "cost": {
-        "usd": 0.02,
+        "usd": 0.03,
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -2116,16 +2181,16 @@
         "complete": true
       },
       "extra": {
-        "rank": 83,
-        "votes": 14904,
-        "costPerTask": "$0.02",
-        "price": "$0.12 / $0.24",
+        "rank": 85,
+        "votes": 14837,
+        "costPerTask": "$0.03",
+        "price": "$0.40 / $2",
         "context": "1.1M"
       }
     },
     {
       "rawName": "Kimi K2.5 (Thinking)",
-      "score": 1437,
+      "score": 1436,
       "variant": "Thinking",
       "vendor": "Moonshot",
       "url": "https://arena.ai/leaderboard/code/webdev",
@@ -2135,7 +2200,7 @@
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -2143,8 +2208,8 @@
         "complete": true
       },
       "extra": {
-        "rank": 84,
-        "votes": 20102,
+        "rank": 86,
+        "votes": 20008,
         "costPerTask": "$0.08",
         "price": "$0.60 / $3",
         "context": "N/A"
@@ -2158,11 +2223,26 @@
       "runId": "https://arena.ai/leaderboard/code/webdev:Beam 1.0 501B A23B",
       "costUnavailableReason": "The source does not report a numeric median task cost for this run.",
       "extra": {
-        "rank": 85,
-        "votes": 2949,
+        "rank": 87,
+        "votes": 2932,
         "costPerTask": "N/A",
         "price": "$0.25 / $1",
         "context": "1M"
+      }
+    },
+    {
+      "rawName": "GLM-5",
+      "score": 1436,
+      "vendor": "Z.ai",
+      "url": "https://arena.ai/leaderboard/code/webdev",
+      "runId": "https://arena.ai/leaderboard/code/webdev:GLM-5",
+      "costUnavailableReason": "The source does not report a numeric median task cost for this run.",
+      "extra": {
+        "rank": 88,
+        "votes": 7465,
+        "costPerTask": "N/A",
+        "price": "$1 / $3.20",
+        "context": "202.8K"
       }
     },
     {
@@ -2173,52 +2253,11 @@
       "runId": "https://arena.ai/leaderboard/code/webdev:GLM-4.7",
       "costUnavailableReason": "The source does not report a numeric median task cost for this run.",
       "extra": {
-        "rank": 86,
-        "votes": 4007,
+        "rank": 89,
+        "votes": 3948,
         "costPerTask": "N/A",
         "price": "$0.54 / $1.98",
         "context": "204.8K"
-      }
-    },
-    {
-      "rawName": "GLM-5",
-      "score": 1435,
-      "vendor": "Z.ai",
-      "url": "https://arena.ai/leaderboard/code/webdev",
-      "runId": "https://arena.ai/leaderboard/code/webdev:GLM-5",
-      "costUnavailableReason": "The source does not report a numeric median task cost for this run.",
-      "extra": {
-        "rank": 87,
-        "votes": 7497,
-        "costPerTask": "N/A",
-        "price": "$1 / $3.20",
-        "context": "202.8K"
-      }
-    },
-    {
-      "rawName": "Gemini 3.5 Flash-Lite",
-      "score": 1434,
-      "vendor": "Google",
-      "url": "https://arena.ai/leaderboard/code/webdev",
-      "runId": "https://arena.ai/leaderboard/code/webdev:Gemini 3.5 Flash-Lite",
-      "cost": {
-        "usd": 0.18,
-        "upperBound": false,
-        "statistic": "median",
-        "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
-        "scope": "Arena · Cost/Task (P50)",
-        "currency": "USD",
-        "unit": "task",
-        "method": "reported",
-        "complete": true
-      },
-      "extra": {
-        "rank": 88,
-        "votes": 237,
-        "costPerTask": "$0.18",
-        "price": "$0.15 / $1.25",
-        "context": "1M"
       }
     },
     {
@@ -2232,7 +2271,7 @@
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -2240,16 +2279,42 @@
         "complete": true
       },
       "extra": {
-        "rank": 89,
-        "votes": 7277,
+        "rank": 90,
+        "votes": 7225,
         "costPerTask": "$0.11",
         "price": "$1.10 / $3.30",
         "context": "1M"
       }
     },
     {
+      "rawName": "Gemini 3.5 Flash-Lite",
+      "score": 1434,
+      "vendor": "Google",
+      "url": "https://arena.ai/leaderboard/code/webdev",
+      "runId": "https://arena.ai/leaderboard/code/webdev:Gemini 3.5 Flash-Lite",
+      "cost": {
+        "usd": 0.18,
+        "upperBound": false,
+        "statistic": "median",
+        "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
+        "scope": "Arena · Cost/Task (P50)",
+        "currency": "USD",
+        "unit": "task",
+        "method": "reported",
+        "complete": true
+      },
+      "extra": {
+        "rank": 91,
+        "votes": 236,
+        "costPerTask": "$0.18",
+        "price": "$0.15 / $1.25",
+        "context": "1M"
+      }
+    },
+    {
       "rawName": "DeepSeek-V4-Flash Preview (High)",
-      "score": 1431,
+      "score": 1430,
       "variant": "High",
       "vendor": "DeepSeek",
       "url": "https://arena.ai/leaderboard/code/webdev",
@@ -2259,7 +2324,7 @@
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -2267,8 +2332,8 @@
         "complete": true
       },
       "extra": {
-        "rank": 90,
-        "votes": 10111,
+        "rank": 92,
+        "votes": 10074,
         "costPerTask": "$0.04",
         "price": "$0.30 / $1.20",
         "context": "1M"
@@ -2276,15 +2341,15 @@
     },
     {
       "rawName": "GPT-5 (Medium)",
-      "score": 1418,
+      "score": 1417,
       "variant": "Medium",
       "vendor": "OpenAI",
       "url": "https://arena.ai/leaderboard/code/webdev",
       "runId": "https://arena.ai/leaderboard/code/webdev:GPT-5 (Medium)",
       "costUnavailableReason": "The source does not report a numeric median task cost for this run.",
       "extra": {
-        "rank": 91,
-        "votes": 3092,
+        "rank": 93,
+        "votes": 3089,
         "costPerTask": "N/A",
         "price": "$1.25 / $10",
         "context": "400K"
@@ -2292,13 +2357,13 @@
     },
     {
       "rawName": "GPT-5.2",
-      "score": 1417,
+      "score": 1416,
       "vendor": "OpenAI",
       "url": "https://arena.ai/leaderboard/code/webdev",
       "runId": "https://arena.ai/leaderboard/code/webdev:GPT-5.2",
       "costUnavailableReason": "The source does not report a numeric median task cost for this run.",
       "extra": {
-        "rank": 92,
+        "rank": 94,
         "votes": 1082,
         "costPerTask": "N/A",
         "price": "$0.88 / $7",
@@ -2316,7 +2381,7 @@
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -2324,8 +2389,8 @@
         "complete": true
       },
       "extra": {
-        "rank": 93,
-        "votes": 16256,
+        "rank": 95,
+        "votes": 17073,
         "costPerTask": "$0.28",
         "price": "$1 / $4.05",
         "context": "524.3K"
@@ -2342,7 +2407,7 @@
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -2350,8 +2415,8 @@
         "complete": true
       },
       "extra": {
-        "rank": 94,
-        "votes": 5329,
+        "rank": 96,
+        "votes": 5295,
         "costPerTask": "$0.10",
         "price": "$0.45 / $1.20",
         "context": "524.3K"
@@ -2366,8 +2431,8 @@
       "runId": "https://arena.ai/leaderboard/code/webdev:GPT-5.3-Codex (Codex Harness)",
       "costUnavailableReason": "The source does not report a numeric median task cost for this run.",
       "extra": {
-        "rank": 95,
-        "votes": 2641,
+        "rank": 97,
+        "votes": 2639,
         "costPerTask": "N/A",
         "price": "$1.75 / $14",
         "context": "400K"
@@ -2381,11 +2446,26 @@
       "runId": "https://arena.ai/leaderboard/code/webdev:Kimi K2.5 (Instant)",
       "costUnavailableReason": "The source does not report a numeric median task cost for this run.",
       "extra": {
-        "rank": 96,
-        "votes": 3264,
+        "rank": 98,
+        "votes": 3246,
         "costPerTask": "N/A",
         "price": "$0.50 / $2.50",
         "context": "262.1K"
+      }
+    },
+    {
+      "rawName": "GPT-5.4",
+      "score": 1401,
+      "vendor": "OpenAI",
+      "url": "https://arena.ai/leaderboard/code/webdev",
+      "runId": "https://arena.ai/leaderboard/code/webdev:GPT-5.4",
+      "costUnavailableReason": "The source does not report a numeric median task cost for this run.",
+      "extra": {
+        "rank": 99,
+        "votes": 4499,
+        "costPerTask": "N/A",
+        "price": "$2.50 / $15",
+        "context": "1.1M"
       }
     },
     {
@@ -2399,7 +2479,7 @@
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -2407,26 +2487,11 @@
         "complete": true
       },
       "extra": {
-        "rank": 97,
-        "votes": 2403,
+        "rank": 100,
+        "votes": 2394,
         "costPerTask": "$0.0033",
         "price": "$1.20 / $4",
         "context": "202.8K"
-      }
-    },
-    {
-      "rawName": "GPT-5.4",
-      "score": 1401,
-      "vendor": "OpenAI",
-      "url": "https://arena.ai/leaderboard/code/webdev",
-      "runId": "https://arena.ai/leaderboard/code/webdev:GPT-5.4",
-      "costUnavailableReason": "The source does not report a numeric median task cost for this run.",
-      "extra": {
-        "rank": 98,
-        "votes": 4247,
-        "costPerTask": "N/A",
-        "price": "$2.50 / $15",
-        "context": "1.1M"
       }
     },
     {
@@ -2440,7 +2505,7 @@
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -2448,11 +2513,26 @@
         "complete": true
       },
       "extra": {
-        "rank": 99,
-        "votes": 21176,
+        "rank": 101,
+        "votes": 21096,
         "costPerTask": "$0.19",
         "price": "$0.50 / $3.60",
         "context": "262.1K"
+      }
+    },
+    {
+      "rawName": "NVIDIA-Nemotron-3.5-Super-VL-120B-A12B (NVFP4)",
+      "score": 1399,
+      "vendor": "Nvidia",
+      "url": "https://arena.ai/leaderboard/code/webdev",
+      "runId": "https://arena.ai/leaderboard/code/webdev:NVIDIA-Nemotron-3.5-Super-VL-120B-A12B (NVFP4)",
+      "costUnavailableReason": "The source does not report a numeric median task cost for this run.",
+      "extra": {
+        "rank": 102,
+        "votes": 3193,
+        "costPerTask": "N/A",
+        "price": "N/A",
+        "context": "N/A"
       }
     },
     {
@@ -2466,7 +2546,7 @@
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -2474,26 +2554,11 @@
         "complete": true
       },
       "extra": {
-        "rank": 100,
-        "votes": 15975,
+        "rank": 103,
+        "votes": 15890,
         "costPerTask": "$0.06",
         "price": "$0.30 / $1.20",
         "context": "204.8K"
-      }
-    },
-    {
-      "rawName": "NVIDIA-Nemotron-3.5-Super-VL-120B-A12B (NVFP4)",
-      "score": 1398,
-      "vendor": "Nvidia",
-      "url": "https://arena.ai/leaderboard/code/webdev",
-      "runId": "https://arena.ai/leaderboard/code/webdev:NVIDIA-Nemotron-3.5-Super-VL-120B-A12B (NVFP4)",
-      "costUnavailableReason": "The source does not report a numeric median task cost for this run.",
-      "extra": {
-        "rank": 101,
-        "votes": 2332,
-        "costPerTask": "N/A",
-        "price": "N/A",
-        "context": "N/A"
       }
     },
     {
@@ -2508,7 +2573,7 @@
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -2516,8 +2581,8 @@
         "complete": true
       },
       "extra": {
-        "rank": 102,
-        "votes": 11959,
+        "rank": 104,
+        "votes": 11893,
         "costPerTask": "$0.23",
         "price": "$0.75 / $4.50",
         "context": "400K"
@@ -2532,8 +2597,8 @@
       "runId": "https://arena.ai/leaderboard/code/webdev:GPT-5.1 (Medium)",
       "costUnavailableReason": "The source does not report a numeric median task cost for this run.",
       "extra": {
-        "rank": 103,
-        "votes": 4914,
+        "rank": 105,
+        "votes": 4891,
         "costPerTask": "N/A",
         "price": "$0.63 / $5",
         "context": "400K"
@@ -2548,8 +2613,8 @@
       "runId": "https://arena.ai/leaderboard/code/webdev:Claude Sonnet 4.5 (High, 32K, 20250929)",
       "costUnavailableReason": "The source does not report a numeric median task cost for this run.",
       "extra": {
-        "rank": 104,
-        "votes": 13255,
+        "rank": 106,
+        "votes": 13213,
         "costPerTask": "N/A",
         "price": "$3 / $15",
         "context": "200K"
@@ -2557,14 +2622,14 @@
     },
     {
       "rawName": "Claude Opus 4.1 (20250805)",
-      "score": 1391,
+      "score": 1390,
       "vendor": "Anthropic",
       "url": "https://arena.ai/leaderboard/code/webdev",
       "runId": "https://arena.ai/leaderboard/code/webdev:Claude Opus 4.1 (20250805)",
       "costUnavailableReason": "The source does not report a numeric median task cost for this run.",
       "extra": {
-        "rank": 105,
-        "votes": 6929,
+        "rank": 107,
+        "votes": 6904,
         "costPerTask": "N/A",
         "price": "$7.50 / $37.50",
         "context": "200K"
@@ -2578,8 +2643,8 @@
       "runId": "https://arena.ai/leaderboard/code/webdev:MiniMax-M2.5",
       "costUnavailableReason": "The source does not report a numeric median task cost for this run.",
       "extra": {
-        "rank": 106,
-        "votes": 7634,
+        "rank": 108,
+        "votes": 7594,
         "costPerTask": "N/A",
         "price": "$0.30 / $1.20",
         "context": "204.8K"
@@ -2593,8 +2658,8 @@
       "runId": "https://arena.ai/leaderboard/code/webdev:Claude Sonnet 4.5 (20250929)",
       "costUnavailableReason": "The source does not report a numeric median task cost for this run.",
       "extra": {
-        "rank": 107,
-        "votes": 15748,
+        "rank": 109,
+        "votes": 15679,
         "costPerTask": "N/A",
         "price": "$3 / $15",
         "context": "1M"
@@ -2602,7 +2667,7 @@
     },
     {
       "rawName": "Gemini 3 Flash (Minimal)",
-      "score": 1385,
+      "score": 1384,
       "vendor": "Google",
       "url": "https://arena.ai/leaderboard/code/webdev",
       "runId": "https://arena.ai/leaderboard/code/webdev:Gemini 3 Flash (Minimal)",
@@ -2611,7 +2676,7 @@
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -2619,8 +2684,8 @@
         "complete": true
       },
       "extra": {
-        "rank": 108,
-        "votes": 22185,
+        "rank": 110,
+        "votes": 22080,
         "costPerTask": "$0.07",
         "price": "$0.50 / $3",
         "context": "1M"
@@ -2634,8 +2699,8 @@
       "runId": "https://arena.ai/leaderboard/code/webdev:MiniMax-M2.1 Preview",
       "costUnavailableReason": "The source does not report a numeric median task cost for this run.",
       "extra": {
-        "rank": 109,
-        "votes": 7641,
+        "rank": 111,
+        "votes": 7573,
         "costPerTask": "N/A",
         "price": "$0.30 / $1.20",
         "context": "204.8K"
@@ -2653,7 +2718,7 @@
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -2661,8 +2726,8 @@
         "complete": true
       },
       "extra": {
-        "rank": 110,
-        "votes": 15469,
+        "rank": 112,
+        "votes": 15404,
         "costPerTask": "$0.19",
         "price": "$1.25 / $2.50",
         "context": "1M"
@@ -2677,8 +2742,8 @@
       "runId": "https://arena.ai/leaderboard/code/webdev:GPT-5.3-Codex (Codex Harness)",
       "costUnavailableReason": "The source does not report a numeric median task cost for this run.",
       "extra": {
-        "rank": 111,
-        "votes": 3668,
+        "rank": 113,
+        "votes": 3648,
         "costPerTask": "N/A",
         "price": "$1.75 / $14",
         "context": "400K"
@@ -2695,7 +2760,7 @@
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -2703,8 +2768,8 @@
         "complete": true
       },
       "extra": {
-        "rank": 112,
-        "votes": 4651,
+        "rank": 114,
+        "votes": 4630,
         "costPerTask": "$0.09",
         "price": "$0.15 / $0.60",
         "context": "524.3K"
@@ -2712,7 +2777,7 @@
     },
     {
       "rawName": "Gemma 4 31B",
-      "score": 1368,
+      "score": 1369,
       "vendor": "Google",
       "url": "https://arena.ai/leaderboard/code/webdev",
       "runId": "https://arena.ai/leaderboard/code/webdev:Gemma 4 31B",
@@ -2721,49 +2786,7 @@
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
-        "scope": "Arena · Cost/Task (P50)",
-        "currency": "USD",
-        "unit": "task",
-        "method": "reported",
-        "complete": true
-      },
-      "extra": {
-        "rank": 113,
-        "votes": 14986,
-        "costPerTask": "$0.0075",
-        "price": "$0.99 / $1.49",
-        "context": "131.1K"
-      }
-    },
-    {
-      "rawName": "DeepSeek-V3.2 (Thinking)",
-      "score": 1362,
-      "variant": "Thinking",
-      "vendor": "DeepSeek",
-      "url": "https://arena.ai/leaderboard/code/webdev",
-      "runId": "https://arena.ai/leaderboard/code/webdev:DeepSeek-V3.2 (Thinking)",
-      "costUnavailableReason": "The source does not report a numeric median task cost for this run.",
-      "extra": {
-        "rank": 114,
-        "votes": 6925,
-        "costPerTask": "N/A",
-        "price": "$0.28 / $0.42",
-        "context": "163.8K"
-      }
-    },
-    {
-      "rawName": "Qwen3.5-122B-A10B",
-      "score": 1361,
-      "vendor": "Alibaba",
-      "url": "https://arena.ai/leaderboard/code/webdev",
-      "runId": "https://arena.ai/leaderboard/code/webdev:Qwen3.5-122B-A10B",
-      "cost": {
-        "usd": 0.12,
-        "upperBound": false,
-        "statistic": "median",
-        "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -2772,50 +2795,40 @@
       },
       "extra": {
         "rank": 115,
-        "votes": 8263,
-        "costPerTask": "$0.12",
-        "price": "$0.40 / $3.20",
-        "context": "262.1K"
+        "votes": 15489,
+        "costPerTask": "$0.0075",
+        "price": "$0.99 / $1.49",
+        "context": "131.1K"
       }
     },
     {
-      "rawName": "Gemma 4 26B A4B",
-      "score": 1360,
-      "vendor": "Google",
+      "rawName": "DeepSeek-V3.2 (Thinking)",
+      "score": 1363,
+      "variant": "Thinking",
+      "vendor": "DeepSeek",
       "url": "https://arena.ai/leaderboard/code/webdev",
-      "runId": "https://arena.ai/leaderboard/code/webdev:Gemma 4 26B A4B",
-      "cost": {
-        "usd": 0.0086,
-        "upperBound": false,
-        "statistic": "median",
-        "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
-        "scope": "Arena · Cost/Task (P50)",
-        "currency": "USD",
-        "unit": "task",
-        "method": "reported",
-        "complete": true
-      },
+      "runId": "https://arena.ai/leaderboard/code/webdev:DeepSeek-V3.2 (Thinking)",
+      "costUnavailableReason": "The source does not report a numeric median task cost for this run.",
       "extra": {
         "rank": 116,
-        "votes": 1503,
-        "costPerTask": "$0.0086",
-        "price": "N/A",
-        "context": "N/A"
+        "votes": 6860,
+        "costPerTask": "N/A",
+        "price": "$0.28 / $0.42",
+        "context": "163.8K"
       }
     },
     {
-      "rawName": "Qwen3.5-27B",
-      "score": 1359,
+      "rawName": "Qwen3.5-122B-A10B",
+      "score": 1360,
       "vendor": "Alibaba",
       "url": "https://arena.ai/leaderboard/code/webdev",
-      "runId": "https://arena.ai/leaderboard/code/webdev:Qwen3.5-27B",
+      "runId": "https://arena.ai/leaderboard/code/webdev:Qwen3.5-122B-A10B",
       "cost": {
-        "usd": 0.08,
+        "usd": 0.09,
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -2824,24 +2837,24 @@
       },
       "extra": {
         "rank": 117,
-        "votes": 7802,
-        "costPerTask": "$0.08",
-        "price": "$0.27 / $2.16",
+        "votes": 8210,
+        "costPerTask": "$0.09",
+        "price": "$0.26 / $2.08",
         "context": "262.1K"
       }
     },
     {
-      "rawName": "Grok 4.3",
-      "score": 1357,
-      "vendor": "SpaceXAI",
+      "rawName": "Gemma 4 26B A4B",
+      "score": 1359,
+      "vendor": "Google",
       "url": "https://arena.ai/leaderboard/code/webdev",
-      "runId": "https://arena.ai/leaderboard/code/webdev:Grok 4.3",
+      "runId": "https://arena.ai/leaderboard/code/webdev:Gemma 4 26B A4B",
       "cost": {
-        "usd": 0.08,
+        "usd": 0.0086,
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -2850,7 +2863,59 @@
       },
       "extra": {
         "rank": 118,
-        "votes": 14970,
+        "votes": 1494,
+        "costPerTask": "$0.0086",
+        "price": "N/A",
+        "context": "N/A"
+      }
+    },
+    {
+      "rawName": "Qwen3.5-27B",
+      "score": 1358,
+      "vendor": "Alibaba",
+      "url": "https://arena.ai/leaderboard/code/webdev",
+      "runId": "https://arena.ai/leaderboard/code/webdev:Qwen3.5-27B",
+      "cost": {
+        "usd": 0.08,
+        "upperBound": false,
+        "statistic": "median",
+        "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
+        "scope": "Arena · Cost/Task (P50)",
+        "currency": "USD",
+        "unit": "task",
+        "method": "reported",
+        "complete": true
+      },
+      "extra": {
+        "rank": 119,
+        "votes": 7767,
+        "costPerTask": "$0.08",
+        "price": "$0.26 / $2.60",
+        "context": "262.1K"
+      }
+    },
+    {
+      "rawName": "Grok 4.3",
+      "score": 1358,
+      "vendor": "SpaceXAI",
+      "url": "https://arena.ai/leaderboard/code/webdev",
+      "runId": "https://arena.ai/leaderboard/code/webdev:Grok 4.3",
+      "cost": {
+        "usd": 0.08,
+        "upperBound": false,
+        "statistic": "median",
+        "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
+        "scope": "Arena · Cost/Task (P50)",
+        "currency": "USD",
+        "unit": "task",
+        "method": "reported",
+        "complete": true
+      },
+      "extra": {
+        "rank": 120,
+        "votes": 14906,
         "costPerTask": "$0.08",
         "price": "$1.25 / $2.50",
         "context": "1M"
@@ -2867,7 +2932,7 @@
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -2875,8 +2940,8 @@
         "complete": true
       },
       "extra": {
-        "rank": 119,
-        "votes": 1453,
+        "rank": 121,
+        "votes": 1444,
         "costPerTask": "$0.07",
         "price": "$0.18 / $0.60",
         "context": "262.1K"
@@ -2890,8 +2955,8 @@
       "runId": "https://arena.ai/leaderboard/code/webdev:Muse Glimmer",
       "costUnavailableReason": "The source does not report a numeric median task cost for this run.",
       "extra": {
-        "rank": 120,
-        "votes": 1642,
+        "rank": 122,
+        "votes": 1632,
         "costPerTask": "N/A",
         "price": "N/A",
         "context": "N/A"
@@ -2908,7 +2973,7 @@
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -2916,8 +2981,8 @@
         "complete": true
       },
       "extra": {
-        "rank": 121,
-        "votes": 5387,
+        "rank": 123,
+        "votes": 5359,
         "costPerTask": "$0.15",
         "price": "$0.20 / $0.40",
         "context": "262.1K"
@@ -2925,14 +2990,14 @@
     },
     {
       "rawName": "GPT-5.1",
-      "score": 1342,
+      "score": 1341,
       "vendor": "OpenAI",
       "url": "https://arena.ai/leaderboard/code/webdev",
       "runId": "https://arena.ai/leaderboard/code/webdev:GPT-5.1",
       "costUnavailableReason": "The source does not report a numeric median task cost for this run.",
       "extra": {
-        "rank": 122,
-        "votes": 10715,
+        "rank": 124,
+        "votes": 10675,
         "costPerTask": "N/A",
         "price": "$0.63 / $5",
         "context": "400K"
@@ -2946,8 +3011,8 @@
       "runId": "https://arena.ai/leaderboard/code/webdev:GLM-4.6",
       "costUnavailableReason": "The source does not report a numeric median task cost for this run.",
       "extra": {
-        "rank": 123,
-        "votes": 6781,
+        "rank": 125,
+        "votes": 6755,
         "costPerTask": "N/A",
         "price": "$0.55 / $2.20",
         "context": "204.8K"
@@ -2961,8 +3026,8 @@
       "runId": "https://arena.ai/leaderboard/code/webdev:GPT-5.2-Codex",
       "costUnavailableReason": "The source does not report a numeric median task cost for this run.",
       "extra": {
-        "rank": 124,
-        "votes": 6721,
+        "rank": 126,
+        "votes": 6705,
         "costPerTask": "N/A",
         "price": "$1.75 / $14",
         "context": "400K"
@@ -2976,8 +3041,8 @@
       "runId": "https://arena.ai/leaderboard/code/webdev:GPT-5.1-Codex",
       "costUnavailableReason": "The source does not report a numeric median task cost for this run.",
       "extra": {
-        "rank": 125,
-        "votes": 5012,
+        "rank": 127,
+        "votes": 4981,
         "costPerTask": "N/A",
         "price": "$1.25 / $10",
         "context": "400K"
@@ -2992,8 +3057,8 @@
       "runId": "https://arena.ai/leaderboard/code/webdev:MiMo-V2-Flash (Non-Thinking)",
       "costUnavailableReason": "The source does not report a numeric median task cost for this run.",
       "extra": {
-        "rank": 126,
-        "votes": 5690,
+        "rank": 128,
+        "votes": 5645,
         "costPerTask": "N/A",
         "price": "$0.10 / $0.30",
         "context": "262.1K"
@@ -3010,7 +3075,7 @@
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -3018,8 +3083,8 @@
         "complete": true
       },
       "extra": {
-        "rank": 127,
-        "votes": 29087,
+        "rank": 129,
+        "votes": 28961,
         "costPerTask": "$0.31",
         "price": "$1 / $5",
         "context": "200K"
@@ -3033,8 +3098,8 @@
       "runId": "https://arena.ai/leaderboard/code/webdev:DeepSeek-V3.2",
       "costUnavailableReason": "The source does not report a numeric median task cost for this run.",
       "extra": {
-        "rank": 128,
-        "votes": 9392,
+        "rank": 130,
+        "votes": 9327,
         "costPerTask": "N/A",
         "price": "$0.28 / $0.42",
         "context": "163.8K"
@@ -3042,14 +3107,14 @@
     },
     {
       "rawName": "Kimi K2 Thinking Turbo",
-      "score": 1323,
+      "score": 1322,
       "vendor": "Moonshot",
       "url": "https://arena.ai/leaderboard/code/webdev",
       "runId": "https://arena.ai/leaderboard/code/webdev:Kimi K2 Thinking Turbo",
       "costUnavailableReason": "The source does not report a numeric median task cost for this run.",
       "extra": {
-        "rank": 129,
-        "votes": 13111,
+        "rank": 131,
+        "votes": 13045,
         "costPerTask": "N/A",
         "price": "$0.57 / $2.30",
         "context": "131.1K"
@@ -3057,7 +3122,7 @@
     },
     {
       "rawName": "Laguna XS.2",
-      "score": 1303,
+      "score": 1302,
       "vendor": "Poolside",
       "url": "https://arena.ai/leaderboard/code/webdev",
       "runId": "https://arena.ai/leaderboard/code/webdev:Laguna XS.2",
@@ -3066,7 +3131,7 @@
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -3074,8 +3139,8 @@
         "complete": true
       },
       "extra": {
-        "rank": 130,
-        "votes": 4223,
+        "rank": 132,
+        "votes": 4204,
         "costPerTask": "$0.07",
         "price": "$0.10 / $0.20",
         "context": "262.1K"
@@ -3089,8 +3154,8 @@
       "runId": "https://arena.ai/leaderboard/code/webdev:MiniMax-M2",
       "costUnavailableReason": "The source does not report a numeric median task cost for this run.",
       "extra": {
-        "rank": 131,
-        "votes": 6719,
+        "rank": 133,
+        "votes": 6683,
         "costPerTask": "N/A",
         "price": "$0.30 / $1.20",
         "context": "204.8K"
@@ -3098,15 +3163,15 @@
     },
     {
       "rawName": "MiMo-V2-Flash (Thinking)",
-      "score": 1293,
+      "score": 1292,
       "variant": "Thinking",
       "vendor": "Xiaomi",
       "url": "https://arena.ai/leaderboard/code/webdev",
       "runId": "https://arena.ai/leaderboard/code/webdev:MiMo-V2-Flash (Thinking)",
       "costUnavailableReason": "The source does not report a numeric median task cost for this run.",
       "extra": {
-        "rank": 132,
-        "votes": 1685,
+        "rank": 134,
+        "votes": 1681,
         "costPerTask": "N/A",
         "price": "$0.10 / $0.30",
         "context": "262.1K"
@@ -3120,8 +3185,8 @@
       "runId": "https://arena.ai/leaderboard/code/webdev:Qwen3-Coder-480B-A35B-Instruct",
       "costUnavailableReason": "The source does not report a numeric median task cost for this run.",
       "extra": {
-        "rank": 133,
-        "votes": 12715,
+        "rank": 135,
+        "votes": 12675,
         "costPerTask": "N/A",
         "price": "$0.65 / $3.25",
         "context": "1M"
@@ -3129,14 +3194,14 @@
     },
     {
       "rawName": "DeepSeek-V3.2-Exp",
-      "score": 1272,
+      "score": 1271,
       "vendor": "DeepSeek",
       "url": "https://arena.ai/leaderboard/code/webdev",
       "runId": "https://arena.ai/leaderboard/code/webdev:DeepSeek-V3.2-Exp",
       "costUnavailableReason": "The source does not report a numeric median task cost for this run.",
       "extra": {
-        "rank": 134,
-        "votes": 3970,
+        "rank": 136,
+        "votes": 3968,
         "costPerTask": "N/A",
         "price": "$0.27 / $0.41",
         "context": "163.8K"
@@ -3153,7 +3218,7 @@
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -3161,8 +3226,8 @@
         "complete": true
       },
       "extra": {
-        "rank": 135,
-        "votes": 2315,
+        "rank": 137,
+        "votes": 2299,
         "costPerTask": "$0.15",
         "price": "$0.75 / $3.75",
         "context": "262.1K"
@@ -3179,7 +3244,7 @@
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -3187,8 +3252,8 @@
         "complete": true
       },
       "extra": {
-        "rank": 136,
-        "votes": 14418,
+        "rank": 138,
+        "votes": 14350,
         "costPerTask": "$0.02",
         "price": "$0.25 / $1.50",
         "context": "1M"
@@ -3202,8 +3267,8 @@
       "runId": "https://arena.ai/leaderboard/code/webdev:KAT-Coder-Pro V1",
       "costUnavailableReason": "The source does not report a numeric median task cost for this run.",
       "extra": {
-        "rank": 137,
-        "votes": 1504,
+        "rank": 139,
+        "votes": 1503,
         "costPerTask": "N/A",
         "price": "$0.21 / $0.83",
         "context": "256K"
@@ -3217,26 +3282,11 @@
       "runId": "https://arena.ai/leaderboard/code/webdev:Qwen3.5-35B-A3B",
       "costUnavailableReason": "The source does not report a numeric median task cost for this run.",
       "extra": {
-        "rank": 138,
-        "votes": 1617,
+        "rank": 140,
+        "votes": 1612,
         "costPerTask": "N/A",
         "price": "$0.14 / $1",
         "context": "262.1K"
-      }
-    },
-    {
-      "rawName": "GPT-5.1-Codex-Mini",
-      "score": 1244,
-      "vendor": "OpenAI",
-      "url": "https://arena.ai/leaderboard/code/webdev",
-      "runId": "https://arena.ai/leaderboard/code/webdev:GPT-5.1-Codex-Mini",
-      "costUnavailableReason": "The source does not report a numeric median task cost for this run.",
-      "extra": {
-        "rank": 139,
-        "votes": 1154,
-        "costPerTask": "N/A",
-        "price": "$0.25 / $2",
-        "context": "400K"
       }
     },
     {
@@ -3247,11 +3297,26 @@
       "runId": "https://arena.ai/leaderboard/code/webdev:Qwen3.5-Flash",
       "costUnavailableReason": "The source does not report a numeric median task cost for this run.",
       "extra": {
-        "rank": 140,
-        "votes": 1328,
+        "rank": 141,
+        "votes": 1321,
         "costPerTask": "N/A",
         "price": "N/A",
         "context": "N/A"
+      }
+    },
+    {
+      "rawName": "GPT-5.1-Codex-Mini",
+      "score": 1244,
+      "vendor": "OpenAI",
+      "url": "https://arena.ai/leaderboard/code/webdev",
+      "runId": "https://arena.ai/leaderboard/code/webdev:GPT-5.1-Codex-Mini",
+      "costUnavailableReason": "The source does not report a numeric median task cost for this run.",
+      "extra": {
+        "rank": 142,
+        "votes": 1154,
+        "costPerTask": "N/A",
+        "price": "$0.25 / $2",
+        "context": "400K"
       }
     },
     {
@@ -3263,8 +3328,8 @@
       "runId": "https://arena.ai/leaderboard/code/webdev:Grok 4.1 Fast (Reasoning)",
       "costUnavailableReason": "The source does not report a numeric median task cost for this run.",
       "extra": {
-        "rank": 141,
-        "votes": 5491,
+        "rank": 143,
+        "votes": 5473,
         "costPerTask": "N/A",
         "price": "$0.20 / $0.50",
         "context": "128K"
@@ -3281,7 +3346,7 @@
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -3289,8 +3354,8 @@
         "complete": true
       },
       "extra": {
-        "rank": 142,
-        "votes": 1361,
+        "rank": 144,
+        "votes": 1352,
         "costPerTask": "$0.07",
         "price": "$0.25 / $0.80",
         "context": "262.1K"
@@ -3298,14 +3363,14 @@
     },
     {
       "rawName": "Mistral Large 3",
-      "score": 1232,
+      "score": 1233,
       "vendor": "Mistral",
       "url": "https://arena.ai/leaderboard/code/webdev",
       "runId": "https://arena.ai/leaderboard/code/webdev:Mistral Large 3",
       "costUnavailableReason": "The source does not report a numeric median task cost for this run.",
       "extra": {
-        "rank": 143,
-        "votes": 840,
+        "rank": 145,
+        "votes": 838,
         "costPerTask": "N/A",
         "price": "$0.50 / $1.50",
         "context": "N/A"
@@ -3319,8 +3384,8 @@
       "runId": "https://arena.ai/leaderboard/code/webdev:Gemini 2.5 Pro",
       "costUnavailableReason": "The source does not report a numeric median task cost for this run.",
       "extra": {
-        "rank": 144,
-        "votes": 2729,
+        "rank": 146,
+        "votes": 2724,
         "costPerTask": "N/A",
         "price": "$1.25 / $10",
         "context": "1M"
@@ -3328,14 +3393,14 @@
     },
     {
       "rawName": "Grok 4.1 (Thinking)",
-      "score": 1215,
+      "score": 1214,
       "variant": "Thinking",
       "vendor": "SpaceXAI",
       "url": "https://arena.ai/leaderboard/code/webdev",
       "runId": "https://arena.ai/leaderboard/code/webdev:Grok 4.1 (Thinking)",
       "costUnavailableReason": "The source does not report a numeric median task cost for this run.",
       "extra": {
-        "rank": 145,
+        "rank": 147,
         "votes": 961,
         "costPerTask": "N/A",
         "price": "N/A",
@@ -3350,8 +3415,8 @@
       "runId": "https://arena.ai/leaderboard/code/webdev:Devstral 2",
       "costUnavailableReason": "The source does not report a numeric median task cost for this run.",
       "extra": {
-        "rank": 146,
-        "votes": 1183,
+        "rank": 148,
+        "votes": 1182,
         "costPerTask": "N/A",
         "price": "N/A",
         "context": "N/A"
@@ -3368,7 +3433,7 @@
         "upperBound": false,
         "statistic": "median",
         "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-        "fetchedAt": "2026-10-25T20:33:26.724Z",
+        "fetchedAt": "2026-10-28T19:57:27.590Z",
         "scope": "Arena · Cost/Task (P50)",
         "currency": "USD",
         "unit": "task",
@@ -3376,8 +3441,8 @@
         "complete": true
       },
       "extra": {
-        "rank": 147,
-        "votes": 1781,
+        "rank": 149,
+        "votes": 1766,
         "costPerTask": "$0.0027",
         "price": "$0.05 / $0.10",
         "context": "131.1K"
@@ -3385,13 +3450,13 @@
     },
     {
       "rawName": "Mercury 2",
-      "score": 1171,
+      "score": 1170,
       "vendor": "Inception AI",
       "url": "https://arena.ai/leaderboard/code/webdev",
       "runId": "https://arena.ai/leaderboard/code/webdev:Mercury 2",
       "costUnavailableReason": "The source does not report a numeric median task cost for this run.",
       "extra": {
-        "rank": 148,
+        "rank": 150,
         "votes": 954,
         "costPerTask": "N/A",
         "price": "$0.25 / $0.75",
@@ -3400,13 +3465,13 @@
     },
     {
       "rawName": "Grok Code Fast 1",
-      "score": 1167,
+      "score": 1166,
       "vendor": "SpaceXAI",
       "url": "https://arena.ai/leaderboard/code/webdev",
       "runId": "https://arena.ai/leaderboard/code/webdev:Grok Code Fast 1",
       "costUnavailableReason": "The source does not report a numeric median task cost for this run.",
       "extra": {
-        "rank": 149,
+        "rank": 151,
         "votes": 789,
         "costPerTask": "N/A",
         "price": "$0.20 / $1.50",
@@ -3415,15 +3480,15 @@
     },
     {
       "rawName": "Grok 4 Fast (Reasoning)",
-      "score": 1160,
+      "score": 1159,
       "variant": "Reasoning",
       "vendor": "SpaceXAI",
       "url": "https://arena.ai/leaderboard/code/webdev",
       "runId": "https://arena.ai/leaderboard/code/webdev:Grok 4 Fast (Reasoning)",
       "costUnavailableReason": "The source does not report a numeric median task cost for this run.",
       "extra": {
-        "rank": 150,
-        "votes": 743,
+        "rank": 152,
+        "votes": 742,
         "costPerTask": "N/A",
         "price": "$0.20 / $0.50",
         "context": "N/A"
@@ -3431,13 +3496,13 @@
     },
     {
       "rawName": "Devstral Medium (2507)",
-      "score": 1072,
+      "score": 1071,
       "vendor": "Mistral",
       "url": "https://arena.ai/leaderboard/code/webdev",
       "runId": "https://arena.ai/leaderboard/code/webdev:Devstral Medium (2507)",
       "costUnavailableReason": "The source does not report a numeric median task cost for this run.",
       "extra": {
-        "rank": 151,
+        "rank": 153,
         "votes": 842,
         "costPerTask": "N/A",
         "price": "$0.40 / $2",
@@ -3449,6 +3514,6 @@
   "costStatus": {
     "status": "available",
     "url": "https://arena.ai/leaderboard/code/webdev",
-    "note": "Reported median (P50) cost per task from the Cost/Task (P50) column (101/151 rows). P50 is available only in single-benchmark views and is never pooled with means; API Price $/M is never substituted."
+    "note": "Reported median (P50) cost per task from the Cost/Task (P50) column (104/153 rows). P50 is available only in single-benchmark views and is never pooled with means; API Price $/M is never substituted."
   }
 }

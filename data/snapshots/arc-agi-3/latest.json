@@ -1,7 +1,7 @@
 {
   "sourceId": "arc-agi-3",
-  "fetchedAt": "2026-10-25T14:11:16.844Z",
-  "sourceUpdatedAt": "2026-10-21",
+  "fetchedAt": "2026-10-28T19:57:22.837Z",
+  "sourceUpdatedAt": "2026-10-28",
   "url": "https://arcprize.org/leaderboard",
   "entries": [
     {
@@ -9,13 +9,13 @@
       "score": 0.51,
       "variant": "Max",
       "vendor": "Anthropic",
-      "date": "2025-12-17",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:anthropic-opus-4-6-max-effort",
       "runCostUsd": 8866.2,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "anthropic-opus-4-6-max-effort",
+        "modelReleaseDate": "2025-12-17T00:00:00.000Z",
         "dataset": "v3_Semi_Private"
       }
     },
@@ -24,13 +24,13 @@
       "score": 0.09,
       "variant": "Beta Reasoning",
       "vendor": "xAI",
-      "date": "2026-03-05",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:xai-grok-4-20-beta-0309-reasoning",
       "runCostUsd": 3775,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "xai-grok-4-20-beta-0309-reasoning",
+        "modelReleaseDate": "2026-03-05T00:00:00.000Z",
         "dataset": "v3_Semi_Private"
       }
     },
@@ -39,13 +39,13 @@
       "score": 0.21,
       "variant": "High",
       "vendor": "OpenAI",
-      "date": "2026-03-05",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:openai-gpt-5-4-2026-03-05-high",
       "runCostUsd": 5187.41,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "openai-gpt-5-4-2026-03-05-high",
+        "modelReleaseDate": "2026-03-05T00:00:00.000Z",
         "dataset": "v3_Semi_Private"
       }
     },
@@ -53,13 +53,13 @@
       "rawName": "Gemini 3.1 Pro (Preview)",
       "score": 0.42,
       "vendor": "Google",
-      "date": "2026-03-05",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:google-gemini-3-1-pro-preview",
       "runCostUsd": 2213.53,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "google-gemini-3-1-pro-preview",
+        "modelReleaseDate": "2026-03-05T00:00:00.000Z",
         "dataset": "v3_Semi_Private"
       }
     },
@@ -68,13 +68,13 @@
       "score": 0.43,
       "variant": "High",
       "vendor": "OpenAI",
-      "date": "2026-04-23",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:openai-gpt-5-5-2026-04-23-high",
       "runCostUsd": 10000,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "openai-gpt-5-5-2026-04-23-high",
+        "modelReleaseDate": "2026-04-23T00:00:00.000Z",
         "dataset": "v3_Semi_Private"
       }
     },
@@ -83,13 +83,13 @@
       "score": 0.18,
       "variant": "High",
       "vendor": "Anthropic",
-      "date": "2026-04-16",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:anthropic-opus-4-7-high",
       "runCostUsd": 10000,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "anthropic-opus-4-7-high",
+        "modelReleaseDate": "2026-04-16T00:00:00.000Z",
         "dataset": "v3_Semi_Private"
       }
     },
@@ -98,13 +98,13 @@
       "score": 1.52,
       "variant": "High",
       "vendor": "Anthropic",
-      "date": "2026-06-01",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:anthropic-opus-4-8-high",
       "runCostUsd": 10000,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "anthropic-opus-4-8-high",
+        "modelReleaseDate": "2026-06-01T00:00:00.000Z",
         "dataset": "v3_Semi_Private"
       }
     },
@@ -113,13 +113,13 @@
       "score": 0.33,
       "variant": "Low",
       "vendor": "OpenAI",
-      "date": "2026-07-09",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:openai-gpt-5-6-sol-low",
       "runCostUsd": 12805.6,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "openai-gpt-5-6-sol-low",
+        "modelReleaseDate": "2026-07-09T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/openai-gpt-5-6-sol"
       }
@@ -129,13 +129,13 @@
       "score": 1.0699999999999998,
       "variant": "Medium",
       "vendor": "OpenAI",
-      "date": "2026-07-09",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:openai-gpt-5-6-sol-medium",
       "runCostUsd": 12971.17,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "openai-gpt-5-6-sol-medium",
+        "modelReleaseDate": "2026-07-09T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/openai-gpt-5-6-sol"
       }
@@ -145,13 +145,13 @@
       "score": 2.15,
       "variant": "High",
       "vendor": "OpenAI",
-      "date": "2026-07-09",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:openai-gpt-5-6-sol-high",
       "runCostUsd": 15176.07,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "openai-gpt-5-6-sol-high",
+        "modelReleaseDate": "2026-07-09T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/openai-gpt-5-6-sol"
       }
@@ -161,13 +161,13 @@
       "score": 6.99,
       "variant": "XHigh",
       "vendor": "OpenAI",
-      "date": "2026-07-09",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:openai-gpt-5-6-sol-xhigh",
       "runCostUsd": 19216.38,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "openai-gpt-5-6-sol-xhigh",
+        "modelReleaseDate": "2026-07-09T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/openai-gpt-5-6-sol"
       }
@@ -177,13 +177,13 @@
       "score": 7.779999999999999,
       "variant": "Max",
       "vendor": "OpenAI",
-      "date": "2026-07-09",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:openai-gpt-5-6-sol-max",
       "runCostUsd": 25064.11,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "openai-gpt-5-6-sol-max",
+        "modelReleaseDate": "2026-07-09T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/openai-gpt-5-6-sol"
       }
@@ -193,13 +193,13 @@
       "score": 0.01,
       "variant": "Low",
       "vendor": "OpenAI",
-      "date": "2026-07-09",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:openai-gpt-5-6-terra-low",
       "runCostUsd": 5068.48,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "openai-gpt-5-6-terra-low",
+        "modelReleaseDate": "2026-07-09T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/openai-gpt-5-6-terra"
       }
@@ -209,13 +209,13 @@
       "score": 0.08,
       "variant": "Medium",
       "vendor": "OpenAI",
-      "date": "2026-07-09",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:openai-gpt-5-6-terra-medium",
       "runCostUsd": 5895.31,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "openai-gpt-5-6-terra-medium",
+        "modelReleaseDate": "2026-07-09T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/openai-gpt-5-6-terra"
       }
@@ -225,13 +225,13 @@
       "score": 0.49,
       "variant": "High",
       "vendor": "OpenAI",
-      "date": "2026-07-09",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:openai-gpt-5-6-terra-high",
       "runCostUsd": 5881.39,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "openai-gpt-5-6-terra-high",
+        "modelReleaseDate": "2026-07-09T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/openai-gpt-5-6-terra"
       }
@@ -241,13 +241,13 @@
       "score": 0.65,
       "variant": "XHigh",
       "vendor": "OpenAI",
-      "date": "2026-07-09",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:openai-gpt-5-6-terra-xhigh",
       "runCostUsd": 6804.04,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "openai-gpt-5-6-terra-xhigh",
+        "modelReleaseDate": "2026-07-09T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/openai-gpt-5-6-terra"
       }
@@ -257,13 +257,13 @@
       "score": 0.8,
       "variant": "Max",
       "vendor": "OpenAI",
-      "date": "2026-07-09",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:openai-gpt-5-6-terra-max",
       "runCostUsd": 7918.31,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "openai-gpt-5-6-terra-max",
+        "modelReleaseDate": "2026-07-09T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/openai-gpt-5-6-terra"
       }
@@ -273,13 +273,13 @@
       "score": 0.16999999999999998,
       "variant": "Low",
       "vendor": "OpenAI",
-      "date": "2026-07-09",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:openai-gpt-5-6-luna-low",
       "runCostUsd": 2307.49,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "openai-gpt-5-6-luna-low",
+        "modelReleaseDate": "2026-07-09T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/openai-gpt-5-6-luna"
       }
@@ -289,13 +289,13 @@
       "score": 0.16999999999999998,
       "variant": "Medium",
       "vendor": "OpenAI",
-      "date": "2026-07-09",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:openai-gpt-5-6-luna-medium",
       "runCostUsd": 2379.13,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "openai-gpt-5-6-luna-medium",
+        "modelReleaseDate": "2026-07-09T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/openai-gpt-5-6-luna"
       }
@@ -305,13 +305,13 @@
       "score": 0.1,
       "variant": "High",
       "vendor": "OpenAI",
-      "date": "2026-07-09",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:openai-gpt-5-6-luna-high",
       "runCostUsd": 2482.44,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "openai-gpt-5-6-luna-high",
+        "modelReleaseDate": "2026-07-09T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/openai-gpt-5-6-luna"
       }
@@ -321,13 +321,13 @@
       "score": 0.02,
       "variant": "XHigh",
       "vendor": "OpenAI",
-      "date": "2026-07-09",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:openai-gpt-5-6-luna-xhigh",
       "runCostUsd": 2801.59,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "openai-gpt-5-6-luna-xhigh",
+        "modelReleaseDate": "2026-07-09T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/openai-gpt-5-6-luna"
       }
@@ -337,13 +337,13 @@
       "score": 0.18,
       "variant": "Max",
       "vendor": "OpenAI",
-      "date": "2026-07-09",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:openai-gpt-5-6-luna-max",
       "runCostUsd": 3189.42,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "openai-gpt-5-6-luna-max",
+        "modelReleaseDate": "2026-07-09T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/openai-gpt-5-6-luna"
       }
@@ -353,13 +353,13 @@
       "score": 0.3,
       "variant": "High",
       "vendor": "xAI",
-      "date": "2026-07-16",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:xai-grok-4-5-high",
       "runCostUsd": 6892.87,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "xai-grok-4-5-high",
+        "modelReleaseDate": "2026-07-16T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/xai-grok-4-5"
       }
@@ -369,13 +369,13 @@
       "score": 0.32,
       "variant": "Medium",
       "vendor": "xAI",
-      "date": "2026-07-16",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:xai-grok-4-5-medium",
       "runCostUsd": 8458.3,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "xai-grok-4-5-medium",
+        "modelReleaseDate": "2026-07-16T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/xai-grok-4-5"
       }
@@ -385,13 +385,13 @@
       "score": 0.26,
       "variant": "Low",
       "vendor": "xAI",
-      "date": "2026-07-16",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:xai-grok-4-5-low",
       "runCostUsd": 8718.48,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "xai-grok-4-5-low",
+        "modelReleaseDate": "2026-07-16T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/xai-grok-4-5"
       }
@@ -401,13 +401,13 @@
       "score": 30.159999999999997,
       "variant": "High",
       "vendor": "Anthropic",
-      "date": "2026-07-24",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:anthropic-claude-opus-5-high",
       "runCostUsd": 20657.37,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "anthropic-claude-opus-5-high",
+        "modelReleaseDate": "2026-07-24T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/anthropic-claude-opus-5"
       }
@@ -417,13 +417,13 @@
       "score": 2.11,
       "variant": "XHigh",
       "vendor": "xAI",
-      "date": "2026-08-11",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:xai-grok-4-6-xhigh",
       "runCostUsd": 5612,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "xai-grok-4-6-xhigh",
+        "modelReleaseDate": "2026-08-11T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/xai-grok-4-6"
       }
@@ -433,13 +433,13 @@
       "score": 62.71280210060628,
       "variant": "Max",
       "vendor": "OpenAI",
-      "date": "2026-09-02",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:openai-gpt-6-astra-max",
       "runCostUsd": 26097.501720000007,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "openai-gpt-6-astra-max",
+        "modelReleaseDate": "2026-09-02T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/openai-gpt-6-astra"
       }
@@ -449,13 +449,13 @@
       "score": 59.342954091460555,
       "variant": "XHigh",
       "vendor": "OpenAI",
-      "date": "2026-09-02",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:openai-gpt-6-astra-xhigh",
       "runCostUsd": 37317.38768,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "openai-gpt-6-astra-xhigh",
+        "modelReleaseDate": "2026-09-02T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/openai-gpt-6-astra"
       }
@@ -465,13 +465,13 @@
       "score": 54.81905163612231,
       "variant": "High",
       "vendor": "OpenAI",
-      "date": "2026-09-02",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:openai-gpt-6-astra-high",
       "runCostUsd": 40704.722830000006,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "openai-gpt-6-astra-high",
+        "modelReleaseDate": "2026-09-02T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/openai-gpt-6-astra"
       }
@@ -481,13 +481,13 @@
       "score": 38.58757449733784,
       "variant": "Medium",
       "vendor": "OpenAI",
-      "date": "2026-09-02",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:openai-gpt-6-astra-medium",
       "runCostUsd": 48090.34598999999,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "openai-gpt-6-astra-medium",
+        "modelReleaseDate": "2026-09-02T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/openai-gpt-6-astra"
       }
@@ -497,13 +497,13 @@
       "score": 17.452190401133805,
       "variant": "Low",
       "vendor": "OpenAI",
-      "date": "2026-09-02",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:openai-gpt-6-astra-low",
       "runCostUsd": 38166.47030000001,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "openai-gpt-6-astra-low",
+        "modelReleaseDate": "2026-09-02T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/openai-gpt-6-astra"
       }
@@ -512,13 +512,13 @@
       "rawName": "GPT-6 Astra (None)",
       "score": 35.177880317424,
       "vendor": "OpenAI",
-      "date": "2026-09-02",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:openai-gpt-6-astra-none",
       "runCostUsd": 49791.11317000001,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "openai-gpt-6-astra-none",
+        "modelReleaseDate": "2026-09-02T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/openai-gpt-6-astra"
       }
@@ -529,13 +529,13 @@
       "variant": "Max",
       "harness": "Provider Adapter",
       "vendor": "OpenAI",
-      "date": "2026-09-02",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:openai-gpt-6-astra-max-provider-adapter",
       "runCostUsd": 17331.95327,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "openai-gpt-6-astra-max-provider-adapter",
+        "modelReleaseDate": "2026-09-02T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/openai-gpt-6-astra"
       }
@@ -546,13 +546,13 @@
       "variant": "XHigh",
       "harness": "Provider Adapter",
       "vendor": "OpenAI",
-      "date": "2026-09-02",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:openai-gpt-6-astra-xhigh-provider-adapter",
       "runCostUsd": 18147.191119999996,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "openai-gpt-6-astra-xhigh-provider-adapter",
+        "modelReleaseDate": "2026-09-02T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/openai-gpt-6-astra"
       }
@@ -563,13 +563,13 @@
       "variant": "High",
       "harness": "Provider Adapter",
       "vendor": "OpenAI",
-      "date": "2026-09-02",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:openai-gpt-6-astra-high-provider-adapter",
       "runCostUsd": 18816.63138,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "openai-gpt-6-astra-high-provider-adapter",
+        "modelReleaseDate": "2026-09-02T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/openai-gpt-6-astra"
       }
@@ -580,13 +580,13 @@
       "variant": "Medium",
       "harness": "Provider Adapter",
       "vendor": "OpenAI",
-      "date": "2026-09-02",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:openai-gpt-6-astra-medium-provider-adapter",
       "runCostUsd": 19284.776630000004,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "openai-gpt-6-astra-medium-provider-adapter",
+        "modelReleaseDate": "2026-09-02T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/openai-gpt-6-astra"
       }
@@ -597,13 +597,13 @@
       "variant": "Low",
       "harness": "Provider Adapter",
       "vendor": "OpenAI",
-      "date": "2026-09-02",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:openai-gpt-6-astra-low-provider-adapter",
       "runCostUsd": 21297.922310000005,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "openai-gpt-6-astra-low-provider-adapter",
+        "modelReleaseDate": "2026-09-02T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/openai-gpt-6-astra"
       }
@@ -613,13 +613,13 @@
       "score": 96.72021831785531,
       "harness": "Provider Adapter",
       "vendor": "OpenAI",
-      "date": "2026-09-02",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:openai-gpt-6-astra-none-provider-adapter",
       "runCostUsd": 23456.663940000002,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "openai-gpt-6-astra-none-provider-adapter",
+        "modelReleaseDate": "2026-09-02T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/openai-gpt-6-astra"
       }
@@ -629,13 +629,13 @@
       "score": 0.10360997760319558,
       "variant": "Max",
       "vendor": "OpenAI",
-      "date": "2026-09-22",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:openai-gpt-6-luna-max",
       "runCostUsd": 262.2377791,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "openai-gpt-6-luna-max",
+        "modelReleaseDate": "2026-09-22T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/openai-gpt-6-luna"
       }
@@ -645,13 +645,13 @@
       "score": 0.16413333960356602,
       "variant": "XHigh",
       "vendor": "OpenAI",
-      "date": "2026-09-22",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:openai-gpt-6-luna-xhigh",
       "runCostUsd": 262.6844075,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "openai-gpt-6-luna-xhigh",
+        "modelReleaseDate": "2026-09-22T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/openai-gpt-6-luna"
       }
@@ -661,13 +661,13 @@
       "score": 0.18024216987988248,
       "variant": "High",
       "vendor": "OpenAI",
-      "date": "2026-09-22",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:openai-gpt-6-luna-high",
       "runCostUsd": 255.97928910000002,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "openai-gpt-6-luna-high",
+        "modelReleaseDate": "2026-09-22T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/openai-gpt-6-luna"
       }
@@ -677,13 +677,13 @@
       "score": 0.19415284639354707,
       "variant": "Medium",
       "vendor": "OpenAI",
-      "date": "2026-09-22",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:openai-gpt-6-luna-medium",
       "runCostUsd": 241.2797313,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "openai-gpt-6-luna-medium",
+        "modelReleaseDate": "2026-09-22T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/openai-gpt-6-luna"
       }
@@ -693,13 +693,13 @@
       "score": 0.03291205821227175,
       "variant": "Low",
       "vendor": "OpenAI",
-      "date": "2026-09-22",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:openai-gpt-6-luna-low",
       "runCostUsd": 228.8330075,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "openai-gpt-6-luna-low",
+        "modelReleaseDate": "2026-09-22T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/openai-gpt-6-luna"
       }
@@ -708,13 +708,13 @@
       "rawName": "GPT-6 Luna (None)",
       "score": 0.027919455042839488,
       "vendor": "OpenAI",
-      "date": "2026-09-22",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:openai-gpt-6-luna-none",
       "runCostUsd": 229.77104200000002,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "openai-gpt-6-luna-none",
+        "modelReleaseDate": "2026-09-22T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/openai-gpt-6-luna"
       }
@@ -725,13 +725,13 @@
       "variant": "Max",
       "harness": "Provider Adapter",
       "vendor": "OpenAI",
-      "date": "2026-09-22",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:openai-gpt-6-luna-max-provider-adapter",
       "runCostUsd": 237.1428722,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "openai-gpt-6-luna-max-provider-adapter",
+        "modelReleaseDate": "2026-09-22T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/openai-gpt-6-luna"
       }
@@ -742,13 +742,13 @@
       "variant": "XHigh",
       "harness": "Provider Adapter",
       "vendor": "OpenAI",
-      "date": "2026-09-22",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:openai-gpt-6-luna-xhigh-provider-adapter",
       "runCostUsd": 223.17200050000002,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "openai-gpt-6-luna-xhigh-provider-adapter",
+        "modelReleaseDate": "2026-09-22T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/openai-gpt-6-luna"
       }
@@ -759,13 +759,13 @@
       "variant": "High",
       "harness": "Provider Adapter",
       "vendor": "OpenAI",
-      "date": "2026-09-22",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:openai-gpt-6-luna-high-provider-adapter",
       "runCostUsd": 223.89528660000002,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "openai-gpt-6-luna-high-provider-adapter",
+        "modelReleaseDate": "2026-09-22T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/openai-gpt-6-luna"
       }
@@ -776,13 +776,13 @@
       "variant": "Medium",
       "harness": "Provider Adapter",
       "vendor": "OpenAI",
-      "date": "2026-09-22",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:openai-gpt-6-luna-medium-provider-adapter",
       "runCostUsd": 213.71995940000002,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "openai-gpt-6-luna-medium-provider-adapter",
+        "modelReleaseDate": "2026-09-22T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/openai-gpt-6-luna"
       }
@@ -793,13 +793,13 @@
       "variant": "Low",
       "harness": "Provider Adapter",
       "vendor": "OpenAI",
-      "date": "2026-09-22",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:openai-gpt-6-luna-low-provider-adapter",
       "runCostUsd": 214.29109010000002,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "openai-gpt-6-luna-low-provider-adapter",
+        "modelReleaseDate": "2026-09-22T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/openai-gpt-6-luna"
       }
@@ -809,13 +809,13 @@
       "score": 0.04644044435594966,
       "harness": "Provider Adapter",
       "vendor": "OpenAI",
-      "date": "2026-09-22",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:openai-gpt-6-luna-none-provider-adapter",
       "runCostUsd": 205.03171590000002,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "openai-gpt-6-luna-none-provider-adapter",
+        "modelReleaseDate": "2026-09-22T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/openai-gpt-6-luna"
       }
@@ -825,13 +825,13 @@
       "score": 10.36627922392312,
       "variant": "High",
       "vendor": "Google",
-      "date": "2026-09-02",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:google-gemini-3-8-flash-high",
       "runCostUsd": 4398.2756895,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "google-gemini-3-8-flash-high",
+        "modelReleaseDate": "2026-09-02T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/google-gemini-3-8-flash"
       }
@@ -841,13 +841,13 @@
       "score": 3.9878093830617267,
       "variant": "Medium",
       "vendor": "Google",
-      "date": "2026-09-02",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:google-gemini-3-8-flash-medium",
       "runCostUsd": 2727.66378825,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "google-gemini-3-8-flash-medium",
+        "modelReleaseDate": "2026-09-02T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/google-gemini-3-8-flash"
       }
@@ -857,13 +857,13 @@
       "score": 5.989560493697216,
       "variant": "Low",
       "vendor": "Google",
-      "date": "2026-09-02",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:google-gemini-3-8-flash-low",
       "runCostUsd": 2669.05677675,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "google-gemini-3-8-flash-low",
+        "modelReleaseDate": "2026-09-02T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/google-gemini-3-8-flash"
       }
@@ -874,13 +874,13 @@
       "variant": "High",
       "harness": "Provider Adapter",
       "vendor": "Google",
-      "date": "2026-09-02",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:google-gemini-3-8-flash-high-provider-adapter",
       "runCostUsd": 4521.7983525,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "google-gemini-3-8-flash-high-provider-adapter",
+        "modelReleaseDate": "2026-09-02T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/google-gemini-3-8-flash"
       }
@@ -891,13 +891,13 @@
       "variant": "Medium",
       "harness": "Provider Adapter",
       "vendor": "Google",
-      "date": "2026-09-02",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:google-gemini-3-8-flash-medium-provider-adapter",
       "runCostUsd": 3826.20432375,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "google-gemini-3-8-flash-medium-provider-adapter",
+        "modelReleaseDate": "2026-09-02T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/google-gemini-3-8-flash"
       }
@@ -908,13 +908,13 @@
       "variant": "Low",
       "harness": "Provider Adapter",
       "vendor": "Google",
-      "date": "2026-09-02",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:google-gemini-3-8-flash-low-provider-adapter",
       "runCostUsd": 3158.1084112500002,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "google-gemini-3-8-flash-low-provider-adapter",
+        "modelReleaseDate": "2026-09-02T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/google-gemini-3-8-flash"
       }
@@ -924,13 +924,13 @@
       "score": 4.623568186131146,
       "variant": "Max",
       "vendor": "OpenAI",
-      "date": "2026-09-22",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:openai-gpt-6-sol-max",
       "runCostUsd": 5554.493172,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "openai-gpt-6-sol-max",
+        "modelReleaseDate": "2026-09-22T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/openai-gpt-6-sol"
       }
@@ -940,13 +940,13 @@
       "score": 1.7976269602783517,
       "variant": "XHigh",
       "vendor": "OpenAI",
-      "date": "2026-09-22",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:openai-gpt-6-sol-xhigh",
       "runCostUsd": 5105.623836,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "openai-gpt-6-sol-xhigh",
+        "modelReleaseDate": "2026-09-22T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/openai-gpt-6-sol"
       }
@@ -956,13 +956,13 @@
       "score": 0.8994389911152361,
       "variant": "High",
       "vendor": "OpenAI",
-      "date": "2026-09-22",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:openai-gpt-6-sol-high",
       "runCostUsd": 5072.447082,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "openai-gpt-6-sol-high",
+        "modelReleaseDate": "2026-09-22T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/openai-gpt-6-sol"
       }
@@ -972,13 +972,13 @@
       "score": 0.418612306617149,
       "variant": "Medium",
       "vendor": "OpenAI",
-      "date": "2026-09-22",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:openai-gpt-6-sol-medium",
       "runCostUsd": 4863.795116,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "openai-gpt-6-sol-medium",
+        "modelReleaseDate": "2026-09-22T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/openai-gpt-6-sol"
       }
@@ -988,13 +988,13 @@
       "score": 0.12649234250931635,
       "variant": "Low",
       "vendor": "OpenAI",
-      "date": "2026-09-22",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:openai-gpt-6-sol-low",
       "runCostUsd": 4752.004208,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "openai-gpt-6-sol-low",
+        "modelReleaseDate": "2026-09-22T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/openai-gpt-6-sol"
       }
@@ -1003,13 +1003,13 @@
       "rawName": "GPT-6 Sol (None)",
       "score": 0.2837742350643006,
       "vendor": "OpenAI",
-      "date": "2026-09-22",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:openai-gpt-6-sol-none",
       "runCostUsd": 4655.549962,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "openai-gpt-6-sol-none",
+        "modelReleaseDate": "2026-09-22T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/openai-gpt-6-sol"
       }
@@ -1020,13 +1020,13 @@
       "variant": "Max",
       "harness": "Provider Adapter",
       "vendor": "OpenAI",
-      "date": "2026-09-22",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:openai-gpt-6-sol-max-provider-adapter",
       "runCostUsd": 8721.949674,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "openai-gpt-6-sol-max-provider-adapter",
+        "modelReleaseDate": "2026-09-22T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/openai-gpt-6-sol"
       }
@@ -1037,13 +1037,13 @@
       "variant": "XHigh",
       "harness": "Provider Adapter",
       "vendor": "OpenAI",
-      "date": "2026-09-22",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:openai-gpt-6-sol-xhigh-provider-adapter",
       "runCostUsd": 6906.642396,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "openai-gpt-6-sol-xhigh-provider-adapter",
+        "modelReleaseDate": "2026-09-22T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/openai-gpt-6-sol"
       }
@@ -1054,13 +1054,13 @@
       "variant": "High",
       "harness": "Provider Adapter",
       "vendor": "OpenAI",
-      "date": "2026-09-22",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:openai-gpt-6-sol-high-provider-adapter",
       "runCostUsd": 5908.428836,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "openai-gpt-6-sol-high-provider-adapter",
+        "modelReleaseDate": "2026-09-22T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/openai-gpt-6-sol"
       }
@@ -1071,13 +1071,13 @@
       "variant": "Medium",
       "harness": "Provider Adapter",
       "vendor": "OpenAI",
-      "date": "2026-09-22",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:openai-gpt-6-sol-medium-provider-adapter",
       "runCostUsd": 5889.174868,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "openai-gpt-6-sol-medium-provider-adapter",
+        "modelReleaseDate": "2026-09-22T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/openai-gpt-6-sol"
       }
@@ -1088,13 +1088,13 @@
       "variant": "Low",
       "harness": "Provider Adapter",
       "vendor": "OpenAI",
-      "date": "2026-09-22",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:openai-gpt-6-sol-low-provider-adapter",
       "runCostUsd": 4745.286212,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "openai-gpt-6-sol-low-provider-adapter",
+        "modelReleaseDate": "2026-09-22T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/openai-gpt-6-sol"
       }
@@ -1104,13 +1104,13 @@
       "score": 1.2059164341155284,
       "harness": "Provider Adapter",
       "vendor": "OpenAI",
-      "date": "2026-09-22",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:openai-gpt-6-sol-none-provider-adapter",
       "runCostUsd": 4233.770312,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "openai-gpt-6-sol-none-provider-adapter",
+        "modelReleaseDate": "2026-09-22T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/openai-gpt-6-sol"
       }
@@ -1120,13 +1120,13 @@
       "score": 52.72904006820879,
       "variant": "Max",
       "vendor": "OpenAI",
-      "date": "2026-09-29",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:openai-gpt-6-1-sol-max",
       "runCostUsd": 7632.480056,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "openai-gpt-6-1-sol-max",
+        "modelReleaseDate": "2026-09-29T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/openai-gpt-6-1-sol"
       }
@@ -1136,13 +1136,13 @@
       "score": 39.92932040733721,
       "variant": "XHigh",
       "vendor": "OpenAI",
-      "date": "2026-09-29",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:openai-gpt-6-1-sol-xhigh",
       "runCostUsd": 9104.425822,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "openai-gpt-6-1-sol-xhigh",
+        "modelReleaseDate": "2026-09-29T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/openai-gpt-6-1-sol"
       }
@@ -1152,13 +1152,13 @@
       "score": 26.717284844257062,
       "variant": "High",
       "vendor": "OpenAI",
-      "date": "2026-09-29",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:openai-gpt-6-1-sol-high",
       "runCostUsd": 9757.61782,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "openai-gpt-6-1-sol-high",
+        "modelReleaseDate": "2026-09-29T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/openai-gpt-6-1-sol"
       }
@@ -1168,13 +1168,13 @@
       "score": 10.568764673656194,
       "variant": "Medium",
       "vendor": "OpenAI",
-      "date": "2026-09-29",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:openai-gpt-6-1-sol-medium",
       "runCostUsd": 7369.782166,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "openai-gpt-6-1-sol-medium",
+        "modelReleaseDate": "2026-09-29T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/openai-gpt-6-1-sol"
       }
@@ -1184,13 +1184,13 @@
       "score": 3.9243846587314177,
       "variant": "Low",
       "vendor": "OpenAI",
-      "date": "2026-09-29",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:openai-gpt-6-1-sol-low",
       "runCostUsd": 7110.559762,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "openai-gpt-6-1-sol-low",
+        "modelReleaseDate": "2026-09-29T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/openai-gpt-6-1-sol"
       }
@@ -1201,13 +1201,13 @@
       "variant": "Max",
       "harness": "Provider Adapter",
       "vendor": "OpenAI",
-      "date": "2026-09-29",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:openai-gpt-6-1-sol-max-provider-adapter",
       "runCostUsd": 3816.796008,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "openai-gpt-6-1-sol-max-provider-adapter",
+        "modelReleaseDate": "2026-09-29T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/openai-gpt-6-1-sol"
       }
@@ -1218,13 +1218,13 @@
       "variant": "XHigh",
       "harness": "Provider Adapter",
       "vendor": "OpenAI",
-      "date": "2026-09-29",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:openai-gpt-6-1-sol-xhigh-provider-adapter",
       "runCostUsd": 4360.206418,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "openai-gpt-6-1-sol-xhigh-provider-adapter",
+        "modelReleaseDate": "2026-09-29T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/openai-gpt-6-1-sol"
       }
@@ -1235,13 +1235,13 @@
       "variant": "High",
       "harness": "Provider Adapter",
       "vendor": "OpenAI",
-      "date": "2026-09-29",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:openai-gpt-6-1-sol-high-provider-adapter",
       "runCostUsd": 5403.981038,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "openai-gpt-6-1-sol-high-provider-adapter",
+        "modelReleaseDate": "2026-09-29T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/openai-gpt-6-1-sol"
       }
@@ -1252,13 +1252,13 @@
       "variant": "Medium",
       "harness": "Provider Adapter",
       "vendor": "OpenAI",
-      "date": "2026-09-29",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:openai-gpt-6-1-sol-medium-provider-adapter",
       "runCostUsd": 5834.913158,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "openai-gpt-6-1-sol-medium-provider-adapter",
+        "modelReleaseDate": "2026-09-29T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/openai-gpt-6-1-sol"
       }
@@ -1269,13 +1269,13 @@
       "variant": "Low",
       "harness": "Provider Adapter",
       "vendor": "OpenAI",
-      "date": "2026-09-29",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:openai-gpt-6-1-sol-low-provider-adapter",
       "runCostUsd": 6622.199092,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "openai-gpt-6-1-sol-low-provider-adapter",
+        "modelReleaseDate": "2026-09-29T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/openai-gpt-6-1-sol"
       }
@@ -1285,13 +1285,13 @@
       "score": 1.8162526536637038,
       "variant": "XHigh",
       "vendor": "xAI",
-      "date": "2026-09-21",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:xai-grok-4-7-xhigh",
       "runCostUsd": 2731.577506,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "xai-grok-4-7-xhigh",
+        "modelReleaseDate": "2026-09-21T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/xai-grok-4-7"
       }
@@ -1301,13 +1301,13 @@
       "score": 1.7332202934667684,
       "variant": "High",
       "vendor": "xAI",
-      "date": "2026-09-21",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:xai-grok-4-7-high",
       "runCostUsd": 3741.649478,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "xai-grok-4-7-high",
+        "modelReleaseDate": "2026-09-21T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/xai-grok-4-7"
       }
@@ -1317,13 +1317,13 @@
       "score": 1.7056643767835524,
       "variant": "Medium",
       "vendor": "xAI",
-      "date": "2026-09-21",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:xai-grok-4-7-medium",
       "runCostUsd": 3795.4947700000002,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "xai-grok-4-7-medium",
+        "modelReleaseDate": "2026-09-21T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/xai-grok-4-7"
       }
@@ -1333,13 +1333,13 @@
       "score": 0.24696281908456538,
       "variant": "Low",
       "vendor": "xAI",
-      "date": "2026-09-21",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:xai-grok-4-7-low",
       "runCostUsd": 4814.88162,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "xai-grok-4-7-low",
+        "modelReleaseDate": "2026-09-21T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/xai-grok-4-7"
       }
@@ -1350,13 +1350,13 @@
       "variant": "XHigh",
       "harness": "Provider Adapter",
       "vendor": "xAI",
-      "date": "2026-09-21",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:xai-grok-4-7-xhigh-provider-adapter",
       "runCostUsd": 4575.921274,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "xai-grok-4-7-xhigh-provider-adapter",
+        "modelReleaseDate": "2026-09-21T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/xai-grok-4-7"
       }
@@ -1367,13 +1367,13 @@
       "variant": "High",
       "harness": "Provider Adapter",
       "vendor": "xAI",
-      "date": "2026-09-21",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:xai-grok-4-7-high-provider-adapter",
       "runCostUsd": 4773.782536,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "xai-grok-4-7-high-provider-adapter",
+        "modelReleaseDate": "2026-09-21T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/xai-grok-4-7"
       }
@@ -1384,13 +1384,13 @@
       "variant": "Medium",
       "harness": "Provider Adapter",
       "vendor": "xAI",
-      "date": "2026-09-21",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:xai-grok-4-7-medium-provider-adapter",
       "runCostUsd": 5059.930398,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "xai-grok-4-7-medium-provider-adapter",
+        "modelReleaseDate": "2026-09-21T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/xai-grok-4-7"
       }
@@ -1401,13 +1401,13 @@
       "variant": "Low",
       "harness": "Provider Adapter",
       "vendor": "xAI",
-      "date": "2026-09-21",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:xai-grok-4-7-low-provider-adapter",
       "runCostUsd": 5753.573154,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "xai-grok-4-7-low-provider-adapter",
+        "modelReleaseDate": "2026-09-21T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/xai-grok-4-7"
       }
@@ -1417,13 +1417,13 @@
       "score": 0.8516646657220222,
       "variant": "Max",
       "vendor": "DeepSeek",
-      "date": "2026-09-10",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:deepseek-v4-1-flash-max",
       "runCostUsd": 1164.9106122,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "deepseek-v4-1-flash-max",
+        "modelReleaseDate": "2026-09-10T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/deepseek-v4-1-flash"
       }
@@ -1433,13 +1433,13 @@
       "score": 0.4846664966204641,
       "variant": "High",
       "vendor": "DeepSeek",
-      "date": "2026-09-10",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:deepseek-v4-1-flash-high",
       "runCostUsd": 1005.7964823,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "deepseek-v4-1-flash-high",
+        "modelReleaseDate": "2026-09-10T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/deepseek-v4-1-flash"
       }
@@ -1449,13 +1449,13 @@
       "score": 0.34514247315937174,
       "variant": "Low",
       "vendor": "DeepSeek",
-      "date": "2026-09-10",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:deepseek-v4-1-flash-low",
       "runCostUsd": 820.6333452,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "deepseek-v4-1-flash-low",
+        "modelReleaseDate": "2026-09-10T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/deepseek-v4-1-flash"
       }
@@ -1464,13 +1464,13 @@
       "rawName": "DeepSeek V4.1 Flash (None)",
       "score": 0.3431694493873915,
       "vendor": "DeepSeek",
-      "date": "2026-09-10",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:deepseek-v4-1-flash-none",
       "runCostUsd": 734.7252066,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "deepseek-v4-1-flash-none",
+        "modelReleaseDate": "2026-09-10T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/deepseek-v4-1-flash"
       }
@@ -1481,13 +1481,13 @@
       "variant": "Max",
       "harness": "Provider Adapter",
       "vendor": "DeepSeek",
-      "date": "2026-09-10",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:deepseek-v4-1-flash-max-provider-adapter",
       "runCostUsd": 1309.4644137,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "deepseek-v4-1-flash-max-provider-adapter",
+        "modelReleaseDate": "2026-09-10T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/deepseek-v4-1-flash"
       }
@@ -1498,13 +1498,13 @@
       "variant": "High",
       "harness": "Provider Adapter",
       "vendor": "DeepSeek",
-      "date": "2026-09-10",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:deepseek-v4-1-flash-high-provider-adapter",
       "runCostUsd": 1021.5134985,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "deepseek-v4-1-flash-high-provider-adapter",
+        "modelReleaseDate": "2026-09-10T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/deepseek-v4-1-flash"
       }
@@ -1515,13 +1515,13 @@
       "variant": "Low",
       "harness": "Provider Adapter",
       "vendor": "DeepSeek",
-      "date": "2026-09-10",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:deepseek-v4-1-flash-low-provider-adapter",
       "runCostUsd": 878.0226015,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "deepseek-v4-1-flash-low-provider-adapter",
+        "modelReleaseDate": "2026-09-10T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/deepseek-v4-1-flash"
       }
@@ -1531,13 +1531,13 @@
       "score": 0.4830935313474596,
       "harness": "Provider Adapter",
       "vendor": "DeepSeek",
-      "date": "2026-09-10",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:deepseek-v4-1-flash-none-provider-adapter",
       "runCostUsd": 648.4115616,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "deepseek-v4-1-flash-none-provider-adapter",
+        "modelReleaseDate": "2026-09-10T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/deepseek-v4-1-flash"
       }
@@ -1547,13 +1547,13 @@
       "score": 0.4513711877557703,
       "variant": "Max",
       "vendor": "Anthropic",
-      "date": "2026-10-07",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:anthropic-claude-haiku-5-5-max",
       "runCostUsd": 388.1060053,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "anthropic-claude-haiku-5-5-max",
+        "modelReleaseDate": "2026-10-07T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/anthropic-claude-haiku-5-5"
       }
@@ -1564,13 +1564,13 @@
       "variant": "Max",
       "harness": "Provider Adapter",
       "vendor": "Anthropic",
-      "date": "2026-10-07",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:anthropic-claude-haiku-5-5-max-provider-adapter",
       "runCostUsd": 437.1406743,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "anthropic-claude-haiku-5-5-max-provider-adapter",
+        "modelReleaseDate": "2026-10-07T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/anthropic-claude-haiku-5-5"
       }
@@ -1580,13 +1580,13 @@
       "score": 46.265668402958575,
       "variant": "Medium",
       "vendor": "Google",
-      "date": "2026-10-13",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:google-gemini-4-argon-medium",
       "runCostUsd": 6179.253994,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "google-gemini-4-argon-medium",
+        "modelReleaseDate": "2026-10-13T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/google-gemini-4-argon"
       }
@@ -1596,13 +1596,13 @@
       "score": 49.79401633943577,
       "variant": "Low",
       "vendor": "Google",
-      "date": "2026-10-13",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:google-gemini-4-argon-low",
       "runCostUsd": 5820.531006,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "google-gemini-4-argon-low",
+        "modelReleaseDate": "2026-10-13T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/google-gemini-4-argon"
       }
@@ -1613,13 +1613,13 @@
       "variant": "High",
       "harness": "Provider Adapter",
       "vendor": "Google",
-      "date": "2026-10-13",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:google-gemini-4-argon-high-provider-adapter",
       "runCostUsd": 4625.84128,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "google-gemini-4-argon-high-provider-adapter",
+        "modelReleaseDate": "2026-10-13T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/google-gemini-4-argon"
       }
@@ -1630,13 +1630,13 @@
       "variant": "Medium",
       "harness": "Provider Adapter",
       "vendor": "Google",
-      "date": "2026-10-13",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:google-gemini-4-argon-medium-provider-adapter",
       "runCostUsd": 4981.202062,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "google-gemini-4-argon-medium-provider-adapter",
+        "modelReleaseDate": "2026-10-13T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/google-gemini-4-argon"
       }
@@ -1647,13 +1647,13 @@
       "variant": "Low",
       "harness": "Provider Adapter",
       "vendor": "Google",
-      "date": "2026-10-13",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:google-gemini-4-argon-low-provider-adapter",
       "runCostUsd": 4770.148614,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "google-gemini-4-argon-low-provider-adapter",
+        "modelReleaseDate": "2026-10-13T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/google-gemini-4-argon"
       }
@@ -1663,13 +1663,13 @@
       "score": 24.310408006681435,
       "variant": "XHigh",
       "vendor": "Anthropic",
-      "date": "2026-09-28",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:anthropic-claude-sonnet-5-5-xhigh",
       "runCostUsd": 7394.466286,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "anthropic-claude-sonnet-5-5-xhigh",
+        "modelReleaseDate": "2026-09-28T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/anthropic-claude-sonnet-5-5"
       }
@@ -1679,13 +1679,13 @@
       "score": 1.203076515291301,
       "variant": "High",
       "vendor": "Anthropic",
-      "date": "2026-09-28",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:anthropic-claude-sonnet-5-5-high",
       "runCostUsd": 5487.227968,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "anthropic-claude-sonnet-5-5-high",
+        "modelReleaseDate": "2026-09-28T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/anthropic-claude-sonnet-5-5"
       }
@@ -1695,13 +1695,13 @@
       "score": 0.3961083341784243,
       "variant": "Medium",
       "vendor": "Anthropic",
-      "date": "2026-09-28",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:anthropic-claude-sonnet-5-5-medium",
       "runCostUsd": 4839.68249,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "anthropic-claude-sonnet-5-5-medium",
+        "modelReleaseDate": "2026-09-28T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/anthropic-claude-sonnet-5-5"
       }
@@ -1711,13 +1711,13 @@
       "score": 0.4047513036164488,
       "variant": "Low",
       "vendor": "Anthropic",
-      "date": "2026-09-28",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:anthropic-claude-sonnet-5-5-low",
       "runCostUsd": 4756.680228,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "anthropic-claude-sonnet-5-5-low",
+        "modelReleaseDate": "2026-09-28T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/anthropic-claude-sonnet-5-5"
       }
@@ -1728,13 +1728,13 @@
       "variant": "XHigh",
       "harness": "Provider Adapter",
       "vendor": "Anthropic",
-      "date": "2026-09-28",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:anthropic-claude-sonnet-5-5-xhigh-provider-adapter",
       "runCostUsd": 8169.902276,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "anthropic-claude-sonnet-5-5-xhigh-provider-adapter",
+        "modelReleaseDate": "2026-09-28T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/anthropic-claude-sonnet-5-5"
       }
@@ -1745,13 +1745,13 @@
       "variant": "High",
       "harness": "Provider Adapter",
       "vendor": "Anthropic",
-      "date": "2026-09-28",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:anthropic-claude-sonnet-5-5-high-provider-adapter",
       "runCostUsd": 10244.13243,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "anthropic-claude-sonnet-5-5-high-provider-adapter",
+        "modelReleaseDate": "2026-09-28T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/anthropic-claude-sonnet-5-5"
       }
@@ -1762,13 +1762,13 @@
       "variant": "Medium",
       "harness": "Provider Adapter",
       "vendor": "Anthropic",
-      "date": "2026-09-28",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:anthropic-claude-sonnet-5-5-medium-provider-adapter",
       "runCostUsd": 5250.163516,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "anthropic-claude-sonnet-5-5-medium-provider-adapter",
+        "modelReleaseDate": "2026-09-28T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/anthropic-claude-sonnet-5-5"
       }
@@ -1779,15 +1779,48 @@
       "variant": "Low",
       "harness": "Provider Adapter",
       "vendor": "Anthropic",
-      "date": "2026-09-28",
       "url": "https://arcprize.org/leaderboard",
       "runId": "v3_Semi_Private:anthropic-claude-sonnet-5-5-low-provider-adapter",
       "runCostUsd": 4796.883118,
       "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
       "extra": {
         "modelId": "anthropic-claude-sonnet-5-5-low-provider-adapter",
+        "modelReleaseDate": "2026-09-28T00:00:00.000Z",
         "dataset": "v3_Semi_Private",
         "resultsUrl": "/results/anthropic-claude-sonnet-5-5"
+      }
+    },
+    {
+      "rawName": "Muse Spark Open (XHigh)",
+      "score": 0.13621973920554636,
+      "variant": "XHigh",
+      "vendor": "Meta AI",
+      "url": "https://arcprize.org/leaderboard",
+      "runId": "v3_Semi_Private:meta-muse-spark-open-xhigh",
+      "runCostUsd": 3908.42107525,
+      "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
+      "extra": {
+        "modelId": "meta-muse-spark-open-xhigh",
+        "modelReleaseDate": "2026-10-15T00:00:00.000Z",
+        "dataset": "v3_Semi_Private",
+        "resultsUrl": "/results/meta-muse-spark-open"
+      }
+    },
+    {
+      "rawName": "Muse Spark Open - Provider Adapter (XHigh)",
+      "score": 0.4179823483426319,
+      "variant": "XHigh",
+      "harness": "Provider Adapter",
+      "vendor": "Meta AI",
+      "url": "https://arcprize.org/leaderboard",
+      "runId": "v3_Semi_Private:meta-muse-spark-open-xhigh-provider-adapter",
+      "runCostUsd": 2995.96480425,
+      "costUnavailableReason": "ARC-AGI-3 publishes total run cost. Per-run attempted-environment counts/completeness are not in this feed; a task denominator is not assumed.",
+      "extra": {
+        "modelId": "meta-muse-spark-open-xhigh-provider-adapter",
+        "modelReleaseDate": "2026-10-15T00:00:00.000Z",
+        "dataset": "v3_Semi_Private",
+        "resultsUrl": "/results/meta-muse-spark-open"
       }
     }
   ],
