@@ -1,6 +1,6 @@
 import { readFileSync } from "node:fs";
 import { resolve } from "node:path";
-import type { CostScope, LeaderboardDataset, SourceSnapshot, TaskCost } from "./types.js";
+import type { CostScope, LeaderboardDataset, SourceConfig, SourceSnapshot, TaskCost } from "./types.js";
 import { DATA_DIR } from "./util.js";
 import { buildCostAnalysis, canonicalBasketId, isUsableTaskCost } from "./costs.js";
 
@@ -34,17 +34,24 @@ function main(): void {
   const errors: string[] = [];
   const warnings: string[] = [];
 
-  if (dataset.sources.length !== 10) {
-    errors.push(`Expected 10 sources, found ${dataset.sources.length}.`);
+  const configs = readJsonSync<SourceConfig[]>(resolve(DATA_DIR, "sources.json"));
+  if (dataset.sources.length !== configs.length || dataset.sourceCount !== configs.length) {
+    errors.push(`Expected ${configs.length} configured sources, found ${dataset.sources.length} (sourceCount ${dataset.sourceCount}).`);
   }
 
   const sourceIds = new Set(dataset.sources.map((source) => source.id));
+  if (sourceIds.size !== dataset.sources.length || configs.some((source) => !sourceIds.has(source.id))) {
+    errors.push("Dataset source ids do not match the unique configured source ids.");
+  }
   const modelIds = new Set<string>();
   const snapshots = new Map(dataset.sources.map((source) => [source.id, readJsonSync<SourceSnapshot>(resolve(DATA_DIR, "snapshots", source.id, "latest.json"))]));
 
   for (const model of dataset.models) {
     if (modelIds.has(model.id)) errors.push(`Duplicate model id: ${model.id}`);
     modelIds.add(model.id);
+    if (model.coverage.total !== configs.length || model.coverage.used !== model.sources.length) {
+      errors.push(`${model.name}: source coverage count is inconsistent.`);
+    }
 
     if (model.overall !== null && (model.overall < 0 || model.overall > 100)) {
       errors.push(`${model.name}: overall score ${model.overall} is outside 0-100.`);

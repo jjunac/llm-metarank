@@ -1,14 +1,14 @@
 # LLM MetaRank
 
-A Metacritic-style meta ranking for large language models, built from ten independent benchmark
+A Metacritic-style meta ranking for large language models, built from thirteen benchmark
 leaderboards. Each source is converted to a percentile within its own model pool, then combined into
 one relative score. The site is pre-rendered with Astro and has no backend.
 
 ## What is here
 
-- **Overall ranking** across ten sources, plus **General**, **Coding**, **Agentic**, and **Reasoning**
+- **Overall ranking** across thirteen sources, plus **General**, **Coding**, **Agentic**, and **Reasoning**
   views.
-- **Coverage-gated ranks**: a model needs at least 5 of 10 sources, including one general and one
+- **Coverage-gated ranks**: a model needs at least 5 of 13 sources, including one general and one
   coding source, to receive an official overall rank. Category ranks require at least 2 sources.
   The leaderboard defaults to ranking all tracked models by available-source score; those ranks are
   not official and coverage varies. Switching to 5+ sources shows only official overall ranks.
@@ -34,6 +34,9 @@ one relative score. The site is pre-rendered with Astro and has no backend.
 | ARC-AGI-3 | Agentic, Reasoning | Interactive environment score |
 | Code Arena — WebDev | Coding | Human preference Elo |
 | MCP Atlas | Agentic | Tool-use / MCP score |
+| CursorBench 4.0 | Coding, Agentic | Task score in Cursor's harness |
+| τ³-Banking | Agentic | Pass^1, standard v1.0.1 AllTools / GPT-5.2 text cohort |
+| FrontierMath Tiers 1–3 v2 | Reasoning | Private-set accuracy, task version 2.0.0 |
 
 See `/methodology` for category mappings, coverage rules, and caveats.
 
@@ -43,10 +46,13 @@ See `/methodology` for category mappings, coverage rules, and caveats.
 npm install
 npx playwright install chromium   # full Chromium needed for the LMArena / Code Arena fetchers
 
-npm run data:refresh              # fetch all sources, write snapshots, rebuild data/leaderboard.json
+npm run data:refresh              # clean tree → fetch all sources → rebuild → commit + push data/
 npm run data:build                # rebuild data/leaderboard.json from existing snapshots
 npm run data:refresh -- --only=livebench
-npm run data:refresh -- --fetch-only
+npm run data:refresh -- --only=cursorbench
+npm run data:refresh -- --only=tau3-banking
+npm run data:refresh -- --only=frontiermath
+npm run data:refresh -- --fetch-only   # fetch snapshots only, no build/commit/push
 
 npm run data:check                # validate the dataset, coverage, ranks, and snapshots
 npm run data:review               # show unmapped model names per source
@@ -71,13 +77,29 @@ The overall meta score is an equal-weight average of the available source percen
 meta(m) = Σ w_s × percentile(s, m) / Σ w_s
 ```
 
-- Each of the 10 sources has weight `1.0`.
+- Each of the 13 sources has weight `1.0`.
 - Missing sources are not imputed.
 - A model needs 5+ sources, with at least one general and one coding source, for an overall rank.
 - Category scores use only sources tagged for that category and require 2+ sources.
 - Artificial Analysis and LiveBench are composites; each is counted once in the overall score.
 - Coding and agentic results often use a model + harness. The best reported harness is used and
   shown in the breakdown.
+- The five-source overall floor remains unchanged as the suite grows; it is not a majority rule.
+  Every new source changes the equal-weight available-source average, not the coverage threshold.
+
+### Versioned source cohorts
+
+- **CursorBench:** v4.0 only. This is a private, vendor-run benchmark in Cursor's harness, not a
+  harness-neutral model comparison. All reported efforts are retained; the best score and its
+  same-configuration average task cost are selected. Responsive table copies are deduplicated.
+- **τ³-Banking:** standard text submissions with v1.0.1 grading, AllTools retrieval, the GPT-5.2
+  user simulator, unmodified prompts and no omitted questions. Other retrieval setups, custom
+  agents, legacy/core domains and voice runs are excluded. Pass^1 is already a percentage; pass^2–4
+  stay in raw audit data and are not averaged into the score.
+- **FrontierMath:** Epoch AI's successful `FrontierMath-Tiers-1-3-v2-Private` runs with task version
+  `2.0.0`. Earlier datasets, Tier 4, public examples and unsuccessful runs are excluded. Fractional
+  run accuracy is converted to a percentage. Source display names, effort, run id and result date
+  are retained; the best reported effort is selected.
 
 The meta score is relative to the tracked model pool. It is not an absolute capability measure, a
 product recommendation, or a cost/value score.
@@ -86,13 +108,13 @@ product recommendation, or a cost/value score.
 
 Costs stay separate from capability ranks. The matched-basket view computes a separate frontier for
 every supported combination of mean-cost sources. The default overall basket is currently
-**LiveBench + Terminal-Bench**, the largest eligible set at build time. Artificial Analysis v5.0
+**Terminal-Bench + CursorBench**, the basket with the most eligible models at build time. Artificial Analysis v5.0
 scores are collected, but its costs are excluded until the new methodology is audited; v4.3.2 costs
 are not reused with newer scores. A model needs usable paired score/cost observations for every
 source in the selected basket. The overall view also supports a single benchmark, including
 P50-only Arena sources; median costs are never pooled into a multi-source basket. Category views
 use their available sources, falling back to a single benchmark when a matched basket is unavailable.
-The Y-axis is a percentile average over the same selected sources, not the ten-source overall score.
+The Y-axis is a percentile average over the same selected sources, not the thirteen-source overall score.
 
 ```text
 reference(s) = median usable task cost of the tracked best-score runs for source s
@@ -110,7 +132,10 @@ for audit but are not plotted.
 
 | Overall basket | Eligible models | Non-dominated |
 |---|---:|---:|
-| LiveBench + Terminal-Bench (default) | 12 | 5 |
+| Terminal-Bench + CursorBench (default) | 13 | 5 |
+| LiveBench + CursorBench | 12 | 5 |
+| LiveBench + Terminal-Bench | 12 | 5 |
+| LiveBench + Terminal-Bench + CursorBench | 8 | 5 |
 
 The counts above reflect the current dataset; `npm run data:check` prints the same table. In addition,
 the overall view can show any single cost-bearing benchmark on its own; these single-benchmark
@@ -122,8 +147,10 @@ frontiers are not eligible for the multi-source basket table above.
 | LiveBench | Same-release `cost.csv`, joined by exact model identifier. Total spend ÷ task count; category costs use their own tasks. Missing/ambiguous rows and partial overall suite scoring are not imputed. |
 | Terminal-Bench | `total_cost_usd / n_trials`, including repeated and failed attempts, not just unique or successful tasks. |
 | Arena Text / WebDev | Playwright-read `Cost/Task (P50)`. Medians stay in single-benchmark views and are never pooled with mean-cost baskets. Cloudflare/browser failures retain the last good score snapshot without inventing costs. |
+| CursorBench | Published average USD/task for the same score and effort. Cursor reprices observed input, cache-read, cache-write and output token usage; these rounded source estimates are means, not invoices or all-in operating costs. |
 | ARC-AGI-3 | Run totals retained separately. No $/task conversion without verified per-run denominators/completeness; currently excluded. |
 | SWE-bench Pro, Scale HLE, MCP Atlas, GSO | No matching monetary task costs in the inspected public payloads; unknown, never inferred from token pricing, budgets, time or turns. |
+| τ³-Banking, FrontierMath | No audited mean monetary task costs for the selected runs. Banking's numeric cost fields have unverified units/statistics; FrontierMath's token counts and training compute costs are not evaluation spend. |
 
 The separate **benchmark frontier ensemble** overlays each benchmark's own frontier in
 within-benchmark score and cost percentiles. It is descriptive: the axes are relative to each
@@ -176,14 +203,23 @@ src/
 
 ## Refresh behavior
 
-`npm run data:refresh` fetches each source, writes a dated snapshot and `latest.json`, then rebuilds
-`data/leaderboard.json`. Results are downloaded on every run, even when the benchmark release has not
-changed. Dated snapshot filenames are retrieval dates, not benchmark releases.
+`npm run data:refresh` first checks that the git working tree is clean, so unrelated changes cannot
+be mixed into the generated data commit. It then fetches each source, writes a dated snapshot and
+`latest.json`, and rebuilds `data/leaderboard.json`. Finally it stages `data/`, commits with
+`chore: update data`, and pushes. When the refresh produces no changes, the commit and push are
+skipped. `--fetch-only` skips the clean check and leaves the changes uncommitted.
+
+Results are downloaded on every run, even when the benchmark release has not changed. Dated snapshot
+filenames are retrieval dates, not benchmark releases.
 
 LiveBench's benchmark release is stored separately from its results update date (the score file's
 HTTP `Last-Modified`). Scale uses the latest published result timestamp or page update date for the
 selected leaderboard variant, not unrelated metadata or another benchmark tab. Model release dates
 are not treated as result dates. When an update date is unknown, the site labels the date as fetched.
+
+CursorBench's changelog is not used as a leaderboard result date. τ³-Banking's update date uses only
+the selected cohort's evaluation/submission dates, not updates to voice or other retrieval runs.
+FrontierMath uses selected run start dates, not model publication dates or unrelated benchmark runs.
 
 If a fetch fails or returns empty, invalid, or incomplete results, the previous good `latest.json` is
 kept and the source is marked stale. The dataset is still rebuilt so an outage does not take the site
@@ -205,5 +241,8 @@ JSON, or API endpoints.
   owners; they are used only for identification. See `public/vendors/ATTRIBUTION.md`.
 - The refreshed dataset is baked into the next build. Run `npm run build` after refreshing.
 - Data belongs to the respective benchmark providers. This project is not affiliated with any of them.
+- FrontierMath results are from [Epoch AI, *Capabilities & benchmarking*](https://epoch.ai/benchmarks/use-this-data),
+  licensed [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). This project selects private
+  Tiers 1–3 v2 runs, converts fractional accuracies to percentages, and derives model percentiles.
 - The meta score is intentionally conservative about coverage; a high score on a single benchmark is
   not enough to rank a model overall.

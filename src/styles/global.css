@@ -52,6 +52,7 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
 }
 
 body {
@@ -92,6 +93,22 @@ body {
   text-transform: uppercase;
   font-weight: 600;
   color: var(--muted);
+}
+
+.math-block {
+  font-size: clamp(0.64rem, 0.1rem + 2vw, 0.95rem);
+}
+
+.math-block .katex-display {
+  margin: 0;
+}
+
+.math-block .katex {
+  color: inherit;
+}
+
+.math-inline .katex {
+  font-size: 1.05em;
 }
 
 .rule {

@@ -15,6 +15,8 @@ describe("leaderboard coverage setting", () => {
     expect(html).toContain("All models");
     expect(html).not.toContain("Show emerging");
     expect(html).not.toContain("Remove 5-source minimum");
+    expect(html).toContain(`five of ${data.sourceCount} benchmarks`);
+    expect(html).not.toContain("five of ten");
   });
 
   it("defaults to all models and places that option first", () => {

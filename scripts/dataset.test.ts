@@ -1,16 +1,32 @@
 import { describe, expect, it } from "vitest";
 import { resolve } from "node:path";
-import type { LeaderboardDataset, SourceSnapshot } from "./types.js";
+import type { LeaderboardDataset, SourceConfig, SourceSnapshot } from "./types.js";
 import { DATA_DIR, readJson } from "./util.js";
 import { buildCostAnalysis, canonicalBasketId, isUsableTaskCost } from "./costs.js";
 import { loadModelRegistry, matchModel } from "./normalize/models.js";
 
 const dataset = await readJson<LeaderboardDataset>(resolve(DATA_DIR, "leaderboard.json"));
+const configs = await readJson<SourceConfig[]>(resolve(DATA_DIR, "sources.json"));
 
 describe("generated leaderboard dataset", () => {
-  it("contains ten unique sources", () => {
-    expect(dataset.sources).toHaveLength(10);
-    expect(new Set(dataset.sources.map((source) => source.id)).size).toBe(10);
+  it("contains every configured source exactly once", () => {
+    expect(dataset.sourceCount).toBe(configs.length);
+    expect(dataset.sources).toHaveLength(configs.length);
+    expect(new Set(dataset.sources.map((source) => source.id)).size).toBe(configs.length);
+    expect(dataset.sources.map((source) => source.id)).toEqual(configs.map((source) => source.id));
+    for (const model of dataset.models) expect(model.coverage.total).toBe(configs.length);
+  });
+
+  it("includes the versioned CursorBench, banking and mathematics sources in their categories", () => {
+    expect(dataset.categorySources.coding).toContain("cursorbench");
+    expect(dataset.categorySources.agentic).toEqual(expect.arrayContaining(["cursorbench", "tau3-banking"]));
+    expect(dataset.categorySources.reasoning).toContain("frontiermath");
+    for (const id of ["cursorbench", "tau3-banking", "frontiermath"]) {
+      expect(dataset.sources.find((source) => source.id === id)?.mappedCount).toBeGreaterThanOrEqual(3);
+    }
+    expect(dataset.costAnalysis.singleSourceIds.overall).toContain("cursorbench");
+    expect(dataset.costAnalysis.applicableSourceIds.overall).not.toContain("tau3-banking");
+    expect(dataset.costAnalysis.applicableSourceIds.overall).not.toContain("frontiermath");
   });
 
   it("ranks models with enough overall coverage", () => {

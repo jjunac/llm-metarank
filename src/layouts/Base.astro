@@ -14,7 +14,7 @@ interface Props {
 
 const {
   title = "LLM MetaRank — The meta ranking for AI models",
-  description = "A Metacritic-style meta ranking for large language models, built from ten independent benchmarks.",
+  description = "A Metacritic-style meta ranking for large language models, built from multiple benchmark leaderboards.",
   data,
 } = Astro.props;
 
@@ -58,7 +58,7 @@ const updated = data ? formatDate(data.generatedAt.slice(0, 10)) : null;
     </script>
   </head>
   <body class="min-h-screen font-sans">
-    <header class="relative z-20 border-b border-line bg-paper/80 backdrop-blur">
+    <header class="sticky top-0 z-40 border-b border-line bg-paper/80 backdrop-blur">
       <div class="container-page flex h-16 items-center justify-between gap-4">
         <a href="/" class="group flex items-center gap-3 focus-ring" aria-label="LLM MetaRank home">
           <span class="relative flex h-8 w-8 items-center justify-center overflow-hidden rounded-full border border-ink bg-ink text-paper">

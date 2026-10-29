@@ -73,7 +73,7 @@ export default function CostFrontier({ data, onSelectModel }: { data: Leaderboar
   };
 
   return (
-    <section id="frontier" className="container-page scroll-mt-6 pb-14 pt-10 sm:pb-20 sm:pt-14" aria-labelledby="cost-frontier-title">
+    <section id="frontier" className="container-page pb-14 pt-10 sm:pb-20 sm:pt-14" aria-labelledby="cost-frontier-title">
       <div className="mb-6 flex flex-col justify-between gap-4 sm:flex-row sm:items-end">
         <div>
           <div className="eyebrow mb-2">Capability × measured task cost</div>

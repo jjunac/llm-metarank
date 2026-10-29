@@ -1,0 +1,25 @@
+---
+import katex from "katex";
+import "katex/dist/katex.min.css";
+
+interface Props {
+  tex: string;
+  inline?: boolean;
+}
+
+const { tex, inline = false } = Astro.props;
+
+const html = katex.renderToString(tex, {
+  displayMode: !inline,
+  throwOnError: true,
+  output: "htmlAndMathml",
+});
+---
+
+{
+  inline ? (
+    <span class="math-inline" set:html={html} />
+  ) : (
+    <div class="math-block scrollbar-thin overflow-x-auto" set:html={html} />
+  )
+}
