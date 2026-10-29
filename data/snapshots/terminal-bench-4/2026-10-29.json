@@ -1,0 +1,1029 @@
+{
+  "sourceId": "terminal-bench-4",
+  "fetchedAt": "2026-10-29T04:56:33.124Z",
+  "sourceUpdatedAt": "2026-10-23",
+  "url": "https://www.tbench.ai/",
+  "entries": [
+    {
+      "rawName": "Opus 5.5",
+      "score": 64.85,
+      "harness": "Claude Code",
+      "variant": "max",
+      "date": "2026-10-06",
+      "url": "https://www.tbench.ai/",
+      "runId": "7b805dbb-e77a-4d0a-892e-165f922f786c",
+      "cost": {
+        "sourceUrl": "https://www.tbench.ai/",
+        "fetchedAt": "2026-10-29T04:56:33.124Z",
+        "scope": "Terminal-Bench 4.0 · all trials",
+        "usd": 14.298939393939392,
+        "currency": "USD",
+        "unit": "task",
+        "statistic": "mean",
+        "method": "total-over-attempts",
+        "complete": true,
+        "totalUsd": 4718.65,
+        "attempts": 330,
+        "dataUrl": "https://ofhuhcpkvzjlejydnvyd.supabase.co/functions/v1/leaderboard-read",
+        "dataMethod": "POST"
+      },
+      "extra": {
+        "trials": 330,
+        "ci95": 3.11,
+        "rank": 1
+      }
+    },
+    {
+      "rawName": "Sonnet 5.5",
+      "score": 61.82,
+      "harness": "Claude Code",
+      "variant": "max",
+      "date": "2026-10-06",
+      "url": "https://www.tbench.ai/",
+      "runId": "723c6609-fe18-46d9-a1a3-dd4b6b0e0d00",
+      "cost": {
+        "sourceUrl": "https://www.tbench.ai/",
+        "fetchedAt": "2026-10-29T04:56:33.124Z",
+        "scope": "Terminal-Bench 4.0 · all trials",
+        "usd": 22.223151515151518,
+        "currency": "USD",
+        "unit": "task",
+        "statistic": "mean",
+        "method": "total-over-attempts",
+        "complete": true,
+        "totalUsd": 7333.64,
+        "attempts": 330,
+        "dataUrl": "https://ofhuhcpkvzjlejydnvyd.supabase.co/functions/v1/leaderboard-read",
+        "dataMethod": "POST"
+      },
+      "extra": {
+        "trials": 330,
+        "ci95": 2.94,
+        "rank": 2
+      }
+    },
+    {
+      "rawName": "GPT-6 Astra",
+      "score": 58.18,
+      "harness": "Codex",
+      "variant": "max",
+      "date": "2026-09-10",
+      "url": "https://www.tbench.ai/",
+      "runId": "5c537be4-7fc3-449b-8bfc-ceb9061c2535",
+      "cost": {
+        "sourceUrl": "https://www.tbench.ai/",
+        "fetchedAt": "2026-10-29T04:56:33.124Z",
+        "scope": "Terminal-Bench 4.0 · all trials",
+        "usd": 9.900545454545455,
+        "currency": "USD",
+        "unit": "task",
+        "statistic": "mean",
+        "method": "total-over-attempts",
+        "complete": true,
+        "totalUsd": 3267.18,
+        "attempts": 330,
+        "dataUrl": "https://ofhuhcpkvzjlejydnvyd.supabase.co/functions/v1/leaderboard-read",
+        "dataMethod": "POST"
+      },
+      "extra": {
+        "trials": 330,
+        "ci95": 2.79,
+        "rank": 3
+      }
+    },
+    {
+      "rawName": "GPT-6.1 Sol",
+      "score": 58.18,
+      "harness": "Codex",
+      "variant": "max",
+      "date": "2026-10-06",
+      "url": "https://www.tbench.ai/",
+      "runId": "79aafc20-6776-4411-a5a5-0640562496d0",
+      "cost": {
+        "sourceUrl": "https://www.tbench.ai/",
+        "fetchedAt": "2026-10-29T04:56:33.124Z",
+        "scope": "Terminal-Bench 4.0 · all trials",
+        "usd": 1.921939393939394,
+        "currency": "USD",
+        "unit": "task",
+        "statistic": "mean",
+        "method": "total-over-attempts",
+        "complete": true,
+        "totalUsd": 634.24,
+        "attempts": 330,
+        "dataUrl": "https://ofhuhcpkvzjlejydnvyd.supabase.co/functions/v1/leaderboard-read",
+        "dataMethod": "POST"
+      },
+      "extra": {
+        "trials": 330,
+        "ci95": 3.11,
+        "rank": 3
+      }
+    },
+    {
+      "rawName": "Fable 5.1",
+      "score": 57.88,
+      "harness": "Claude Code",
+      "variant": "max",
+      "date": "2026-09-03",
+      "url": "https://www.tbench.ai/",
+      "runId": "c741608e-c94e-417d-b7a8-e67111a0c887",
+      "cost": {
+        "sourceUrl": "https://www.tbench.ai/",
+        "fetchedAt": "2026-10-29T04:56:33.124Z",
+        "scope": "Terminal-Bench 4.0 · all trials",
+        "usd": 18.919696969696968,
+        "currency": "USD",
+        "unit": "task",
+        "statistic": "mean",
+        "method": "total-over-attempts",
+        "complete": true,
+        "totalUsd": 6243.5,
+        "attempts": 330,
+        "dataUrl": "https://ofhuhcpkvzjlejydnvyd.supabase.co/functions/v1/leaderboard-read",
+        "dataMethod": "POST"
+      },
+      "extra": {
+        "trials": 330,
+        "ci95": 3.76,
+        "rank": 5
+      }
+    },
+    {
+      "rawName": "GPT-6 Astra",
+      "score": 57.88,
+      "harness": "Codex",
+      "variant": "xhigh",
+      "date": "2026-09-10",
+      "url": "https://www.tbench.ai/",
+      "runId": "16db8ad5-84aa-4588-b660-1ce68c0d45e2",
+      "cost": {
+        "sourceUrl": "https://www.tbench.ai/",
+        "fetchedAt": "2026-10-29T04:56:33.124Z",
+        "scope": "Terminal-Bench 4.0 · all trials",
+        "usd": 7.122757575757577,
+        "currency": "USD",
+        "unit": "task",
+        "statistic": "mean",
+        "method": "total-over-attempts",
+        "complete": true,
+        "totalUsd": 2350.51,
+        "attempts": 330,
+        "dataUrl": "https://ofhuhcpkvzjlejydnvyd.supabase.co/functions/v1/leaderboard-read",
+        "dataMethod": "POST"
+      },
+      "extra": {
+        "trials": 330,
+        "ci95": 2.72,
+        "rank": 5
+      }
+    },
+    {
+      "rawName": "GPT-6 Astra",
+      "score": 57.88,
+      "harness": "Codex",
+      "variant": "high",
+      "date": "2026-09-10",
+      "url": "https://www.tbench.ai/",
+      "runId": "3475050c-bf5e-4261-a3f6-0af5350af13f",
+      "cost": {
+        "sourceUrl": "https://www.tbench.ai/",
+        "fetchedAt": "2026-10-29T04:56:33.124Z",
+        "scope": "Terminal-Bench 4.0 · all trials",
+        "usd": 6.8770303030303035,
+        "currency": "USD",
+        "unit": "task",
+        "statistic": "mean",
+        "method": "total-over-attempts",
+        "complete": true,
+        "totalUsd": 2269.42,
+        "attempts": 330,
+        "dataUrl": "https://ofhuhcpkvzjlejydnvyd.supabase.co/functions/v1/leaderboard-read",
+        "dataMethod": "POST"
+      },
+      "extra": {
+        "trials": 330,
+        "ci95": 2.97,
+        "rank": 5
+      }
+    },
+    {
+      "rawName": "Fable 5.1",
+      "score": 57.88,
+      "harness": "Claude Code",
+      "variant": "xhigh",
+      "date": "2026-09-17",
+      "url": "https://www.tbench.ai/",
+      "runId": "9e1c5e11-748f-4f2e-911a-070a396d5bf8",
+      "cost": {
+        "sourceUrl": "https://www.tbench.ai/",
+        "fetchedAt": "2026-10-29T04:56:33.124Z",
+        "scope": "Terminal-Bench 4.0 · all trials",
+        "usd": 14.763757575757575,
+        "currency": "USD",
+        "unit": "task",
+        "statistic": "mean",
+        "method": "total-over-attempts",
+        "complete": true,
+        "totalUsd": 4872.04,
+        "attempts": 330,
+        "dataUrl": "https://ofhuhcpkvzjlejydnvyd.supabase.co/functions/v1/leaderboard-read",
+        "dataMethod": "POST"
+      },
+      "extra": {
+        "trials": 330,
+        "ci95": 3.36,
+        "rank": 5
+      }
+    },
+    {
+      "rawName": "Fable 5.1",
+      "score": 54.55,
+      "harness": "Claude Code",
+      "variant": "high",
+      "date": "2026-09-17",
+      "url": "https://www.tbench.ai/",
+      "runId": "4643b23c-53e8-47ae-a3bd-9abc900e9588",
+      "cost": {
+        "sourceUrl": "https://www.tbench.ai/",
+        "fetchedAt": "2026-10-29T04:56:33.124Z",
+        "scope": "Terminal-Bench 4.0 · all trials",
+        "usd": 12.07690909090909,
+        "currency": "USD",
+        "unit": "task",
+        "statistic": "mean",
+        "method": "total-over-attempts",
+        "complete": true,
+        "totalUsd": 3985.38,
+        "attempts": 330,
+        "dataUrl": "https://ofhuhcpkvzjlejydnvyd.supabase.co/functions/v1/leaderboard-read",
+        "dataMethod": "POST"
+      },
+      "extra": {
+        "trials": 330,
+        "ci95": 3.44,
+        "rank": 9
+      }
+    },
+    {
+      "rawName": "GPT-6 Astra",
+      "score": 54.24,
+      "harness": "Codex",
+      "variant": "medium",
+      "date": "2026-09-10",
+      "url": "https://www.tbench.ai/",
+      "runId": "f3c3d5a6-6424-4acb-bfcc-615c3f79f6dd",
+      "cost": {
+        "sourceUrl": "https://www.tbench.ai/",
+        "fetchedAt": "2026-10-29T04:56:33.124Z",
+        "scope": "Terminal-Bench 4.0 · all trials",
+        "usd": 5.802424242424243,
+        "currency": "USD",
+        "unit": "task",
+        "statistic": "mean",
+        "method": "total-over-attempts",
+        "complete": true,
+        "totalUsd": 1914.8,
+        "attempts": 330,
+        "dataUrl": "https://ofhuhcpkvzjlejydnvyd.supabase.co/functions/v1/leaderboard-read",
+        "dataMethod": "POST"
+      },
+      "extra": {
+        "trials": 330,
+        "ci95": 2.66,
+        "rank": 10
+      }
+    },
+    {
+      "rawName": "Fable 5.1",
+      "score": 53.94,
+      "harness": "Claude Code",
+      "variant": "medium",
+      "date": "2026-09-17",
+      "url": "https://www.tbench.ai/",
+      "runId": "83e6bf7e-aeb4-4116-9f30-ca8de96603fb",
+      "cost": {
+        "sourceUrl": "https://www.tbench.ai/",
+        "fetchedAt": "2026-10-29T04:56:33.124Z",
+        "scope": "Terminal-Bench 4.0 · all trials",
+        "usd": 8.584545454545454,
+        "currency": "USD",
+        "unit": "task",
+        "statistic": "mean",
+        "method": "total-over-attempts",
+        "complete": true,
+        "totalUsd": 2832.9,
+        "attempts": 330,
+        "dataUrl": "https://ofhuhcpkvzjlejydnvyd.supabase.co/functions/v1/leaderboard-read",
+        "dataMethod": "POST"
+      },
+      "extra": {
+        "trials": 330,
+        "ci95": 3.39,
+        "rank": 11
+      }
+    },
+    {
+      "rawName": "Opus 5",
+      "score": 53.94,
+      "harness": "Claude Code",
+      "variant": "xhigh",
+      "date": "2026-09-17",
+      "url": "https://www.tbench.ai/",
+      "runId": "f7844abc-3109-4d5f-91ad-481df7b9fac2",
+      "cost": {
+        "sourceUrl": "https://www.tbench.ai/",
+        "fetchedAt": "2026-10-29T04:56:33.124Z",
+        "scope": "Terminal-Bench 4.0 · all trials",
+        "usd": 18.44309090909091,
+        "currency": "USD",
+        "unit": "task",
+        "statistic": "mean",
+        "method": "total-over-attempts",
+        "complete": true,
+        "totalUsd": 6086.22,
+        "attempts": 330,
+        "dataUrl": "https://ofhuhcpkvzjlejydnvyd.supabase.co/functions/v1/leaderboard-read",
+        "dataMethod": "POST"
+      },
+      "extra": {
+        "trials": 330,
+        "ci95": 3.17,
+        "rank": 11
+      }
+    },
+    {
+      "rawName": "Opus 5",
+      "score": 51.82,
+      "harness": "Claude Code",
+      "variant": "max",
+      "date": "2026-09-03",
+      "url": "https://www.tbench.ai/",
+      "runId": "d71ac3d0-da36-49cb-89d9-323136e77111",
+      "cost": {
+        "sourceUrl": "https://www.tbench.ai/",
+        "fetchedAt": "2026-10-29T04:56:33.124Z",
+        "scope": "Terminal-Bench 4.0 · all trials",
+        "usd": 18.08821212121212,
+        "currency": "USD",
+        "unit": "task",
+        "statistic": "mean",
+        "method": "total-over-attempts",
+        "complete": true,
+        "totalUsd": 5969.11,
+        "attempts": 330,
+        "dataUrl": "https://ofhuhcpkvzjlejydnvyd.supabase.co/functions/v1/leaderboard-read",
+        "dataMethod": "POST"
+      },
+      "extra": {
+        "trials": 330,
+        "ci95": 3.39,
+        "rank": 13
+      }
+    },
+    {
+      "rawName": "GPT-6 Astra",
+      "score": 50.61,
+      "harness": "Codex",
+      "variant": "low",
+      "date": "2026-09-10",
+      "url": "https://www.tbench.ai/",
+      "runId": "b3ad58f3-b311-4d4d-875b-3158cf0309d6",
+      "cost": {
+        "sourceUrl": "https://www.tbench.ai/",
+        "fetchedAt": "2026-10-29T04:56:33.124Z",
+        "scope": "Terminal-Bench 4.0 · all trials",
+        "usd": 4.719090909090909,
+        "currency": "USD",
+        "unit": "task",
+        "statistic": "mean",
+        "method": "total-over-attempts",
+        "complete": true,
+        "totalUsd": 1557.3,
+        "attempts": 330,
+        "dataUrl": "https://ofhuhcpkvzjlejydnvyd.supabase.co/functions/v1/leaderboard-read",
+        "dataMethod": "POST"
+      },
+      "extra": {
+        "trials": 330,
+        "ci95": 2.75,
+        "rank": 14
+      }
+    },
+    {
+      "rawName": "Opus 5",
+      "score": 50.3,
+      "harness": "Claude Code",
+      "variant": "high",
+      "date": "2026-09-17",
+      "url": "https://www.tbench.ai/",
+      "runId": "0b2908ee-3035-447c-9876-e68fecb3f413",
+      "cost": {
+        "sourceUrl": "https://www.tbench.ai/",
+        "fetchedAt": "2026-10-29T04:56:33.124Z",
+        "scope": "Terminal-Bench 4.0 · all trials",
+        "usd": 14.128090909090911,
+        "currency": "USD",
+        "unit": "task",
+        "statistic": "mean",
+        "method": "total-over-attempts",
+        "complete": true,
+        "totalUsd": 4662.27,
+        "attempts": 330,
+        "dataUrl": "https://ofhuhcpkvzjlejydnvyd.supabase.co/functions/v1/leaderboard-read",
+        "dataMethod": "POST"
+      },
+      "extra": {
+        "trials": 330,
+        "ci95": 3.73,
+        "rank": 15
+      }
+    },
+    {
+      "rawName": "GPT-6 Sol",
+      "score": 49.39,
+      "harness": "Codex",
+      "variant": "max",
+      "date": "2026-10-06",
+      "url": "https://www.tbench.ai/",
+      "runId": "a29d2361-9d5b-4a95-a56d-707070bd6c88",
+      "cost": {
+        "sourceUrl": "https://www.tbench.ai/",
+        "fetchedAt": "2026-10-29T04:56:33.124Z",
+        "scope": "Terminal-Bench 4.0 · all trials",
+        "usd": 4.397939393939394,
+        "currency": "USD",
+        "unit": "task",
+        "statistic": "mean",
+        "method": "total-over-attempts",
+        "complete": true,
+        "totalUsd": 1451.32,
+        "attempts": 330,
+        "dataUrl": "https://ofhuhcpkvzjlejydnvyd.supabase.co/functions/v1/leaderboard-read",
+        "dataMethod": "POST"
+      },
+      "extra": {
+        "trials": 330,
+        "ci95": 3.23,
+        "rank": 16
+      }
+    },
+    {
+      "rawName": "Opus 5",
+      "score": 44.85,
+      "harness": "Claude Code",
+      "variant": "medium",
+      "date": "2026-09-17",
+      "url": "https://www.tbench.ai/",
+      "runId": "8c102a88-0789-4ce7-b503-bd39e84e157b",
+      "cost": {
+        "sourceUrl": "https://www.tbench.ai/",
+        "fetchedAt": "2026-10-29T04:56:33.124Z",
+        "scope": "Terminal-Bench 4.0 · all trials",
+        "usd": 9.671484848484848,
+        "currency": "USD",
+        "unit": "task",
+        "statistic": "mean",
+        "method": "total-over-attempts",
+        "complete": true,
+        "totalUsd": 3191.59,
+        "attempts": 330,
+        "dataUrl": "https://ofhuhcpkvzjlejydnvyd.supabase.co/functions/v1/leaderboard-read",
+        "dataMethod": "POST"
+      },
+      "extra": {
+        "trials": 330,
+        "ci95": 3.83,
+        "rank": 17
+      }
+    },
+    {
+      "rawName": "Fable 5",
+      "score": 44.55,
+      "harness": "Claude Code",
+      "variant": "max",
+      "date": "2026-09-03",
+      "url": "https://www.tbench.ai/",
+      "runId": "36c077e0-4879-4444-b315-8532d66401d6",
+      "cost": {
+        "sourceUrl": "https://www.tbench.ai/",
+        "fetchedAt": "2026-10-29T04:56:33.124Z",
+        "scope": "Terminal-Bench 4.0 · all trials",
+        "usd": 22.01518181818182,
+        "currency": "USD",
+        "unit": "task",
+        "statistic": "mean",
+        "method": "total-over-attempts",
+        "complete": true,
+        "totalUsd": 7265.01,
+        "attempts": 330,
+        "dataUrl": "https://ofhuhcpkvzjlejydnvyd.supabase.co/functions/v1/leaderboard-read",
+        "dataMethod": "POST"
+      },
+      "extra": {
+        "trials": 330,
+        "ci95": 3.85,
+        "rank": 18
+      }
+    },
+    {
+      "rawName": "Fable 5.1",
+      "score": 43.33,
+      "harness": "Claude Code",
+      "variant": "low",
+      "date": "2026-09-17",
+      "url": "https://www.tbench.ai/",
+      "runId": "e18d02ab-0973-4d86-872f-a353c8a7f344",
+      "cost": {
+        "sourceUrl": "https://www.tbench.ai/",
+        "fetchedAt": "2026-10-29T04:56:33.124Z",
+        "scope": "Terminal-Bench 4.0 · all trials",
+        "usd": 7.147636363636363,
+        "currency": "USD",
+        "unit": "task",
+        "statistic": "mean",
+        "method": "total-over-attempts",
+        "complete": true,
+        "totalUsd": 2358.72,
+        "attempts": 330,
+        "dataUrl": "https://ofhuhcpkvzjlejydnvyd.supabase.co/functions/v1/leaderboard-read",
+        "dataMethod": "POST"
+      },
+      "extra": {
+        "trials": 330,
+        "ci95": 3.61,
+        "rank": 19
+      }
+    },
+    {
+      "rawName": "GLM-5.3",
+      "score": 41.82,
+      "harness": "Claude Code",
+      "variant": "max",
+      "date": "2026-09-03",
+      "url": "https://www.tbench.ai/",
+      "runId": "d72e8775-f4f1-4313-99e7-35b1cb499f24",
+      "cost": {
+        "sourceUrl": "https://www.tbench.ai/",
+        "fetchedAt": "2026-10-29T04:56:33.124Z",
+        "scope": "Terminal-Bench 4.0 · all trials",
+        "usd": 8.265545454545455,
+        "currency": "USD",
+        "unit": "task",
+        "statistic": "mean",
+        "method": "total-over-attempts",
+        "complete": true,
+        "totalUsd": 2727.63,
+        "attempts": 330,
+        "dataUrl": "https://ofhuhcpkvzjlejydnvyd.supabase.co/functions/v1/leaderboard-read",
+        "dataMethod": "POST"
+      },
+      "extra": {
+        "trials": 330,
+        "ci95": 3.23,
+        "rank": 20
+      }
+    },
+    {
+      "rawName": "Grok 4.7",
+      "score": 37.58,
+      "harness": "Grok Build",
+      "variant": "xhigh",
+      "date": "2026-09-21",
+      "url": "https://www.tbench.ai/",
+      "runId": "84b39f56-fe3c-46c3-919f-3b67b73f9b49",
+      "cost": {
+        "sourceUrl": "https://www.tbench.ai/",
+        "fetchedAt": "2026-10-29T04:56:33.124Z",
+        "scope": "Terminal-Bench 4.0 · all trials",
+        "usd": 11.161476200000001,
+        "currency": "USD",
+        "unit": "task",
+        "statistic": "mean",
+        "method": "total-over-attempts",
+        "complete": true,
+        "totalUsd": 3683.287146,
+        "attempts": 330,
+        "dataUrl": "https://ofhuhcpkvzjlejydnvyd.supabase.co/functions/v1/leaderboard-read",
+        "dataMethod": "POST"
+      },
+      "extra": {
+        "trials": 330,
+        "ci95": 3.54,
+        "rank": 21
+      }
+    },
+    {
+      "rawName": "GPT-5.6 Sol",
+      "score": 37.27,
+      "harness": "Codex",
+      "variant": "max",
+      "date": "2026-09-03",
+      "url": "https://www.tbench.ai/",
+      "runId": "0e349bde-b264-494d-a853-fada9c696192",
+      "cost": {
+        "sourceUrl": "https://www.tbench.ai/",
+        "fetchedAt": "2026-10-29T04:56:33.124Z",
+        "scope": "Terminal-Bench 4.0 · all trials",
+        "usd": 7.702121212121211,
+        "currency": "USD",
+        "unit": "task",
+        "statistic": "mean",
+        "method": "total-over-attempts",
+        "complete": true,
+        "totalUsd": 2541.7,
+        "attempts": 330,
+        "dataUrl": "https://ofhuhcpkvzjlejydnvyd.supabase.co/functions/v1/leaderboard-read",
+        "dataMethod": "POST"
+      },
+      "extra": {
+        "trials": 330,
+        "ci95": 3.78,
+        "rank": 22
+      }
+    },
+    {
+      "rawName": "GLM-5.3-Flash",
+      "score": 35.76,
+      "harness": "Claude Code",
+      "variant": "none",
+      "date": "2026-10-23",
+      "url": "https://www.tbench.ai/",
+      "runId": "ac7be218-79b6-464e-8861-9b5a7f760cb8",
+      "cost": {
+        "sourceUrl": "https://www.tbench.ai/",
+        "fetchedAt": "2026-10-29T04:56:33.124Z",
+        "scope": "Terminal-Bench 4.0 · all trials",
+        "usd": 0.35981068024242424,
+        "currency": "USD",
+        "unit": "task",
+        "statistic": "mean",
+        "method": "total-over-attempts",
+        "complete": true,
+        "totalUsd": 118.73752448,
+        "attempts": 330,
+        "dataUrl": "https://ofhuhcpkvzjlejydnvyd.supabase.co/functions/v1/leaderboard-read",
+        "dataMethod": "POST"
+      },
+      "extra": {
+        "trials": 330,
+        "ci95": 3.54,
+        "rank": 23
+      }
+    },
+    {
+      "rawName": "Opus 5",
+      "score": 34.85,
+      "harness": "Claude Code",
+      "variant": "low",
+      "date": "2026-09-17",
+      "url": "https://www.tbench.ai/",
+      "runId": "03fe4f10-b683-427b-a820-61e38145d28b",
+      "cost": {
+        "sourceUrl": "https://www.tbench.ai/",
+        "fetchedAt": "2026-10-29T04:56:33.124Z",
+        "scope": "Terminal-Bench 4.0 · all trials",
+        "usd": 7.254181818181818,
+        "currency": "USD",
+        "unit": "task",
+        "statistic": "mean",
+        "method": "total-over-attempts",
+        "complete": true,
+        "totalUsd": 2393.88,
+        "attempts": 330,
+        "dataUrl": "https://ofhuhcpkvzjlejydnvyd.supabase.co/functions/v1/leaderboard-read",
+        "dataMethod": "POST"
+      },
+      "extra": {
+        "trials": 330,
+        "ci95": 3.94,
+        "rank": 24
+      }
+    },
+    {
+      "rawName": "Qwen3.8-Max-0902",
+      "score": 26.97,
+      "harness": "Claude Code",
+      "variant": "max",
+      "date": "2026-10-06",
+      "url": "https://www.tbench.ai/",
+      "runId": "1f7ed2b4-3a4e-41d9-a1e1-0d9dcdc3667a",
+      "cost": {
+        "sourceUrl": "https://www.tbench.ai/",
+        "fetchedAt": "2026-10-29T04:56:33.124Z",
+        "scope": "Terminal-Bench 4.0 · all trials",
+        "usd": 14.04748484848485,
+        "currency": "USD",
+        "unit": "task",
+        "statistic": "mean",
+        "method": "total-over-attempts",
+        "complete": true,
+        "totalUsd": 4635.67,
+        "attempts": 330,
+        "dataUrl": "https://ofhuhcpkvzjlejydnvyd.supabase.co/functions/v1/leaderboard-read",
+        "dataMethod": "POST"
+      },
+      "extra": {
+        "trials": 330,
+        "ci95": 3.78,
+        "rank": 25
+      }
+    },
+    {
+      "rawName": "Opus 4.8",
+      "score": 23.64,
+      "harness": "Claude Code",
+      "variant": "max",
+      "date": "2026-09-03",
+      "url": "https://www.tbench.ai/",
+      "runId": "952b4217-421f-4d14-849b-9968fcb2063b",
+      "cost": {
+        "sourceUrl": "https://www.tbench.ai/",
+        "fetchedAt": "2026-10-29T04:56:33.124Z",
+        "scope": "Terminal-Bench 4.0 · all trials",
+        "usd": 19.64018181818182,
+        "currency": "USD",
+        "unit": "task",
+        "statistic": "mean",
+        "method": "total-over-attempts",
+        "complete": true,
+        "totalUsd": 6481.26,
+        "attempts": 330,
+        "dataUrl": "https://ofhuhcpkvzjlejydnvyd.supabase.co/functions/v1/leaderboard-read",
+        "dataMethod": "POST"
+      },
+      "extra": {
+        "trials": 330,
+        "ci95": 3.56,
+        "rank": 26
+      }
+    },
+    {
+      "rawName": "GPT-5.6 Terra",
+      "score": 21.52,
+      "harness": "Codex",
+      "variant": "max",
+      "date": "2026-09-03",
+      "url": "https://www.tbench.ai/",
+      "runId": "e53da412-5e92-408c-b369-c767924c7c1c",
+      "cost": {
+        "sourceUrl": "https://www.tbench.ai/",
+        "fetchedAt": "2026-10-29T04:56:33.124Z",
+        "scope": "Terminal-Bench 4.0 · all trials",
+        "usd": 5.2530909090909095,
+        "currency": "USD",
+        "unit": "task",
+        "statistic": "mean",
+        "method": "total-over-attempts",
+        "complete": true,
+        "totalUsd": 1733.52,
+        "attempts": 330,
+        "dataUrl": "https://ofhuhcpkvzjlejydnvyd.supabase.co/functions/v1/leaderboard-read",
+        "dataMethod": "POST"
+      },
+      "extra": {
+        "trials": 330,
+        "ci95": 3.25,
+        "rank": 27
+      }
+    },
+    {
+      "rawName": "Grok 4.6",
+      "score": 20.3,
+      "harness": "Grok Build",
+      "variant": "high",
+      "date": "2026-09-03",
+      "url": "https://www.tbench.ai/",
+      "runId": "26354542-edc0-40cd-8f8d-9fe6fbe92ac3",
+      "cost": {
+        "sourceUrl": "https://www.tbench.ai/",
+        "fetchedAt": "2026-10-29T04:56:33.124Z",
+        "scope": "Terminal-Bench 4.0 · all trials",
+        "usd": 10.883575757575757,
+        "currency": "USD",
+        "unit": "task",
+        "statistic": "mean",
+        "method": "total-over-attempts",
+        "complete": true,
+        "totalUsd": 3591.58,
+        "attempts": 330,
+        "dataUrl": "https://ofhuhcpkvzjlejydnvyd.supabase.co/functions/v1/leaderboard-read",
+        "dataMethod": "POST"
+      },
+      "extra": {
+        "trials": 330,
+        "ci95": 3.09,
+        "rank": 28
+      }
+    },
+    {
+      "rawName": "Gemini 3.8 Flash",
+      "score": 19.09,
+      "harness": "mini-SWE-agent",
+      "variant": "high",
+      "date": "2026-09-03",
+      "url": "https://www.tbench.ai/",
+      "runId": "06850434-507d-4dbd-b74a-09d52519ee35",
+      "cost": {
+        "sourceUrl": "https://www.tbench.ai/",
+        "fetchedAt": "2026-10-29T04:56:33.124Z",
+        "scope": "Terminal-Bench 4.0 · all trials",
+        "usd": 5.541727272727273,
+        "currency": "USD",
+        "unit": "task",
+        "statistic": "mean",
+        "method": "total-over-attempts",
+        "complete": true,
+        "totalUsd": 1828.77,
+        "attempts": 330,
+        "dataUrl": "https://ofhuhcpkvzjlejydnvyd.supabase.co/functions/v1/leaderboard-read",
+        "dataMethod": "POST"
+      },
+      "extra": {
+        "trials": 330,
+        "ci95": 3.36,
+        "rank": 29
+      }
+    },
+    {
+      "rawName": "GPT-5.6 Luna",
+      "score": 17.27,
+      "harness": "Codex",
+      "variant": "max",
+      "date": "2026-09-03",
+      "url": "https://www.tbench.ai/",
+      "runId": "51c6d76e-5baa-48c1-97b3-88656c620eef",
+      "cost": {
+        "sourceUrl": "https://www.tbench.ai/",
+        "fetchedAt": "2026-10-29T04:56:33.124Z",
+        "scope": "Terminal-Bench 4.0 · all trials",
+        "usd": 1.0505151515151516,
+        "currency": "USD",
+        "unit": "task",
+        "statistic": "mean",
+        "method": "total-over-attempts",
+        "complete": true,
+        "totalUsd": 346.67,
+        "attempts": 330,
+        "dataUrl": "https://ofhuhcpkvzjlejydnvyd.supabase.co/functions/v1/leaderboard-read",
+        "dataMethod": "POST"
+      },
+      "extra": {
+        "trials": 330,
+        "ci95": 2.85,
+        "rank": 30
+      }
+    },
+    {
+      "rawName": "GPT-6 Luna",
+      "score": 16.36,
+      "harness": "Codex",
+      "variant": "max",
+      "date": "2026-10-06",
+      "url": "https://www.tbench.ai/",
+      "runId": "5bd8ac99-7353-4210-bdc5-153029e660d5",
+      "cost": {
+        "sourceUrl": "https://www.tbench.ai/",
+        "fetchedAt": "2026-10-29T04:56:33.124Z",
+        "scope": "Terminal-Bench 4.0 · all trials",
+        "usd": 0.2186060606060606,
+        "currency": "USD",
+        "unit": "task",
+        "statistic": "mean",
+        "method": "total-over-attempts",
+        "complete": true,
+        "totalUsd": 72.14,
+        "attempts": 330,
+        "dataUrl": "https://ofhuhcpkvzjlejydnvyd.supabase.co/functions/v1/leaderboard-read",
+        "dataMethod": "POST"
+      },
+      "extra": {
+        "trials": 330,
+        "ci95": 2.72,
+        "rank": 31
+      }
+    },
+    {
+      "rawName": "Muse Spark 1.3",
+      "score": 14.55,
+      "harness": "Muse Code",
+      "variant": "xhigh",
+      "date": "2026-10-06",
+      "url": "https://www.tbench.ai/",
+      "runId": "c76c9ec8-b770-41ad-b0d2-e64db28bd478",
+      "cost": {
+        "sourceUrl": "https://www.tbench.ai/",
+        "fetchedAt": "2026-10-29T04:56:33.124Z",
+        "scope": "Terminal-Bench 4.0 · all trials",
+        "usd": 0,
+        "currency": "USD",
+        "unit": "task",
+        "statistic": "mean",
+        "method": "total-over-attempts",
+        "complete": true,
+        "totalUsd": 0,
+        "attempts": 330,
+        "dataUrl": "https://ofhuhcpkvzjlejydnvyd.supabase.co/functions/v1/leaderboard-read",
+        "dataMethod": "POST"
+      },
+      "extra": {
+        "trials": 330,
+        "ci95": 2.94,
+        "rank": 32
+      }
+    },
+    {
+      "rawName": "Grok 4.5",
+      "score": 12.42,
+      "harness": "Grok Build",
+      "variant": "high",
+      "date": "2026-09-03",
+      "url": "https://www.tbench.ai/",
+      "runId": "0eed5a0d-96b6-491b-aeb7-cd5e4700c2d7",
+      "cost": {
+        "sourceUrl": "https://www.tbench.ai/",
+        "fetchedAt": "2026-10-29T04:56:33.124Z",
+        "scope": "Terminal-Bench 4.0 · all trials",
+        "usd": 6.345787878787879,
+        "currency": "USD",
+        "unit": "task",
+        "statistic": "mean",
+        "method": "total-over-attempts",
+        "complete": true,
+        "totalUsd": 2094.11,
+        "attempts": 330,
+        "dataUrl": "https://ofhuhcpkvzjlejydnvyd.supabase.co/functions/v1/leaderboard-read",
+        "dataMethod": "POST"
+      },
+      "extra": {
+        "trials": 330,
+        "ci95": 2.62,
+        "rank": 33
+      }
+    },
+    {
+      "rawName": "Sonnet 5",
+      "score": 12.42,
+      "harness": "Claude Code",
+      "variant": "max",
+      "date": "2026-09-03",
+      "url": "https://www.tbench.ai/",
+      "runId": "8180b9e4-4990-43d0-b906-cd8b43adaaa2",
+      "cost": {
+        "sourceUrl": "https://www.tbench.ai/",
+        "fetchedAt": "2026-10-29T04:56:33.124Z",
+        "scope": "Terminal-Bench 4.0 · all trials",
+        "usd": 29.102606060606064,
+        "currency": "USD",
+        "unit": "task",
+        "statistic": "mean",
+        "method": "total-over-attempts",
+        "complete": true,
+        "totalUsd": 9603.86,
+        "attempts": 330,
+        "dataUrl": "https://ofhuhcpkvzjlejydnvyd.supabase.co/functions/v1/leaderboard-read",
+        "dataMethod": "POST"
+      },
+      "extra": {
+        "trials": 330,
+        "ci95": 3.06,
+        "rank": 33
+      }
+    },
+    {
+      "rawName": "Gemini 3.7 Flash",
+      "score": 11.21,
+      "harness": "mini-SWE-agent",
+      "variant": "high",
+      "date": "2026-09-03",
+      "url": "https://www.tbench.ai/",
+      "runId": "14f4da14-b86a-4dca-92d7-11178d4fe064",
+      "cost": {
+        "sourceUrl": "https://www.tbench.ai/",
+        "fetchedAt": "2026-10-29T04:56:33.124Z",
+        "scope": "Terminal-Bench 4.0 · all trials",
+        "usd": 3.8238484848484844,
+        "currency": "USD",
+        "unit": "task",
+        "statistic": "mean",
+        "method": "total-over-attempts",
+        "complete": true,
+        "totalUsd": 1261.87,
+        "attempts": 330,
+        "dataUrl": "https://ofhuhcpkvzjlejydnvyd.supabase.co/functions/v1/leaderboard-read",
+        "dataMethod": "POST"
+      },
+      "extra": {
+        "trials": 330,
+        "ci95": 2.45,
+        "rank": 35
+      }
+    }
+  ],
+  "warnings": [],
+  "costStatus": {
+    "status": "available",
+    "url": "https://ofhuhcpkvzjlejydnvyd.supabase.co/functions/v1/leaderboard-read",
+    "note": "Total reported evaluation spend divided by all trial attempts, including failures and repeated tasks. The website's Cost column itself is a run total."
+  }
+}

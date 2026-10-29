@@ -1,6 +1,6 @@
 {
   "sourceId": "livebench",
-  "fetchedAt": "2026-10-28T19:57:11.781Z",
+  "fetchedAt": "2026-10-29T04:56:23.779Z",
   "sourceUpdatedAt": "2026-10-28",
   "benchmarkRelease": "2026-10-25",
   "url": "https://livebench.ai/#/release/2026-10-25",
@@ -31,7 +31,7 @@
       },
       "runId": "20261025:claude-fable-5.1",
       "cost": {
-        "fetchedAt": "2026-10-28T19:57:11.781Z",
+        "fetchedAt": "2026-10-29T04:56:23.779Z",
         "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
         "scope": "LiveBench 20261025 · scored suites",
         "usd": 5.91645110403397,
@@ -86,7 +86,7 @@
       },
       "metricCosts": {
         "long_agentic": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Long Agentic",
           "usd": 51.57278888888889,
@@ -110,7 +110,7 @@
           ]
         },
         "Long Agentic": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Long Agentic",
           "usd": 51.57278888888889,
@@ -134,7 +134,7 @@
           ]
         },
         "reasoning": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Reasoning",
           "usd": 0.46013554455445543,
@@ -158,7 +158,7 @@
           ]
         },
         "Reasoning": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Reasoning",
           "usd": 0.46013554455445543,
@@ -182,7 +182,7 @@
           ]
         },
         "coding": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Coding",
           "usd": 5.28236551724138,
@@ -206,7 +206,7 @@
           ]
         },
         "Coding": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Coding",
           "usd": 5.28236551724138,
@@ -230,7 +230,7 @@
           ]
         },
         "browser": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Browser",
           "usd": 30.733996,
@@ -254,7 +254,7 @@
           ]
         },
         "Browser": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Browser",
           "usd": 30.733996,
@@ -278,7 +278,7 @@
           ]
         },
         "data_analysis": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Data Analysis",
           "usd": 1.3331426000000002,
@@ -302,7 +302,7 @@
           ]
         },
         "Data Analysis": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Data Analysis",
           "usd": 1.3331426000000002,
@@ -326,7 +326,7 @@
           ]
         },
         "research": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Research",
           "usd": 20.88601818181818,
@@ -350,7 +350,7 @@
           ]
         },
         "Research": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Research",
           "usd": 20.88601818181818,
@@ -374,7 +374,7 @@
           ]
         },
         "design": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Design",
           "usd": 7.375544,
@@ -398,7 +398,7 @@
           ]
         },
         "Design": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Design",
           "usd": 7.375544,
@@ -449,7 +449,7 @@
       },
       "runId": "20261025:claude-haiku-5.5",
       "cost": {
-        "fetchedAt": "2026-10-28T19:57:11.781Z",
+        "fetchedAt": "2026-10-29T04:56:23.779Z",
         "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
         "scope": "LiveBench 20261025 · scored suites",
         "usd": 0.6323354161358811,
@@ -504,7 +504,7 @@
       },
       "metricCosts": {
         "long_agentic": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Long Agentic",
           "usd": 10.491366666666668,
@@ -528,7 +528,7 @@
           ]
         },
         "Long Agentic": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Long Agentic",
           "usd": 10.491366666666668,
@@ -552,7 +552,7 @@
           ]
         },
         "reasoning": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Reasoning",
           "usd": 0.02060091089108911,
@@ -576,7 +576,7 @@
           ]
         },
         "Reasoning": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Reasoning",
           "usd": 0.02060091089108911,
@@ -600,7 +600,7 @@
           ]
         },
         "coding": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Coding",
           "usd": 0.8737862068965517,
@@ -624,7 +624,7 @@
           ]
         },
         "Coding": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Coding",
           "usd": 0.8737862068965517,
@@ -648,7 +648,7 @@
           ]
         },
         "browser": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Browser",
           "usd": 0.620276,
@@ -672,7 +672,7 @@
           ]
         },
         "Browser": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Browser",
           "usd": 0.620276,
@@ -696,7 +696,7 @@
           ]
         },
         "data_analysis": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Data Analysis",
           "usd": 0.031471980000000004,
@@ -720,7 +720,7 @@
           ]
         },
         "Data Analysis": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Data Analysis",
           "usd": 0.031471980000000004,
@@ -744,7 +744,7 @@
           ]
         },
         "research": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Research",
           "usd": 1.9399227272727273,
@@ -768,7 +768,7 @@
           ]
         },
         "Research": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Research",
           "usd": 1.9399227272727273,
@@ -792,7 +792,7 @@
           ]
         },
         "design": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Design",
           "usd": 0.6631279999999999,
@@ -816,7 +816,7 @@
           ]
         },
         "Design": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Design",
           "usd": 0.6631279999999999,
@@ -867,7 +867,7 @@
       },
       "runId": "20261025:claude-opus-5.5",
       "cost": {
-        "fetchedAt": "2026-10-28T19:57:11.781Z",
+        "fetchedAt": "2026-10-29T04:56:23.779Z",
         "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
         "scope": "LiveBench 20261025 · scored suites",
         "usd": 3.6530934692144377,
@@ -922,7 +922,7 @@
       },
       "metricCosts": {
         "long_agentic": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Long Agentic",
           "usd": 38.00877222222223,
@@ -946,7 +946,7 @@
           ]
         },
         "Long Agentic": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Long Agentic",
           "usd": 38.00877222222223,
@@ -970,7 +970,7 @@
           ]
         },
         "reasoning": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Reasoning",
           "usd": 0.252235603960396,
@@ -994,7 +994,7 @@
           ]
         },
         "Reasoning": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Reasoning",
           "usd": 0.252235603960396,
@@ -1018,7 +1018,7 @@
           ]
         },
         "coding": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Coding",
           "usd": 5.030782758620689,
@@ -1042,7 +1042,7 @@
           ]
         },
         "Coding": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Coding",
           "usd": 5.030782758620689,
@@ -1066,7 +1066,7 @@
           ]
         },
         "browser": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Browser",
           "usd": 15.188920000000001,
@@ -1090,7 +1090,7 @@
           ]
         },
         "Browser": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Browser",
           "usd": 15.188920000000001,
@@ -1114,7 +1114,7 @@
           ]
         },
         "data_analysis": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Data Analysis",
           "usd": 0.8145595466666666,
@@ -1138,7 +1138,7 @@
           ]
         },
         "Data Analysis": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Data Analysis",
           "usd": 0.8145595466666666,
@@ -1162,7 +1162,7 @@
           ]
         },
         "research": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Research",
           "usd": 8.81775,
@@ -1186,7 +1186,7 @@
           ]
         },
         "Research": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Research",
           "usd": 8.81775,
@@ -1210,7 +1210,7 @@
           ]
         },
         "design": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Design",
           "usd": 5.748296,
@@ -1234,7 +1234,7 @@
           ]
         },
         "Design": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Design",
           "usd": 5.748296,
@@ -1285,7 +1285,7 @@
       },
       "runId": "20261025:claude-sonnet-5.5",
       "cost": {
-        "fetchedAt": "2026-10-28T19:57:11.781Z",
+        "fetchedAt": "2026-10-29T04:56:23.779Z",
         "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
         "scope": "LiveBench 20261025 · scored suites",
         "usd": 2.9760963651804664,
@@ -1340,7 +1340,7 @@
       },
       "metricCosts": {
         "long_agentic": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Long Agentic",
           "usd": 35.0115,
@@ -1364,7 +1364,7 @@
           ]
         },
         "Long Agentic": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Long Agentic",
           "usd": 35.0115,
@@ -1388,7 +1388,7 @@
           ]
         },
         "reasoning": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Reasoning",
           "usd": 0.209063099009901,
@@ -1412,7 +1412,7 @@
           ]
         },
         "Reasoning": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Reasoning",
           "usd": 0.209063099009901,
@@ -1436,7 +1436,7 @@
           ]
         },
         "coding": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Coding",
           "usd": 4.021820689655173,
@@ -1460,7 +1460,7 @@
           ]
         },
         "Coding": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Coding",
           "usd": 4.021820689655173,
@@ -1484,7 +1484,7 @@
           ]
         },
         "browser": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Browser",
           "usd": 9.103076,
@@ -1508,7 +1508,7 @@
           ]
         },
         "Browser": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Browser",
           "usd": 9.103076,
@@ -1532,7 +1532,7 @@
           ]
         },
         "data_analysis": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Data Analysis",
           "usd": 0.53063428,
@@ -1556,7 +1556,7 @@
           ]
         },
         "Data Analysis": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Data Analysis",
           "usd": 0.53063428,
@@ -1580,7 +1580,7 @@
           ]
         },
         "research": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Research",
           "usd": 8.185618181818182,
@@ -1604,7 +1604,7 @@
           ]
         },
         "Research": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Research",
           "usd": 8.185618181818182,
@@ -1628,7 +1628,7 @@
           ]
         },
         "design": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Design",
           "usd": 5.016608,
@@ -1652,7 +1652,7 @@
           ]
         },
         "Design": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Design",
           "usd": 5.016608,
@@ -1703,7 +1703,7 @@
       },
       "runId": "20261025:deepseek-v4.1-flash-1017",
       "cost": {
-        "fetchedAt": "2026-10-28T19:57:11.781Z",
+        "fetchedAt": "2026-10-29T04:56:23.779Z",
         "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
         "scope": "LiveBench 20261025 · scored suites",
         "usd": 0.1338701464968153,
@@ -1758,7 +1758,7 @@
       },
       "metricCosts": {
         "long_agentic": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Long Agentic",
           "usd": 1.4423944444444445,
@@ -1782,7 +1782,7 @@
           ]
         },
         "Long Agentic": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Long Agentic",
           "usd": 1.4423944444444445,
@@ -1806,7 +1806,7 @@
           ]
         },
         "reasoning": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Reasoning",
           "usd": 0.024220940594059402,
@@ -1830,7 +1830,7 @@
           ]
         },
         "Reasoning": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Reasoning",
           "usd": 0.024220940594059402,
@@ -1854,7 +1854,7 @@
           ]
         },
         "coding": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Coding",
           "usd": 0.19553793103448278,
@@ -1878,7 +1878,7 @@
           ]
         },
         "Coding": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Coding",
           "usd": 0.19553793103448278,
@@ -1902,7 +1902,7 @@
           ]
         },
         "browser": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Browser",
           "usd": 0.319768,
@@ -1926,7 +1926,7 @@
           ]
         },
         "Browser": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Browser",
           "usd": 0.319768,
@@ -1950,7 +1950,7 @@
           ]
         },
         "data_analysis": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Data Analysis",
           "usd": 0.03316006,
@@ -1974,7 +1974,7 @@
           ]
         },
         "Data Analysis": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Data Analysis",
           "usd": 0.03316006,
@@ -1998,7 +1998,7 @@
           ]
         },
         "research": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Research",
           "usd": 0.37539090909090905,
@@ -2022,7 +2022,7 @@
           ]
         },
         "Research": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Research",
           "usd": 0.37539090909090905,
@@ -2046,7 +2046,7 @@
           ]
         },
         "design": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Design",
           "usd": 0.21198799999999998,
@@ -2070,7 +2070,7 @@
           ]
         },
         "Design": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Design",
           "usd": 0.21198799999999998,
@@ -2121,7 +2121,7 @@
       },
       "runId": "20261025:gemini-3.8-flash",
       "cost": {
-        "fetchedAt": "2026-10-28T19:57:11.781Z",
+        "fetchedAt": "2026-10-29T04:56:23.779Z",
         "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
         "scope": "LiveBench 20261025 · scored suites",
         "usd": 0.9822971188959662,
@@ -2176,7 +2176,7 @@
       },
       "metricCosts": {
         "long_agentic": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Long Agentic",
           "usd": 7.039016666666666,
@@ -2200,7 +2200,7 @@
           ]
         },
         "Long Agentic": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Long Agentic",
           "usd": 7.039016666666666,
@@ -2224,7 +2224,7 @@
           ]
         },
         "reasoning": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Reasoning",
           "usd": 0.1475518217821782,
@@ -2248,7 +2248,7 @@
           ]
         },
         "Reasoning": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Reasoning",
           "usd": 0.1475518217821782,
@@ -2272,7 +2272,7 @@
           ]
         },
         "coding": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Coding",
           "usd": 2.296427586206897,
@@ -2296,7 +2296,7 @@
           ]
         },
         "Coding": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Coding",
           "usd": 2.296427586206897,
@@ -2320,7 +2320,7 @@
           ]
         },
         "browser": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Browser",
           "usd": 4.854952,
@@ -2344,7 +2344,7 @@
           ]
         },
         "Browser": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Browser",
           "usd": 4.854952,
@@ -2368,7 +2368,7 @@
           ]
         },
         "data_analysis": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Data Analysis",
           "usd": 0.23771383333333332,
@@ -2392,7 +2392,7 @@
           ]
         },
         "Data Analysis": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Data Analysis",
           "usd": 0.23771383333333332,
@@ -2416,7 +2416,7 @@
           ]
         },
         "research": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Research",
           "usd": 2.6380545454545454,
@@ -2440,7 +2440,7 @@
           ]
         },
         "Research": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Research",
           "usd": 2.6380545454545454,
@@ -2464,7 +2464,7 @@
           ]
         },
         "design": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Design",
           "usd": 0.979588,
@@ -2488,7 +2488,7 @@
           ]
         },
         "Design": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Design",
           "usd": 0.979588,
@@ -2539,7 +2539,7 @@
       },
       "runId": "20261025:gemini-4-argon",
       "cost": {
-        "fetchedAt": "2026-10-28T19:57:11.781Z",
+        "fetchedAt": "2026-10-29T04:56:23.779Z",
         "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
         "scope": "LiveBench 20261025 · scored suites",
         "usd": 1.6438077452229298,
@@ -2594,7 +2594,7 @@
       },
       "metricCosts": {
         "long_agentic": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Long Agentic",
           "usd": 13.841872222222221,
@@ -2618,7 +2618,7 @@
           ]
         },
         "Long Agentic": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Long Agentic",
           "usd": 13.841872222222221,
@@ -2642,7 +2642,7 @@
           ]
         },
         "reasoning": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Reasoning",
           "usd": 0.07806071287128713,
@@ -2666,7 +2666,7 @@
           ]
         },
         "Reasoning": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Reasoning",
           "usd": 0.07806071287128713,
@@ -2690,7 +2690,7 @@
           ]
         },
         "coding": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Coding",
           "usd": 5.076327586206897,
@@ -2714,7 +2714,7 @@
           ]
         },
         "Coding": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Coding",
           "usd": 5.076327586206897,
@@ -2738,7 +2738,7 @@
           ]
         },
         "browser": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Browser",
           "usd": 6.376556000000001,
@@ -2762,7 +2762,7 @@
           ]
         },
         "Browser": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Browser",
           "usd": 6.376556000000001,
@@ -2786,7 +2786,7 @@
           ]
         },
         "data_analysis": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Data Analysis",
           "usd": 0.28433922666666667,
@@ -2810,7 +2810,7 @@
           ]
         },
         "Data Analysis": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Data Analysis",
           "usd": 0.28433922666666667,
@@ -2834,7 +2834,7 @@
           ]
         },
         "research": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Research",
           "usd": 5.955554545454546,
@@ -2858,7 +2858,7 @@
           ]
         },
         "Research": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Research",
           "usd": 5.955554545454546,
@@ -2882,7 +2882,7 @@
           ]
         },
         "design": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Design",
           "usd": 1.16044,
@@ -2906,7 +2906,7 @@
           ]
         },
         "Design": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Design",
           "usd": 1.16044,
@@ -2957,7 +2957,7 @@
       },
       "runId": "20261025:gemma-4-31b",
       "cost": {
-        "fetchedAt": "2026-10-28T19:57:11.781Z",
+        "fetchedAt": "2026-10-29T04:56:23.779Z",
         "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
         "scope": "LiveBench 20261025 · scored suites",
         "usd": 0.0675585668789809,
@@ -3012,7 +3012,7 @@
       },
       "metricCosts": {
         "long_agentic": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Long Agentic",
           "usd": 0.9087666666666667,
@@ -3036,7 +3036,7 @@
           ]
         },
         "Long Agentic": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Long Agentic",
           "usd": 0.9087666666666667,
@@ -3060,7 +3060,7 @@
           ]
         },
         "reasoning": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Reasoning",
           "usd": 0.00377000495049505,
@@ -3084,7 +3084,7 @@
           ]
         },
         "Reasoning": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Reasoning",
           "usd": 0.00377000495049505,
@@ -3108,7 +3108,7 @@
           ]
         },
         "coding": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Coding",
           "usd": 0.23261034482758622,
@@ -3132,7 +3132,7 @@
           ]
         },
         "Coding": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Coding",
           "usd": 0.23261034482758622,
@@ -3156,7 +3156,7 @@
           ]
         },
         "browser": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Browser",
           "usd": 0.2422,
@@ -3180,7 +3180,7 @@
           ]
         },
         "Browser": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Browser",
           "usd": 0.2422,
@@ -3204,7 +3204,7 @@
           ]
         },
         "data_analysis": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Data Analysis",
           "usd": 0.00456496,
@@ -3228,7 +3228,7 @@
           ]
         },
         "Data Analysis": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Data Analysis",
           "usd": 0.00456496,
@@ -3252,7 +3252,7 @@
           ]
         },
         "research": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Research",
           "usd": 0.038431818181818185,
@@ -3276,7 +3276,7 @@
           ]
         },
         "Research": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Research",
           "usd": 0.038431818181818185,
@@ -3300,7 +3300,7 @@
           ]
         },
         "design": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Design",
           "usd": 0.014792000000000001,
@@ -3324,7 +3324,7 @@
           ]
         },
         "Design": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Design",
           "usd": 0.014792000000000001,
@@ -3375,7 +3375,7 @@
       },
       "runId": "20261025:glm-5.3-flash",
       "cost": {
-        "fetchedAt": "2026-10-28T19:57:11.781Z",
+        "fetchedAt": "2026-10-29T04:56:23.779Z",
         "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
         "scope": "LiveBench 20261025 · scored suites",
         "usd": 0.1098440042462845,
@@ -3430,7 +3430,7 @@
       },
       "metricCosts": {
         "long_agentic": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Long Agentic",
           "usd": 1.6287722222222223,
@@ -3454,7 +3454,7 @@
           ]
         },
         "Long Agentic": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Long Agentic",
           "usd": 1.6287722222222223,
@@ -3478,7 +3478,7 @@
           ]
         },
         "reasoning": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Reasoning",
           "usd": 0.01378160396039604,
@@ -3502,7 +3502,7 @@
           ]
         },
         "Reasoning": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Reasoning",
           "usd": 0.01378160396039604,
@@ -3526,7 +3526,7 @@
           ]
         },
         "coding": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Coding",
           "usd": 0.16958620689655174,
@@ -3550,7 +3550,7 @@
           ]
         },
         "Coding": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Coding",
           "usd": 0.16958620689655174,
@@ -3574,7 +3574,7 @@
           ]
         },
         "browser": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Browser",
           "usd": 0.215092,
@@ -3598,7 +3598,7 @@
           ]
         },
         "Browser": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Browser",
           "usd": 0.215092,
@@ -3622,7 +3622,7 @@
           ]
         },
         "data_analysis": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Data Analysis",
           "usd": 0.02427561333333333,
@@ -3646,7 +3646,7 @@
           ]
         },
         "Data Analysis": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Data Analysis",
           "usd": 0.02427561333333333,
@@ -3670,7 +3670,7 @@
           ]
         },
         "research": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Research",
           "usd": 0.18694999999999998,
@@ -3694,7 +3694,7 @@
           ]
         },
         "Research": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Research",
           "usd": 0.18694999999999998,
@@ -3718,7 +3718,7 @@
           ]
         },
         "design": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Design",
           "usd": 0.06340799999999999,
@@ -3742,7 +3742,7 @@
           ]
         },
         "Design": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Design",
           "usd": 0.06340799999999999,
@@ -3793,7 +3793,7 @@
       },
       "runId": "20261025:gpt-5.6-terra",
       "cost": {
-        "fetchedAt": "2026-10-28T19:57:11.781Z",
+        "fetchedAt": "2026-10-29T04:56:23.779Z",
         "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
         "scope": "LiveBench 20261025 · scored suites",
         "usd": 1.3266961486199575,
@@ -3848,7 +3848,7 @@
       },
       "metricCosts": {
         "long_agentic": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Long Agentic",
           "usd": 11.756905555555555,
@@ -3872,7 +3872,7 @@
           ]
         },
         "Long Agentic": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Long Agentic",
           "usd": 11.756905555555555,
@@ -3896,7 +3896,7 @@
           ]
         },
         "reasoning": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Reasoning",
           "usd": 0.18715058415841584,
@@ -3920,7 +3920,7 @@
           ]
         },
         "Reasoning": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Reasoning",
           "usd": 0.18715058415841584,
@@ -3944,7 +3944,7 @@
           ]
         },
         "coding": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Coding",
           "usd": 2.7147310344827584,
@@ -3968,7 +3968,7 @@
           ]
         },
         "Coding": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Coding",
           "usd": 2.7147310344827584,
@@ -3992,7 +3992,7 @@
           ]
         },
         "browser": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Browser",
           "usd": 3.123,
@@ -4016,7 +4016,7 @@
           ]
         },
         "Browser": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Browser",
           "usd": 3.123,
@@ -4040,7 +4040,7 @@
           ]
         },
         "data_analysis": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Data Analysis",
           "usd": 0.22220911999999998,
@@ -4064,7 +4064,7 @@
           ]
         },
         "Data Analysis": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Data Analysis",
           "usd": 0.22220911999999998,
@@ -4088,7 +4088,7 @@
           ]
         },
         "research": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Research",
           "usd": 7.7186318181818185,
@@ -4112,7 +4112,7 @@
           ]
         },
         "Research": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Research",
           "usd": 7.7186318181818185,
@@ -4136,7 +4136,7 @@
           ]
         },
         "design": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Design",
           "usd": 0.620068,
@@ -4160,7 +4160,7 @@
           ]
         },
         "Design": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Design",
           "usd": 0.620068,
@@ -4211,7 +4211,7 @@
       },
       "runId": "20261025:gpt-6-astra",
       "cost": {
-        "fetchedAt": "2026-10-28T19:57:11.781Z",
+        "fetchedAt": "2026-10-29T04:56:23.779Z",
         "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
         "scope": "LiveBench 20261025 · scored suites",
         "usd": 3.895206072186837,
@@ -4266,7 +4266,7 @@
       },
       "metricCosts": {
         "long_agentic": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Long Agentic",
           "usd": 38.37891666666667,
@@ -4290,7 +4290,7 @@
           ]
         },
         "Long Agentic": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Long Agentic",
           "usd": 38.37891666666667,
@@ -4314,7 +4314,7 @@
           ]
         },
         "reasoning": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Reasoning",
           "usd": 0.38984222772277227,
@@ -4338,7 +4338,7 @@
           ]
         },
         "Reasoning": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Reasoning",
           "usd": 0.38984222772277227,
@@ -4362,7 +4362,7 @@
           ]
         },
         "coding": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Coding",
           "usd": 3.3153689655172416,
@@ -4386,7 +4386,7 @@
           ]
         },
         "Coding": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Coding",
           "usd": 3.3153689655172416,
@@ -4410,7 +4410,7 @@
           ]
         },
         "browser": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Browser",
           "usd": 16.147392,
@@ -4434,7 +4434,7 @@
           ]
         },
         "Browser": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Browser",
           "usd": 16.147392,
@@ -4458,7 +4458,7 @@
           ]
         },
         "data_analysis": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Data Analysis",
           "usd": 0.6989022,
@@ -4482,7 +4482,7 @@
           ]
         },
         "Data Analysis": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Data Analysis",
           "usd": 0.6989022,
@@ -4506,7 +4506,7 @@
           ]
         },
         "research": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Research",
           "usd": 17.659868181818183,
@@ -4530,7 +4530,7 @@
           ]
         },
         "Research": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Research",
           "usd": 17.659868181818183,
@@ -4554,7 +4554,7 @@
           ]
         },
         "design": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Design",
           "usd": 2.87562,
@@ -4578,7 +4578,7 @@
           ]
         },
         "Design": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Design",
           "usd": 2.87562,
@@ -4629,7 +4629,7 @@
       },
       "runId": "20261025:gpt-6-luna",
       "cost": {
-        "fetchedAt": "2026-10-28T19:57:11.781Z",
+        "fetchedAt": "2026-10-29T04:56:23.779Z",
         "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
         "scope": "LiveBench 20261025 · scored suites",
         "usd": 0.08577564543524417,
@@ -4684,7 +4684,7 @@
       },
       "metricCosts": {
         "long_agentic": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Long Agentic",
           "usd": 0.9676111111111112,
@@ -4708,7 +4708,7 @@
           ]
         },
         "Long Agentic": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Long Agentic",
           "usd": 0.9676111111111112,
@@ -4732,7 +4732,7 @@
           ]
         },
         "reasoning": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Reasoning",
           "usd": 0.021404975247524754,
@@ -4756,7 +4756,7 @@
           ]
         },
         "Reasoning": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Reasoning",
           "usd": 0.021404975247524754,
@@ -4780,7 +4780,7 @@
           ]
         },
         "coding": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Coding",
           "usd": 0.0950551724137931,
@@ -4804,7 +4804,7 @@
           ]
         },
         "Coding": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Coding",
           "usd": 0.0950551724137931,
@@ -4828,7 +4828,7 @@
           ]
         },
         "browser": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Browser",
           "usd": 0.19321200000000002,
@@ -4852,7 +4852,7 @@
           ]
         },
         "Browser": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Browser",
           "usd": 0.19321200000000002,
@@ -4876,7 +4876,7 @@
           ]
         },
         "data_analysis": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Data Analysis",
           "usd": 0.016605493333333332,
@@ -4900,7 +4900,7 @@
           ]
         },
         "Data Analysis": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Data Analysis",
           "usd": 0.016605493333333332,
@@ -4924,7 +4924,7 @@
           ]
         },
         "research": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Research",
           "usd": 0.3553454545454545,
@@ -4948,7 +4948,7 @@
           ]
         },
         "Research": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Research",
           "usd": 0.3553454545454545,
@@ -4972,7 +4972,7 @@
           ]
         },
         "design": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Design",
           "usd": 0.030567999999999998,
@@ -4996,7 +4996,7 @@
           ]
         },
         "Design": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Design",
           "usd": 0.030567999999999998,
@@ -5047,7 +5047,7 @@
       },
       "runId": "20261025:gpt-6.1-sol",
       "cost": {
-        "fetchedAt": "2026-10-28T19:57:11.781Z",
+        "fetchedAt": "2026-10-29T04:56:23.779Z",
         "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
         "scope": "LiveBench 20261025 · scored suites",
         "usd": 0.6396756730360934,
@@ -5102,7 +5102,7 @@
       },
       "metricCosts": {
         "long_agentic": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Long Agentic",
           "usd": 6.4876611111111115,
@@ -5126,7 +5126,7 @@
           ]
         },
         "Long Agentic": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Long Agentic",
           "usd": 6.4876611111111115,
@@ -5150,7 +5150,7 @@
           ]
         },
         "reasoning": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Reasoning",
           "usd": 0.08031324752475247,
@@ -5174,7 +5174,7 @@
           ]
         },
         "Reasoning": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Reasoning",
           "usd": 0.08031324752475247,
@@ -5198,7 +5198,7 @@
           ]
         },
         "coding": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Coding",
           "usd": 0.4822,
@@ -5222,7 +5222,7 @@
           ]
         },
         "Coding": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Coding",
           "usd": 0.4822,
@@ -5246,7 +5246,7 @@
           ]
         },
         "browser": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Browser",
           "usd": 2.803668,
@@ -5270,7 +5270,7 @@
           ]
         },
         "Browser": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Browser",
           "usd": 2.803668,
@@ -5294,7 +5294,7 @@
           ]
         },
         "data_analysis": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Data Analysis",
           "usd": 0.14541844,
@@ -5318,7 +5318,7 @@
           ]
         },
         "Data Analysis": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Data Analysis",
           "usd": 0.14541844,
@@ -5342,7 +5342,7 @@
           ]
         },
         "research": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Research",
           "usd": 2.415190909090909,
@@ -5366,7 +5366,7 @@
           ]
         },
         "Research": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Research",
           "usd": 2.415190909090909,
@@ -5390,7 +5390,7 @@
           ]
         },
         "design": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Design",
           "usd": 0.370544,
@@ -5414,7 +5414,7 @@
           ]
         },
         "Design": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Design",
           "usd": 0.370544,
@@ -5465,7 +5465,7 @@
       },
       "runId": "20261025:gpt-6.1-terra",
       "cost": {
-        "fetchedAt": "2026-10-28T19:57:11.781Z",
+        "fetchedAt": "2026-10-29T04:56:23.779Z",
         "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
         "scope": "LiveBench 20261025 · scored suites",
         "usd": 0.5176570700636942,
@@ -5520,7 +5520,7 @@
       },
       "metricCosts": {
         "long_agentic": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Long Agentic",
           "usd": 6.467783333333333,
@@ -5544,7 +5544,7 @@
           ]
         },
         "Long Agentic": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Long Agentic",
           "usd": 6.467783333333333,
@@ -5568,7 +5568,7 @@
           ]
         },
         "reasoning": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Reasoning",
           "usd": 0.040296396039603964,
@@ -5592,7 +5592,7 @@
           ]
         },
         "Reasoning": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Reasoning",
           "usd": 0.040296396039603964,
@@ -5616,7 +5616,7 @@
           ]
         },
         "coding": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Coding",
           "usd": 0.8610379310344827,
@@ -5640,7 +5640,7 @@
           ]
         },
         "Coding": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Coding",
           "usd": 0.8610379310344827,
@@ -5664,7 +5664,7 @@
           ]
         },
         "browser": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Browser",
           "usd": 1.94962,
@@ -5688,7 +5688,7 @@
           ]
         },
         "Browser": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Browser",
           "usd": 1.94962,
@@ -5712,7 +5712,7 @@
           ]
         },
         "data_analysis": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Data Analysis",
           "usd": 0.06284672000000001,
@@ -5736,7 +5736,7 @@
           ]
         },
         "Data Analysis": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Data Analysis",
           "usd": 0.06284672000000001,
@@ -5760,7 +5760,7 @@
           ]
         },
         "research": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Research",
           "usd": 1.334681818181818,
@@ -5784,7 +5784,7 @@
           ]
         },
         "Research": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Research",
           "usd": 1.334681818181818,
@@ -5808,7 +5808,7 @@
           ]
         },
         "design": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Design",
           "usd": 0.270236,
@@ -5832,7 +5832,7 @@
           ]
         },
         "Design": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Design",
           "usd": 0.270236,
@@ -5883,7 +5883,7 @@
       },
       "runId": "20261025:grok-4.6",
       "cost": {
-        "fetchedAt": "2026-10-28T19:57:11.781Z",
+        "fetchedAt": "2026-10-29T04:56:23.779Z",
         "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
         "scope": "LiveBench 20261025 · scored suites",
         "usd": 0.9634929851380043,
@@ -5938,7 +5938,7 @@
       },
       "metricCosts": {
         "long_agentic": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Long Agentic",
           "usd": 10.243638888888889,
@@ -5962,7 +5962,7 @@
           ]
         },
         "Long Agentic": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Long Agentic",
           "usd": 10.243638888888889,
@@ -5986,7 +5986,7 @@
           ]
         },
         "reasoning": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Reasoning",
           "usd": 0.08725733663366336,
@@ -6010,7 +6010,7 @@
           ]
         },
         "Reasoning": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Reasoning",
           "usd": 0.08725733663366336,
@@ -6034,7 +6034,7 @@
           ]
         },
         "coding": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Coding",
           "usd": 1.8583793103448276,
@@ -6058,7 +6058,7 @@
           ]
         },
         "Coding": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Coding",
           "usd": 1.8583793103448276,
@@ -6082,7 +6082,7 @@
           ]
         },
         "browser": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Browser",
           "usd": 3.865108,
@@ -6106,7 +6106,7 @@
           ]
         },
         "Browser": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Browser",
           "usd": 3.865108,
@@ -6130,7 +6130,7 @@
           ]
         },
         "data_analysis": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Data Analysis",
           "usd": 0.12299009333333333,
@@ -6154,7 +6154,7 @@
           ]
         },
         "Data Analysis": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Data Analysis",
           "usd": 0.12299009333333333,
@@ -6178,7 +6178,7 @@
           ]
         },
         "research": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Research",
           "usd": 2.3254636363636365,
@@ -6202,7 +6202,7 @@
           ]
         },
         "Research": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Research",
           "usd": 2.3254636363636365,
@@ -6226,7 +6226,7 @@
           ]
         },
         "design": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Design",
           "usd": 1.266572,
@@ -6250,7 +6250,7 @@
           ]
         },
         "Design": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Design",
           "usd": 1.266572,
@@ -6301,7 +6301,7 @@
       },
       "runId": "20261025:grok-4.7",
       "cost": {
-        "fetchedAt": "2026-10-28T19:57:11.781Z",
+        "fetchedAt": "2026-10-29T04:56:23.779Z",
         "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
         "scope": "LiveBench 20261025 · scored suites",
         "usd": 2.0429896390658175,
@@ -6356,7 +6356,7 @@
       },
       "metricCosts": {
         "long_agentic": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Long Agentic",
           "usd": 18.766166666666667,
@@ -6380,7 +6380,7 @@
           ]
         },
         "Long Agentic": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Long Agentic",
           "usd": 18.766166666666667,
@@ -6404,7 +6404,7 @@
           ]
         },
         "reasoning": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Reasoning",
           "usd": 0.3850720792079208,
@@ -6428,7 +6428,7 @@
           ]
         },
         "Reasoning": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Reasoning",
           "usd": 0.3850720792079208,
@@ -6452,7 +6452,7 @@
           ]
         },
         "coding": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Coding",
           "usd": 4.87988275862069,
@@ -6476,7 +6476,7 @@
           ]
         },
         "Coding": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Coding",
           "usd": 4.87988275862069,
@@ -6500,7 +6500,7 @@
           ]
         },
         "browser": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Browser",
           "usd": 5.880812,
@@ -6524,7 +6524,7 @@
           ]
         },
         "Browser": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Browser",
           "usd": 5.880812,
@@ -6548,7 +6548,7 @@
           ]
         },
         "data_analysis": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Data Analysis",
           "usd": 0.4879657333333334,
@@ -6572,7 +6572,7 @@
           ]
         },
         "Data Analysis": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Data Analysis",
           "usd": 0.4879657333333334,
@@ -6596,7 +6596,7 @@
           ]
         },
         "research": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Research",
           "usd": 4.577345454545455,
@@ -6620,7 +6620,7 @@
           ]
         },
         "Research": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Research",
           "usd": 4.577345454545455,
@@ -6644,7 +6644,7 @@
           ]
         },
         "design": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Design",
           "usd": 3.3695679999999997,
@@ -6668,7 +6668,7 @@
           ]
         },
         "Design": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Design",
           "usd": 3.3695679999999997,
@@ -6719,7 +6719,7 @@
       },
       "runId": "20261025:inkling",
       "cost": {
-        "fetchedAt": "2026-10-28T19:57:11.781Z",
+        "fetchedAt": "2026-10-29T04:56:23.779Z",
         "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
         "scope": "LiveBench 20261025 · scored suites",
         "usd": 0.8439109044585987,
@@ -6774,7 +6774,7 @@
       },
       "metricCosts": {
         "long_agentic": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Long Agentic",
           "usd": 10.767466666666667,
@@ -6798,7 +6798,7 @@
           ]
         },
         "Long Agentic": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Long Agentic",
           "usd": 10.767466666666667,
@@ -6822,7 +6822,7 @@
           ]
         },
         "reasoning": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Reasoning",
           "usd": 0.10400896039603962,
@@ -6846,7 +6846,7 @@
           ]
         },
         "Reasoning": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Reasoning",
           "usd": 0.10400896039603962,
@@ -6870,7 +6870,7 @@
           ]
         },
         "coding": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Coding",
           "usd": 1.8766172413793103,
@@ -6894,7 +6894,7 @@
           ]
         },
         "Coding": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Coding",
           "usd": 1.8766172413793103,
@@ -6918,7 +6918,7 @@
           ]
         },
         "browser": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Browser",
           "usd": 2.507664,
@@ -6942,7 +6942,7 @@
           ]
         },
         "Browser": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Browser",
           "usd": 2.507664,
@@ -6966,7 +6966,7 @@
           ]
         },
         "data_analysis": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Data Analysis",
           "usd": 0.14463484000000001,
@@ -6990,7 +6990,7 @@
           ]
         },
         "Data Analysis": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Data Analysis",
           "usd": 0.14463484000000001,
@@ -7014,7 +7014,7 @@
           ]
         },
         "research": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Research",
           "usd": 1.6679954545454547,
@@ -7038,7 +7038,7 @@
           ]
         },
         "Research": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Research",
           "usd": 1.6679954545454547,
@@ -7062,7 +7062,7 @@
           ]
         },
         "design": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Design",
           "usd": 0.286128,
@@ -7086,7 +7086,7 @@
           ]
         },
         "Design": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Design",
           "usd": 0.286128,
@@ -7137,7 +7137,7 @@
       },
       "runId": "20261025:kimi-k3.1-pro",
       "cost": {
-        "fetchedAt": "2026-10-28T19:57:11.781Z",
+        "fetchedAt": "2026-10-29T04:56:23.779Z",
         "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
         "scope": "LiveBench 20261025 · scored suites",
         "usd": 0.7444981231422505,
@@ -7192,7 +7192,7 @@
       },
       "metricCosts": {
         "long_agentic": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Long Agentic",
           "usd": 7.4259,
@@ -7216,7 +7216,7 @@
           ]
         },
         "Long Agentic": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Long Agentic",
           "usd": 7.4259,
@@ -7240,7 +7240,7 @@
           ]
         },
         "reasoning": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Reasoning",
           "usd": 0.15608229702970297,
@@ -7264,7 +7264,7 @@
           ]
         },
         "Reasoning": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Reasoning",
           "usd": 0.15608229702970297,
@@ -7288,7 +7288,7 @@
           ]
         },
         "coding": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Coding",
           "usd": 0.8296275862068966,
@@ -7312,7 +7312,7 @@
           ]
         },
         "Coding": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Coding",
           "usd": 0.8296275862068966,
@@ -7336,7 +7336,7 @@
           ]
         },
         "browser": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Browser",
           "usd": 1.8412719999999998,
@@ -7360,7 +7360,7 @@
           ]
         },
         "Browser": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Browser",
           "usd": 1.8412719999999998,
@@ -7384,7 +7384,7 @@
           ]
         },
         "data_analysis": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Data Analysis",
           "usd": 0.21707928,
@@ -7408,7 +7408,7 @@
           ]
         },
         "Data Analysis": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Data Analysis",
           "usd": 0.21707928,
@@ -7432,7 +7432,7 @@
           ]
         },
         "research": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Research",
           "usd": 3.066031818181818,
@@ -7456,7 +7456,7 @@
           ]
         },
         "Research": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Research",
           "usd": 3.066031818181818,
@@ -7480,7 +7480,7 @@
           ]
         },
         "design": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Design",
           "usd": 0.614328,
@@ -7504,7 +7504,7 @@
           ]
         },
         "Design": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Design",
           "usd": 0.614328,
@@ -7555,7 +7555,7 @@
       },
       "runId": "20261025:kimi-k3",
       "cost": {
-        "fetchedAt": "2026-10-28T19:57:11.781Z",
+        "fetchedAt": "2026-10-29T04:56:23.779Z",
         "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
         "scope": "LiveBench 20261025 · scored suites",
         "usd": 1.4134060276008493,
@@ -7610,7 +7610,7 @@
       },
       "metricCosts": {
         "long_agentic": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Long Agentic",
           "usd": 17.990494444444444,
@@ -7634,7 +7634,7 @@
           ]
         },
         "Long Agentic": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Long Agentic",
           "usd": 17.990494444444444,
@@ -7658,7 +7658,7 @@
           ]
         },
         "reasoning": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Reasoning",
           "usd": 0.19509623762376235,
@@ -7682,7 +7682,7 @@
           ]
         },
         "Reasoning": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Reasoning",
           "usd": 0.19509623762376235,
@@ -7706,7 +7706,7 @@
           ]
         },
         "coding": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Coding",
           "usd": 2.0613862068965516,
@@ -7730,7 +7730,7 @@
           ]
         },
         "Coding": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Coding",
           "usd": 2.0613862068965516,
@@ -7754,7 +7754,7 @@
           ]
         },
         "browser": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Browser",
           "usd": 4.476616,
@@ -7778,7 +7778,7 @@
           ]
         },
         "Browser": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Browser",
           "usd": 4.476616,
@@ -7802,7 +7802,7 @@
           ]
         },
         "data_analysis": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Data Analysis",
           "usd": 0.35235466,
@@ -7826,7 +7826,7 @@
           ]
         },
         "Data Analysis": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Data Analysis",
           "usd": 0.35235466,
@@ -7850,7 +7850,7 @@
           ]
         },
         "research": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Research",
           "usd": 2.4049363636363634,
@@ -7874,7 +7874,7 @@
           ]
         },
         "Research": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Research",
           "usd": 2.4049363636363634,
@@ -7898,7 +7898,7 @@
           ]
         },
         "design": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Design",
           "usd": 1.00074,
@@ -7922,7 +7922,7 @@
           ]
         },
         "Design": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Design",
           "usd": 1.00074,
@@ -7973,7 +7973,7 @@
       },
       "runId": "20261025:mimo-v2.6-pro",
       "cost": {
-        "fetchedAt": "2026-10-28T19:57:11.781Z",
+        "fetchedAt": "2026-10-29T04:56:23.779Z",
         "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
         "scope": "LiveBench 20261025 · scored suites",
         "usd": 0.1253494076433121,
@@ -8028,7 +8028,7 @@
       },
       "metricCosts": {
         "long_agentic": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Long Agentic",
           "usd": 1.2147,
@@ -8052,7 +8052,7 @@
           ]
         },
         "Long Agentic": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Long Agentic",
           "usd": 1.2147,
@@ -8076,7 +8076,7 @@
           ]
         },
         "reasoning": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Reasoning",
           "usd": 0.023731544554455444,
@@ -8100,7 +8100,7 @@
           ]
         },
         "Reasoning": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Reasoning",
           "usd": 0.023731544554455444,
@@ -8124,7 +8124,7 @@
           ]
         },
         "coding": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Coding",
           "usd": 0.22390689655172413,
@@ -8148,7 +8148,7 @@
           ]
         },
         "Coding": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Coding",
           "usd": 0.22390689655172413,
@@ -8172,7 +8172,7 @@
           ]
         },
         "browser": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Browser",
           "usd": 0.585692,
@@ -8196,7 +8196,7 @@
           ]
         },
         "Browser": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Browser",
           "usd": 0.585692,
@@ -8220,7 +8220,7 @@
           ]
         },
         "data_analysis": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Data Analysis",
           "usd": 0.03856399333333333,
@@ -8244,7 +8244,7 @@
           ]
         },
         "Data Analysis": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Data Analysis",
           "usd": 0.03856399333333333,
@@ -8268,7 +8268,7 @@
           ]
         },
         "research": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Research",
           "usd": 0.14229090909090908,
@@ -8292,7 +8292,7 @@
           ]
         },
         "Research": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Research",
           "usd": 0.14229090909090908,
@@ -8316,7 +8316,7 @@
           ]
         },
         "design": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Design",
           "usd": 0.093224,
@@ -8340,7 +8340,7 @@
           ]
         },
         "Design": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Design",
           "usd": 0.093224,
@@ -8391,7 +8391,7 @@
       },
       "runId": "20261025:minimax-m3.1-flash",
       "cost": {
-        "fetchedAt": "2026-10-28T19:57:11.781Z",
+        "fetchedAt": "2026-10-29T04:56:23.779Z",
         "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
         "scope": "LiveBench 20261025 · scored suites",
         "usd": 0.10256454989384288,
@@ -8446,7 +8446,7 @@
       },
       "metricCosts": {
         "long_agentic": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Long Agentic",
           "usd": 1.0831833333333334,
@@ -8470,7 +8470,7 @@
           ]
         },
         "Long Agentic": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Long Agentic",
           "usd": 1.0831833333333334,
@@ -8494,7 +8494,7 @@
           ]
         },
         "reasoning": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Reasoning",
           "usd": 0.01107289108910891,
@@ -8518,7 +8518,7 @@
           ]
         },
         "Reasoning": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Reasoning",
           "usd": 0.01107289108910891,
@@ -8542,7 +8542,7 @@
           ]
         },
         "coding": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Coding",
           "usd": 0.2464310344827586,
@@ -8566,7 +8566,7 @@
           ]
         },
         "Coding": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Coding",
           "usd": 0.2464310344827586,
@@ -8590,7 +8590,7 @@
           ]
         },
         "browser": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Browser",
           "usd": 0.310604,
@@ -8614,7 +8614,7 @@
           ]
         },
         "Browser": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Browser",
           "usd": 0.310604,
@@ -8638,7 +8638,7 @@
           ]
         },
         "data_analysis": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Data Analysis",
           "usd": 0.01233386,
@@ -8662,7 +8662,7 @@
           ]
         },
         "Data Analysis": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Data Analysis",
           "usd": 0.01233386,
@@ -8686,7 +8686,7 @@
           ]
         },
         "research": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Research",
           "usd": 0.2662136363636364,
@@ -8710,7 +8710,7 @@
           ]
         },
         "Research": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Research",
           "usd": 0.2662136363636364,
@@ -8734,7 +8734,7 @@
           ]
         },
         "design": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Design",
           "usd": 0.15822,
@@ -8758,7 +8758,7 @@
           ]
         },
         "Design": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Design",
           "usd": 0.15822,
@@ -8809,7 +8809,7 @@
       },
       "runId": "20261025:mistral-large-4",
       "cost": {
-        "fetchedAt": "2026-10-28T19:57:11.781Z",
+        "fetchedAt": "2026-10-29T04:56:23.779Z",
         "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
         "scope": "LiveBench 20261025 · scored suites",
         "usd": 0.7112665753715499,
@@ -8864,7 +8864,7 @@
       },
       "metricCosts": {
         "long_agentic": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Long Agentic",
           "usd": 10.110394444444445,
@@ -8888,7 +8888,7 @@
           ]
         },
         "Long Agentic": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Long Agentic",
           "usd": 10.110394444444445,
@@ -8912,7 +8912,7 @@
           ]
         },
         "reasoning": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Reasoning",
           "usd": 0.11900113366336634,
@@ -8936,7 +8936,7 @@
           ]
         },
         "Reasoning": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Reasoning",
           "usd": 0.11900113366336634,
@@ -8960,7 +8960,7 @@
           ]
         },
         "coding": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Coding",
           "usd": 0.9825862068965517,
@@ -8984,7 +8984,7 @@
           ]
         },
         "Coding": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Coding",
           "usd": 0.9825862068965517,
@@ -9008,7 +9008,7 @@
           ]
         },
         "browser": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Browser",
           "usd": 0.780268,
@@ -9032,7 +9032,7 @@
           ]
         },
         "Browser": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Browser",
           "usd": 0.780268,
@@ -9056,7 +9056,7 @@
           ]
         },
         "data_analysis": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Data Analysis",
           "usd": 0.13372085333333333,
@@ -9080,7 +9080,7 @@
           ]
         },
         "Data Analysis": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Data Analysis",
           "usd": 0.13372085333333333,
@@ -9104,7 +9104,7 @@
           ]
         },
         "research": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Research",
           "usd": 2.327159090909091,
@@ -9128,7 +9128,7 @@
           ]
         },
         "Research": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Research",
           "usd": 2.327159090909091,
@@ -9152,7 +9152,7 @@
           ]
         },
         "design": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Design",
           "usd": 0.388956,
@@ -9176,7 +9176,7 @@
           ]
         },
         "Design": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Design",
           "usd": 0.388956,
@@ -9227,7 +9227,7 @@
       },
       "runId": "20261025:muse-spark-1.3",
       "cost": {
-        "fetchedAt": "2026-10-28T19:57:11.781Z",
+        "fetchedAt": "2026-10-29T04:56:23.779Z",
         "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
         "scope": "LiveBench 20261025 · scored suites",
         "usd": 0.8648064352441615,
@@ -9282,7 +9282,7 @@
       },
       "metricCosts": {
         "long_agentic": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Long Agentic",
           "usd": 8.894266666666667,
@@ -9306,7 +9306,7 @@
           ]
         },
         "Long Agentic": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Long Agentic",
           "usd": 8.894266666666667,
@@ -9330,7 +9330,7 @@
           ]
         },
         "reasoning": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Reasoning",
           "usd": 0.1357225,
@@ -9354,7 +9354,7 @@
           ]
         },
         "Reasoning": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Reasoning",
           "usd": 0.1357225,
@@ -9378,7 +9378,7 @@
           ]
         },
         "coding": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Coding",
           "usd": 1.3716172413793102,
@@ -9402,7 +9402,7 @@
           ]
         },
         "Coding": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Coding",
           "usd": 1.3716172413793102,
@@ -9426,7 +9426,7 @@
           ]
         },
         "browser": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Browser",
           "usd": 2.985348,
@@ -9450,7 +9450,7 @@
           ]
         },
         "Browser": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Browser",
           "usd": 2.985348,
@@ -9474,7 +9474,7 @@
           ]
         },
         "data_analysis": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Data Analysis",
           "usd": 0.16942857333333333,
@@ -9498,7 +9498,7 @@
           ]
         },
         "Data Analysis": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Data Analysis",
           "usd": 0.16942857333333333,
@@ -9522,7 +9522,7 @@
           ]
         },
         "research": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Research",
           "usd": 2.694118181818182,
@@ -9546,7 +9546,7 @@
           ]
         },
         "Research": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Research",
           "usd": 2.694118181818182,
@@ -9570,7 +9570,7 @@
           ]
         },
         "design": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Design",
           "usd": 0.8286239999999999,
@@ -9594,7 +9594,7 @@
           ]
         },
         "Design": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Design",
           "usd": 0.8286239999999999,
@@ -9645,7 +9645,7 @@
       },
       "runId": "20261025:muse-spark-open",
       "cost": {
-        "fetchedAt": "2026-10-28T19:57:11.781Z",
+        "fetchedAt": "2026-10-29T04:56:23.779Z",
         "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
         "scope": "LiveBench 20261025 · scored suites",
         "usd": 0.48297551804670913,
@@ -9700,7 +9700,7 @@
       },
       "metricCosts": {
         "long_agentic": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Long Agentic",
           "usd": 4.280777777777778,
@@ -9724,7 +9724,7 @@
           ]
         },
         "Long Agentic": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Long Agentic",
           "usd": 4.280777777777778,
@@ -9748,7 +9748,7 @@
           ]
         },
         "reasoning": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Reasoning",
           "usd": 0.04265504950495049,
@@ -9772,7 +9772,7 @@
           ]
         },
         "Reasoning": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Reasoning",
           "usd": 0.04265504950495049,
@@ -9796,7 +9796,7 @@
           ]
         },
         "coding": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Coding",
           "usd": 1.2525379310344826,
@@ -9820,7 +9820,7 @@
           ]
         },
         "Coding": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Coding",
           "usd": 1.2525379310344826,
@@ -9844,7 +9844,7 @@
           ]
         },
         "browser": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Browser",
           "usd": 2.949952,
@@ -9868,7 +9868,7 @@
           ]
         },
         "Browser": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Browser",
           "usd": 2.949952,
@@ -9892,7 +9892,7 @@
           ]
         },
         "data_analysis": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Data Analysis",
           "usd": 0.044909660000000004,
@@ -9916,7 +9916,7 @@
           ]
         },
         "Data Analysis": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Data Analysis",
           "usd": 0.044909660000000004,
@@ -9940,7 +9940,7 @@
           ]
         },
         "research": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Research",
           "usd": 0.7320454545454546,
@@ -9964,7 +9964,7 @@
           ]
         },
         "Research": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Research",
           "usd": 0.7320454545454546,
@@ -9988,7 +9988,7 @@
           ]
         },
         "design": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Design",
           "usd": 0.355892,
@@ -10012,7 +10012,7 @@
           ]
         },
         "Design": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Design",
           "usd": 0.355892,
@@ -10063,7 +10063,7 @@
       },
       "runId": "20261025:muse-wonder-1.0",
       "cost": {
-        "fetchedAt": "2026-10-28T19:57:11.781Z",
+        "fetchedAt": "2026-10-29T04:56:23.779Z",
         "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
         "scope": "LiveBench 20261025 · scored suites",
         "usd": 1.4941056900212313,
@@ -10118,7 +10118,7 @@
       },
       "metricCosts": {
         "long_agentic": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Long Agentic",
           "usd": 13.837,
@@ -10142,7 +10142,7 @@
           ]
         },
         "Long Agentic": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Long Agentic",
           "usd": 13.837,
@@ -10166,7 +10166,7 @@
           ]
         },
         "reasoning": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Reasoning",
           "usd": 0.298362896039604,
@@ -10190,7 +10190,7 @@
           ]
         },
         "Reasoning": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Reasoning",
           "usd": 0.298362896039604,
@@ -10214,7 +10214,7 @@
           ]
         },
         "coding": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Coding",
           "usd": 3.102251724137931,
@@ -10238,7 +10238,7 @@
           ]
         },
         "Coding": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Coding",
           "usd": 3.102251724137931,
@@ -10262,7 +10262,7 @@
           ]
         },
         "browser": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Browser",
           "usd": 6.21038,
@@ -10286,7 +10286,7 @@
           ]
         },
         "Browser": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Browser",
           "usd": 6.21038,
@@ -10310,7 +10310,7 @@
           ]
         },
         "data_analysis": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Data Analysis",
           "usd": 0.3657365,
@@ -10334,7 +10334,7 @@
           ]
         },
         "Data Analysis": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Data Analysis",
           "usd": 0.3657365,
@@ -10358,7 +10358,7 @@
           ]
         },
         "research": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Research",
           "usd": 3.5057045454545457,
@@ -10382,7 +10382,7 @@
           ]
         },
         "Research": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Research",
           "usd": 3.5057045454545457,
@@ -10406,7 +10406,7 @@
           ]
         },
         "design": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Design",
           "usd": 0.687108,
@@ -10430,7 +10430,7 @@
           ]
         },
         "Design": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Design",
           "usd": 0.687108,
@@ -10481,7 +10481,7 @@
       },
       "runId": "20261025:nemotron-super-vl-3.5-nvfp4",
       "cost": {
-        "fetchedAt": "2026-10-28T19:57:11.781Z",
+        "fetchedAt": "2026-10-29T04:56:23.779Z",
         "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
         "scope": "LiveBench 20261025 · scored suites",
         "usd": 0.0723795796178344,
@@ -10536,7 +10536,7 @@
       },
       "metricCosts": {
         "long_agentic": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Long Agentic",
           "usd": 0.9992388888888889,
@@ -10560,7 +10560,7 @@
           ]
         },
         "Long Agentic": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Long Agentic",
           "usd": 0.9992388888888889,
@@ -10584,7 +10584,7 @@
           ]
         },
         "reasoning": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Reasoning",
           "usd": 0.01204011386138614,
@@ -10608,7 +10608,7 @@
           ]
         },
         "Reasoning": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Reasoning",
           "usd": 0.01204011386138614,
@@ -10632,7 +10632,7 @@
           ]
         },
         "coding": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Coding",
           "usd": 0.09972068965517242,
@@ -10656,7 +10656,7 @@
           ]
         },
         "Coding": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Coding",
           "usd": 0.09972068965517242,
@@ -10680,7 +10680,7 @@
           ]
         },
         "browser": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Browser",
           "usd": 0.203856,
@@ -10704,7 +10704,7 @@
           ]
         },
         "Browser": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Browser",
           "usd": 0.203856,
@@ -10728,7 +10728,7 @@
           ]
         },
         "data_analysis": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Data Analysis",
           "usd": 0.016842526666666666,
@@ -10752,7 +10752,7 @@
           ]
         },
         "Data Analysis": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Data Analysis",
           "usd": 0.016842526666666666,
@@ -10776,7 +10776,7 @@
           ]
         },
         "research": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Research",
           "usd": 0.10016363636363636,
@@ -10800,7 +10800,7 @@
           ]
         },
         "Research": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Research",
           "usd": 0.10016363636363636,
@@ -10824,7 +10824,7 @@
           ]
         },
         "design": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Design",
           "usd": 0.038164,
@@ -10848,7 +10848,7 @@
           ]
         },
         "Design": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Design",
           "usd": 0.038164,
@@ -10899,7 +10899,7 @@
       },
       "runId": "20261025:nemotron-super-vl-3.5",
       "cost": {
-        "fetchedAt": "2026-10-28T19:57:11.781Z",
+        "fetchedAt": "2026-10-29T04:56:23.779Z",
         "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
         "scope": "LiveBench 20261025 · scored suites",
         "usd": 0.14883194055201696,
@@ -10954,7 +10954,7 @@
       },
       "metricCosts": {
         "long_agentic": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Long Agentic",
           "usd": 2.1822388888888886,
@@ -10978,7 +10978,7 @@
           ]
         },
         "Long Agentic": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Long Agentic",
           "usd": 2.1822388888888886,
@@ -11002,7 +11002,7 @@
           ]
         },
         "reasoning": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Reasoning",
           "usd": 0.020886361386138617,
@@ -11026,7 +11026,7 @@
           ]
         },
         "Reasoning": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Reasoning",
           "usd": 0.020886361386138617,
@@ -11050,7 +11050,7 @@
           ]
         },
         "coding": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Coding",
           "usd": 0.26969310344827585,
@@ -11074,7 +11074,7 @@
           ]
         },
         "Coding": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Coding",
           "usd": 0.26969310344827585,
@@ -11098,7 +11098,7 @@
           ]
         },
         "browser": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Browser",
           "usd": 0.415788,
@@ -11122,7 +11122,7 @@
           ]
         },
         "Browser": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Browser",
           "usd": 0.415788,
@@ -11146,7 +11146,7 @@
           ]
         },
         "data_analysis": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Data Analysis",
           "usd": 0.021993326666666667,
@@ -11170,7 +11170,7 @@
           ]
         },
         "Data Analysis": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Data Analysis",
           "usd": 0.021993326666666667,
@@ -11194,7 +11194,7 @@
           ]
         },
         "research": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Research",
           "usd": 0.17546818181818183,
@@ -11218,7 +11218,7 @@
           ]
         },
         "Research": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Research",
           "usd": 0.17546818181818183,
@@ -11242,7 +11242,7 @@
           ]
         },
         "design": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Design",
           "usd": 0.049016000000000004,
@@ -11266,7 +11266,7 @@
           ]
         },
         "Design": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Design",
           "usd": 0.049016000000000004,
@@ -11317,7 +11317,7 @@
       },
       "runId": "20261025:qwen3.8-27b",
       "cost": {
-        "fetchedAt": "2026-10-28T19:57:11.781Z",
+        "fetchedAt": "2026-10-29T04:56:23.779Z",
         "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
         "scope": "LiveBench 20261025 · scored suites",
         "usd": 0.4879338938428875,
@@ -11372,7 +11372,7 @@
       },
       "metricCosts": {
         "long_agentic": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Long Agentic",
           "usd": 6.171033333333333,
@@ -11396,7 +11396,7 @@
           ]
         },
         "Long Agentic": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Long Agentic",
           "usd": 6.171033333333333,
@@ -11420,7 +11420,7 @@
           ]
         },
         "reasoning": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Reasoning",
           "usd": 0.0749156089108911,
@@ -11444,7 +11444,7 @@
           ]
         },
         "Reasoning": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Reasoning",
           "usd": 0.0749156089108911,
@@ -11468,7 +11468,7 @@
           ]
         },
         "coding": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Coding",
           "usd": 0.6900000000000001,
@@ -11492,7 +11492,7 @@
           ]
         },
         "Coding": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Coding",
           "usd": 0.6900000000000001,
@@ -11516,7 +11516,7 @@
           ]
         },
         "browser": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Browser",
           "usd": 1.4338399999999998,
@@ -11540,7 +11540,7 @@
           ]
         },
         "Browser": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Browser",
           "usd": 1.4338399999999998,
@@ -11564,7 +11564,7 @@
           ]
         },
         "data_analysis": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Data Analysis",
           "usd": 0.08903207333333334,
@@ -11588,7 +11588,7 @@
           ]
         },
         "Data Analysis": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Data Analysis",
           "usd": 0.08903207333333334,
@@ -11612,7 +11612,7 @@
           ]
         },
         "research": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Research",
           "usd": 1.1274636363636363,
@@ -11636,7 +11636,7 @@
           ]
         },
         "Research": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Research",
           "usd": 1.1274636363636363,
@@ -11660,7 +11660,7 @@
           ]
         },
         "design": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Design",
           "usd": 0.38361199999999995,
@@ -11684,7 +11684,7 @@
           ]
         },
         "Design": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Design",
           "usd": 0.38361199999999995,
@@ -11735,7 +11735,7 @@
       },
       "runId": "20261025:qwen3.8-max",
       "cost": {
-        "fetchedAt": "2026-10-28T19:57:11.781Z",
+        "fetchedAt": "2026-10-29T04:56:23.779Z",
         "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
         "scope": "LiveBench 20261025 · scored suites",
         "usd": 1.1424491677282378,
@@ -11790,7 +11790,7 @@
       },
       "metricCosts": {
         "long_agentic": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Long Agentic",
           "usd": 14.930050000000001,
@@ -11814,7 +11814,7 @@
           ]
         },
         "Long Agentic": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Long Agentic",
           "usd": 14.930050000000001,
@@ -11838,7 +11838,7 @@
           ]
         },
         "reasoning": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Reasoning",
           "usd": 0.1314906930693069,
@@ -11862,7 +11862,7 @@
           ]
         },
         "Reasoning": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Reasoning",
           "usd": 0.1314906930693069,
@@ -11886,7 +11886,7 @@
           ]
         },
         "coding": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Coding",
           "usd": 1.9869172413793104,
@@ -11910,7 +11910,7 @@
           ]
         },
         "Coding": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Coding",
           "usd": 1.9869172413793104,
@@ -11934,7 +11934,7 @@
           ]
         },
         "browser": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Browser",
           "usd": 3.776812,
@@ -11958,7 +11958,7 @@
           ]
         },
         "Browser": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Browser",
           "usd": 3.776812,
@@ -11982,7 +11982,7 @@
           ]
         },
         "data_analysis": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Data Analysis",
           "usd": 0.2189455866666667,
@@ -12006,7 +12006,7 @@
           ]
         },
         "Data Analysis": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Data Analysis",
           "usd": 0.2189455866666667,
@@ -12030,7 +12030,7 @@
           ]
         },
         "research": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Research",
           "usd": 1.9546727272727273,
@@ -12054,7 +12054,7 @@
           ]
         },
         "Research": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Research",
           "usd": 1.9546727272727273,
@@ -12078,7 +12078,7 @@
           ]
         },
         "design": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Design",
           "usd": 0.59624,
@@ -12102,7 +12102,7 @@
           ]
         },
         "Design": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Design",
           "usd": 0.59624,
@@ -12153,7 +12153,7 @@
       },
       "runId": "20261025:smaug-nemotron-3.5-nvfp4",
       "cost": {
-        "fetchedAt": "2026-10-28T19:57:11.781Z",
+        "fetchedAt": "2026-10-29T04:56:23.779Z",
         "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
         "scope": "LiveBench 20261025 · scored suites",
         "usd": 0.07405275371549894,
@@ -12208,7 +12208,7 @@
       },
       "metricCosts": {
         "long_agentic": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Long Agentic",
           "usd": 1.022688888888889,
@@ -12232,7 +12232,7 @@
           ]
         },
         "Long Agentic": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Long Agentic",
           "usd": 1.022688888888889,
@@ -12256,7 +12256,7 @@
           ]
         },
         "reasoning": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Reasoning",
           "usd": 0.012576381188118812,
@@ -12280,7 +12280,7 @@
           ]
         },
         "Reasoning": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Reasoning",
           "usd": 0.012576381188118812,
@@ -12304,7 +12304,7 @@
           ]
         },
         "coding": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Coding",
           "usd": 0.09419655172413793,
@@ -12328,7 +12328,7 @@
           ]
         },
         "Coding": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Coding",
           "usd": 0.09419655172413793,
@@ -12352,7 +12352,7 @@
           ]
         },
         "browser": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Browser",
           "usd": 0.237876,
@@ -12376,7 +12376,7 @@
           ]
         },
         "Browser": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Browser",
           "usd": 0.237876,
@@ -12400,7 +12400,7 @@
           ]
         },
         "data_analysis": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Data Analysis",
           "usd": 0.016672786666666665,
@@ -12424,7 +12424,7 @@
           ]
         },
         "Data Analysis": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Data Analysis",
           "usd": 0.016672786666666665,
@@ -12448,7 +12448,7 @@
           ]
         },
         "research": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Research",
           "usd": 0.09319999999999999,
@@ -12472,7 +12472,7 @@
           ]
         },
         "Research": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Research",
           "usd": 0.09319999999999999,
@@ -12496,7 +12496,7 @@
           ]
         },
         "design": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Design",
           "usd": 0.028003999999999998,
@@ -12520,7 +12520,7 @@
           ]
         },
         "Design": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Design",
           "usd": 0.028003999999999998,
@@ -12571,7 +12571,7 @@
       },
       "runId": "20261025:step-5-preview",
       "cost": {
-        "fetchedAt": "2026-10-28T19:57:11.781Z",
+        "fetchedAt": "2026-10-29T04:56:23.779Z",
         "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
         "scope": "LiveBench 20261025 · scored suites",
         "usd": 0.7295107791932058,
@@ -12626,7 +12626,7 @@
       },
       "metricCosts": {
         "long_agentic": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Long Agentic",
           "usd": 9.054561111111111,
@@ -12650,7 +12650,7 @@
           ]
         },
         "Long Agentic": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Long Agentic",
           "usd": 9.054561111111111,
@@ -12674,7 +12674,7 @@
           ]
         },
         "reasoning": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Reasoning",
           "usd": 0.048211178217821775,
@@ -12698,7 +12698,7 @@
           ]
         },
         "Reasoning": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Reasoning",
           "usd": 0.048211178217821775,
@@ -12722,7 +12722,7 @@
           ]
         },
         "coding": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Coding",
           "usd": 1.0953172413793104,
@@ -12746,7 +12746,7 @@
           ]
         },
         "Coding": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Coding",
           "usd": 1.0953172413793104,
@@ -12770,7 +12770,7 @@
           ]
         },
         "browser": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Browser",
           "usd": 3.354064,
@@ -12794,7 +12794,7 @@
           ]
         },
         "Browser": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Browser",
           "usd": 3.354064,
@@ -12818,7 +12818,7 @@
           ]
         },
         "data_analysis": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Data Analysis",
           "usd": 0.06389812666666667,
@@ -12842,7 +12842,7 @@
           ]
         },
         "Data Analysis": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Data Analysis",
           "usd": 0.06389812666666667,
@@ -12866,7 +12866,7 @@
           ]
         },
         "research": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Research",
           "usd": 1.2289136363636364,
@@ -12890,7 +12890,7 @@
           ]
         },
         "Research": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Research",
           "usd": 1.2289136363636364,
@@ -12914,7 +12914,7 @@
           ]
         },
         "design": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Design",
           "usd": 0.7456879999999999,
@@ -12938,7 +12938,7 @@
           ]
         },
         "Design": {
-          "fetchedAt": "2026-10-28T19:57:11.781Z",
+          "fetchedAt": "2026-10-29T04:56:23.779Z",
           "sourceUrl": "https://livebench.ai/data/20261025/cost.csv",
           "scope": "LiveBench 20261025 · Design",
           "usd": 0.7456879999999999,

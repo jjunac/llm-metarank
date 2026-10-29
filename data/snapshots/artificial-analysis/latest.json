@@ -1,6 +1,6 @@
 {
   "sourceId": "artificial-analysis",
-  "fetchedAt": "2026-10-28T19:57:11.438Z",
+  "fetchedAt": "2026-10-29T04:56:23.380Z",
   "url": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index",
   "entries": [
     {
@@ -262,7 +262,7 @@
       "extra": {
         "slug": "minimax-m3-1-flash",
         "modelReleaseDate": "2026-10-19",
-        "isOpenWeights": false
+        "isOpenWeights": true
       }
     },
     {
@@ -300,7 +300,7 @@
       "runId": "34fc646a-0174-470e-9e62-d8df452210b3",
       "costUnavailableReason": "Task-cost methodology not verified for Intelligence Index v5.0.",
       "extra": {
-        "slug": "mistral-large-4",
+        "slug": "mistral-large-4-preview",
         "modelReleaseDate": "2026-10-06",
         "isOpenWeights": false
       }

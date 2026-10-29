@@ -1,0 +1,576 @@
+{
+  "sourceId": "hle",
+  "fetchedAt": "2026-10-29T04:56:33.381Z",
+  "sourceUpdatedAt": "2026-10-12",
+  "url": "https://labs.scale.com/leaderboard/humanitys_last_exam",
+  "entries": [
+    {
+      "rawName": "GPT 6 Astra",
+      "score": 54.8,
+      "date": "2026-09-09",
+      "url": "https://labs.scale.com/leaderboard/humanitys_last_exam",
+      "extra": {
+        "rank": 1,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "Fable 5.1 (xhigh)",
+      "score": 46.5,
+      "variant": "xhigh",
+      "date": "2026-09-03",
+      "url": "https://labs.scale.com/leaderboard/humanitys_last_exam",
+      "extra": {
+        "rank": 2,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "gemini-3.1-pro-preview (thinking high)",
+      "score": 46.44,
+      "variant": "thinking high",
+      "date": "2026-04-10",
+      "url": "https://labs.scale.com/leaderboard/humanitys_last_exam",
+      "extra": {
+        "rank": 3,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "Sonnet 5.5 (xhigh)",
+      "score": 46.12,
+      "variant": "xhigh",
+      "date": "2026-10-12",
+      "url": "https://labs.scale.com/leaderboard/humanitys_last_exam",
+      "extra": {
+        "rank": 4,
+        "version": "anthropic/claude-sonnet-5-5"
+      }
+    },
+    {
+      "rawName": "Gemini 3.8 Flash",
+      "score": 44.52,
+      "date": "2026-09-09",
+      "url": "https://labs.scale.com/leaderboard/humanitys_last_exam",
+      "extra": {
+        "rank": 5,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "gpt-5.4-pro-2026-03-05",
+      "score": 44.32,
+      "date": "2026-03-23",
+      "url": "https://labs.scale.com/leaderboard/humanitys_last_exam",
+      "extra": {
+        "rank": 6,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "Muse Spark",
+      "score": 40.56,
+      "date": "2026-04-08",
+      "url": "https://labs.scale.com/leaderboard/humanitys_last_exam",
+      "extra": {
+        "rank": 7,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "gemini-3-pro-preview",
+      "score": 37.52,
+      "date": "2025-11-19",
+      "url": "https://labs.scale.com/leaderboard/humanitys_last_exam",
+      "extra": {
+        "rank": 8,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "gpt-5.4-2026-03-05 (xhigh thinking)",
+      "score": 36.24,
+      "variant": "xhigh thinking",
+      "date": "2026-03-10",
+      "url": "https://labs.scale.com/leaderboard/humanitys_last_exam",
+      "extra": {
+        "rank": 9,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "claude-opus-4-7",
+      "score": 36.2,
+      "date": "2026-04-22",
+      "url": "https://labs.scale.com/leaderboard/humanitys_last_exam",
+      "extra": {
+        "rank": 10,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "claude-opus-4-6-thinking-max",
+      "score": 34.44,
+      "date": "2026-02-17",
+      "url": "https://labs.scale.com/leaderboard/humanitys_last_exam",
+      "extra": {
+        "rank": 11,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "gpt-5-pro-2025-10-06",
+      "score": 31.64,
+      "date": "2025-11-06",
+      "url": "https://labs.scale.com/leaderboard/humanitys_last_exam",
+      "extra": {
+        "rank": 12,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "Claude Haiku 5.5",
+      "score": 30.12,
+      "date": "2026-10-08",
+      "url": "https://labs.scale.com/leaderboard/humanitys_last_exam",
+      "extra": {
+        "rank": 13,
+        "version": "claude-haiku-5-5"
+      }
+    },
+    {
+      "rawName": "gpt-5.2-2025-12-11",
+      "score": 27.8,
+      "date": "2025-12-15",
+      "url": "https://labs.scale.com/leaderboard/humanitys_last_exam",
+      "extra": {
+        "rank": 14,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "gpt-5-2025-08-07",
+      "score": 25.32,
+      "date": "2025-08-07",
+      "url": "https://labs.scale.com/leaderboard/humanitys_last_exam",
+      "extra": {
+        "rank": 15,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "claude-opus-4-5-20251101-thinking",
+      "score": 25.2,
+      "date": "2025-11-26",
+      "url": "https://labs.scale.com/leaderboard/humanitys_last_exam",
+      "extra": {
+        "rank": 16,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "kimi-k2.5",
+      "score": 24.37,
+      "date": "2026-02-13",
+      "url": "https://labs.scale.com/leaderboard/humanitys_last_exam",
+      "extra": {
+        "rank": 17,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "gpt-5.1-thinking",
+      "score": 23.68,
+      "date": "2025-11-26",
+      "url": "https://labs.scale.com/leaderboard/humanitys_last_exam",
+      "extra": {
+        "rank": 18,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "gemini-2.5-pro-preview-06-05",
+      "score": 21.64,
+      "date": "2025-06-05",
+      "url": "https://labs.scale.com/leaderboard/humanitys_last_exam",
+      "extra": {
+        "rank": 19,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "o3 (high) (April 2025)",
+      "score": 20.32,
+      "variant": "high",
+      "date": "2025-04-16",
+      "url": "https://labs.scale.com/leaderboard/humanitys_last_exam",
+      "extra": {
+        "rank": 20,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "gpt-5-mini-2025-08-07",
+      "score": 19.44,
+      "date": "2025-08-22",
+      "url": "https://labs.scale.com/leaderboard/humanitys_last_exam",
+      "extra": {
+        "rank": 21,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "o3 (medium) (April 2025)",
+      "score": 19.2,
+      "variant": "medium",
+      "date": "2025-04-16",
+      "url": "https://labs.scale.com/leaderboard/humanitys_last_exam",
+      "extra": {
+        "rank": 22,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "claude-opus-4-6 (Non-Thinking)",
+      "score": 19,
+      "variant": "Non-Thinking",
+      "date": "2026-02-17",
+      "url": "https://labs.scale.com/leaderboard/humanitys_last_exam",
+      "extra": {
+        "rank": 23,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "Gemini 2.5 Pro Experimental (March 2025)",
+      "score": 18.16,
+      "date": "2025-04-10",
+      "url": "https://labs.scale.com/leaderboard/humanitys_last_exam",
+      "extra": {
+        "rank": 24,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "o4-mini (high) (April 2025)",
+      "score": 18.08,
+      "variant": "high",
+      "date": "2025-04-16",
+      "url": "https://labs.scale.com/leaderboard/humanitys_last_exam",
+      "extra": {
+        "rank": 25,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "Gemini 2.5 Pro Preview (May 06 2025)",
+      "score": 17.8,
+      "date": "2025-05-06",
+      "url": "https://labs.scale.com/leaderboard/humanitys_last_exam",
+      "extra": {
+        "rank": 26,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "o4-mini (medium) (April 2025)",
+      "score": 14.28,
+      "variant": "medium",
+      "date": "2025-04-16",
+      "url": "https://labs.scale.com/leaderboard/humanitys_last_exam",
+      "extra": {
+        "rank": 27,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "claude-opus-4-5-20251101",
+      "score": 14.16,
+      "date": "2025-11-26",
+      "url": "https://labs.scale.com/leaderboard/humanitys_last_exam",
+      "extra": {
+        "rank": 28,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "claude-sonnet-4-5-20250929-thinking",
+      "score": 13.72,
+      "date": "2025-10-02",
+      "url": "https://labs.scale.com/leaderboard/humanitys_last_exam",
+      "extra": {
+        "rank": 29,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "Gemini 2.5 Flash (April 2025)",
+      "score": 12.08,
+      "date": "2025-04-17",
+      "url": "https://labs.scale.com/leaderboard/humanitys_last_exam",
+      "extra": {
+        "rank": 30,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "claude-opus-4-1-20250805-thinking",
+      "score": 11.52,
+      "date": "2025-08-08",
+      "url": "https://labs.scale.com/leaderboard/humanitys_last_exam",
+      "extra": {
+        "rank": 31,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "Gemini 2.5 Flash Preview (May 2025)",
+      "score": 10.96,
+      "date": "2025-05-20",
+      "url": "https://labs.scale.com/leaderboard/humanitys_last_exam",
+      "extra": {
+        "rank": 32,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "Claude Opus 4 (Thinking)",
+      "score": 10.72,
+      "variant": "Thinking",
+      "date": "2025-05-24",
+      "url": "https://labs.scale.com/leaderboard/humanitys_last_exam",
+      "extra": {
+        "rank": 33,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "gemini-3.1-flash-lite-preview",
+      "score": 8.64,
+      "date": "2026-03-23",
+      "url": "https://labs.scale.com/leaderboard/humanitys_last_exam",
+      "extra": {
+        "rank": 34,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "glm-4p5",
+      "score": 8.32,
+      "date": "2025-08-13",
+      "url": "https://labs.scale.com/leaderboard/humanitys_last_exam",
+      "extra": {
+        "rank": 35,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "glm-4p5-air",
+      "score": 8.12,
+      "date": "2025-08-13",
+      "url": "https://labs.scale.com/leaderboard/humanitys_last_exam",
+      "extra": {
+        "rank": 36,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "o1 Pro",
+      "score": 8.12,
+      "date": "2025-04-10",
+      "url": "https://labs.scale.com/leaderboard/humanitys_last_exam",
+      "extra": {
+        "rank": 37,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "Claude 3.7 Sonnet (Thinking)",
+      "score": 8.04,
+      "variant": "Thinking",
+      "date": "2025-04-10",
+      "url": "https://labs.scale.com/leaderboard/humanitys_last_exam",
+      "extra": {
+        "rank": 38,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "o1 (December 2024)",
+      "score": 7.96,
+      "date": "2025-04-10",
+      "url": "https://labs.scale.com/leaderboard/humanitys_last_exam",
+      "extra": {
+        "rank": 39,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "claude-opus-4-1-20250805",
+      "score": 7.92,
+      "date": "2025-08-08",
+      "url": "https://labs.scale.com/leaderboard/humanitys_last_exam",
+      "extra": {
+        "rank": 40,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "Claude Sonnet 4 (Thinking)",
+      "score": 7.76,
+      "variant": "Thinking",
+      "date": "2025-05-23",
+      "url": "https://labs.scale.com/leaderboard/humanitys_last_exam",
+      "extra": {
+        "rank": 41,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "claude-sonnet-4-5-20250929",
+      "score": 7.52,
+      "date": "2025-10-02",
+      "url": "https://labs.scale.com/leaderboard/humanitys_last_exam",
+      "extra": {
+        "rank": 42,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "gpt-5.1-instant",
+      "score": 6.8,
+      "date": "2025-11-26",
+      "url": "https://labs.scale.com/leaderboard/humanitys_last_exam",
+      "extra": {
+        "rank": 43,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "Claude Opus 4",
+      "score": 6.68,
+      "date": "2025-05-23",
+      "url": "https://labs.scale.com/leaderboard/humanitys_last_exam",
+      "extra": {
+        "rank": 44,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "Gemini 2.0 Flash Thinking (January 2025)",
+      "score": 6.56,
+      "date": "2025-04-10",
+      "url": "https://labs.scale.com/leaderboard/humanitys_last_exam",
+      "extra": {
+        "rank": 45,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "Llama 4 Maverick",
+      "score": 5.68,
+      "date": "2025-04-10",
+      "url": "https://labs.scale.com/leaderboard/humanitys_last_exam",
+      "extra": {
+        "rank": 46,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "Claude Sonnet 4",
+      "score": 5.52,
+      "date": "2025-05-23",
+      "url": "https://labs.scale.com/leaderboard/humanitys_last_exam",
+      "extra": {
+        "rank": 47,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "GPT 4.5 Preview",
+      "score": 5.44,
+      "date": "2025-04-10",
+      "url": "https://labs.scale.com/leaderboard/humanitys_last_exam",
+      "extra": {
+        "rank": 48,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "GPT-4.1",
+      "score": 5.4,
+      "date": "2025-04-14",
+      "url": "https://labs.scale.com/leaderboard/humanitys_last_exam",
+      "extra": {
+        "rank": 49,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "Gemini-1.5-Pro-002",
+      "score": 4.6,
+      "date": "2025-04-10",
+      "url": "https://labs.scale.com/leaderboard/humanitys_last_exam",
+      "extra": {
+        "rank": 50,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "Mistral Medium 3",
+      "score": 4.52,
+      "date": "2025-05-13",
+      "url": "https://labs.scale.com/leaderboard/humanitys_last_exam",
+      "extra": {
+        "rank": 51,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "Nova Pro",
+      "score": 4.4,
+      "date": "2025-04-10",
+      "url": "https://labs.scale.com/leaderboard/humanitys_last_exam",
+      "extra": {
+        "rank": 52,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "Claude 3.5 Sonnet (October 2024)",
+      "score": 4.08,
+      "date": "2025-04-10",
+      "url": "https://labs.scale.com/leaderboard/humanitys_last_exam",
+      "extra": {
+        "rank": 53,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "Nova Lite",
+      "score": 3.64,
+      "date": "2025-04-10",
+      "url": "https://labs.scale.com/leaderboard/humanitys_last_exam",
+      "extra": {
+        "rank": 54,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "GPT-4o (November 2024)",
+      "score": 2.72,
+      "date": "2025-04-10",
+      "url": "https://labs.scale.com/leaderboard/humanitys_last_exam",
+      "extra": {
+        "rank": 55,
+        "version": ""
+      }
+    }
+  ],
+  "warnings": [],
+  "costStatus": {
+    "status": "not-reported",
+    "url": "https://labs.scale.com/leaderboard/humanitys_last_exam",
+    "note": "The public leaderboard payload does not publish monetary task cost matched to these runs. Budget caps, API prices and costs from other evaluators are not substituted."
+  }
+}
