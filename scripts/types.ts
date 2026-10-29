@@ -8,7 +8,7 @@ export const CATEGORY_LABELS: Record<Category, string> = {
   reasoning: "Reasoning",
 };
 
-export type SourceAccess = "html" | "json" | "api" | "browser";
+export type SourceAccess = "html" | "json" | "csv" | "api" | "browser";
 export type CostScope = "overall" | Category;
 export type CostStatistic = "mean" | "weighted-mean" | "median";
 

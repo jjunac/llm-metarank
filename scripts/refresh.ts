@@ -1,6 +1,7 @@
+import { execFileSync } from "node:child_process";
 import { resolve } from "node:path";
 import type { SourceConfig, SourceSnapshot } from "./types.js";
-import { DATA_DIR, readJson } from "./util.js";
+import { DATA_DIR, ROOT, readJson } from "./util.js";
 import { refreshSource } from "./refresh-source.js";
 import { loadModelRegistry, matchModel } from "./normalize/models.js";
 import { fetchArtificialAnalysis } from "./fetch/artificial-analysis.js";
@@ -10,6 +11,9 @@ import { fetchSweBenchPro, fetchHle, fetchMcpAtlas } from "./fetch/scale.js";
 import { fetchTerminalBench } from "./fetch/terminal-bench.js";
 import { fetchGso } from "./fetch/gso.js";
 import { fetchArcAgi3 } from "./fetch/arc.js";
+import { fetchCursorBench } from "./fetch/cursorbench.js";
+import { fetchTauBanking } from "./fetch/tau-banking.js";
+import { fetchFrontierMath } from "./fetch/frontiermath.js";
 
 const FETCHERS: Record<string, () => Promise<SourceSnapshot>> = {
   "artificial-analysis": fetchArtificialAnalysis,
@@ -22,13 +26,50 @@ const FETCHERS: Record<string, () => Promise<SourceSnapshot>> = {
   "arc-agi-3": fetchArcAgi3,
   "code-arena-webdev": fetchCodeArenaWebdev,
   "mcp-atlas": fetchMcpAtlas,
+  cursorbench: fetchCursorBench,
+  "tau3-banking": fetchTauBanking,
+  frontiermath: fetchFrontierMath,
 };
+
+function git(args: string[]): void {
+  execFileSync("git", args, { cwd: ROOT, stdio: "inherit" });
+}
+
+function gitOutput(args: string[]): string {
+  return execFileSync("git", args, { cwd: ROOT, encoding: "utf8", stdio: ["ignore", "pipe", "pipe"] }).trimEnd();
+}
+
+function assertCleanWorkingTree(): void {
+  const status = gitOutput(["status", "--porcelain"]);
+  if (!status) return;
+
+  console.error("Working tree is not clean. Commit or stash your changes before refreshing data.\n");
+  console.error(status);
+  process.exit(1);
+}
+
+function commitAndPushData(): void {
+  git(["add", "--", "data"]);
+  const staged = gitOutput(["diff", "--cached", "--name-only", "--", "data"]);
+  if (!staged) {
+    console.log("\nNo data changes to commit.");
+    return;
+  }
+
+  console.log("\nCommitting data changes...");
+  git(["commit", "-m", "chore: update data"]);
+
+  console.log("Pushing...");
+  git(["push"]);
+}
 
 async function main(): Promise<void> {
   const args = new Set(process.argv.slice(2));
   const fetchOnly = args.has("--fetch-only");
   const onlyArg = [...args].find((arg) => arg.startsWith("--only="));
   const only = onlyArg?.split("=")[1];
+
+  if (!fetchOnly) assertCleanWorkingTree();
 
   const sources = await readJson<SourceConfig[]>(resolve(DATA_DIR, "sources.json"));
   const selected = only ? sources.filter((source) => source.id === only) : sources;
@@ -66,6 +107,9 @@ async function main(): Promise<void> {
   if (!fetchOnly) {
     const { buildDataset } = await import("./build-dataset.js");
     await buildDataset();
+    commitAndPushData();
+  } else {
+    console.log("\nSkipping commit and push because --fetch-only was used.");
   }
 
   console.log(`\nRefresh complete: ${selected.length - failed.length}/${selected.length} sources refreshed.${failed.length ? ` Failed: ${failed.join(", ")}.` : ""}`);

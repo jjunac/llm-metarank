@@ -1,0 +1,2362 @@
+{
+  "sourceId": "cursorbench",
+  "fetchedAt": "2026-10-28T20:27:01.214Z",
+  "benchmarkRelease": "2026-09-10",
+  "url": "https://cursor.com/cursorbench",
+  "entries": [
+    {
+      "rawName": "Opus 5.5 Max",
+      "score": 57.8,
+      "variant": "Max",
+      "harness": "Cursor · CursorBench 4.0",
+      "url": "https://cursor.com/cursorbench",
+      "runId": "cursorbench-4.0:Opus 5.5 Max",
+      "cost": {
+        "usd": 13.43,
+        "upperBound": false,
+        "statistic": "mean",
+        "sourceUrl": "https://cursor.com/cursorbench",
+        "fetchedAt": "2026-10-28T20:27:01.214Z",
+        "scope": "CursorBench 4.0 · average model token cost per task",
+        "currency": "USD",
+        "unit": "task",
+        "method": "usage-estimate",
+        "complete": true,
+        "methodologyUrl": "https://cursor.com/cursorbench",
+        "notes": [
+          "Cursor applies published input, cache-read, cache-write and output token prices to observed task usage. This is a source-reported usage estimate, not an invoice or an all-in operating cost.",
+          "The published score and cost are rounded and belong to this exact reasoning-effort configuration."
+        ]
+      },
+      "extra": {
+        "tokensPerTask": 218363,
+        "stepsPerTask": 185
+      }
+    },
+    {
+      "rawName": "Opus 5.5 Extra High",
+      "score": 56,
+      "variant": "Extra High",
+      "harness": "Cursor · CursorBench 4.0",
+      "url": "https://cursor.com/cursorbench",
+      "runId": "cursorbench-4.0:Opus 5.5 Extra High",
+      "cost": {
+        "usd": 6.98,
+        "upperBound": false,
+        "statistic": "mean",
+        "sourceUrl": "https://cursor.com/cursorbench",
+        "fetchedAt": "2026-10-28T20:27:01.214Z",
+        "scope": "CursorBench 4.0 · average model token cost per task",
+        "currency": "USD",
+        "unit": "task",
+        "method": "usage-estimate",
+        "complete": true,
+        "methodologyUrl": "https://cursor.com/cursorbench",
+        "notes": [
+          "Cursor applies published input, cache-read, cache-write and output token prices to observed task usage. This is a source-reported usage estimate, not an invoice or an all-in operating cost.",
+          "The published score and cost are rounded and belong to this exact reasoning-effort configuration."
+        ]
+      },
+      "extra": {
+        "tokensPerTask": 101083,
+        "stepsPerTask": 109
+      }
+    },
+    {
+      "rawName": "Opus 5.5 High",
+      "score": 56,
+      "variant": "High",
+      "harness": "Cursor · CursorBench 4.0",
+      "url": "https://cursor.com/cursorbench",
+      "runId": "cursorbench-4.0:Opus 5.5 High",
+      "cost": {
+        "usd": 3.97,
+        "upperBound": false,
+        "statistic": "mean",
+        "sourceUrl": "https://cursor.com/cursorbench",
+        "fetchedAt": "2026-10-28T20:27:01.214Z",
+        "scope": "CursorBench 4.0 · average model token cost per task",
+        "currency": "USD",
+        "unit": "task",
+        "method": "usage-estimate",
+        "complete": true,
+        "methodologyUrl": "https://cursor.com/cursorbench",
+        "notes": [
+          "Cursor applies published input, cache-read, cache-write and output token prices to observed task usage. This is a source-reported usage estimate, not an invoice or an all-in operating cost.",
+          "The published score and cost are rounded and belong to this exact reasoning-effort configuration."
+        ]
+      },
+      "extra": {
+        "tokensPerTask": 53078,
+        "stepsPerTask": 68
+      }
+    },
+    {
+      "rawName": "Sonnet 5.5 Max",
+      "score": 55.5,
+      "variant": "Max",
+      "harness": "Cursor · CursorBench 4.0",
+      "url": "https://cursor.com/cursorbench",
+      "runId": "cursorbench-4.0:Sonnet 5.5 Max",
+      "cost": {
+        "usd": 7.05,
+        "upperBound": false,
+        "statistic": "mean",
+        "sourceUrl": "https://cursor.com/cursorbench",
+        "fetchedAt": "2026-10-28T20:27:01.214Z",
+        "scope": "CursorBench 4.0 · average model token cost per task",
+        "currency": "USD",
+        "unit": "task",
+        "method": "usage-estimate",
+        "complete": true,
+        "methodologyUrl": "https://cursor.com/cursorbench",
+        "notes": [
+          "Cursor applies published input, cache-read, cache-write and output token prices to observed task usage. This is a source-reported usage estimate, not an invoice or an all-in operating cost.",
+          "The published score and cost are rounded and belong to this exact reasoning-effort configuration."
+        ]
+      },
+      "extra": {
+        "tokensPerTask": 271920,
+        "stepsPerTask": 170
+      }
+    },
+    {
+      "rawName": "Sonnet 5.5 Extra High",
+      "score": 53.1,
+      "variant": "Extra High",
+      "harness": "Cursor · CursorBench 4.0",
+      "url": "https://cursor.com/cursorbench",
+      "runId": "cursorbench-4.0:Sonnet 5.5 Extra High",
+      "cost": {
+        "usd": 2.81,
+        "upperBound": false,
+        "statistic": "mean",
+        "sourceUrl": "https://cursor.com/cursorbench",
+        "fetchedAt": "2026-10-28T20:27:01.214Z",
+        "scope": "CursorBench 4.0 · average model token cost per task",
+        "currency": "USD",
+        "unit": "task",
+        "method": "usage-estimate",
+        "complete": true,
+        "methodologyUrl": "https://cursor.com/cursorbench",
+        "notes": [
+          "Cursor applies published input, cache-read, cache-write and output token prices to observed task usage. This is a source-reported usage estimate, not an invoice or an all-in operating cost.",
+          "The published score and cost are rounded and belong to this exact reasoning-effort configuration."
+        ]
+      },
+      "extra": {
+        "tokensPerTask": 100158,
+        "stepsPerTask": 78
+      }
+    },
+    {
+      "rawName": "Gemini 4 Argon High",
+      "score": 52.9,
+      "variant": "High",
+      "harness": "Cursor · CursorBench 4.0",
+      "url": "https://cursor.com/cursorbench",
+      "runId": "cursorbench-4.0:Gemini 4 Argon High",
+      "cost": {
+        "usd": 4.57,
+        "upperBound": false,
+        "statistic": "mean",
+        "sourceUrl": "https://cursor.com/cursorbench",
+        "fetchedAt": "2026-10-28T20:27:01.214Z",
+        "scope": "CursorBench 4.0 · average model token cost per task",
+        "currency": "USD",
+        "unit": "task",
+        "method": "usage-estimate",
+        "complete": true,
+        "methodologyUrl": "https://cursor.com/cursorbench",
+        "notes": [
+          "Cursor applies published input, cache-read, cache-write and output token prices to observed task usage. This is a source-reported usage estimate, not an invoice or an all-in operating cost.",
+          "The published score and cost are rounded and belong to this exact reasoning-effort configuration."
+        ]
+      },
+      "extra": {
+        "tokensPerTask": 109500,
+        "stepsPerTask": 118
+      }
+    },
+    {
+      "rawName": "Gemini 4 Argon Medium",
+      "score": 52.8,
+      "variant": "Medium",
+      "harness": "Cursor · CursorBench 4.0",
+      "url": "https://cursor.com/cursorbench",
+      "runId": "cursorbench-4.0:Gemini 4 Argon Medium",
+      "cost": {
+        "usd": 4.39,
+        "upperBound": false,
+        "statistic": "mean",
+        "sourceUrl": "https://cursor.com/cursorbench",
+        "fetchedAt": "2026-10-28T20:27:01.214Z",
+        "scope": "CursorBench 4.0 · average model token cost per task",
+        "currency": "USD",
+        "unit": "task",
+        "method": "usage-estimate",
+        "complete": true,
+        "methodologyUrl": "https://cursor.com/cursorbench",
+        "notes": [
+          "Cursor applies published input, cache-read, cache-write and output token prices to observed task usage. This is a source-reported usage estimate, not an invoice or an all-in operating cost.",
+          "The published score and cost are rounded and belong to this exact reasoning-effort configuration."
+        ]
+      },
+      "extra": {
+        "tokensPerTask": 103600,
+        "stepsPerTask": 115
+      }
+    },
+    {
+      "rawName": "Opus 5.5 Medium",
+      "score": 52.5,
+      "variant": "Medium",
+      "harness": "Cursor · CursorBench 4.0",
+      "url": "https://cursor.com/cursorbench",
+      "runId": "cursorbench-4.0:Opus 5.5 Medium",
+      "cost": {
+        "usd": 2.91,
+        "upperBound": false,
+        "statistic": "mean",
+        "sourceUrl": "https://cursor.com/cursorbench",
+        "fetchedAt": "2026-10-28T20:27:01.214Z",
+        "scope": "CursorBench 4.0 · average model token cost per task",
+        "currency": "USD",
+        "unit": "task",
+        "method": "usage-estimate",
+        "complete": true,
+        "methodologyUrl": "https://cursor.com/cursorbench",
+        "notes": [
+          "Cursor applies published input, cache-read, cache-write and output token prices to observed task usage. This is a source-reported usage estimate, not an invoice or an all-in operating cost.",
+          "The published score and cost are rounded and belong to this exact reasoning-effort configuration."
+        ]
+      },
+      "extra": {
+        "tokensPerTask": 37954,
+        "stepsPerTask": 54
+      }
+    },
+    {
+      "rawName": "Fable 5.1 Max",
+      "score": 51.8,
+      "variant": "Max",
+      "harness": "Cursor · CursorBench 4.0",
+      "url": "https://cursor.com/cursorbench",
+      "runId": "cursorbench-4.0:Fable 5.1 Max",
+      "cost": {
+        "usd": 17.28,
+        "upperBound": false,
+        "statistic": "mean",
+        "sourceUrl": "https://cursor.com/cursorbench",
+        "fetchedAt": "2026-10-28T20:27:01.214Z",
+        "scope": "CursorBench 4.0 · average model token cost per task",
+        "currency": "USD",
+        "unit": "task",
+        "method": "usage-estimate",
+        "complete": true,
+        "methodologyUrl": "https://cursor.com/cursorbench",
+        "notes": [
+          "Cursor applies published input, cache-read, cache-write and output token prices to observed task usage. This is a source-reported usage estimate, not an invoice or an all-in operating cost.",
+          "The published score and cost are rounded and belong to this exact reasoning-effort configuration."
+        ]
+      },
+      "extra": {
+        "tokensPerTask": 117236,
+        "stepsPerTask": 128
+      }
+    },
+    {
+      "rawName": "Fable 5.1 Extra High",
+      "score": 51.6,
+      "variant": "Extra High",
+      "harness": "Cursor · CursorBench 4.0",
+      "url": "https://cursor.com/cursorbench",
+      "runId": "cursorbench-4.0:Fable 5.1 Extra High",
+      "cost": {
+        "usd": 13.01,
+        "upperBound": false,
+        "statistic": "mean",
+        "sourceUrl": "https://cursor.com/cursorbench",
+        "fetchedAt": "2026-10-28T20:27:01.214Z",
+        "scope": "CursorBench 4.0 · average model token cost per task",
+        "currency": "USD",
+        "unit": "task",
+        "method": "usage-estimate",
+        "complete": true,
+        "methodologyUrl": "https://cursor.com/cursorbench",
+        "notes": [
+          "Cursor applies published input, cache-read, cache-write and output token prices to observed task usage. This is a source-reported usage estimate, not an invoice or an all-in operating cost.",
+          "The published score and cost are rounded and belong to this exact reasoning-effort configuration."
+        ]
+      },
+      "extra": {
+        "tokensPerTask": 87294,
+        "stepsPerTask": 101
+      }
+    },
+    {
+      "rawName": "Gemini 4 Argon Low",
+      "score": 50.6,
+      "variant": "Low",
+      "harness": "Cursor · CursorBench 4.0",
+      "url": "https://cursor.com/cursorbench",
+      "runId": "cursorbench-4.0:Gemini 4 Argon Low",
+      "cost": {
+        "usd": 4.09,
+        "upperBound": false,
+        "statistic": "mean",
+        "sourceUrl": "https://cursor.com/cursorbench",
+        "fetchedAt": "2026-10-28T20:27:01.214Z",
+        "scope": "CursorBench 4.0 · average model token cost per task",
+        "currency": "USD",
+        "unit": "task",
+        "method": "usage-estimate",
+        "complete": true,
+        "methodologyUrl": "https://cursor.com/cursorbench",
+        "notes": [
+          "Cursor applies published input, cache-read, cache-write and output token prices to observed task usage. This is a source-reported usage estimate, not an invoice or an all-in operating cost.",
+          "The published score and cost are rounded and belong to this exact reasoning-effort configuration."
+        ]
+      },
+      "extra": {
+        "tokensPerTask": 94200,
+        "stepsPerTask": 110
+      }
+    },
+    {
+      "rawName": "Muse Wonder Max",
+      "score": 50.4,
+      "variant": "Max",
+      "harness": "Cursor · CursorBench 4.0",
+      "url": "https://cursor.com/cursorbench",
+      "runId": "cursorbench-4.0:Muse Wonder Max",
+      "cost": {
+        "usd": 5.25,
+        "upperBound": false,
+        "statistic": "mean",
+        "sourceUrl": "https://cursor.com/cursorbench",
+        "fetchedAt": "2026-10-28T20:27:01.214Z",
+        "scope": "CursorBench 4.0 · average model token cost per task",
+        "currency": "USD",
+        "unit": "task",
+        "method": "usage-estimate",
+        "complete": true,
+        "methodologyUrl": "https://cursor.com/cursorbench",
+        "notes": [
+          "Cursor applies published input, cache-read, cache-write and output token prices to observed task usage. This is a source-reported usage estimate, not an invoice or an all-in operating cost.",
+          "The published score and cost are rounded and belong to this exact reasoning-effort configuration."
+        ]
+      },
+      "extra": {
+        "tokensPerTask": 49692,
+        "stepsPerTask": 114
+      }
+    },
+    {
+      "rawName": "Fable 5.1 High",
+      "score": 49.2,
+      "variant": "High",
+      "harness": "Cursor · CursorBench 4.0",
+      "url": "https://cursor.com/cursorbench",
+      "runId": "cursorbench-4.0:Fable 5.1 High",
+      "cost": {
+        "usd": 9.08,
+        "upperBound": false,
+        "statistic": "mean",
+        "sourceUrl": "https://cursor.com/cursorbench",
+        "fetchedAt": "2026-10-28T20:27:01.214Z",
+        "scope": "CursorBench 4.0 · average model token cost per task",
+        "currency": "USD",
+        "unit": "task",
+        "method": "usage-estimate",
+        "complete": true,
+        "methodologyUrl": "https://cursor.com/cursorbench",
+        "notes": [
+          "Cursor applies published input, cache-read, cache-write and output token prices to observed task usage. This is a source-reported usage estimate, not an invoice or an all-in operating cost.",
+          "The published score and cost are rounded and belong to this exact reasoning-effort configuration."
+        ]
+      },
+      "extra": {
+        "tokensPerTask": 58438,
+        "stepsPerTask": 77
+      }
+    },
+    {
+      "rawName": "Haiku 5.5 Max",
+      "score": 48.4,
+      "variant": "Max",
+      "harness": "Cursor · CursorBench 4.0",
+      "url": "https://cursor.com/cursorbench",
+      "runId": "cursorbench-4.0:Haiku 5.5 Max",
+      "cost": {
+        "usd": 1.12,
+        "upperBound": false,
+        "statistic": "mean",
+        "sourceUrl": "https://cursor.com/cursorbench",
+        "fetchedAt": "2026-10-28T20:27:01.214Z",
+        "scope": "CursorBench 4.0 · average model token cost per task",
+        "currency": "USD",
+        "unit": "task",
+        "method": "usage-estimate",
+        "complete": true,
+        "methodologyUrl": "https://cursor.com/cursorbench",
+        "notes": [
+          "Cursor applies published input, cache-read, cache-write and output token prices to observed task usage. This is a source-reported usage estimate, not an invoice or an all-in operating cost.",
+          "The published score and cost are rounded and belong to this exact reasoning-effort configuration."
+        ]
+      },
+      "extra": {
+        "tokensPerTask": 325934,
+        "stepsPerTask": 163
+      }
+    },
+    {
+      "rawName": "Muse Wonder Extra High",
+      "score": 48.2,
+      "variant": "Extra High",
+      "harness": "Cursor · CursorBench 4.0",
+      "url": "https://cursor.com/cursorbench",
+      "runId": "cursorbench-4.0:Muse Wonder Extra High",
+      "cost": {
+        "usd": 4.24,
+        "upperBound": false,
+        "statistic": "mean",
+        "sourceUrl": "https://cursor.com/cursorbench",
+        "fetchedAt": "2026-10-28T20:27:01.214Z",
+        "scope": "CursorBench 4.0 · average model token cost per task",
+        "currency": "USD",
+        "unit": "task",
+        "method": "usage-estimate",
+        "complete": true,
+        "methodologyUrl": "https://cursor.com/cursorbench",
+        "notes": [
+          "Cursor applies published input, cache-read, cache-write and output token prices to observed task usage. This is a source-reported usage estimate, not an invoice or an all-in operating cost.",
+          "The published score and cost are rounded and belong to this exact reasoning-effort configuration."
+        ]
+      },
+      "extra": {
+        "tokensPerTask": 39564,
+        "stepsPerTask": 96
+      }
+    },
+    {
+      "rawName": "Sonnet 5.5 High",
+      "score": 47.8,
+      "variant": "High",
+      "harness": "Cursor · CursorBench 4.0",
+      "url": "https://cursor.com/cursorbench",
+      "runId": "cursorbench-4.0:Sonnet 5.5 High",
+      "cost": {
+        "usd": 1.2,
+        "upperBound": false,
+        "statistic": "mean",
+        "sourceUrl": "https://cursor.com/cursorbench",
+        "fetchedAt": "2026-10-28T20:27:01.214Z",
+        "scope": "CursorBench 4.0 · average model token cost per task",
+        "currency": "USD",
+        "unit": "task",
+        "method": "usage-estimate",
+        "complete": true,
+        "methodologyUrl": "https://cursor.com/cursorbench",
+        "notes": [
+          "Cursor applies published input, cache-read, cache-write and output token prices to observed task usage. This is a source-reported usage estimate, not an invoice or an all-in operating cost.",
+          "The published score and cost are rounded and belong to this exact reasoning-effort configuration."
+        ]
+      },
+      "extra": {
+        "tokensPerTask": 37391,
+        "stepsPerTask": 41
+      }
+    },
+    {
+      "rawName": "DeepSeek V4.1 Flash 1017 Max",
+      "score": 47.7,
+      "variant": "Max",
+      "harness": "Cursor · CursorBench 4.0",
+      "url": "https://cursor.com/cursorbench",
+      "runId": "cursorbench-4.0:DeepSeek V4.1 Flash 1017 Max",
+      "cost": {
+        "usd": 0.98,
+        "upperBound": false,
+        "statistic": "mean",
+        "sourceUrl": "https://cursor.com/cursorbench",
+        "fetchedAt": "2026-10-28T20:27:01.214Z",
+        "scope": "CursorBench 4.0 · average model token cost per task",
+        "currency": "USD",
+        "unit": "task",
+        "method": "usage-estimate",
+        "complete": true,
+        "methodologyUrl": "https://cursor.com/cursorbench",
+        "notes": [
+          "Cursor applies published input, cache-read, cache-write and output token prices to observed task usage. This is a source-reported usage estimate, not an invoice or an all-in operating cost.",
+          "The published score and cost are rounded and belong to this exact reasoning-effort configuration."
+        ]
+      },
+      "extra": {
+        "tokensPerTask": 537047,
+        "stepsPerTask": 187
+      }
+    },
+    {
+      "rawName": "Fable 5.1 Medium",
+      "score": 46.8,
+      "variant": "Medium",
+      "harness": "Cursor · CursorBench 4.0",
+      "url": "https://cursor.com/cursorbench",
+      "runId": "cursorbench-4.0:Fable 5.1 Medium",
+      "cost": {
+        "usd": 7.05,
+        "upperBound": false,
+        "statistic": "mean",
+        "sourceUrl": "https://cursor.com/cursorbench",
+        "fetchedAt": "2026-10-28T20:27:01.214Z",
+        "scope": "CursorBench 4.0 · average model token cost per task",
+        "currency": "USD",
+        "unit": "task",
+        "method": "usage-estimate",
+        "complete": true,
+        "methodologyUrl": "https://cursor.com/cursorbench",
+        "notes": [
+          "Cursor applies published input, cache-read, cache-write and output token prices to observed task usage. This is a source-reported usage estimate, not an invoice or an all-in operating cost.",
+          "The published score and cost are rounded and belong to this exact reasoning-effort configuration."
+        ]
+      },
+      "extra": {
+        "tokensPerTask": 45411,
+        "stepsPerTask": 63
+      }
+    },
+    {
+      "rawName": "Opus 5 Max",
+      "score": 46.6,
+      "variant": "Max",
+      "harness": "Cursor · CursorBench 4.0",
+      "url": "https://cursor.com/cursorbench",
+      "runId": "cursorbench-4.0:Opus 5 Max",
+      "cost": {
+        "usd": 11.95,
+        "upperBound": false,
+        "statistic": "mean",
+        "sourceUrl": "https://cursor.com/cursorbench",
+        "fetchedAt": "2026-10-28T20:27:01.214Z",
+        "scope": "CursorBench 4.0 · average model token cost per task",
+        "currency": "USD",
+        "unit": "task",
+        "method": "usage-estimate",
+        "complete": true,
+        "methodologyUrl": "https://cursor.com/cursorbench",
+        "notes": [
+          "Cursor applies published input, cache-read, cache-write and output token prices to observed task usage. This is a source-reported usage estimate, not an invoice or an all-in operating cost.",
+          "The published score and cost are rounded and belong to this exact reasoning-effort configuration."
+        ]
+      },
+      "extra": {
+        "tokensPerTask": 85384,
+        "stepsPerTask": 106
+      }
+    },
+    {
+      "rawName": "Grok 4.7 Extra High",
+      "score": 46.3,
+      "variant": "Extra High",
+      "harness": "Cursor · CursorBench 4.0",
+      "url": "https://cursor.com/cursorbench",
+      "runId": "cursorbench-4.0:Grok 4.7 Extra High",
+      "cost": {
+        "usd": 6.01,
+        "upperBound": false,
+        "statistic": "mean",
+        "sourceUrl": "https://cursor.com/cursorbench",
+        "fetchedAt": "2026-10-28T20:27:01.214Z",
+        "scope": "CursorBench 4.0 · average model token cost per task",
+        "currency": "USD",
+        "unit": "task",
+        "method": "usage-estimate",
+        "complete": true,
+        "methodologyUrl": "https://cursor.com/cursorbench",
+        "notes": [
+          "Cursor applies published input, cache-read, cache-write and output token prices to observed task usage. This is a source-reported usage estimate, not an invoice or an all-in operating cost.",
+          "The published score and cost are rounded and belong to this exact reasoning-effort configuration."
+        ]
+      },
+      "extra": {
+        "tokensPerTask": 70141,
+        "stepsPerTask": 88
+      }
+    },
+    {
+      "rawName": "DeepSeek V4.1 Flash 1017 Medium",
+      "score": 46.3,
+      "variant": "Medium",
+      "harness": "Cursor · CursorBench 4.0",
+      "url": "https://cursor.com/cursorbench",
+      "runId": "cursorbench-4.0:DeepSeek V4.1 Flash 1017 Medium",
+      "cost": {
+        "usd": 0.8,
+        "upperBound": false,
+        "statistic": "mean",
+        "sourceUrl": "https://cursor.com/cursorbench",
+        "fetchedAt": "2026-10-28T20:27:01.214Z",
+        "scope": "CursorBench 4.0 · average model token cost per task",
+        "currency": "USD",
+        "unit": "task",
+        "method": "usage-estimate",
+        "complete": true,
+        "methodologyUrl": "https://cursor.com/cursorbench",
+        "notes": [
+          "Cursor applies published input, cache-read, cache-write and output token prices to observed task usage. This is a source-reported usage estimate, not an invoice or an all-in operating cost.",
+          "The published score and cost are rounded and belong to this exact reasoning-effort configuration."
+        ]
+      },
+      "extra": {
+        "tokensPerTask": 398255,
+        "stepsPerTask": 189
+      }
+    },
+    {
+      "rawName": "Opus 5 Extra High",
+      "score": 46.1,
+      "variant": "Extra High",
+      "harness": "Cursor · CursorBench 4.0",
+      "url": "https://cursor.com/cursorbench",
+      "runId": "cursorbench-4.0:Opus 5 Extra High",
+      "cost": {
+        "usd": 11.43,
+        "upperBound": false,
+        "statistic": "mean",
+        "sourceUrl": "https://cursor.com/cursorbench",
+        "fetchedAt": "2026-10-28T20:27:01.214Z",
+        "scope": "CursorBench 4.0 · average model token cost per task",
+        "currency": "USD",
+        "unit": "task",
+        "method": "usage-estimate",
+        "complete": true,
+        "methodologyUrl": "https://cursor.com/cursorbench",
+        "notes": [
+          "Cursor applies published input, cache-read, cache-write and output token prices to observed task usage. This is a source-reported usage estimate, not an invoice or an all-in operating cost.",
+          "The published score and cost are rounded and belong to this exact reasoning-effort configuration."
+        ]
+      },
+      "extra": {
+        "tokensPerTask": 80094,
+        "stepsPerTask": 103
+      }
+    },
+    {
+      "rawName": "Muse Wonder High",
+      "score": 46.1,
+      "variant": "High",
+      "harness": "Cursor · CursorBench 4.0",
+      "url": "https://cursor.com/cursorbench",
+      "runId": "cursorbench-4.0:Muse Wonder High",
+      "cost": {
+        "usd": 3.51,
+        "upperBound": false,
+        "statistic": "mean",
+        "sourceUrl": "https://cursor.com/cursorbench",
+        "fetchedAt": "2026-10-28T20:27:01.214Z",
+        "scope": "CursorBench 4.0 · average model token cost per task",
+        "currency": "USD",
+        "unit": "task",
+        "method": "usage-estimate",
+        "complete": true,
+        "methodologyUrl": "https://cursor.com/cursorbench",
+        "notes": [
+          "Cursor applies published input, cache-read, cache-write and output token prices to observed task usage. This is a source-reported usage estimate, not an invoice or an all-in operating cost.",
+          "The published score and cost are rounded and belong to this exact reasoning-effort configuration."
+        ]
+      },
+      "extra": {
+        "tokensPerTask": 33612,
+        "stepsPerTask": 84
+      }
+    },
+    {
+      "rawName": "DeepSeek V4.1 Flash 1017 High",
+      "score": 45.6,
+      "variant": "High",
+      "harness": "Cursor · CursorBench 4.0",
+      "url": "https://cursor.com/cursorbench",
+      "runId": "cursorbench-4.0:DeepSeek V4.1 Flash 1017 High",
+      "cost": {
+        "usd": 0.77,
+        "upperBound": false,
+        "statistic": "mean",
+        "sourceUrl": "https://cursor.com/cursorbench",
+        "fetchedAt": "2026-10-28T20:27:01.214Z",
+        "scope": "CursorBench 4.0 · average model token cost per task",
+        "currency": "USD",
+        "unit": "task",
+        "method": "usage-estimate",
+        "complete": true,
+        "methodologyUrl": "https://cursor.com/cursorbench",
+        "notes": [
+          "Cursor applies published input, cache-read, cache-write and output token prices to observed task usage. This is a source-reported usage estimate, not an invoice or an all-in operating cost.",
+          "The published score and cost are rounded and belong to this exact reasoning-effort configuration."
+        ]
+      },
+      "extra": {
+        "tokensPerTask": 385196,
+        "stepsPerTask": 186
+      }
+    },
+    {
+      "rawName": "Muse Wonder Medium",
+      "score": 45.2,
+      "variant": "Medium",
+      "harness": "Cursor · CursorBench 4.0",
+      "url": "https://cursor.com/cursorbench",
+      "runId": "cursorbench-4.0:Muse Wonder Medium",
+      "cost": {
+        "usd": 2.82,
+        "upperBound": false,
+        "statistic": "mean",
+        "sourceUrl": "https://cursor.com/cursorbench",
+        "fetchedAt": "2026-10-28T20:27:01.214Z",
+        "scope": "CursorBench 4.0 · average model token cost per task",
+        "currency": "USD",
+        "unit": "task",
+        "method": "usage-estimate",
+        "complete": true,
+        "methodologyUrl": "https://cursor.com/cursorbench",
+        "notes": [
+          "Cursor applies published input, cache-read, cache-write and output token prices to observed task usage. This is a source-reported usage estimate, not an invoice or an all-in operating cost.",
+          "The published score and cost are rounded and belong to this exact reasoning-effort configuration."
+        ]
+      },
+      "extra": {
+        "tokensPerTask": 27124,
+        "stepsPerTask": 75
+      }
+    },
+    {
+      "rawName": "Fable 5.1 Low",
+      "score": 45.1,
+      "variant": "Low",
+      "harness": "Cursor · CursorBench 4.0",
+      "url": "https://cursor.com/cursorbench",
+      "runId": "cursorbench-4.0:Fable 5.1 Low",
+      "cost": {
+        "usd": 5.44,
+        "upperBound": false,
+        "statistic": "mean",
+        "sourceUrl": "https://cursor.com/cursorbench",
+        "fetchedAt": "2026-10-28T20:27:01.214Z",
+        "scope": "CursorBench 4.0 · average model token cost per task",
+        "currency": "USD",
+        "unit": "task",
+        "method": "usage-estimate",
+        "complete": true,
+        "methodologyUrl": "https://cursor.com/cursorbench",
+        "notes": [
+          "Cursor applies published input, cache-read, cache-write and output token prices to observed task usage. This is a source-reported usage estimate, not an invoice or an all-in operating cost.",
+          "The published score and cost are rounded and belong to this exact reasoning-effort configuration."
+        ]
+      },
+      "extra": {
+        "tokensPerTask": 34795,
+        "stepsPerTask": 51
+      }
+    },
+    {
+      "rawName": "DeepSeek V4.1 Flash 1017 Low",
+      "score": 44.9,
+      "variant": "Low",
+      "harness": "Cursor · CursorBench 4.0",
+      "url": "https://cursor.com/cursorbench",
+      "runId": "cursorbench-4.0:DeepSeek V4.1 Flash 1017 Low",
+      "cost": {
+        "usd": 0.6,
+        "upperBound": false,
+        "statistic": "mean",
+        "sourceUrl": "https://cursor.com/cursorbench",
+        "fetchedAt": "2026-10-28T20:27:01.214Z",
+        "scope": "CursorBench 4.0 · average model token cost per task",
+        "currency": "USD",
+        "unit": "task",
+        "method": "usage-estimate",
+        "complete": true,
+        "methodologyUrl": "https://cursor.com/cursorbench",
+        "notes": [
+          "Cursor applies published input, cache-read, cache-write and output token prices to observed task usage. This is a source-reported usage estimate, not an invoice or an all-in operating cost.",
+          "The published score and cost are rounded and belong to this exact reasoning-effort configuration."
+        ]
+      },
+      "extra": {
+        "tokensPerTask": 290651,
+        "stepsPerTask": 161
+      }
+    },
+    {
+      "rawName": "Opus 5 High",
+      "score": 44.7,
+      "variant": "High",
+      "harness": "Cursor · CursorBench 4.0",
+      "url": "https://cursor.com/cursorbench",
+      "runId": "cursorbench-4.0:Opus 5 High",
+      "cost": {
+        "usd": 9,
+        "upperBound": false,
+        "statistic": "mean",
+        "sourceUrl": "https://cursor.com/cursorbench",
+        "fetchedAt": "2026-10-28T20:27:01.214Z",
+        "scope": "CursorBench 4.0 · average model token cost per task",
+        "currency": "USD",
+        "unit": "task",
+        "method": "usage-estimate",
+        "complete": true,
+        "methodologyUrl": "https://cursor.com/cursorbench",
+        "notes": [
+          "Cursor applies published input, cache-read, cache-write and output token prices to observed task usage. This is a source-reported usage estimate, not an invoice or an all-in operating cost.",
+          "The published score and cost are rounded and belong to this exact reasoning-effort configuration."
+        ]
+      },
+      "extra": {
+        "tokensPerTask": 61405,
+        "stepsPerTask": 86
+      }
+    },
+    {
+      "rawName": "Haiku 5.5 Extra High",
+      "score": 44.3,
+      "variant": "Extra High",
+      "harness": "Cursor · CursorBench 4.0",
+      "url": "https://cursor.com/cursorbench",
+      "runId": "cursorbench-4.0:Haiku 5.5 Extra High",
+      "cost": {
+        "usd": 0.56,
+        "upperBound": false,
+        "statistic": "mean",
+        "sourceUrl": "https://cursor.com/cursorbench",
+        "fetchedAt": "2026-10-28T20:27:01.214Z",
+        "scope": "CursorBench 4.0 · average model token cost per task",
+        "currency": "USD",
+        "unit": "task",
+        "method": "usage-estimate",
+        "complete": true,
+        "methodologyUrl": "https://cursor.com/cursorbench",
+        "notes": [
+          "Cursor applies published input, cache-read, cache-write and output token prices to observed task usage. This is a source-reported usage estimate, not an invoice or an all-in operating cost.",
+          "The published score and cost are rounded and belong to this exact reasoning-effort configuration."
+        ]
+      },
+      "extra": {
+        "tokensPerTask": 143813,
+        "stepsPerTask": 93
+      }
+    },
+    {
+      "rawName": "Grok 4.7 High",
+      "score": 43.9,
+      "variant": "High",
+      "harness": "Cursor · CursorBench 4.0",
+      "url": "https://cursor.com/cursorbench",
+      "runId": "cursorbench-4.0:Grok 4.7 High",
+      "cost": {
+        "usd": 4.69,
+        "upperBound": false,
+        "statistic": "mean",
+        "sourceUrl": "https://cursor.com/cursorbench",
+        "fetchedAt": "2026-10-28T20:27:01.214Z",
+        "scope": "CursorBench 4.0 · average model token cost per task",
+        "currency": "USD",
+        "unit": "task",
+        "method": "usage-estimate",
+        "complete": true,
+        "methodologyUrl": "https://cursor.com/cursorbench",
+        "notes": [
+          "Cursor applies published input, cache-read, cache-write and output token prices to observed task usage. This is a source-reported usage estimate, not an invoice or an all-in operating cost.",
+          "The published score and cost are rounded and belong to this exact reasoning-effort configuration."
+        ]
+      },
+      "extra": {
+        "tokensPerTask": 56382,
+        "stepsPerTask": 71
+      }
+    },
+    {
+      "rawName": "Opus 5.5 Low",
+      "score": 43.7,
+      "variant": "Low",
+      "harness": "Cursor · CursorBench 4.0",
+      "url": "https://cursor.com/cursorbench",
+      "runId": "cursorbench-4.0:Opus 5.5 Low",
+      "cost": {
+        "usd": 1.17,
+        "upperBound": false,
+        "statistic": "mean",
+        "sourceUrl": "https://cursor.com/cursorbench",
+        "fetchedAt": "2026-10-28T20:27:01.214Z",
+        "scope": "CursorBench 4.0 · average model token cost per task",
+        "currency": "USD",
+        "unit": "task",
+        "method": "usage-estimate",
+        "complete": true,
+        "methodologyUrl": "https://cursor.com/cursorbench",
+        "notes": [
+          "Cursor applies published input, cache-read, cache-write and output token prices to observed task usage. This is a source-reported usage estimate, not an invoice or an all-in operating cost.",
+          "The published score and cost are rounded and belong to this exact reasoning-effort configuration."
+        ]
+      },
+      "extra": {
+        "tokensPerTask": 15811,
+        "stepsPerTask": 28
+      }
+    },
+    {
+      "rawName": "Opus 5 Medium",
+      "score": 43.3,
+      "variant": "Medium",
+      "harness": "Cursor · CursorBench 4.0",
+      "url": "https://cursor.com/cursorbench",
+      "runId": "cursorbench-4.0:Opus 5 Medium",
+      "cost": {
+        "usd": 6.94,
+        "upperBound": false,
+        "statistic": "mean",
+        "sourceUrl": "https://cursor.com/cursorbench",
+        "fetchedAt": "2026-10-28T20:27:01.214Z",
+        "scope": "CursorBench 4.0 · average model token cost per task",
+        "currency": "USD",
+        "unit": "task",
+        "method": "usage-estimate",
+        "complete": true,
+        "methodologyUrl": "https://cursor.com/cursorbench",
+        "notes": [
+          "Cursor applies published input, cache-read, cache-write and output token prices to observed task usage. This is a source-reported usage estimate, not an invoice or an all-in operating cost.",
+          "The published score and cost are rounded and belong to this exact reasoning-effort configuration."
+        ]
+      },
+      "extra": {
+        "tokensPerTask": 45272,
+        "stepsPerTask": 72
+      }
+    },
+    {
+      "rawName": "GLM 5.3 Max",
+      "score": 42.6,
+      "variant": "Max",
+      "harness": "Cursor · CursorBench 4.0",
+      "url": "https://cursor.com/cursorbench",
+      "runId": "cursorbench-4.0:GLM 5.3 Max",
+      "cost": {
+        "usd": 5.05,
+        "upperBound": false,
+        "statistic": "mean",
+        "sourceUrl": "https://cursor.com/cursorbench",
+        "fetchedAt": "2026-10-28T20:27:01.214Z",
+        "scope": "CursorBench 4.0 · average model token cost per task",
+        "currency": "USD",
+        "unit": "task",
+        "method": "usage-estimate",
+        "complete": true,
+        "methodologyUrl": "https://cursor.com/cursorbench",
+        "notes": [
+          "Cursor applies published input, cache-read, cache-write and output token prices to observed task usage. This is a source-reported usage estimate, not an invoice or an all-in operating cost.",
+          "The published score and cost are rounded and belong to this exact reasoning-effort configuration."
+        ]
+      },
+      "extra": {
+        "tokensPerTask": 96387,
+        "stepsPerTask": 166
+      }
+    },
+    {
+      "rawName": "Haiku 5.5 High",
+      "score": 42.3,
+      "variant": "High",
+      "harness": "Cursor · CursorBench 4.0",
+      "url": "https://cursor.com/cursorbench",
+      "runId": "cursorbench-4.0:Haiku 5.5 High",
+      "cost": {
+        "usd": 0.32,
+        "upperBound": false,
+        "statistic": "mean",
+        "sourceUrl": "https://cursor.com/cursorbench",
+        "fetchedAt": "2026-10-28T20:27:01.214Z",
+        "scope": "CursorBench 4.0 · average model token cost per task",
+        "currency": "USD",
+        "unit": "task",
+        "method": "usage-estimate",
+        "complete": true,
+        "methodologyUrl": "https://cursor.com/cursorbench",
+        "notes": [
+          "Cursor applies published input, cache-read, cache-write and output token prices to observed task usage. This is a source-reported usage estimate, not an invoice or an all-in operating cost.",
+          "The published score and cost are rounded and belong to this exact reasoning-effort configuration."
+        ]
+      },
+      "extra": {
+        "tokensPerTask": 77057,
+        "stepsPerTask": 59
+      }
+    },
+    {
+      "rawName": "GPT-5.6 Sol Max",
+      "score": 41.7,
+      "variant": "Max",
+      "harness": "Cursor · CursorBench 4.0",
+      "url": "https://cursor.com/cursorbench",
+      "runId": "cursorbench-4.0:GPT-5.6 Sol Max",
+      "cost": {
+        "usd": 8.23,
+        "upperBound": false,
+        "statistic": "mean",
+        "sourceUrl": "https://cursor.com/cursorbench",
+        "fetchedAt": "2026-10-28T20:27:01.214Z",
+        "scope": "CursorBench 4.0 · average model token cost per task",
+        "currency": "USD",
+        "unit": "task",
+        "method": "usage-estimate",
+        "complete": true,
+        "methodologyUrl": "https://cursor.com/cursorbench",
+        "notes": [
+          "Cursor applies published input, cache-read, cache-write and output token prices to observed task usage. This is a source-reported usage estimate, not an invoice or an all-in operating cost.",
+          "The published score and cost are rounded and belong to this exact reasoning-effort configuration."
+        ]
+      },
+      "extra": {
+        "tokensPerTask": 42944,
+        "stepsPerTask": 99
+      }
+    },
+    {
+      "rawName": "Muse Wonder Low",
+      "score": 41.7,
+      "variant": "Low",
+      "harness": "Cursor · CursorBench 4.0",
+      "url": "https://cursor.com/cursorbench",
+      "runId": "cursorbench-4.0:Muse Wonder Low",
+      "cost": {
+        "usd": 1.91,
+        "upperBound": false,
+        "statistic": "mean",
+        "sourceUrl": "https://cursor.com/cursorbench",
+        "fetchedAt": "2026-10-28T20:27:01.214Z",
+        "scope": "CursorBench 4.0 · average model token cost per task",
+        "currency": "USD",
+        "unit": "task",
+        "method": "usage-estimate",
+        "complete": true,
+        "methodologyUrl": "https://cursor.com/cursorbench",
+        "notes": [
+          "Cursor applies published input, cache-read, cache-write and output token prices to observed task usage. This is a source-reported usage estimate, not an invoice or an all-in operating cost.",
+          "The published score and cost are rounded and belong to this exact reasoning-effort configuration."
+        ]
+      },
+      "extra": {
+        "tokensPerTask": 18880,
+        "stepsPerTask": 56
+      }
+    },
+    {
+      "rawName": "Grok 4.7 Medium",
+      "score": 41.6,
+      "variant": "Medium",
+      "harness": "Cursor · CursorBench 4.0",
+      "url": "https://cursor.com/cursorbench",
+      "runId": "cursorbench-4.0:Grok 4.7 Medium",
+      "cost": {
+        "usd": 3.49,
+        "upperBound": false,
+        "statistic": "mean",
+        "sourceUrl": "https://cursor.com/cursorbench",
+        "fetchedAt": "2026-10-28T20:27:01.214Z",
+        "scope": "CursorBench 4.0 · average model token cost per task",
+        "currency": "USD",
+        "unit": "task",
+        "method": "usage-estimate",
+        "complete": true,
+        "methodologyUrl": "https://cursor.com/cursorbench",
+        "notes": [
+          "Cursor applies published input, cache-read, cache-write and output token prices to observed task usage. This is a source-reported usage estimate, not an invoice or an all-in operating cost.",
+          "The published score and cost are rounded and belong to this exact reasoning-effort configuration."
+        ]
+      },
+      "extra": {
+        "tokensPerTask": 36683,
+        "stepsPerTask": 60
+      }
+    },
+    {
+      "rawName": "Muse Spark 1.3 Max",
+      "score": 41.6,
+      "variant": "Max",
+      "harness": "Cursor · CursorBench 4.0",
+      "url": "https://cursor.com/cursorbench",
+      "runId": "cursorbench-4.0:Muse Spark 1.3 Max",
+      "cost": {
+        "usd": 2.64,
+        "upperBound": false,
+        "statistic": "mean",
+        "sourceUrl": "https://cursor.com/cursorbench",
+        "fetchedAt": "2026-10-28T20:27:01.214Z",
+        "scope": "CursorBench 4.0 · average model token cost per task",
+        "currency": "USD",
+        "unit": "task",
+        "method": "usage-estimate",
+        "complete": true,
+        "methodologyUrl": "https://cursor.com/cursorbench",
+        "notes": [
+          "Cursor applies published input, cache-read, cache-write and output token prices to observed task usage. This is a source-reported usage estimate, not an invoice or an all-in operating cost.",
+          "The published score and cost are rounded and belong to this exact reasoning-effort configuration."
+        ]
+      },
+      "extra": {
+        "tokensPerTask": 52005,
+        "stepsPerTask": 98
+      }
+    },
+    {
+      "rawName": "Grok 4.6 Extra High",
+      "score": 41.4,
+      "variant": "Extra High",
+      "harness": "Cursor · CursorBench 4.0",
+      "url": "https://cursor.com/cursorbench",
+      "runId": "cursorbench-4.0:Grok 4.6 Extra High",
+      "cost": {
+        "usd": 6.1,
+        "upperBound": false,
+        "statistic": "mean",
+        "sourceUrl": "https://cursor.com/cursorbench",
+        "fetchedAt": "2026-10-28T20:27:01.214Z",
+        "scope": "CursorBench 4.0 · average model token cost per task",
+        "currency": "USD",
+        "unit": "task",
+        "method": "usage-estimate",
+        "complete": true,
+        "methodologyUrl": "https://cursor.com/cursorbench",
+        "notes": [
+          "Cursor applies published input, cache-read, cache-write and output token prices to observed task usage. This is a source-reported usage estimate, not an invoice or an all-in operating cost.",
+          "The published score and cost are rounded and belong to this exact reasoning-effort configuration."
+        ]
+      },
+      "extra": {
+        "tokensPerTask": 49814,
+        "stepsPerTask": 56
+      }
+    },
+    {
+      "rawName": "GPT-5.6 Terra Max",
+      "score": 41.3,
+      "variant": "Max",
+      "harness": "Cursor · CursorBench 4.0",
+      "url": "https://cursor.com/cursorbench",
+      "runId": "cursorbench-4.0:GPT-5.6 Terra Max",
+      "cost": {
+        "usd": 5.14,
+        "upperBound": false,
+        "statistic": "mean",
+        "sourceUrl": "https://cursor.com/cursorbench",
+        "fetchedAt": "2026-10-28T20:27:01.214Z",
+        "scope": "CursorBench 4.0 · average model token cost per task",
+        "currency": "USD",
+        "unit": "task",
+        "method": "usage-estimate",
+        "complete": true,
+        "methodologyUrl": "https://cursor.com/cursorbench",
+        "notes": [
+          "Cursor applies published input, cache-read, cache-write and output token prices to observed task usage. This is a source-reported usage estimate, not an invoice or an all-in operating cost.",
+          "The published score and cost are rounded and belong to this exact reasoning-effort configuration."
+        ]
+      },
+      "extra": {
+        "tokensPerTask": 60814,
+        "stepsPerTask": 107
+      }
+    },
+    {
+      "rawName": "Opus 5 Low",
+      "score": 40.7,
+      "variant": "Low",
+      "harness": "Cursor · CursorBench 4.0",
+      "url": "https://cursor.com/cursorbench",
+      "runId": "cursorbench-4.0:Opus 5 Low",
+      "cost": {
+        "usd": 4.87,
+        "upperBound": false,
+        "statistic": "mean",
+        "sourceUrl": "https://cursor.com/cursorbench",
+        "fetchedAt": "2026-10-28T20:27:01.214Z",
+        "scope": "CursorBench 4.0 · average model token cost per task",
+        "currency": "USD",
+        "unit": "task",
+        "method": "usage-estimate",
+        "complete": true,
+        "methodologyUrl": "https://cursor.com/cursorbench",
+        "notes": [
+          "Cursor applies published input, cache-read, cache-write and output token prices to observed task usage. This is a source-reported usage estimate, not an invoice or an all-in operating cost.",
+          "The published score and cost are rounded and belong to this exact reasoning-effort configuration."
+        ]
+      },
+      "extra": {
+        "tokensPerTask": 31995,
+        "stepsPerTask": 57
+      }
+    },
+    {
+      "rawName": "Grok 4.6 High",
+      "score": 40.4,
+      "variant": "High",
+      "harness": "Cursor · CursorBench 4.0",
+      "url": "https://cursor.com/cursorbench",
+      "runId": "cursorbench-4.0:Grok 4.6 High",
+      "cost": {
+        "usd": 5.2,
+        "upperBound": false,
+        "statistic": "mean",
+        "sourceUrl": "https://cursor.com/cursorbench",
+        "fetchedAt": "2026-10-28T20:27:01.214Z",
+        "scope": "CursorBench 4.0 · average model token cost per task",
+        "currency": "USD",
+        "unit": "task",
+        "method": "usage-estimate",
+        "complete": true,
+        "methodologyUrl": "https://cursor.com/cursorbench",
+        "notes": [
+          "Cursor applies published input, cache-read, cache-write and output token prices to observed task usage. This is a source-reported usage estimate, not an invoice or an all-in operating cost.",
+          "The published score and cost are rounded and belong to this exact reasoning-effort configuration."
+        ]
+      },
+      "extra": {
+        "tokensPerTask": 41387,
+        "stepsPerTask": 48
+      }
+    },
+    {
+      "rawName": "Gemini 3.8 Flash High",
+      "score": 39.6,
+      "variant": "High",
+      "harness": "Cursor · CursorBench 4.0",
+      "url": "https://cursor.com/cursorbench",
+      "runId": "cursorbench-4.0:Gemini 3.8 Flash High",
+      "cost": {
+        "usd": 4.7,
+        "upperBound": false,
+        "statistic": "mean",
+        "sourceUrl": "https://cursor.com/cursorbench",
+        "fetchedAt": "2026-10-28T20:27:01.214Z",
+        "scope": "CursorBench 4.0 · average model token cost per task",
+        "currency": "USD",
+        "unit": "task",
+        "method": "usage-estimate",
+        "complete": true,
+        "methodologyUrl": "https://cursor.com/cursorbench",
+        "notes": [
+          "Cursor applies published input, cache-read, cache-write and output token prices to observed task usage. This is a source-reported usage estimate, not an invoice or an all-in operating cost.",
+          "The published score and cost are rounded and belong to this exact reasoning-effort configuration."
+        ]
+      },
+      "extra": {
+        "tokensPerTask": 162565,
+        "stepsPerTask": 324
+      }
+    },
+    {
+      "rawName": "Sonnet 5.5 Medium",
+      "score": 39.2,
+      "variant": "Medium",
+      "harness": "Cursor · CursorBench 4.0",
+      "url": "https://cursor.com/cursorbench",
+      "runId": "cursorbench-4.0:Sonnet 5.5 Medium",
+      "cost": {
+        "usd": 0.52,
+        "upperBound": false,
+        "statistic": "mean",
+        "sourceUrl": "https://cursor.com/cursorbench",
+        "fetchedAt": "2026-10-28T20:27:01.214Z",
+        "scope": "CursorBench 4.0 · average model token cost per task",
+        "currency": "USD",
+        "unit": "task",
+        "method": "usage-estimate",
+        "complete": true,
+        "methodologyUrl": "https://cursor.com/cursorbench",
+        "notes": [
+          "Cursor applies published input, cache-read, cache-write and output token prices to observed task usage. This is a source-reported usage estimate, not an invoice or an all-in operating cost.",
+          "The published score and cost are rounded and belong to this exact reasoning-effort configuration."
+        ]
+      },
+      "extra": {
+        "tokensPerTask": 16036,
+        "stepsPerTask": 22
+      }
+    },
+    {
+      "rawName": "GLM 5.3 High",
+      "score": 38,
+      "variant": "High",
+      "harness": "Cursor · CursorBench 4.0",
+      "url": "https://cursor.com/cursorbench",
+      "runId": "cursorbench-4.0:GLM 5.3 High",
+      "cost": {
+        "usd": 3.24,
+        "upperBound": false,
+        "statistic": "mean",
+        "sourceUrl": "https://cursor.com/cursorbench",
+        "fetchedAt": "2026-10-28T20:27:01.214Z",
+        "scope": "CursorBench 4.0 · average model token cost per task",
+        "currency": "USD",
+        "unit": "task",
+        "method": "usage-estimate",
+        "complete": true,
+        "methodologyUrl": "https://cursor.com/cursorbench",
+        "notes": [
+          "Cursor applies published input, cache-read, cache-write and output token prices to observed task usage. This is a source-reported usage estimate, not an invoice or an all-in operating cost.",
+          "The published score and cost are rounded and belong to this exact reasoning-effort configuration."
+        ]
+      },
+      "extra": {
+        "tokensPerTask": 60031,
+        "stepsPerTask": 114
+      }
+    },
+    {
+      "rawName": "GPT-5.6 Sol Extra High",
+      "score": 37.7,
+      "variant": "Extra High",
+      "harness": "Cursor · CursorBench 4.0",
+      "url": "https://cursor.com/cursorbench",
+      "runId": "cursorbench-4.0:GPT-5.6 Sol Extra High",
+      "cost": {
+        "usd": 4.4,
+        "upperBound": false,
+        "statistic": "mean",
+        "sourceUrl": "https://cursor.com/cursorbench",
+        "fetchedAt": "2026-10-28T20:27:01.214Z",
+        "scope": "CursorBench 4.0 · average model token cost per task",
+        "currency": "USD",
+        "unit": "task",
+        "method": "usage-estimate",
+        "complete": true,
+        "methodologyUrl": "https://cursor.com/cursorbench",
+        "notes": [
+          "Cursor applies published input, cache-read, cache-write and output token prices to observed task usage. This is a source-reported usage estimate, not an invoice or an all-in operating cost.",
+          "The published score and cost are rounded and belong to this exact reasoning-effort configuration."
+        ]
+      },
+      "extra": {
+        "tokensPerTask": 24729,
+        "stepsPerTask": 55
+      }
+    },
+    {
+      "rawName": "Muse Spark 1.3 Extra High",
+      "score": 37.5,
+      "variant": "Extra High",
+      "harness": "Cursor · CursorBench 4.0",
+      "url": "https://cursor.com/cursorbench",
+      "runId": "cursorbench-4.0:Muse Spark 1.3 Extra High",
+      "cost": {
+        "usd": 2.1,
+        "upperBound": false,
+        "statistic": "mean",
+        "sourceUrl": "https://cursor.com/cursorbench",
+        "fetchedAt": "2026-10-28T20:27:01.214Z",
+        "scope": "CursorBench 4.0 · average model token cost per task",
+        "currency": "USD",
+        "unit": "task",
+        "method": "usage-estimate",
+        "complete": true,
+        "methodologyUrl": "https://cursor.com/cursorbench",
+        "notes": [
+          "Cursor applies published input, cache-read, cache-write and output token prices to observed task usage. This is a source-reported usage estimate, not an invoice or an all-in operating cost.",
+          "The published score and cost are rounded and belong to this exact reasoning-effort configuration."
+        ]
+      },
+      "extra": {
+        "tokensPerTask": 40891,
+        "stepsPerTask": 83
+      }
+    },
+    {
+      "rawName": "Gemini 3.8 Flash Medium",
+      "score": 37.3,
+      "variant": "Medium",
+      "harness": "Cursor · CursorBench 4.0",
+      "url": "https://cursor.com/cursorbench",
+      "runId": "cursorbench-4.0:Gemini 3.8 Flash Medium",
+      "cost": {
+        "usd": 4.06,
+        "upperBound": false,
+        "statistic": "mean",
+        "sourceUrl": "https://cursor.com/cursorbench",
+        "fetchedAt": "2026-10-28T20:27:01.214Z",
+        "scope": "CursorBench 4.0 · average model token cost per task",
+        "currency": "USD",
+        "unit": "task",
+        "method": "usage-estimate",
+        "complete": true,
+        "methodologyUrl": "https://cursor.com/cursorbench",
+        "notes": [
+          "Cursor applies published input, cache-read, cache-write and output token prices to observed task usage. This is a source-reported usage estimate, not an invoice or an all-in operating cost.",
+          "The published score and cost are rounded and belong to this exact reasoning-effort configuration."
+        ]
+      },
+      "extra": {
+        "tokensPerTask": 128364,
+        "stepsPerTask": 290
+      }
+    },
+    {
+      "rawName": "Haiku 5.5 Medium",
+      "score": 36.9,
+      "variant": "Medium",
+      "harness": "Cursor · CursorBench 4.0",
+      "url": "https://cursor.com/cursorbench",
+      "runId": "cursorbench-4.0:Haiku 5.5 Medium",
+      "cost": {
+        "usd": 0.17,
+        "upperBound": false,
+        "statistic": "mean",
+        "sourceUrl": "https://cursor.com/cursorbench",
+        "fetchedAt": "2026-10-28T20:27:01.214Z",
+        "scope": "CursorBench 4.0 · average model token cost per task",
+        "currency": "USD",
+        "unit": "task",
+        "method": "usage-estimate",
+        "complete": true,
+        "methodologyUrl": "https://cursor.com/cursorbench",
+        "notes": [
+          "Cursor applies published input, cache-read, cache-write and output token prices to observed task usage. This is a source-reported usage estimate, not an invoice or an all-in operating cost.",
+          "The published score and cost are rounded and belong to this exact reasoning-effort configuration."
+        ]
+      },
+      "extra": {
+        "tokensPerTask": 42659,
+        "stepsPerTask": 39
+      }
+    },
+    {
+      "rawName": "GLM 5.3 Flash Max",
+      "score": 36.8,
+      "variant": "Max",
+      "harness": "Cursor · CursorBench 4.0",
+      "url": "https://cursor.com/cursorbench",
+      "runId": "cursorbench-4.0:GLM 5.3 Flash Max",
+      "cost": {
+        "usd": 0.39,
+        "upperBound": false,
+        "statistic": "mean",
+        "sourceUrl": "https://cursor.com/cursorbench",
+        "fetchedAt": "2026-10-28T20:27:01.214Z",
+        "scope": "CursorBench 4.0 · average model token cost per task",
+        "currency": "USD",
+        "unit": "task",
+        "method": "usage-estimate",
+        "complete": true,
+        "methodologyUrl": "https://cursor.com/cursorbench",
+        "notes": [
+          "Cursor applies published input, cache-read, cache-write and output token prices to observed task usage. This is a source-reported usage estimate, not an invoice or an all-in operating cost.",
+          "The published score and cost are rounded and belong to this exact reasoning-effort configuration."
+        ]
+      },
+      "extra": {
+        "tokensPerTask": 56410,
+        "stepsPerTask": 118
+      }
+    },
+    {
+      "rawName": "Grok 4.6 Medium",
+      "score": 36.1,
+      "variant": "Medium",
+      "harness": "Cursor · CursorBench 4.0",
+      "url": "https://cursor.com/cursorbench",
+      "runId": "cursorbench-4.0:Grok 4.6 Medium",
+      "cost": {
+        "usd": 3.48,
+        "upperBound": false,
+        "statistic": "mean",
+        "sourceUrl": "https://cursor.com/cursorbench",
+        "fetchedAt": "2026-10-28T20:27:01.214Z",
+        "scope": "CursorBench 4.0 · average model token cost per task",
+        "currency": "USD",
+        "unit": "task",
+        "method": "usage-estimate",
+        "complete": true,
+        "methodologyUrl": "https://cursor.com/cursorbench",
+        "notes": [
+          "Cursor applies published input, cache-read, cache-write and output token prices to observed task usage. This is a source-reported usage estimate, not an invoice or an all-in operating cost.",
+          "The published score and cost are rounded and belong to this exact reasoning-effort configuration."
+        ]
+      },
+      "extra": {
+        "tokensPerTask": 24893,
+        "stepsPerTask": 40
+      }
+    },
+    {
+      "rawName": "GPT-5.6 Luna Max",
+      "score": 35.9,
+      "variant": "Max",
+      "harness": "Cursor · CursorBench 4.0",
+      "url": "https://cursor.com/cursorbench",
+      "runId": "cursorbench-4.0:GPT-5.6 Luna Max",
+      "cost": {
+        "usd": 1.03,
+        "upperBound": false,
+        "statistic": "mean",
+        "sourceUrl": "https://cursor.com/cursorbench",
+        "fetchedAt": "2026-10-28T20:27:01.214Z",
+        "scope": "CursorBench 4.0 · average model token cost per task",
+        "currency": "USD",
+        "unit": "task",
+        "method": "usage-estimate",
+        "complete": true,
+        "methodologyUrl": "https://cursor.com/cursorbench",
+        "notes": [
+          "Cursor applies published input, cache-read, cache-write and output token prices to observed task usage. This is a source-reported usage estimate, not an invoice or an all-in operating cost.",
+          "The published score and cost are rounded and belong to this exact reasoning-effort configuration."
+        ]
+      },
+      "extra": {
+        "tokensPerTask": 87284,
+        "stepsPerTask": 208
+      }
+    },
+    {
+      "rawName": "Sonnet 5.5 Low",
+      "score": 35.8,
+      "variant": "Low",
+      "harness": "Cursor · CursorBench 4.0",
+      "url": "https://cursor.com/cursorbench",
+      "runId": "cursorbench-4.0:Sonnet 5.5 Low",
+      "cost": {
+        "usd": 0.37,
+        "upperBound": false,
+        "statistic": "mean",
+        "sourceUrl": "https://cursor.com/cursorbench",
+        "fetchedAt": "2026-10-28T20:27:01.214Z",
+        "scope": "CursorBench 4.0 · average model token cost per task",
+        "currency": "USD",
+        "unit": "task",
+        "method": "usage-estimate",
+        "complete": true,
+        "methodologyUrl": "https://cursor.com/cursorbench",
+        "notes": [
+          "Cursor applies published input, cache-read, cache-write and output token prices to observed task usage. This is a source-reported usage estimate, not an invoice or an all-in operating cost.",
+          "The published score and cost are rounded and belong to this exact reasoning-effort configuration."
+        ]
+      },
+      "extra": {
+        "tokensPerTask": 11668,
+        "stepsPerTask": 18
+      }
+    },
+    {
+      "rawName": "GPT-5.6 Sol High",
+      "score": 35.7,
+      "variant": "High",
+      "harness": "Cursor · CursorBench 4.0",
+      "url": "https://cursor.com/cursorbench",
+      "runId": "cursorbench-4.0:GPT-5.6 Sol High",
+      "cost": {
+        "usd": 2.85,
+        "upperBound": false,
+        "statistic": "mean",
+        "sourceUrl": "https://cursor.com/cursorbench",
+        "fetchedAt": "2026-10-28T20:27:01.214Z",
+        "scope": "CursorBench 4.0 · average model token cost per task",
+        "currency": "USD",
+        "unit": "task",
+        "method": "usage-estimate",
+        "complete": true,
+        "methodologyUrl": "https://cursor.com/cursorbench",
+        "notes": [
+          "Cursor applies published input, cache-read, cache-write and output token prices to observed task usage. This is a source-reported usage estimate, not an invoice or an all-in operating cost.",
+          "The published score and cost are rounded and belong to this exact reasoning-effort configuration."
+        ]
+      },
+      "extra": {
+        "tokensPerTask": 16174,
+        "stepsPerTask": 41
+      }
+    },
+    {
+      "rawName": "Muse Wonder Minimal",
+      "score": 34.2,
+      "variant": "Minimal",
+      "harness": "Cursor · CursorBench 4.0",
+      "url": "https://cursor.com/cursorbench",
+      "runId": "cursorbench-4.0:Muse Wonder Minimal",
+      "cost": {
+        "usd": 0.84,
+        "upperBound": false,
+        "statistic": "mean",
+        "sourceUrl": "https://cursor.com/cursorbench",
+        "fetchedAt": "2026-10-28T20:27:01.214Z",
+        "scope": "CursorBench 4.0 · average model token cost per task",
+        "currency": "USD",
+        "unit": "task",
+        "method": "usage-estimate",
+        "complete": true,
+        "methodologyUrl": "https://cursor.com/cursorbench",
+        "notes": [
+          "Cursor applies published input, cache-read, cache-write and output token prices to observed task usage. This is a source-reported usage estimate, not an invoice or an all-in operating cost.",
+          "The published score and cost are rounded and belong to this exact reasoning-effort configuration."
+        ]
+      },
+      "extra": {
+        "tokensPerTask": 9761,
+        "stepsPerTask": 33
+      }
+    },
+    {
+      "rawName": "Sonnet 5 Max",
+      "score": 34.1,
+      "variant": "Max",
+      "harness": "Cursor · CursorBench 4.0",
+      "url": "https://cursor.com/cursorbench",
+      "runId": "cursorbench-4.0:Sonnet 5 Max",
+      "cost": {
+        "usd": 7.17,
+        "upperBound": false,
+        "statistic": "mean",
+        "sourceUrl": "https://cursor.com/cursorbench",
+        "fetchedAt": "2026-10-28T20:27:01.214Z",
+        "scope": "CursorBench 4.0 · average model token cost per task",
+        "currency": "USD",
+        "unit": "task",
+        "method": "usage-estimate",
+        "complete": true,
+        "methodologyUrl": "https://cursor.com/cursorbench",
+        "notes": [
+          "Cursor applies published input, cache-read, cache-write and output token prices to observed task usage. This is a source-reported usage estimate, not an invoice or an all-in operating cost.",
+          "The published score and cost are rounded and belong to this exact reasoning-effort configuration."
+        ]
+      },
+      "extra": {
+        "tokensPerTask": 149257,
+        "stepsPerTask": 140
+      }
+    },
+    {
+      "rawName": "GPT-5.6 Terra Extra High",
+      "score": 33.6,
+      "variant": "Extra High",
+      "harness": "Cursor · CursorBench 4.0",
+      "url": "https://cursor.com/cursorbench",
+      "runId": "cursorbench-4.0:GPT-5.6 Terra Extra High",
+      "cost": {
+        "usd": 1.81,
+        "upperBound": false,
+        "statistic": "mean",
+        "sourceUrl": "https://cursor.com/cursorbench",
+        "fetchedAt": "2026-10-28T20:27:01.214Z",
+        "scope": "CursorBench 4.0 · average model token cost per task",
+        "currency": "USD",
+        "unit": "task",
+        "method": "usage-estimate",
+        "complete": true,
+        "methodologyUrl": "https://cursor.com/cursorbench",
+        "notes": [
+          "Cursor applies published input, cache-read, cache-write and output token prices to observed task usage. This is a source-reported usage estimate, not an invoice or an all-in operating cost.",
+          "The published score and cost are rounded and belong to this exact reasoning-effort configuration."
+        ]
+      },
+      "extra": {
+        "tokensPerTask": 23436,
+        "stepsPerTask": 43
+      }
+    },
+    {
+      "rawName": "Grok 4.6 Low",
+      "score": 33.4,
+      "variant": "Low",
+      "harness": "Cursor · CursorBench 4.0",
+      "url": "https://cursor.com/cursorbench",
+      "runId": "cursorbench-4.0:Grok 4.6 Low",
+      "cost": {
+        "usd": 2.25,
+        "upperBound": false,
+        "statistic": "mean",
+        "sourceUrl": "https://cursor.com/cursorbench",
+        "fetchedAt": "2026-10-28T20:27:01.214Z",
+        "scope": "CursorBench 4.0 · average model token cost per task",
+        "currency": "USD",
+        "unit": "task",
+        "method": "usage-estimate",
+        "complete": true,
+        "methodologyUrl": "https://cursor.com/cursorbench",
+        "notes": [
+          "Cursor applies published input, cache-read, cache-write and output token prices to observed task usage. This is a source-reported usage estimate, not an invoice or an all-in operating cost.",
+          "The published score and cost are rounded and belong to this exact reasoning-effort configuration."
+        ]
+      },
+      "extra": {
+        "tokensPerTask": 16307,
+        "stepsPerTask": 32
+      }
+    },
+    {
+      "rawName": "Muse Spark 1.3 High",
+      "score": 33.4,
+      "variant": "High",
+      "harness": "Cursor · CursorBench 4.0",
+      "url": "https://cursor.com/cursorbench",
+      "runId": "cursorbench-4.0:Muse Spark 1.3 High",
+      "cost": {
+        "usd": 1.66,
+        "upperBound": false,
+        "statistic": "mean",
+        "sourceUrl": "https://cursor.com/cursorbench",
+        "fetchedAt": "2026-10-28T20:27:01.214Z",
+        "scope": "CursorBench 4.0 · average model token cost per task",
+        "currency": "USD",
+        "unit": "task",
+        "method": "usage-estimate",
+        "complete": true,
+        "methodologyUrl": "https://cursor.com/cursorbench",
+        "notes": [
+          "Cursor applies published input, cache-read, cache-write and output token prices to observed task usage. This is a source-reported usage estimate, not an invoice or an all-in operating cost.",
+          "The published score and cost are rounded and belong to this exact reasoning-effort configuration."
+        ]
+      },
+      "extra": {
+        "tokensPerTask": 30654,
+        "stepsPerTask": 69
+      }
+    },
+    {
+      "rawName": "GLM 5.3 Low",
+      "score": 33.3,
+      "variant": "Low",
+      "harness": "Cursor · CursorBench 4.0",
+      "url": "https://cursor.com/cursorbench",
+      "runId": "cursorbench-4.0:GLM 5.3 Low",
+      "cost": {
+        "usd": 2.04,
+        "upperBound": false,
+        "statistic": "mean",
+        "sourceUrl": "https://cursor.com/cursorbench",
+        "fetchedAt": "2026-10-28T20:27:01.214Z",
+        "scope": "CursorBench 4.0 · average model token cost per task",
+        "currency": "USD",
+        "unit": "task",
+        "method": "usage-estimate",
+        "complete": true,
+        "methodologyUrl": "https://cursor.com/cursorbench",
+        "notes": [
+          "Cursor applies published input, cache-read, cache-write and output token prices to observed task usage. This is a source-reported usage estimate, not an invoice or an all-in operating cost.",
+          "The published score and cost are rounded and belong to this exact reasoning-effort configuration."
+        ]
+      },
+      "extra": {
+        "tokensPerTask": 31983,
+        "stepsPerTask": 81
+      }
+    },
+    {
+      "rawName": "Grok 4.7 Low",
+      "score": 33.1,
+      "variant": "Low",
+      "harness": "Cursor · CursorBench 4.0",
+      "url": "https://cursor.com/cursorbench",
+      "runId": "cursorbench-4.0:Grok 4.7 Low",
+      "cost": {
+        "usd": 1.58,
+        "upperBound": false,
+        "statistic": "mean",
+        "sourceUrl": "https://cursor.com/cursorbench",
+        "fetchedAt": "2026-10-28T20:27:01.214Z",
+        "scope": "CursorBench 4.0 · average model token cost per task",
+        "currency": "USD",
+        "unit": "task",
+        "method": "usage-estimate",
+        "complete": true,
+        "methodologyUrl": "https://cursor.com/cursorbench",
+        "notes": [
+          "Cursor applies published input, cache-read, cache-write and output token prices to observed task usage. This is a source-reported usage estimate, not an invoice or an all-in operating cost.",
+          "The published score and cost are rounded and belong to this exact reasoning-effort configuration."
+        ]
+      },
+      "extra": {
+        "tokensPerTask": 15677,
+        "stepsPerTask": 40
+      }
+    },
+    {
+      "rawName": "GPT-5.6 Luna Extra High",
+      "score": 33,
+      "variant": "Extra High",
+      "harness": "Cursor · CursorBench 4.0",
+      "url": "https://cursor.com/cursorbench",
+      "runId": "cursorbench-4.0:GPT-5.6 Luna Extra High",
+      "cost": {
+        "usd": 0.44,
+        "upperBound": false,
+        "statistic": "mean",
+        "sourceUrl": "https://cursor.com/cursorbench",
+        "fetchedAt": "2026-10-28T20:27:01.214Z",
+        "scope": "CursorBench 4.0 · average model token cost per task",
+        "currency": "USD",
+        "unit": "task",
+        "method": "usage-estimate",
+        "complete": true,
+        "methodologyUrl": "https://cursor.com/cursorbench",
+        "notes": [
+          "Cursor applies published input, cache-read, cache-write and output token prices to observed task usage. This is a source-reported usage estimate, not an invoice or an all-in operating cost.",
+          "The published score and cost are rounded and belong to this exact reasoning-effort configuration."
+        ]
+      },
+      "extra": {
+        "tokensPerTask": 40598,
+        "stepsPerTask": 98
+      }
+    },
+    {
+      "rawName": "Muse Spark 1.3 Medium",
+      "score": 32.6,
+      "variant": "Medium",
+      "harness": "Cursor · CursorBench 4.0",
+      "url": "https://cursor.com/cursorbench",
+      "runId": "cursorbench-4.0:Muse Spark 1.3 Medium",
+      "cost": {
+        "usd": 1.49,
+        "upperBound": false,
+        "statistic": "mean",
+        "sourceUrl": "https://cursor.com/cursorbench",
+        "fetchedAt": "2026-10-28T20:27:01.214Z",
+        "scope": "CursorBench 4.0 · average model token cost per task",
+        "currency": "USD",
+        "unit": "task",
+        "method": "usage-estimate",
+        "complete": true,
+        "methodologyUrl": "https://cursor.com/cursorbench",
+        "notes": [
+          "Cursor applies published input, cache-read, cache-write and output token prices to observed task usage. This is a source-reported usage estimate, not an invoice or an all-in operating cost.",
+          "The published score and cost are rounded and belong to this exact reasoning-effort configuration."
+        ]
+      },
+      "extra": {
+        "tokensPerTask": 27255,
+        "stepsPerTask": 64
+      }
+    },
+    {
+      "rawName": "Sonnet 5 Extra High",
+      "score": 32,
+      "variant": "Extra High",
+      "harness": "Cursor · CursorBench 4.0",
+      "url": "https://cursor.com/cursorbench",
+      "runId": "cursorbench-4.0:Sonnet 5 Extra High",
+      "cost": {
+        "usd": 4.55,
+        "upperBound": false,
+        "statistic": "mean",
+        "sourceUrl": "https://cursor.com/cursorbench",
+        "fetchedAt": "2026-10-28T20:27:01.214Z",
+        "scope": "CursorBench 4.0 · average model token cost per task",
+        "currency": "USD",
+        "unit": "task",
+        "method": "usage-estimate",
+        "complete": true,
+        "methodologyUrl": "https://cursor.com/cursorbench",
+        "notes": [
+          "Cursor applies published input, cache-read, cache-write and output token prices to observed task usage. This is a source-reported usage estimate, not an invoice or an all-in operating cost.",
+          "The published score and cost are rounded and belong to this exact reasoning-effort configuration."
+        ]
+      },
+      "extra": {
+        "tokensPerTask": 83373,
+        "stepsPerTask": 102
+      }
+    },
+    {
+      "rawName": "GPT-5.6 Sol Medium",
+      "score": 31.1,
+      "variant": "Medium",
+      "harness": "Cursor · CursorBench 4.0",
+      "url": "https://cursor.com/cursorbench",
+      "runId": "cursorbench-4.0:GPT-5.6 Sol Medium",
+      "cost": {
+        "usd": 1.77,
+        "upperBound": false,
+        "statistic": "mean",
+        "sourceUrl": "https://cursor.com/cursorbench",
+        "fetchedAt": "2026-10-28T20:27:01.214Z",
+        "scope": "CursorBench 4.0 · average model token cost per task",
+        "currency": "USD",
+        "unit": "task",
+        "method": "usage-estimate",
+        "complete": true,
+        "methodologyUrl": "https://cursor.com/cursorbench",
+        "notes": [
+          "Cursor applies published input, cache-read, cache-write and output token prices to observed task usage. This is a source-reported usage estimate, not an invoice or an all-in operating cost.",
+          "The published score and cost are rounded and belong to this exact reasoning-effort configuration."
+        ]
+      },
+      "extra": {
+        "tokensPerTask": 10111,
+        "stepsPerTask": 32
+      }
+    },
+    {
+      "rawName": "GLM 5.3 Flash High",
+      "score": 31.1,
+      "variant": "High",
+      "harness": "Cursor · CursorBench 4.0",
+      "url": "https://cursor.com/cursorbench",
+      "runId": "cursorbench-4.0:GLM 5.3 Flash High",
+      "cost": {
+        "usd": 0.25,
+        "upperBound": false,
+        "statistic": "mean",
+        "sourceUrl": "https://cursor.com/cursorbench",
+        "fetchedAt": "2026-10-28T20:27:01.214Z",
+        "scope": "CursorBench 4.0 · average model token cost per task",
+        "currency": "USD",
+        "unit": "task",
+        "method": "usage-estimate",
+        "complete": true,
+        "methodologyUrl": "https://cursor.com/cursorbench",
+        "notes": [
+          "Cursor applies published input, cache-read, cache-write and output token prices to observed task usage. This is a source-reported usage estimate, not an invoice or an all-in operating cost.",
+          "The published score and cost are rounded and belong to this exact reasoning-effort configuration."
+        ]
+      },
+      "extra": {
+        "tokensPerTask": 35104,
+        "stepsPerTask": 84
+      }
+    },
+    {
+      "rawName": "Haiku 5.5 Low",
+      "score": 30.9,
+      "variant": "Low",
+      "harness": "Cursor · CursorBench 4.0",
+      "url": "https://cursor.com/cursorbench",
+      "runId": "cursorbench-4.0:Haiku 5.5 Low",
+      "cost": {
+        "usd": 0.08,
+        "upperBound": false,
+        "statistic": "mean",
+        "sourceUrl": "https://cursor.com/cursorbench",
+        "fetchedAt": "2026-10-28T20:27:01.214Z",
+        "scope": "CursorBench 4.0 · average model token cost per task",
+        "currency": "USD",
+        "unit": "task",
+        "method": "usage-estimate",
+        "complete": true,
+        "methodologyUrl": "https://cursor.com/cursorbench",
+        "notes": [
+          "Cursor applies published input, cache-read, cache-write and output token prices to observed task usage. This is a source-reported usage estimate, not an invoice or an all-in operating cost.",
+          "The published score and cost are rounded and belong to this exact reasoning-effort configuration."
+        ]
+      },
+      "extra": {
+        "tokensPerTask": 23382,
+        "stepsPerTask": 25
+      }
+    },
+    {
+      "rawName": "Sonnet 5 High",
+      "score": 30.8,
+      "variant": "High",
+      "harness": "Cursor · CursorBench 4.0",
+      "url": "https://cursor.com/cursorbench",
+      "runId": "cursorbench-4.0:Sonnet 5 High",
+      "cost": {
+        "usd": 3.48,
+        "upperBound": false,
+        "statistic": "mean",
+        "sourceUrl": "https://cursor.com/cursorbench",
+        "fetchedAt": "2026-10-28T20:27:01.214Z",
+        "scope": "CursorBench 4.0 · average model token cost per task",
+        "currency": "USD",
+        "unit": "task",
+        "method": "usage-estimate",
+        "complete": true,
+        "methodologyUrl": "https://cursor.com/cursorbench",
+        "notes": [
+          "Cursor applies published input, cache-read, cache-write and output token prices to observed task usage. This is a source-reported usage estimate, not an invoice or an all-in operating cost.",
+          "The published score and cost are rounded and belong to this exact reasoning-effort configuration."
+        ]
+      },
+      "extra": {
+        "tokensPerTask": 61146,
+        "stepsPerTask": 85
+      }
+    },
+    {
+      "rawName": "GPT-5.6 Terra High",
+      "score": 30.7,
+      "variant": "High",
+      "harness": "Cursor · CursorBench 4.0",
+      "url": "https://cursor.com/cursorbench",
+      "runId": "cursorbench-4.0:GPT-5.6 Terra High",
+      "cost": {
+        "usd": 1.11,
+        "upperBound": false,
+        "statistic": "mean",
+        "sourceUrl": "https://cursor.com/cursorbench",
+        "fetchedAt": "2026-10-28T20:27:01.214Z",
+        "scope": "CursorBench 4.0 · average model token cost per task",
+        "currency": "USD",
+        "unit": "task",
+        "method": "usage-estimate",
+        "complete": true,
+        "methodologyUrl": "https://cursor.com/cursorbench",
+        "notes": [
+          "Cursor applies published input, cache-read, cache-write and output token prices to observed task usage. This is a source-reported usage estimate, not an invoice or an all-in operating cost.",
+          "The published score and cost are rounded and belong to this exact reasoning-effort configuration."
+        ]
+      },
+      "extra": {
+        "tokensPerTask": 13162,
+        "stepsPerTask": 33
+      }
+    },
+    {
+      "rawName": "GPT-5.6 Luna High",
+      "score": 29.4,
+      "variant": "High",
+      "harness": "Cursor · CursorBench 4.0",
+      "url": "https://cursor.com/cursorbench",
+      "runId": "cursorbench-4.0:GPT-5.6 Luna High",
+      "cost": {
+        "usd": 0.25,
+        "upperBound": false,
+        "statistic": "mean",
+        "sourceUrl": "https://cursor.com/cursorbench",
+        "fetchedAt": "2026-10-28T20:27:01.214Z",
+        "scope": "CursorBench 4.0 · average model token cost per task",
+        "currency": "USD",
+        "unit": "task",
+        "method": "usage-estimate",
+        "complete": true,
+        "methodologyUrl": "https://cursor.com/cursorbench",
+        "notes": [
+          "Cursor applies published input, cache-read, cache-write and output token prices to observed task usage. This is a source-reported usage estimate, not an invoice or an all-in operating cost.",
+          "The published score and cost are rounded and belong to this exact reasoning-effort configuration."
+        ]
+      },
+      "extra": {
+        "tokensPerTask": 23368,
+        "stepsPerTask": 64
+      }
+    },
+    {
+      "rawName": "Muse Spark 1.3 Low",
+      "score": 29.3,
+      "variant": "Low",
+      "harness": "Cursor · CursorBench 4.0",
+      "url": "https://cursor.com/cursorbench",
+      "runId": "cursorbench-4.0:Muse Spark 1.3 Low",
+      "cost": {
+        "usd": 0.93,
+        "upperBound": false,
+        "statistic": "mean",
+        "sourceUrl": "https://cursor.com/cursorbench",
+        "fetchedAt": "2026-10-28T20:27:01.214Z",
+        "scope": "CursorBench 4.0 · average model token cost per task",
+        "currency": "USD",
+        "unit": "task",
+        "method": "usage-estimate",
+        "complete": true,
+        "methodologyUrl": "https://cursor.com/cursorbench",
+        "notes": [
+          "Cursor applies published input, cache-read, cache-write and output token prices to observed task usage. This is a source-reported usage estimate, not an invoice or an all-in operating cost.",
+          "The published score and cost are rounded and belong to this exact reasoning-effort configuration."
+        ]
+      },
+      "extra": {
+        "tokensPerTask": 17483,
+        "stepsPerTask": 47
+      }
+    },
+    {
+      "rawName": "Sonnet 5 Medium",
+      "score": 28,
+      "variant": "Medium",
+      "harness": "Cursor · CursorBench 4.0",
+      "url": "https://cursor.com/cursorbench",
+      "runId": "cursorbench-4.0:Sonnet 5 Medium",
+      "cost": {
+        "usd": 2.31,
+        "upperBound": false,
+        "statistic": "mean",
+        "sourceUrl": "https://cursor.com/cursorbench",
+        "fetchedAt": "2026-10-28T20:27:01.214Z",
+        "scope": "CursorBench 4.0 · average model token cost per task",
+        "currency": "USD",
+        "unit": "task",
+        "method": "usage-estimate",
+        "complete": true,
+        "methodologyUrl": "https://cursor.com/cursorbench",
+        "notes": [
+          "Cursor applies published input, cache-read, cache-write and output token prices to observed task usage. This is a source-reported usage estimate, not an invoice or an all-in operating cost.",
+          "The published score and cost are rounded and belong to this exact reasoning-effort configuration."
+        ]
+      },
+      "extra": {
+        "tokensPerTask": 39114,
+        "stepsPerTask": 65
+      }
+    },
+    {
+      "rawName": "Composer 2.5",
+      "score": 27.7,
+      "harness": "Cursor · CursorBench 4.0",
+      "url": "https://cursor.com/cursorbench",
+      "runId": "cursorbench-4.0:Composer 2.5",
+      "cost": {
+        "usd": 0.68,
+        "upperBound": false,
+        "statistic": "mean",
+        "sourceUrl": "https://cursor.com/cursorbench",
+        "fetchedAt": "2026-10-28T20:27:01.214Z",
+        "scope": "CursorBench 4.0 · average model token cost per task",
+        "currency": "USD",
+        "unit": "task",
+        "method": "usage-estimate",
+        "complete": true,
+        "methodologyUrl": "https://cursor.com/cursorbench",
+        "notes": [
+          "Cursor applies published input, cache-read, cache-write and output token prices to observed task usage. This is a source-reported usage estimate, not an invoice or an all-in operating cost.",
+          "The published score and cost are rounded and belong to this exact reasoning-effort configuration."
+        ]
+      },
+      "extra": {
+        "tokensPerTask": 17347,
+        "stepsPerTask": 41
+      }
+    },
+    {
+      "rawName": "GPT-5.6 Terra Medium",
+      "score": 27.6,
+      "variant": "Medium",
+      "harness": "Cursor · CursorBench 4.0",
+      "url": "https://cursor.com/cursorbench",
+      "runId": "cursorbench-4.0:GPT-5.6 Terra Medium",
+      "cost": {
+        "usd": 0.64,
+        "upperBound": false,
+        "statistic": "mean",
+        "sourceUrl": "https://cursor.com/cursorbench",
+        "fetchedAt": "2026-10-28T20:27:01.214Z",
+        "scope": "CursorBench 4.0 · average model token cost per task",
+        "currency": "USD",
+        "unit": "task",
+        "method": "usage-estimate",
+        "complete": true,
+        "methodologyUrl": "https://cursor.com/cursorbench",
+        "notes": [
+          "Cursor applies published input, cache-read, cache-write and output token prices to observed task usage. This is a source-reported usage estimate, not an invoice or an all-in operating cost.",
+          "The published score and cost are rounded and belong to this exact reasoning-effort configuration."
+        ]
+      },
+      "extra": {
+        "tokensPerTask": 7307,
+        "stepsPerTask": 25
+      }
+    },
+    {
+      "rawName": "GLM 5.3 Flash Low",
+      "score": 26.9,
+      "variant": "Low",
+      "harness": "Cursor · CursorBench 4.0",
+      "url": "https://cursor.com/cursorbench",
+      "runId": "cursorbench-4.0:GLM 5.3 Flash Low",
+      "cost": {
+        "usd": 0.15,
+        "upperBound": false,
+        "statistic": "mean",
+        "sourceUrl": "https://cursor.com/cursorbench",
+        "fetchedAt": "2026-10-28T20:27:01.214Z",
+        "scope": "CursorBench 4.0 · average model token cost per task",
+        "currency": "USD",
+        "unit": "task",
+        "method": "usage-estimate",
+        "complete": true,
+        "methodologyUrl": "https://cursor.com/cursorbench",
+        "notes": [
+          "Cursor applies published input, cache-read, cache-write and output token prices to observed task usage. This is a source-reported usage estimate, not an invoice or an all-in operating cost.",
+          "The published score and cost are rounded and belong to this exact reasoning-effort configuration."
+        ]
+      },
+      "extra": {
+        "tokensPerTask": 17831,
+        "stepsPerTask": 58
+      }
+    },
+    {
+      "rawName": "GPT-5.6 Terra Low",
+      "score": 25.2,
+      "variant": "Low",
+      "harness": "Cursor · CursorBench 4.0",
+      "url": "https://cursor.com/cursorbench",
+      "runId": "cursorbench-4.0:GPT-5.6 Terra Low",
+      "cost": {
+        "usd": 0.52,
+        "upperBound": false,
+        "statistic": "mean",
+        "sourceUrl": "https://cursor.com/cursorbench",
+        "fetchedAt": "2026-10-28T20:27:01.214Z",
+        "scope": "CursorBench 4.0 · average model token cost per task",
+        "currency": "USD",
+        "unit": "task",
+        "method": "usage-estimate",
+        "complete": true,
+        "methodologyUrl": "https://cursor.com/cursorbench",
+        "notes": [
+          "Cursor applies published input, cache-read, cache-write and output token prices to observed task usage. This is a source-reported usage estimate, not an invoice or an all-in operating cost.",
+          "The published score and cost are rounded and belong to this exact reasoning-effort configuration."
+        ]
+      },
+      "extra": {
+        "tokensPerTask": 5914,
+        "stepsPerTask": 23
+      }
+    },
+    {
+      "rawName": "GPT-5.6 Sol Low",
+      "score": 24.6,
+      "variant": "Low",
+      "harness": "Cursor · CursorBench 4.0",
+      "url": "https://cursor.com/cursorbench",
+      "runId": "cursorbench-4.0:GPT-5.6 Sol Low",
+      "cost": {
+        "usd": 0.87,
+        "upperBound": false,
+        "statistic": "mean",
+        "sourceUrl": "https://cursor.com/cursorbench",
+        "fetchedAt": "2026-10-28T20:27:01.214Z",
+        "scope": "CursorBench 4.0 · average model token cost per task",
+        "currency": "USD",
+        "unit": "task",
+        "method": "usage-estimate",
+        "complete": true,
+        "methodologyUrl": "https://cursor.com/cursorbench",
+        "notes": [
+          "Cursor applies published input, cache-read, cache-write and output token prices to observed task usage. This is a source-reported usage estimate, not an invoice or an all-in operating cost.",
+          "The published score and cost are rounded and belong to this exact reasoning-effort configuration."
+        ]
+      },
+      "extra": {
+        "tokensPerTask": 4885,
+        "stepsPerTask": 21
+      }
+    },
+    {
+      "rawName": "Muse Spark 1.3 Minimal",
+      "score": 24.3,
+      "variant": "Minimal",
+      "harness": "Cursor · CursorBench 4.0",
+      "url": "https://cursor.com/cursorbench",
+      "runId": "cursorbench-4.0:Muse Spark 1.3 Minimal",
+      "cost": {
+        "usd": 0.56,
+        "upperBound": false,
+        "statistic": "mean",
+        "sourceUrl": "https://cursor.com/cursorbench",
+        "fetchedAt": "2026-10-28T20:27:01.214Z",
+        "scope": "CursorBench 4.0 · average model token cost per task",
+        "currency": "USD",
+        "unit": "task",
+        "method": "usage-estimate",
+        "complete": true,
+        "methodologyUrl": "https://cursor.com/cursorbench",
+        "notes": [
+          "Cursor applies published input, cache-read, cache-write and output token prices to observed task usage. This is a source-reported usage estimate, not an invoice or an all-in operating cost.",
+          "The published score and cost are rounded and belong to this exact reasoning-effort configuration."
+        ]
+      },
+      "extra": {
+        "tokensPerTask": 10620,
+        "stepsPerTask": 34
+      }
+    },
+    {
+      "rawName": "Sonnet 5 Low",
+      "score": 24.1,
+      "variant": "Low",
+      "harness": "Cursor · CursorBench 4.0",
+      "url": "https://cursor.com/cursorbench",
+      "runId": "cursorbench-4.0:Sonnet 5 Low",
+      "cost": {
+        "usd": 1.39,
+        "upperBound": false,
+        "statistic": "mean",
+        "sourceUrl": "https://cursor.com/cursorbench",
+        "fetchedAt": "2026-10-28T20:27:01.214Z",
+        "scope": "CursorBench 4.0 · average model token cost per task",
+        "currency": "USD",
+        "unit": "task",
+        "method": "usage-estimate",
+        "complete": true,
+        "methodologyUrl": "https://cursor.com/cursorbench",
+        "notes": [
+          "Cursor applies published input, cache-read, cache-write and output token prices to observed task usage. This is a source-reported usage estimate, not an invoice or an all-in operating cost.",
+          "The published score and cost are rounded and belong to this exact reasoning-effort configuration."
+        ]
+      },
+      "extra": {
+        "tokensPerTask": 23772,
+        "stepsPerTask": 46
+      }
+    },
+    {
+      "rawName": "GPT-5.6 Luna Medium",
+      "score": 22.2,
+      "variant": "Medium",
+      "harness": "Cursor · CursorBench 4.0",
+      "url": "https://cursor.com/cursorbench",
+      "runId": "cursorbench-4.0:GPT-5.6 Luna Medium",
+      "cost": {
+        "usd": 0.08,
+        "upperBound": false,
+        "statistic": "mean",
+        "sourceUrl": "https://cursor.com/cursorbench",
+        "fetchedAt": "2026-10-28T20:27:01.214Z",
+        "scope": "CursorBench 4.0 · average model token cost per task",
+        "currency": "USD",
+        "unit": "task",
+        "method": "usage-estimate",
+        "complete": true,
+        "methodologyUrl": "https://cursor.com/cursorbench",
+        "notes": [
+          "Cursor applies published input, cache-read, cache-write and output token prices to observed task usage. This is a source-reported usage estimate, not an invoice or an all-in operating cost.",
+          "The published score and cost are rounded and belong to this exact reasoning-effort configuration."
+        ]
+      },
+      "extra": {
+        "tokensPerTask": 7642,
+        "stepsPerTask": 32
+      }
+    },
+    {
+      "rawName": "GPT-5.6 Luna Low",
+      "score": 16,
+      "variant": "Low",
+      "harness": "Cursor · CursorBench 4.0",
+      "url": "https://cursor.com/cursorbench",
+      "runId": "cursorbench-4.0:GPT-5.6 Luna Low",
+      "cost": {
+        "usd": 0.03,
+        "upperBound": false,
+        "statistic": "mean",
+        "sourceUrl": "https://cursor.com/cursorbench",
+        "fetchedAt": "2026-10-28T20:27:01.214Z",
+        "scope": "CursorBench 4.0 · average model token cost per task",
+        "currency": "USD",
+        "unit": "task",
+        "method": "usage-estimate",
+        "complete": true,
+        "methodologyUrl": "https://cursor.com/cursorbench",
+        "notes": [
+          "Cursor applies published input, cache-read, cache-write and output token prices to observed task usage. This is a source-reported usage estimate, not an invoice or an all-in operating cost.",
+          "The published score and cost are rounded and belong to this exact reasoning-effort configuration."
+        ]
+      },
+      "extra": {
+        "tokensPerTask": 3288,
+        "stepsPerTask": 18
+      }
+    }
+  ],
+  "warnings": [],
+  "costStatus": {
+    "status": "available",
+    "url": "https://cursor.com/cursorbench",
+    "note": "Cursor's published average cost/task reprices observed input, cache-read, cache-write and output tokens. Paired with the exact score and effort; excludes unreported infrastructure and judging costs."
+  }
+}

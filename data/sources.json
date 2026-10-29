@@ -209,5 +209,67 @@
       "url": "https://labs.scale.com/leaderboard/mcp_atlas",
       "note": "The inspected public leaderboard payload does not publish monetary cost per task for its scored runs. Missing costs remain unknown."
     }
+  },
+  {
+    "id": "cursorbench",
+    "name": "CursorBench 4.0",
+    "shortName": "CursorBench",
+    "url": "https://cursor.com/cursorbench",
+    "access": "html",
+    "metricLabel": "Task score",
+    "scoreType": "percent",
+    "description": "Ambiguous, multi-file coding tasks drawn from real Cursor sessions, evaluated inside Cursor's agent harness.",
+    "categories": {
+      "coding": "overall",
+      "agentic": "overall"
+    },
+    "weight": 1,
+    "accent": "#64748b",
+    "note": "Private, vendor-run benchmark. Only version 4.0 is used; results measure model + Cursor harness + reasoning effort. The best reported effort is selected, with its matching cost. Small score differences may not be statistically meaningful.",
+    "costMethodology": {
+      "statistic": "mean",
+      "url": "https://cursor.com/cursorbench",
+      "note": "Published average cost per task, estimated by Cursor from observed input, cache-read, cache-write and output token usage at published prices. Paired with the exact score and effort; not an invoice or all-in operating cost."
+    }
+  },
+  {
+    "id": "tau3-banking",
+    "name": "τ³-Banking",
+    "shortName": "τ³-Banking",
+    "url": "https://taubench.com/leaderboard/?benchmark=knowledge",
+    "access": "json",
+    "metricLabel": "Pass^1",
+    "scoreType": "percent",
+    "description": "Conversational banking tasks requiring policy compliance, multi-step tools and retrieval over a large company knowledge base.",
+    "categories": {
+      "agentic": "overall"
+    },
+    "weight": 1,
+    "accent": "#b45309",
+    "note": "Standard text submissions only: τ-bench v1.0.1, AllTools retrieval, GPT-5.2 user simulator, unmodified prompts and no omitted questions. Uses pass^1, not pass^4 or an average of domains. Other retrieval setups, custom agents and voice results are excluded.",
+    "costMethodology": {
+      "url": "https://taubench.com/leaderboard/?benchmark=knowledge",
+      "note": "No audited monetary mean task cost for this cohort. Numeric submission cost fields with unverified units/statistics are kept only in raw audit data; no inference from budgets or token pricing."
+    }
+  },
+  {
+    "id": "frontiermath",
+    "name": "FrontierMath Tiers 1–3 v2",
+    "shortName": "FrontierMath",
+    "url": "https://epoch.ai/benchmarks/frontiermath-tiers-1-3-v2",
+    "access": "csv",
+    "metricLabel": "Accuracy",
+    "scoreType": "percent",
+    "description": "Expert-written mathematics problems from advanced undergraduate to research level, solved with access to a Python tool and objectively graded.",
+    "categories": {
+      "reasoning": "overall"
+    },
+    "weight": 1,
+    "accent": "#7c3aed",
+    "note": "Epoch AI's successful private Tiers 1–3 v2 runs (task version 2.0.0) only. Earlier datasets, Tier 4, public examples and unsuccessful runs are excluded. Best reported effort is selected. FrontierMath was developed with OpenAI funding; Epoch discloses exclusive OpenAI access to a subset.",
+    "costMethodology": {
+      "url": "https://epoch.ai/benchmarks/frontiermath-tiers-1-3-v2",
+      "note": "The official run CSV has no monetary task costs. Token counts and model training compute costs are not converted into evaluation spend."
+    }
   }
 ]

@@ -1,20 +1,21 @@
 ---
 import Base from "../layouts/Base.astro";
 import Leaderboard from "../components/Leaderboard";
-import { leaderboard } from "../lib/data";
+import { leaderboard, toClientDataset } from "../lib/data";
 import { CATEGORY_COPY, CATEGORY_ORDER, formatDate, formatScore } from "../lib/format";
 import { Badge, ModelAvatar } from "../components/ui";
 
 const ranked = leaderboard.models.filter((model) => model.status === "ranked");
 const topThree = ranked.slice(0, 3);
 const updated = formatDate(leaderboard.generatedAt.slice(0, 10));
+const clientLeaderboard = toClientDataset(leaderboard);
 const categoryLabel = (category: string) =>
   CATEGORY_COPY[category as keyof typeof CATEGORY_COPY]?.label ?? category;
 ---
 
 <Base
   title="LLM MetaRank — The meta ranking for AI models"
-  description="A Metacritic-style meta ranking for large language models, built from ten independent benchmarks and normalized into one relative score."
+  description={`A Metacritic-style meta ranking for large language models, built from ${leaderboard.sourceCount} benchmark sources and normalized into one relative score.`}
   data={leaderboard}
 >
   <section class="paper-grid border-b border-line">
@@ -33,7 +34,7 @@ const categoryLabel = (category: string) =>
             <br class="hidden sm:block" /> for AI models.
           </h1>
           <p class="mt-7 max-w-2xl text-base leading-7 text-muted sm:text-lg sm:leading-8">
-            One score, compiled from ten independent benchmarks — coding, agentic work, reasoning,
+            One score, compiled from {leaderboard.sourceCount} benchmark sources — coding, agentic work, reasoning,
             and human preference. No single leaderboard gets the final word.
           </p>
           <div class="mt-8 flex flex-wrap items-center gap-3">
@@ -156,7 +157,7 @@ const categoryLabel = (category: string) =>
     </div>
   </section>
 
-  <Leaderboard client:load data={leaderboard} />
+  <Leaderboard client:idle data={clientLeaderboard} />
 
   <section id="sources" class="border-y border-line bg-surface/35">
     <div class="container-page py-14 sm:py-20">

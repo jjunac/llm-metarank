@@ -337,7 +337,7 @@ export async function buildDataset(): Promise<LeaderboardDataset> {
 
   const dataset: LeaderboardDataset = {
     generatedAt: nowISO(),
-    methodologyVersion: "1.3",
+    methodologyVersion: "1.4",
     sourceCount: sources.length,
     trackedModelCount: modelRanks.length,
     rankedModelCount: ranked.length,

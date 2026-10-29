@@ -137,7 +137,7 @@ export default function Leaderboard({ data }: { data: LeaderboardDataset }) {
     tab === "overall"
       ? ignoreCoverageFloor
         ? "All tracked models ranked by their available-source meta score. The five-source minimum is off; coverage varies."
-        : "Equal-weight average of all ten source percentiles. Five sources are required for a rank."
+        : `Equal-weight average of available percentiles from ${data.sourceCount} sources. Five sources are required for a rank.`
       : CATEGORY_COPY[tab].description;
   const visibleCategories = tab === "overall" ? CATEGORY_ORDER : CATEGORY_ORDER.filter((category) => category !== tab);
 
@@ -245,7 +245,7 @@ export default function Leaderboard({ data }: { data: LeaderboardDataset }) {
 
             <div
               className="flex items-center gap-2 text-[10px] text-muted"
-              title="5+ sources requires five of ten benchmarks. All models ranks every tracked model by its available-source score."
+              title={`5+ sources requires five of ${data.sourceCount} benchmarks, including general and coding coverage. All models ranks every tracked model by its available-source score.`}
             >
               <span>Overall coverage</span>
               <div className="flex rounded-full border border-line bg-paper/70 p-1" role="group" aria-label="Overall coverage floor">
@@ -334,7 +334,7 @@ export default function Leaderboard({ data }: { data: LeaderboardDataset }) {
                             <span className="truncate text-sm font-medium">{model.name}</span>
                             {model.openWeights && <Badge tone="green">open</Badge>}
                             {isLimited && (
-                              <span title={ignoreCoverageFloor ? "Fewer than 5 of 10 sources — ranked by available-source score" : "Fewer than 5 of 10 sources — no official overall rank"}>
+                              <span title={ignoreCoverageFloor ? "Insufficient coverage for an official overall rank — ranked by available-source score" : "Insufficient coverage for an official overall rank"}>
                                 <Badge>limited coverage</Badge>
                               </span>
                             )}

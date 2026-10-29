@@ -1,5 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
+import Equation from "../components/Equation.astro";
 import { leaderboard } from "../lib/data";
 import { CATEGORY_COPY, CATEGORY_ORDER, formatDate } from "../lib/format";
 import { Badge } from "../components/ui";
@@ -10,11 +11,23 @@ const updated = formatDate(leaderboard.generatedAt.slice(0, 10));
 const defaultOverallBasketId = leaderboard.costAnalysis.defaultBasketId.overall;
 const basketLabel = (sourceIds: string[]) =>
   sourceIds.map((sourceId) => leaderboard.sources.find((source) => source.id === sourceId)?.shortName ?? sourceId).join(" + ");
+
+const percentileEquation = String.raw`\operatorname{percentile}(s,m) = 100 \cdot \frac{\#\{\text{scores below } m\} + 0.5 \cdot \#\{\text{ties}\}}{N_s}`;
+const metaEquation = String.raw`\operatorname{meta}(m) = \frac{\sum_{s \in S(m)} w_s \cdot \operatorname{percentile}(s,m)}{\sum_{s \in S(m)} w_s}`;
+const referenceEquation = String.raw`\operatorname{reference}(s) = \operatorname*{median}_{m \in \mathcal{M}_s} \operatorname{cost\_per\_task}(s,m)`;
+const costRatioEquation = String.raw`r_{s,m} = \frac{\operatorname{cost\_per\_task}(s,m)}{\operatorname{reference}(s)}`;
+const costIndexEquation = String.raw`\operatorname{cost\_index}(m,b) = \exp\left(\frac{\sum_{s \in b} w_s \log r_{s,m}}{\sum_{s \in b} w_s}\right)`;
+const matchedScoreEquation = String.raw`\operatorname{matched\_score}(m,b) = \frac{\sum_{s \in b} w_s \cdot \operatorname{percentile}(s,m)}{\sum_{s \in b} w_s}`;
+
+const sourceSymbol = "s";
+const modelSetSymbol = String.raw`\mathcal{M}_s`;
+const costRatioSymbol = String.raw`r_{s,m}`;
+const basketSymbol = "b";
 ---
 
 <Base
   title="Methodology — LLM MetaRank"
-  description="How LLM MetaRank normalizes ten benchmark leaderboards into one relative meta score, including matched cost baskets, coverage rules, category weights, and limitations."
+  description={`How LLM MetaRank normalizes ${leaderboard.sourceCount} benchmark leaderboards into one relative meta score, including matched cost baskets, coverage rules, category weights, and limitations.`}
   data={leaderboard}
 >
   <article class="container-page py-14 sm:py-20">
@@ -41,7 +54,7 @@ const basketLabel = (sourceIds: string[]) =>
         <div class="num text-xs text-accent">02</div>
         <h2 class="mt-4 text-sm font-semibold">Coverage before rank</h2>
         <p class="mt-2 text-xs leading-5 text-muted">
-          A model needs at least five of ten sources, including at least one general and one coding
+          A model needs at least five of {leaderboard.sourceCount} sources, including at least one general and one coding
           source, to receive an overall rank. Missing scores are not imputed.
         </p>
       </div>
@@ -61,11 +74,12 @@ const basketLabel = (sourceIds: string[]) =>
         <div class="border-b border-line px-5 py-3 text-[10px] uppercase tracking-[0.14em] text-muted">
           Percentile and meta score
         </div>
-        <pre class="overflow-x-auto p-5 font-mono text-xs leading-7 text-ink"><code>percentile(s, m) = 100 × (# scores below m + 0.5 × # ties) / N_s
-
-meta(m) = Σ w_s × percentile(s, m) / Σ w_s</code></pre>
+        <div class="space-y-6 px-5 py-6">
+          <Equation tex={percentileEquation} />
+          <Equation tex={metaEquation} />
+        </div>
         <div class="border-t border-line px-5 py-4 text-xs leading-6 text-muted">
-          <p><strong class="text-ink">s</strong> is a source, <strong class="text-ink">m</strong> is a canonical model, <strong class="text-ink">N_s</strong> is the number of tracked models in that source, and <strong class="text-ink">w_s</strong> is the source weight (1.0 by default).</p>
+          <p><Equation tex="s" inline /> is a source, <Equation tex="m" inline /> is a canonical model, <Equation tex="S(m)" inline /> is the set of sources where that model has data, <Equation tex="N_s" inline /> is the number of tracked models in that source, and <Equation tex="w_s" inline /> is the source weight (1.0 by default).</p>
         </div>
       </div>
       <p class="mt-4 text-xs leading-6 text-muted">
@@ -75,7 +89,7 @@ meta(m) = Σ w_s × percentile(s, m) / Σ w_s</code></pre>
       </p>
     </section>
 
-    <section id="task-cost" class="mt-16 max-w-4xl scroll-mt-6">
+    <section id="task-cost" class="mt-16 max-w-4xl">
       <div class="eyebrow mb-3">A separate cost / capability view</div>
       <h2 class="display text-4xl">The meta Pareto frontier</h2>
       <p class="mt-4 text-xs leading-6 text-muted">
@@ -86,12 +100,16 @@ meta(m) = Σ w_s × percentile(s, m) / Σ w_s</code></pre>
       </p>
       <div class="mt-5 overflow-hidden rounded-2xl border border-line bg-surface/60">
         <div class="border-b border-line px-5 py-3 text-[10px] uppercase tracking-[0.14em] text-muted">Matched scores and relative task-cost index</div>
-        <pre class="overflow-x-auto p-5 font-mono text-xs leading-7"><code>reference(s) = median usable task cost of tracked best-score runs
-               (matching the source's reported statistic)
-
-cost_index(m, b) = exp(Σ w_s × log(cost_per_task(s, m) / reference(s)) / Σ w_s)
-
-matched_score(m, b) = Σ w_s × percentile(s, m) / Σ w_s</code></pre>
+        <div class="space-y-6 px-5 py-6">
+          <Equation tex={referenceEquation} />
+          <Equation tex={costRatioEquation} />
+          <Equation tex={costIndexEquation} />
+          <Equation tex={matchedScoreEquation} />
+        </div>
+        <div class="border-t border-line px-5 py-4 text-[11px] leading-5 text-muted">
+          <Equation tex={modelSetSymbol} inline /> is the set of tracked models with a usable
+          best-score run for source <Equation tex={sourceSymbol} inline /> at its reported statistic; <Equation tex={costRatioSymbol} inline /> is that model's cost multiple. In a basket, <Equation tex={basketSymbol} inline /> is the set of selected sources; weights renormalize over that set.
+        </div>
       </div>
       <div class="mt-5 overflow-hidden rounded-2xl border border-line bg-surface/60">
         <div class="border-b border-line px-5 py-3 text-[10px] uppercase tracking-[0.14em] text-muted">Supported multi-source overall baskets</div>
@@ -154,6 +172,8 @@ matched_score(m, b) = Σ w_s × percentile(s, m) / Σ w_s</code></pre>
         <div class="surface-card rounded-xl p-4"><h3 class="text-xs font-semibold">Artificial Analysis</h3><p class="mt-2 text-[11px] leading-5 text-muted">Reconstructs its published v4.3.2 weighted task-cost calculation from evaluation usage, task counts, cache reads/writes, reasoning, answers and fallback-model usage. Counts are already normalized for repeated runs; repeats are not divided out again. A new index version disables this calculation until its methodology is audited. These are source-repriced usage estimates, not invoices.</p></div>
         <div class="surface-card rounded-xl p-4"><h3 class="text-xs font-semibold">LiveBench &amp; Terminal-Bench</h3><p class="mt-2 text-[11px] leading-5 text-muted">LiveBench's release-matched cost.csv joins on exact source identifiers: total spend ÷ all tasks, not the mean of suite averages. It excludes fixed starting state and harness helper calls. Terminal-Bench's total_cost_usd is divided by n_trials, including repeated attempts and failures, not by the number of unique tasks or successful tasks.</p></div>
         <div class="surface-card rounded-xl p-4"><h3 class="text-xs font-semibold">Arena &amp; ARC-AGI-3</h3><p class="mt-2 text-[11px] leading-5 text-muted">Arena's reported Cost/Task (P50) is used as-is; the adjacent API Price $/M column is not a task cost and is not used. P50 values are used only in single-benchmark views and are never pooled with means. ARC-AGI-3's cost field is total run spend. Its feed does not include verified per-run attempted-environment counts, and some evaluations are incomplete; these totals are kept for auditing but excluded from task-cost frontiers.</p></div>
+        <div class="surface-card rounded-xl p-4"><h3 class="text-xs font-semibold">CursorBench</h3><p class="mt-2 text-[11px] leading-5 text-muted">Uses Cursor's published average cost per task for the exact model and reasoning effort that produced the score. Cursor estimates spend from observed input, cache-read, cache-write and output tokens at published prices. These rounded usage estimates are means, not medians, and can enter matched baskets. They are not invoices or all-in operating costs.</p></div>
+        <div class="surface-card rounded-xl p-4"><h3 class="text-xs font-semibold">τ³-Banking &amp; FrontierMath</h3><p class="mt-2 text-[11px] leading-5 text-muted">Neither selected feed supplies audited monetary mean task costs. Banking's occasional numeric cost fields have unverified units and statistics; FrontierMath's token usage and model training compute costs are not evaluation spend. These values are never promoted into the task-cost frontier.</p></div>
         <div class="surface-card rounded-xl p-4"><h3 class="text-xs font-semibold">Limits of published spend</h3><p class="mt-2 text-[11px] leading-5 text-muted">SWE-bench Pro, Scale HLE, MCP Atlas and GSO do not publish matching monetary task cost in the inspected leaderboard payloads. Costs from other evaluators are not borrowed. Runtime is not converted into dollars. Published model spend is not necessarily all-in operating cost: sandbox, tool, infrastructure and judging expenses may be omitted. Each source's audit trail states its own scope and retrieval date.</p></div>
       </div>
       <a href="/#frontier" class="mt-5 inline-flex items-center gap-1 text-xs text-accent hover:underline">Explore the task-cost frontier ↗</a>
@@ -162,7 +182,7 @@ matched_score(m, b) = Σ w_s × percentile(s, m) / Σ w_s</code></pre>
     <section class="mt-16">
       <div class="mb-5 flex flex-col justify-between gap-3 sm:flex-row sm:items-end">
         <div>
-          <h2 class="display text-4xl">The ten sources</h2>
+          <h2 class="display text-4xl">The {leaderboard.sourceCount} sources</h2>
           <p class="mt-2 max-w-2xl text-xs leading-5 text-muted">
             Sources are kept as published. The overall score counts each source once; category tabs
             use the relevant benchmark or sub-score.
@@ -191,6 +211,7 @@ matched_score(m, b) = Σ w_s × percentile(s, m) / Σ w_s</code></pre>
                     {source.composite && <Badge>composite</Badge>}
                   </a>
                   <div class="mt-1 max-w-md text-[10px] leading-4 text-muted">{source.description}</div>
+                  {source.note && <p class="mt-2 max-w-md text-[10px] leading-4 text-muted/80">{source.note}</p>}
                 </td>
                 <td class="hidden px-4 py-3.5 sm:table-cell">
                   <div class="flex flex-wrap gap-1">
@@ -220,7 +241,7 @@ matched_score(m, b) = Σ w_s × percentile(s, m) / Σ w_s</code></pre>
         <ul class="mt-4 space-y-3 text-xs leading-6 text-muted">
           <li class="flex gap-3">
             <span class="num text-accent">01</span>
-            <span><strong class="text-ink">Overall rank:</strong> at least 5 of 10 sources, with at least one general and one coding source. A model with a high average but only three sources is shown as “limited coverage,” not ranked.</span>
+            <span><strong class="text-ink">Overall rank:</strong> at least 5 of {leaderboard.sourceCount} sources, with at least one general and one coding source. The five-source floor is unchanged as sources are added; it is not a majority-coverage rule. A model with a high average but only three sources is shown as “limited coverage,” not ranked.</span>
           </li>
           <li class="flex gap-3">
             <span class="num text-accent">02</span>
@@ -232,7 +253,7 @@ matched_score(m, b) = Σ w_s × percentile(s, m) / Σ w_s</code></pre>
           </li>
           <li class="flex gap-3">
             <span class="num text-accent">04</span>
-            <span><strong class="text-ink">Best reported variant:</strong> when a source publishes multiple reasoning efforts or harnesses, the highest score is used. The exact variant or harness is displayed in the audit trail.</span>
+            <span><strong class="text-ink">Best reported variant:</strong> after each source's version and cohort filters, the highest reported score across eligible reasoning efforts or harnesses is used. The exact variant or harness is displayed in the audit trail. τ³-Banking fixes AllTools retrieval, the GPT-5.2 simulator and v1.0.1 grading; FrontierMath keeps only successful private Tiers 1–3 v2 runs.</span>
           </li>
           <li class="flex gap-3">
             <span class="num text-accent">05</span>
@@ -283,6 +304,9 @@ matched_score(m, b) = Σ w_s × percentile(s, m) / Σ w_s</code></pre>
       <p class="text-[11px] text-muted/70">
         Source data belongs to the respective benchmark providers. This project displays scores with
         attribution and is not affiliated with any of them.
+        FrontierMath results are from <a href="https://epoch.ai/benchmarks/use-this-data" class="text-accent hover:underline">Epoch AI's Capabilities &amp; benchmarking hub</a>,
+        licensed <a href="https://creativecommons.org/licenses/by/4.0/" class="text-accent hover:underline">CC BY 4.0</a>.
+        We select private Tiers 1–3 v2 runs, convert fractional accuracies to percentages, and derive percentiles.
       </p>
       <a href="/#leaderboard" class="inline-flex items-center gap-1 text-xs text-accent hover:underline">
         Back to the ranking <span aria-hidden="true">↗</span>
