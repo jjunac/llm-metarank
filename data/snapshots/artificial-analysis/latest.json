@@ -1,6 +1,6 @@
 {
   "sourceId": "artificial-analysis",
-  "fetchedAt": "2026-10-29T04:56:23.380Z",
+  "fetchedAt": "2026-10-30T22:14:13.805Z",
   "url": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index",
   "entries": [
     {
@@ -293,16 +293,17 @@
       }
     },
     {
-      "rawName": "Mistral Large 4 Preview",
-      "score": 25.286451488165,
+      "rawName": "Mistral Large 4 (High)",
+      "score": 26.0249946754784,
+      "variant": "High",
       "vendor": "Mistral",
       "url": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index",
-      "runId": "34fc646a-0174-470e-9e62-d8df452210b3",
+      "runId": "ea5019ae-b0b7-49a5-80b3-0e584807af0f",
       "costUnavailableReason": "Task-cost methodology not verified for Intelligence Index v5.0.",
       "extra": {
-        "slug": "mistral-large-4-preview",
-        "modelReleaseDate": "2026-10-06",
-        "isOpenWeights": false
+        "slug": "mistral-large-4",
+        "modelReleaseDate": "2026-10-29",
+        "isOpenWeights": true
       }
     },
     {

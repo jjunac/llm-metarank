@@ -1,0 +1,604 @@
+{
+  "sourceId": "tau3-banking",
+  "fetchedAt": "2026-10-30T22:14:34.163Z",
+  "sourceUpdatedAt": "2026-08-04",
+  "url": "https://taubench.com/leaderboard/?benchmark=knowledge",
+  "entries": [
+    {
+      "rawName": "Claude Opus 4.5",
+      "score": 24.74,
+      "metrics": {
+        "pass_2": 17.18,
+        "pass_3": 13.66,
+        "pass_4": 11.34
+      },
+      "variant": "high",
+      "harness": "τ-bench 1.0.1 · AllTools · GPT-5.2 user",
+      "date": "2026-05-05",
+      "url": "https://taubench.com/leaderboard/?benchmark=knowledge",
+      "vendor": "Anthropic",
+      "runId": "claude-opus-4-5_sierra_2026-02-26",
+      "costUnavailableReason": "No monetary task cost reported for this AllTools run.",
+      "extra": {
+        "dataUrl": "https://sierra-tau-bench-public.s3.us-west-2.amazonaws.com/submissions/claude-opus-4-5_sierra_2026-02-26/submission.json",
+        "benchmarkVersion": "1.0.1",
+        "retrievalConfig": "alltools",
+        "userSimulator": "gpt-5.2",
+        "submissionDate": "2026-02-26",
+        "modelReleaseDate": "2025-11-24",
+        "submittingOrganization": "Sierra",
+        "trajectoriesAvailable": true,
+        "methodologyNotes": "Evaluated using AllTools retrieval (BM25 + dense OpenAI text-embedding-3-large + sandboxed shell). User simulator: gpt-5.2 with reasoning_effort: low. 4 trials. Seed: 300. Banking_knowledge domain only — other domains intentionally excluded from this comparison; the AllTools setting standardizes retrieval across models. banking_knowledge re-graded under tau2-bench v1.0.1 grading fixes on 2026-07-15 (extra-read logging #329, numeric-argument normalization #397, T077-T086 gold trajectories #402); scores prior to v1.0.1 are not comparable.",
+        "reportedCost": null
+      }
+    },
+    {
+      "rawName": "GPT-5.2",
+      "score": 32.22,
+      "metrics": {
+        "pass_2": 23.88,
+        "pass_3": 20.62,
+        "pass_4": 18.56
+      },
+      "variant": "high",
+      "harness": "τ-bench 1.0.1 · AllTools · GPT-5.2 user",
+      "date": "2026-05-05",
+      "url": "https://taubench.com/leaderboard/?benchmark=knowledge",
+      "vendor": "OpenAI",
+      "runId": "gpt-5-2_sierra_2026-02-26",
+      "costUnavailableReason": "No monetary task cost reported for this AllTools run.",
+      "extra": {
+        "dataUrl": "https://sierra-tau-bench-public.s3.us-west-2.amazonaws.com/submissions/gpt-5-2_sierra_2026-02-26/submission.json",
+        "benchmarkVersion": "1.0.1",
+        "retrievalConfig": "alltools",
+        "userSimulator": "gpt-5.2",
+        "submissionDate": "2026-02-26",
+        "modelReleaseDate": "2025-12-11",
+        "submittingOrganization": "Sierra",
+        "trajectoriesAvailable": true,
+        "methodologyNotes": "Evaluated using AllTools retrieval (BM25 + dense OpenAI text-embedding-3-large + sandboxed shell). User simulator: gpt-5.2 with reasoning_effort: low. 4 trials. Seed: 300. Banking_knowledge domain only — other domains intentionally excluded from this comparison; the AllTools setting standardizes retrieval across models. banking_knowledge re-graded under tau2-bench v1.0.1 grading fixes on 2026-07-15 (extra-read logging #329, numeric-argument normalization #397, T077-T086 gold trajectories #402); scores prior to v1.0.1 are not comparable.",
+        "reportedCost": null
+      }
+    },
+    {
+      "rawName": "GPT-5.4",
+      "score": 39.43,
+      "metrics": {
+        "pass_2": 29.55,
+        "pass_3": 24.48,
+        "pass_4": 21.65
+      },
+      "variant": "xhigh",
+      "harness": "τ-bench 1.0.1 · AllTools · GPT-5.2 user",
+      "date": "2026-05-06",
+      "url": "https://taubench.com/leaderboard/?benchmark=knowledge",
+      "vendor": "OpenAI",
+      "runId": "gpt-5-4_sierra_2026-03-25",
+      "costUnavailableReason": "The submission's numeric cost has no audited currency/statistic/attempt denominator; it is not used as USD/task.",
+      "extra": {
+        "dataUrl": "https://sierra-tau-bench-public.s3.us-west-2.amazonaws.com/submissions/gpt-5-4_sierra_2026-03-25/submission.json",
+        "benchmarkVersion": "1.0.1",
+        "retrievalConfig": "alltools",
+        "userSimulator": "gpt-5.2",
+        "submissionDate": "2026-03-25",
+        "modelReleaseDate": "2026-03-05",
+        "submittingOrganization": "Sierra",
+        "trajectoriesAvailable": true,
+        "methodologyNotes": "Evaluated with reasoning_effort 'xhigh' (the highest effort level this model supports). Retrieval: AllTools (BM25 + dense OpenAI text-embedding-3-large + sandboxed shell). User simulator: gpt-5.2 with reasoning_effort: low. 4 trials. Seed: 300. Banking_knowledge domain only — other domains intentionally excluded from this comparison; the AllTools setting standardizes retrieval across models. banking_knowledge re-graded under tau2-bench v1.0.1 grading fixes on 2026-07-15 (extra-read logging #329, numeric-argument normalization #397, T077-T086 gold trajectories #402); scores prior to v1.0.1 are not comparable.",
+        "reportedCost": 1.8423
+      }
+    },
+    {
+      "rawName": "GPT-5.5",
+      "score": 44.58762886597938,
+      "metrics": {
+        "pass_2": 37.62886597938145,
+        "pass_3": 33.24742268041237,
+        "pass_4": 29.896907216494846
+      },
+      "variant": "xhigh",
+      "harness": "τ-bench 1.0.1 · AllTools · GPT-5.2 user",
+      "date": "2026-07-22",
+      "url": "https://taubench.com/leaderboard/?benchmark=knowledge",
+      "vendor": "OpenAI",
+      "runId": "gpt-5-5_sierra_2026-05-05",
+      "costUnavailableReason": "No monetary task cost reported for this AllTools run.",
+      "extra": {
+        "dataUrl": "https://sierra-tau-bench-public.s3.us-west-2.amazonaws.com/submissions/gpt-5-5_sierra_2026-05-05/submission.json",
+        "benchmarkVersion": "1.0.1",
+        "retrievalConfig": "alltools",
+        "userSimulator": "gpt-5.2",
+        "submissionDate": "2026-05-05",
+        "modelReleaseDate": "2026-04-23",
+        "submittingOrganization": "Sierra",
+        "trajectoriesAvailable": true,
+        "methodologyNotes": "Banking_knowledge evaluation with AllTools retrieval, GPT-5.2 low-reasoning user simulation, four trials, and seed 300.",
+        "reportedCost": null
+      }
+    },
+    {
+      "rawName": "Claude Opus 4.6",
+      "score": 27.32,
+      "metrics": {
+        "pass_2": 18.73,
+        "pass_3": 14.18,
+        "pass_4": 11.34
+      },
+      "variant": "max",
+      "harness": "τ-bench 1.0.1 · AllTools · GPT-5.2 user",
+      "date": "2026-05-06",
+      "url": "https://taubench.com/leaderboard/?benchmark=knowledge",
+      "vendor": "Anthropic",
+      "runId": "claude-opus-4-6_sierra_2026-05-05",
+      "costUnavailableReason": "No monetary task cost reported for this AllTools run.",
+      "extra": {
+        "dataUrl": "https://sierra-tau-bench-public.s3.us-west-2.amazonaws.com/submissions/claude-opus-4-6_sierra_2026-05-05/submission.json",
+        "benchmarkVersion": "1.0.1",
+        "retrievalConfig": "alltools",
+        "userSimulator": "gpt-5.2",
+        "submissionDate": "2026-05-05",
+        "modelReleaseDate": "2026-02-05",
+        "submittingOrganization": "Sierra",
+        "trajectoriesAvailable": true,
+        "methodologyNotes": "Evaluated with reasoning_effort 'max' (the highest effort level this model supports). Retrieval: AllTools (BM25 + dense OpenAI text-embedding-3-large + sandboxed shell). User simulator: gpt-5.2 with reasoning_effort: low. 4 trials. Seed: 300. Banking_knowledge domain only — other domains intentionally excluded from this comparison; the AllTools setting standardizes retrieval across models. banking_knowledge re-graded under tau2-bench v1.0.1 grading fixes on 2026-07-15 (extra-read logging #329, numeric-argument normalization #397, T077-T086 gold trajectories #402); scores prior to v1.0.1 are not comparable.",
+        "reportedCost": null
+      }
+    },
+    {
+      "rawName": "Claude Opus 4.7",
+      "score": 40.20618556701031,
+      "metrics": {
+        "pass_2": 31.099656357388323,
+        "pass_3": 27.061855670103093,
+        "pass_4": 24.742268041237114
+      },
+      "variant": "max",
+      "harness": "τ-bench 1.0.1 · AllTools · GPT-5.2 user",
+      "date": "2026-07-23",
+      "url": "https://taubench.com/leaderboard/?benchmark=knowledge",
+      "vendor": "Anthropic",
+      "runId": "claude-opus-4-7_sierra_2026-05-05",
+      "costUnavailableReason": "No monetary task cost reported for this AllTools run.",
+      "extra": {
+        "dataUrl": "https://sierra-tau-bench-public.s3.us-west-2.amazonaws.com/submissions/claude-opus-4-7_sierra_2026-05-05/submission.json",
+        "benchmarkVersion": "1.0.1",
+        "retrievalConfig": "alltools",
+        "userSimulator": "gpt-5.2",
+        "submissionDate": "2026-05-05",
+        "modelReleaseDate": "2026-04-16",
+        "submittingOrganization": "Sierra",
+        "trajectoriesAvailable": true,
+        "methodologyNotes": "Banking_knowledge evaluation with AllTools retrieval, GPT-5.2 low-reasoning user simulation, four trials, and seed 300.",
+        "reportedCost": null
+      }
+    },
+    {
+      "rawName": "Gemini 2.5 Pro",
+      "score": 13.66,
+      "metrics": {
+        "pass_2": 6.01,
+        "pass_3": 2.58,
+        "pass_4": 1.03
+      },
+      "variant": "high",
+      "harness": "τ-bench 1.0.1 · AllTools · GPT-5.2 user",
+      "date": "2026-05-05",
+      "url": "https://taubench.com/leaderboard/?benchmark=knowledge",
+      "vendor": "Google",
+      "runId": "gemini-2-5-pro_sierra_2026-05-05",
+      "costUnavailableReason": "No monetary task cost reported for this AllTools run.",
+      "extra": {
+        "dataUrl": "https://sierra-tau-bench-public.s3.us-west-2.amazonaws.com/submissions/gemini-2-5-pro_sierra_2026-05-05/submission.json",
+        "benchmarkVersion": "1.0.1",
+        "retrievalConfig": "alltools",
+        "userSimulator": "gpt-5.2",
+        "submissionDate": "2026-05-05",
+        "modelReleaseDate": "2025-06-17",
+        "submittingOrganization": "Sierra",
+        "trajectoriesAvailable": true,
+        "methodologyNotes": "Evaluated using AllTools retrieval (BM25 + dense OpenAI text-embedding-3-large + sandboxed shell). User simulator: gpt-5.2 with reasoning_effort: low. 4 trials. Seed: 300. Banking_knowledge domain only — other domains intentionally excluded from this comparison; the AllTools setting standardizes retrieval across models. banking_knowledge re-graded under tau2-bench v1.0.1 grading fixes on 2026-07-15 (extra-read logging #329, numeric-argument normalization #397, T077-T086 gold trajectories #402); scores prior to v1.0.1 are not comparable.",
+        "reportedCost": null
+      }
+    },
+    {
+      "rawName": "Gemini 3.1 Pro Preview",
+      "score": 26.03,
+      "metrics": {
+        "pass_2": 15.12,
+        "pass_3": 11.08,
+        "pass_4": 9.28
+      },
+      "variant": "high",
+      "harness": "τ-bench 1.0.1 · AllTools · GPT-5.2 user",
+      "date": "2026-05-05",
+      "url": "https://taubench.com/leaderboard/?benchmark=knowledge",
+      "vendor": "Google",
+      "runId": "gemini-3-1-pro-preview_sierra_2026-05-05",
+      "costUnavailableReason": "No monetary task cost reported for this AllTools run.",
+      "extra": {
+        "dataUrl": "https://sierra-tau-bench-public.s3.us-west-2.amazonaws.com/submissions/gemini-3-1-pro-preview_sierra_2026-05-05/submission.json",
+        "benchmarkVersion": "1.0.1",
+        "retrievalConfig": "alltools",
+        "userSimulator": "gpt-5.2",
+        "submissionDate": "2026-05-05",
+        "modelReleaseDate": "2026-02-19",
+        "submittingOrganization": "Sierra",
+        "trajectoriesAvailable": true,
+        "methodologyNotes": "Evaluated using AllTools retrieval (BM25 + dense OpenAI text-embedding-3-large + sandboxed shell). User simulator: gpt-5.2 with reasoning_effort: low. 4 trials. Seed: 300. Banking_knowledge domain only — other domains intentionally excluded from this comparison; the AllTools setting standardizes retrieval across models. banking_knowledge re-graded under tau2-bench v1.0.1 grading fixes on 2026-07-15 (extra-read logging #329, numeric-argument normalization #397, T077-T086 gold trajectories #402); scores prior to v1.0.1 are not comparable.",
+        "reportedCost": null
+      }
+    },
+    {
+      "rawName": "Grok 4 fast",
+      "score": 15.72,
+      "metrics": {
+        "pass_2": 8.42,
+        "pass_3": 5.67,
+        "pass_4": 4.12
+      },
+      "variant": "high",
+      "harness": "τ-bench 1.0.1 · AllTools · GPT-5.2 user",
+      "date": "2026-05-05",
+      "url": "https://taubench.com/leaderboard/?benchmark=knowledge",
+      "vendor": "xAI",
+      "runId": "grok-4-fast_sierra_2026-05-05",
+      "costUnavailableReason": "No monetary task cost reported for this AllTools run.",
+      "extra": {
+        "dataUrl": "https://sierra-tau-bench-public.s3.us-west-2.amazonaws.com/submissions/grok-4-fast_sierra_2026-05-05/submission.json",
+        "benchmarkVersion": "1.0.1",
+        "retrievalConfig": "alltools",
+        "userSimulator": "gpt-5.2",
+        "submissionDate": "2026-05-05",
+        "modelReleaseDate": "2025-09-19",
+        "submittingOrganization": "Sierra",
+        "trajectoriesAvailable": true,
+        "methodologyNotes": "Evaluated using AllTools retrieval (BM25 + dense OpenAI text-embedding-3-large + sandboxed shell). User simulator: gpt-5.2 with reasoning_effort: low. 4 trials. Seed: 300. Banking_knowledge domain only — other domains intentionally excluded from this comparison; the AllTools setting standardizes retrieval across models. banking_knowledge re-graded under tau2-bench v1.0.1 grading fixes on 2026-07-15 (extra-read logging #329, numeric-argument normalization #397, T077-T086 gold trajectories #402); scores prior to v1.0.1 are not comparable.",
+        "reportedCost": null
+      }
+    },
+    {
+      "rawName": "Grok 4.1 fast",
+      "score": 13.14,
+      "metrics": {
+        "pass_2": 7.73,
+        "pass_3": 5.67,
+        "pass_4": 5.15
+      },
+      "variant": "high",
+      "harness": "τ-bench 1.0.1 · AllTools · GPT-5.2 user",
+      "date": "2026-05-05",
+      "url": "https://taubench.com/leaderboard/?benchmark=knowledge",
+      "vendor": "xAI",
+      "runId": "grok-4-1-fast_sierra_2026-05-05",
+      "costUnavailableReason": "No monetary task cost reported for this AllTools run.",
+      "extra": {
+        "dataUrl": "https://sierra-tau-bench-public.s3.us-west-2.amazonaws.com/submissions/grok-4-1-fast_sierra_2026-05-05/submission.json",
+        "benchmarkVersion": "1.0.1",
+        "retrievalConfig": "alltools",
+        "userSimulator": "gpt-5.2",
+        "submissionDate": "2026-05-05",
+        "modelReleaseDate": "2025-11-19",
+        "submittingOrganization": "Sierra",
+        "trajectoriesAvailable": true,
+        "methodologyNotes": "Evaluated using AllTools retrieval (BM25 + dense OpenAI text-embedding-3-large + sandboxed shell). User simulator: gpt-5.2 with reasoning_effort: low. 4 trials. Seed: 300. Banking_knowledge domain only — other domains intentionally excluded from this comparison; the AllTools setting standardizes retrieval across models. xAI's `-reasoning` model variant (always-on chain-of-thought); launched with `temperature: 0.0` since reasoning is gated by model name on this provider, not by an `effort` parameter. banking_knowledge re-graded under tau2-bench v1.0.1 grading fixes on 2026-07-15 (extra-read logging #329, numeric-argument normalization #397, T077-T086 gold trajectories #402); scores prior to v1.0.1 are not comparable.",
+        "reportedCost": null
+      }
+    },
+    {
+      "rawName": "Grok 4.2",
+      "score": 18.04,
+      "metrics": {
+        "pass_2": 12.37,
+        "pass_3": 10.05,
+        "pass_4": 8.25
+      },
+      "variant": "high",
+      "harness": "τ-bench 1.0.1 · AllTools · GPT-5.2 user",
+      "date": "2026-05-05",
+      "url": "https://taubench.com/leaderboard/?benchmark=knowledge",
+      "vendor": "xAI",
+      "runId": "grok-4-2_sierra_2026-05-05",
+      "costUnavailableReason": "No monetary task cost reported for this AllTools run.",
+      "extra": {
+        "dataUrl": "https://sierra-tau-bench-public.s3.us-west-2.amazonaws.com/submissions/grok-4-2_sierra_2026-05-05/submission.json",
+        "benchmarkVersion": "1.0.1",
+        "retrievalConfig": "alltools",
+        "userSimulator": "gpt-5.2",
+        "submissionDate": "2026-05-05",
+        "modelReleaseDate": "2026-03-10",
+        "submittingOrganization": "Sierra",
+        "trajectoriesAvailable": true,
+        "methodologyNotes": "Evaluated using AllTools retrieval (BM25 + dense OpenAI text-embedding-3-large + sandboxed shell). User simulator: gpt-5.2 with reasoning_effort: low. 4 trials. Seed: 300. Banking_knowledge domain only — other domains intentionally excluded from this comparison; the AllTools setting standardizes retrieval across models. xAI's `-reasoning` model variant (always-on chain-of-thought); launched with `temperature: 0.0` since reasoning is gated by model name on this provider, not by an `effort` parameter. banking_knowledge re-graded under tau2-bench v1.0.1 grading fixes on 2026-07-15 (extra-read logging #329, numeric-argument normalization #397, T077-T086 gold trajectories #402); scores prior to v1.0.1 are not comparable.",
+        "reportedCost": null
+      }
+    },
+    {
+      "rawName": "GPT-5.6-sol",
+      "score": 46.90721649484536,
+      "metrics": {
+        "pass_2": 37.28522336769759,
+        "pass_3": 31.958762886597935,
+        "pass_4": 27.835051546391753
+      },
+      "variant": "xhigh",
+      "harness": "τ-bench 1.0.1 · AllTools · GPT-5.2 user",
+      "date": "2026-07-22",
+      "url": "https://taubench.com/leaderboard/?benchmark=knowledge",
+      "vendor": "OpenAI",
+      "runId": "gpt-5-6-sol_sierra_2026-08-04",
+      "costUnavailableReason": "No monetary task cost reported for this AllTools run.",
+      "extra": {
+        "dataUrl": "https://sierra-tau-bench-public.s3.us-west-2.amazonaws.com/submissions/gpt-5-6-sol_sierra_2026-08-04/submission.json",
+        "benchmarkVersion": "1.0.1",
+        "retrievalConfig": "alltools",
+        "userSimulator": "gpt-5.2",
+        "submissionDate": "2026-08-04",
+        "modelReleaseDate": "2026-07-09",
+        "submittingOrganization": "Sierra",
+        "trajectoriesAvailable": true,
+        "methodologyNotes": "Banking_knowledge evaluation with AllTools retrieval, GPT-5.2 low-reasoning user simulation, four trials, and seed 300.",
+        "reportedCost": null
+      }
+    },
+    {
+      "rawName": "Claude Opus 4.8",
+      "score": 39.69072164948454,
+      "metrics": {
+        "pass_2": 31.271477663230247,
+        "pass_3": 26.288659793814436,
+        "pass_4": 22.68041237113402
+      },
+      "variant": "max",
+      "harness": "τ-bench 1.0.1 · AllTools · GPT-5.2 user",
+      "date": "2026-07-23",
+      "url": "https://taubench.com/leaderboard/?benchmark=knowledge",
+      "vendor": "Anthropic",
+      "runId": "claude-opus-4-8_sierra_2026-08-04",
+      "costUnavailableReason": "No monetary task cost reported for this AllTools run.",
+      "extra": {
+        "dataUrl": "https://sierra-tau-bench-public.s3.us-west-2.amazonaws.com/submissions/claude-opus-4-8_sierra_2026-08-04/submission.json",
+        "benchmarkVersion": "1.0.1",
+        "retrievalConfig": "alltools",
+        "userSimulator": "gpt-5.2",
+        "submissionDate": "2026-08-04",
+        "modelReleaseDate": "2026-05-28",
+        "submittingOrganization": "Sierra",
+        "trajectoriesAvailable": true,
+        "methodologyNotes": "Banking_knowledge evaluation with AllTools retrieval, GPT-5.2 low-reasoning user simulation, four trials, and seed 300.",
+        "reportedCost": null
+      }
+    },
+    {
+      "rawName": "Claude Fable 5",
+      "score": 39.69072164948454,
+      "metrics": {
+        "pass_2": 32.817869415807564,
+        "pass_3": 30.15463917525773,
+        "pass_4": 28.865979381443296
+      },
+      "variant": "max",
+      "harness": "τ-bench 1.0.1 · AllTools · GPT-5.2 user",
+      "date": "2026-07-23",
+      "url": "https://taubench.com/leaderboard/?benchmark=knowledge",
+      "vendor": "Anthropic",
+      "runId": "claude-fable-5_sierra_2026-08-04",
+      "costUnavailableReason": "No monetary task cost reported for this AllTools run.",
+      "extra": {
+        "dataUrl": "https://sierra-tau-bench-public.s3.us-west-2.amazonaws.com/submissions/claude-fable-5_sierra_2026-08-04/submission.json",
+        "benchmarkVersion": "1.0.1",
+        "retrievalConfig": "alltools",
+        "userSimulator": "gpt-5.2",
+        "submissionDate": "2026-08-04",
+        "modelReleaseDate": "2026-06-09",
+        "submittingOrganization": "Sierra",
+        "trajectoriesAvailable": true,
+        "methodologyNotes": "Banking_knowledge evaluation with AllTools retrieval, GPT-5.2 low-reasoning user simulation, four trials, and seed 300.",
+        "reportedCost": null
+      }
+    },
+    {
+      "rawName": "Muse Spark 1.1",
+      "score": 40.4639175257732,
+      "metrics": {
+        "pass_2": 29.55326460481099,
+        "pass_3": 23.969072164948454,
+        "pass_4": 20.618556701030926
+      },
+      "variant": "xhigh",
+      "harness": "τ-bench 1.0.1 · AllTools · GPT-5.2 user",
+      "date": "2026-07-23",
+      "url": "https://taubench.com/leaderboard/?benchmark=knowledge",
+      "vendor": "Meta",
+      "runId": "muse-spark-1-1_sierra_2026-08-04",
+      "costUnavailableReason": "No monetary task cost reported for this AllTools run.",
+      "extra": {
+        "dataUrl": "https://sierra-tau-bench-public.s3.us-west-2.amazonaws.com/submissions/muse-spark-1-1_sierra_2026-08-04/submission.json",
+        "benchmarkVersion": "1.0.1",
+        "retrievalConfig": "alltools",
+        "userSimulator": "gpt-5.2",
+        "submissionDate": "2026-08-04",
+        "modelReleaseDate": "2026-07-09",
+        "submittingOrganization": "Sierra",
+        "trajectoriesAvailable": true,
+        "methodologyNotes": "Banking_knowledge evaluation with AllTools retrieval, GPT-5.2 low-reasoning user simulation, four trials, and seed 300.",
+        "reportedCost": null
+      }
+    },
+    {
+      "rawName": "Kimi K3",
+      "score": 37.11340206185567,
+      "metrics": {
+        "pass_2": 25.257731958762886,
+        "pass_3": 20.103092783505154,
+        "pass_4": 17.525773195876287
+      },
+      "variant": "max",
+      "harness": "τ-bench 1.0.1 · AllTools · GPT-5.2 user",
+      "date": "2026-07-24",
+      "url": "https://taubench.com/leaderboard/?benchmark=knowledge",
+      "vendor": "Moonshot AI",
+      "runId": "kimi-k3_sierra_2026-08-04",
+      "costUnavailableReason": "No monetary task cost reported for this AllTools run.",
+      "extra": {
+        "dataUrl": "https://sierra-tau-bench-public.s3.us-west-2.amazonaws.com/submissions/kimi-k3_sierra_2026-08-04/submission.json",
+        "benchmarkVersion": "1.0.1",
+        "retrievalConfig": "alltools",
+        "userSimulator": "gpt-5.2",
+        "submissionDate": "2026-08-04",
+        "modelReleaseDate": "2026-07-16",
+        "submittingOrganization": "Sierra",
+        "trajectoriesAvailable": true,
+        "methodologyNotes": "Banking_knowledge evaluation with AllTools retrieval, GPT-5.2 low-reasoning user simulation, four trials, and seed 300.",
+        "reportedCost": null
+      }
+    },
+    {
+      "rawName": "GLM-5.2",
+      "score": 37.11340206185567,
+      "metrics": {
+        "pass_2": 25.257731958762886,
+        "pass_3": 18.298969072164947,
+        "pass_4": 13.402061855670103
+      },
+      "variant": "xhigh",
+      "harness": "τ-bench 1.0.1 · AllTools · GPT-5.2 user",
+      "date": "2026-07-24",
+      "url": "https://taubench.com/leaderboard/?benchmark=knowledge",
+      "vendor": "Z.ai",
+      "runId": "glm-5-2_sierra_2026-08-04",
+      "costUnavailableReason": "No monetary task cost reported for this AllTools run.",
+      "extra": {
+        "dataUrl": "https://sierra-tau-bench-public.s3.us-west-2.amazonaws.com/submissions/glm-5-2_sierra_2026-08-04/submission.json",
+        "benchmarkVersion": "1.0.1",
+        "retrievalConfig": "alltools",
+        "userSimulator": "gpt-5.2",
+        "submissionDate": "2026-08-04",
+        "modelReleaseDate": "2026-06-16",
+        "submittingOrganization": "Sierra",
+        "trajectoriesAvailable": true,
+        "methodologyNotes": "Banking_knowledge evaluation with AllTools retrieval, GPT-5.2 low-reasoning user simulation, four trials, and seed 300.",
+        "reportedCost": null
+      }
+    },
+    {
+      "rawName": "Grok 4.5",
+      "score": 47.93814432989691,
+      "metrics": {
+        "pass_2": 39.51890034364261,
+        "pass_3": 35.30927835051546,
+        "pass_4": 31.958762886597935
+      },
+      "variant": "high",
+      "harness": "τ-bench 1.0.1 · AllTools · GPT-5.2 user",
+      "date": "2026-07-24",
+      "url": "https://taubench.com/leaderboard/?benchmark=knowledge",
+      "vendor": "xAI",
+      "runId": "grok-4-5_sierra_2026-08-04",
+      "costUnavailableReason": "No monetary task cost reported for this AllTools run.",
+      "extra": {
+        "dataUrl": "https://sierra-tau-bench-public.s3.us-west-2.amazonaws.com/submissions/grok-4-5_sierra_2026-08-04/submission.json",
+        "benchmarkVersion": "1.0.1",
+        "retrievalConfig": "alltools",
+        "userSimulator": "gpt-5.2",
+        "submissionDate": "2026-08-04",
+        "modelReleaseDate": "2026-07-16",
+        "submittingOrganization": "Sierra",
+        "trajectoriesAvailable": true,
+        "methodologyNotes": "Banking_knowledge evaluation with AllTools retrieval, GPT-5.2 low-reasoning user simulation, four trials, and seed 300.",
+        "reportedCost": null
+      }
+    },
+    {
+      "rawName": "Inkling",
+      "score": 25,
+      "metrics": {
+        "pass_2": 16.666666666666664,
+        "pass_3": 13.402061855670103,
+        "pass_4": 11.34020618556701
+      },
+      "variant": "max",
+      "harness": "τ-bench 1.0.1 · AllTools · GPT-5.2 user",
+      "date": "2026-07-24",
+      "url": "https://taubench.com/leaderboard/?benchmark=knowledge",
+      "vendor": "Thinking Machines Lab",
+      "runId": "inkling_sierra_2026-08-04",
+      "costUnavailableReason": "No monetary task cost reported for this AllTools run.",
+      "extra": {
+        "dataUrl": "https://sierra-tau-bench-public.s3.us-west-2.amazonaws.com/submissions/inkling_sierra_2026-08-04/submission.json",
+        "benchmarkVersion": "1.0.1",
+        "retrievalConfig": "alltools",
+        "userSimulator": "gpt-5.2",
+        "submissionDate": "2026-08-04",
+        "modelReleaseDate": "2026-07-15",
+        "submittingOrganization": "Sierra",
+        "trajectoriesAvailable": true,
+        "methodologyNotes": "Banking_knowledge evaluation with AllTools retrieval, GPT-5.2 low-reasoning user simulation, four trials, and seed 300.",
+        "reportedCost": null
+      }
+    },
+    {
+      "rawName": "Claude Opus 5",
+      "score": 48.71134020618557,
+      "metrics": {
+        "pass_2": 39.175257731958766,
+        "pass_3": 34.5360824742268,
+        "pass_4": 31.958762886597935
+      },
+      "variant": "max",
+      "harness": "τ-bench 1.0.1 · AllTools · GPT-5.2 user",
+      "date": "2026-08-03",
+      "url": "https://taubench.com/leaderboard/?benchmark=knowledge",
+      "vendor": "Anthropic",
+      "runId": "claude-opus-5_sierra_2026-08-04",
+      "costUnavailableReason": "No monetary task cost reported for this AllTools run.",
+      "extra": {
+        "dataUrl": "https://sierra-tau-bench-public.s3.us-west-2.amazonaws.com/submissions/claude-opus-5_sierra_2026-08-04/submission.json",
+        "benchmarkVersion": "1.0.1",
+        "retrievalConfig": "alltools",
+        "userSimulator": "gpt-5.2",
+        "submissionDate": "2026-08-04",
+        "modelReleaseDate": "2026-07-24",
+        "submittingOrganization": "Sierra",
+        "trajectoriesAvailable": true,
+        "methodologyNotes": "Banking_knowledge evaluation with AllTools retrieval, GPT-5.2 low-reasoning user simulation, four trials, and seed 300.",
+        "reportedCost": null
+      }
+    },
+    {
+      "rawName": "Qwen 3.8 Max",
+      "score": 55.154639175257735,
+      "metrics": {
+        "pass_2": 45.18900343642611,
+        "pass_3": 39.69072164948454,
+        "pass_4": 35.051546391752574
+      },
+      "variant": "xhigh",
+      "harness": "τ-bench 1.0.1 · AllTools · GPT-5.2 user",
+      "date": "2026-08-03",
+      "url": "https://taubench.com/leaderboard/?benchmark=knowledge",
+      "vendor": "Qwen",
+      "runId": "qwen3-8-max_sierra_2026-08-04",
+      "costUnavailableReason": "No monetary task cost reported for this AllTools run.",
+      "extra": {
+        "dataUrl": "https://sierra-tau-bench-public.s3.us-west-2.amazonaws.com/submissions/qwen3-8-max_sierra_2026-08-04/submission.json",
+        "benchmarkVersion": "1.0.1",
+        "retrievalConfig": "alltools",
+        "userSimulator": "gpt-5.2",
+        "submissionDate": "2026-08-04",
+        "modelReleaseDate": "2026-07-19",
+        "submittingOrganization": "Sierra",
+        "trajectoriesAvailable": true,
+        "methodologyNotes": "Banking_knowledge evaluation with AllTools retrieval, GPT-5.2 low-reasoning user simulation, four trials, and seed 300.",
+        "reportedCost": null
+      }
+    }
+  ],
+  "warnings": [
+    "Excluded 8 submissions outside the standard v1.0.1 AllTools / GPT-5.2 text cohort (including custom, other-retrieval or non-banking runs)."
+  ],
+  "costStatus": {
+    "status": "not-reported",
+    "url": "https://taubench.com/leaderboard/?benchmark=knowledge",
+    "note": "No audited USD mean cost per attempted task is published for this cohort. Numeric submission cost fields with unverified units/statistics are retained only in raw audit data."
+  }
+}

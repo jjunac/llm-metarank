@@ -1,0 +1,372 @@
+{
+  "sourceId": "mcp-atlas",
+  "fetchedAt": "2026-10-30T22:14:32.121Z",
+  "sourceUpdatedAt": "2026-09-17",
+  "url": "https://labs.scale.com/leaderboard/mcp_atlas",
+  "entries": [
+    {
+      "rawName": "Muse Spark 1.1",
+      "score": 88.1,
+      "date": "2026-07-09",
+      "url": "https://labs.scale.com/leaderboard/mcp_atlas",
+      "extra": {
+        "rank": 1,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "Fable 5.1",
+      "score": 87.2,
+      "date": "2026-09-04",
+      "url": "https://labs.scale.com/leaderboard/mcp_atlas",
+      "extra": {
+        "rank": 2,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "claude-opus-5 (xhigh)",
+      "score": 85.8,
+      "variant": "xhigh",
+      "date": "2026-08-03",
+      "url": "https://labs.scale.com/leaderboard/mcp_atlas",
+      "extra": {
+        "rank": 3,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "Qwen3.8-2.4T-A95B (xHigh)",
+      "score": 84.5,
+      "variant": "xHigh",
+      "date": "2026-09-17",
+      "url": "https://labs.scale.com/leaderboard/mcp_atlas",
+      "extra": {
+        "rank": 4,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "GLM 5.3",
+      "score": 84.2,
+      "date": "2026-09-17",
+      "url": "https://labs.scale.com/leaderboard/mcp_atlas",
+      "extra": {
+        "rank": 5,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "Gemini 3.5 Flash (high)",
+      "score": 83.6,
+      "variant": "high",
+      "date": "2026-05-19",
+      "url": "https://labs.scale.com/leaderboard/mcp_atlas",
+      "extra": {
+        "rank": 6,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "Claude Fable 5",
+      "score": 83.3,
+      "date": "2026-06-09",
+      "url": "https://labs.scale.com/leaderboard/mcp_atlas",
+      "extra": {
+        "rank": 7,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "kimi-k3 (max)",
+      "score": 82.3,
+      "variant": "max",
+      "date": "2026-07-20",
+      "url": "https://labs.scale.com/leaderboard/mcp_atlas",
+      "extra": {
+        "rank": 8,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "Muse Spark",
+      "score": 82.2,
+      "date": "2026-04-08",
+      "url": "https://labs.scale.com/leaderboard/mcp_atlas",
+      "extra": {
+        "rank": 9,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "claude-opus-4-8 (max)",
+      "score": 82.2,
+      "variant": "max",
+      "date": "2026-05-28",
+      "url": "https://labs.scale.com/leaderboard/mcp_atlas",
+      "extra": {
+        "rank": 10,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "gpt-5.6 (sol)",
+      "score": 81.8,
+      "date": "2026-07-15",
+      "url": "https://labs.scale.com/leaderboard/mcp_atlas",
+      "extra": {
+        "rank": 11,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "Inkling-small",
+      "score": 79.2,
+      "date": "2026-07-30",
+      "url": "https://labs.scale.com/leaderboard/mcp_atlas",
+      "extra": {
+        "rank": 12,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "claude-opus-4-7 (max)",
+      "score": 79.1,
+      "variant": "max",
+      "date": "2026-04-08",
+      "url": "https://labs.scale.com/leaderboard/mcp_atlas",
+      "extra": {
+        "rank": 13,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "gemini-3.1-pro-preview (high)",
+      "score": 78.2,
+      "variant": "high",
+      "date": "2025-11-24",
+      "url": "https://labs.scale.com/leaderboard/mcp_atlas",
+      "extra": {
+        "rank": 14,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "glm-5p2",
+      "score": 77.8,
+      "date": "2026-07-20",
+      "url": "https://labs.scale.com/leaderboard/mcp_atlas",
+      "extra": {
+        "rank": 15,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "claude-opus-4-6 (max)",
+      "score": 76.8,
+      "variant": "max",
+      "date": "2025-12-18",
+      "url": "https://labs.scale.com/leaderboard/mcp_atlas",
+      "extra": {
+        "rank": 16,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "Inkling (xHigh)",
+      "score": 76,
+      "variant": "xHigh",
+      "date": "2026-07-15",
+      "url": "https://labs.scale.com/leaderboard/mcp_atlas",
+      "extra": {
+        "rank": 17,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "glm-5p1",
+      "score": 75.6,
+      "date": "2025-12-17",
+      "url": "https://labs.scale.com/leaderboard/mcp_atlas",
+      "extra": {
+        "rank": 18,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "gpt-5.5 (xhigh)",
+      "score": 75.3,
+      "variant": "xhigh",
+      "date": "2026-04-28",
+      "url": "https://labs.scale.com/leaderboard/mcp_atlas",
+      "extra": {
+        "rank": 19,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "gpt-5.4 (xhigh)",
+      "score": 70.6,
+      "variant": "xhigh",
+      "date": "2025-11-30",
+      "url": "https://labs.scale.com/leaderboard/mcp_atlas",
+      "extra": {
+        "rank": 20,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "gemini-3-pro-preview",
+      "score": 70.3,
+      "date": "2025-12-18",
+      "url": "https://labs.scale.com/leaderboard/mcp_atlas",
+      "extra": {
+        "rank": 21,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "claude-opus-4-5 (high)",
+      "score": 69.8,
+      "variant": "high",
+      "date": "2025-09-10",
+      "url": "https://labs.scale.com/leaderboard/mcp_atlas",
+      "extra": {
+        "rank": 22,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "claude-sonnet-4-6",
+      "score": 69.5,
+      "date": "2025-11-06",
+      "url": "https://labs.scale.com/leaderboard/mcp_atlas",
+      "extra": {
+        "rank": 23,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "gpt-5.2 (xhigh)",
+      "score": 67.6,
+      "variant": "xhigh",
+      "date": "2025-09-10",
+      "url": "https://labs.scale.com/leaderboard/mcp_atlas",
+      "extra": {
+        "rank": 24,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "kimi-k2p5",
+      "score": 64.4,
+      "date": "2025-09-10",
+      "url": "https://labs.scale.com/leaderboard/mcp_atlas",
+      "extra": {
+        "rank": 25,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "Nemotron 3 Ultra (thinking)",
+      "score": 63.1,
+      "variant": "thinking",
+      "date": "2026-09-17",
+      "url": "https://labs.scale.com/leaderboard/mcp_atlas",
+      "extra": {
+        "rank": 26,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "gemini-3-flash-preview",
+      "score": 62,
+      "date": "2025-09-18",
+      "url": "https://labs.scale.com/leaderboard/mcp_atlas",
+      "extra": {
+        "rank": 27,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "claude-sonnet-4-5 (thinking)",
+      "score": 59.5,
+      "variant": "thinking",
+      "date": "2025-12-16",
+      "url": "https://labs.scale.com/leaderboard/mcp_atlas",
+      "extra": {
+        "rank": 28,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "glm-4p7",
+      "score": 58.1,
+      "date": "2025-09-10",
+      "url": "https://labs.scale.com/leaderboard/mcp_atlas",
+      "extra": {
+        "rank": 29,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "gemini-3.1-flash-lite (high)",
+      "score": 57.1,
+      "variant": "high",
+      "date": "2026-01-08",
+      "url": "https://labs.scale.com/leaderboard/mcp_atlas",
+      "extra": {
+        "rank": 30,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "gpt-5.4-mini (xhigh)",
+      "score": 56.7,
+      "variant": "xhigh",
+      "date": "2025-09-10",
+      "url": "https://labs.scale.com/leaderboard/mcp_atlas",
+      "extra": {
+        "rank": 31,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "gpt-5.1 (high)",
+      "score": 50.1,
+      "variant": "high",
+      "date": "2025-09-10",
+      "url": "https://labs.scale.com/leaderboard/mcp_atlas",
+      "extra": {
+        "rank": 32,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "o3-pro",
+      "score": 44.5,
+      "date": "2025-09-10",
+      "url": "https://labs.scale.com/leaderboard/mcp_atlas",
+      "extra": {
+        "rank": 33,
+        "version": ""
+      }
+    },
+    {
+      "rawName": "claude-haiku-4-5",
+      "score": 40.2,
+      "date": "2025-09-10",
+      "url": "https://labs.scale.com/leaderboard/mcp_atlas",
+      "extra": {
+        "rank": 34,
+        "version": ""
+      }
+    }
+  ],
+  "warnings": [],
+  "costStatus": {
+    "status": "not-reported",
+    "url": "https://labs.scale.com/leaderboard/mcp_atlas",
+    "note": "The public leaderboard payload does not publish monetary task cost matched to these runs. Budget caps, API prices and costs from other evaluators are not substituted."
+  }
+}
