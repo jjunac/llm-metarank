@@ -23,6 +23,9 @@ adding a source.
 - Build input is `data/snapshots/<sourceId>/latest.json`. Dated files beside it are retrieval
   snapshots, not benchmark release dates; result dates live in `sourceUpdatedAt` and
   `benchmarkRelease`.
+- `data/snapshots/` is local-only and git-ignored. A fresh clone must run
+  `npm run data:refresh -- --fetch-only` (with full Chromium installed) before `data:build`,
+  `data:check`, `data:register`, or the dataset tests.
 - Rows whose `rawName` does not match the registry are silently excluded from scores. New models from
   current-cohort benchmarks or with recent dates are registered automatically during `data:refresh`
   or via `npm run data:register`. Run `npm run data:review` (it prints `raw -> normalized`) to
@@ -34,8 +37,8 @@ adding a source.
   `scripts/fetch`/`scripts/parse`, and registration in `FETCHERS` in `scripts/refresh.ts`.
   `sources.json` maps each category to the `RawEntry.metrics` key (`overall` is the primary score).
 - `npm run data:refresh` refuses a dirty tree, downloads the selected sources, rebuilds, then
-  commits and pushes `data/` itself. For local work use
-  `npm run data:refresh -- --fetch-only` (writes snapshots only) or `-- --only=<sourceId>`, then
+  commits and pushes `data/` itself (snapshots stay local and are never committed). For local work
+  use `npm run data:refresh -- --fetch-only` (writes snapshots only) or `-- --only=<sourceId>`, then
   run `npm run data:build`.
 - Blocked or failed fetches intentionally keep the last good `latest.json`, mark the source stale,
   and make refresh exit nonzero; without `--fetch-only`, successful sources are still rebuilt and

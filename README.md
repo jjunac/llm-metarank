@@ -63,6 +63,10 @@ npm run preview                   # preview the static build
 npm run check                     # typecheck + tests + data validation + build
 ```
 
+Raw snapshots are fetched locally and are git-ignored. On a fresh clone, run
+`npm run data:refresh -- --fetch-only` before `data:build`, `data:check`, `data:register`, or
+`npm run check`.
+
 ## How the score works
 
 Each source is reduced to one score per tracked model (best reported variant for that source). The
@@ -176,7 +180,7 @@ source-specific caveats are retained.
 data/
   sources.json              # source metadata and category mapping
   models.json               # canonical model registry + aliases
-  snapshots/<source>/       # dated raw snapshots + latest.json
+  snapshots/<source>/       # local-only fetch cache: dated snapshots + latest.json (git-ignored)
   leaderboard.json          # generated site dataset
 public/
   vendors/                  # vendored vendor marks + attribution
@@ -210,7 +214,8 @@ be mixed into the generated data commit. It then fetches each source, writes a d
 `latest.json`, automatically registers any newly discovered current-cohort or recent models in
 `data/models.json`, and rebuilds `data/leaderboard.json`. Finally it stages `data/`, commits with
 `chore: update data`, and pushes. When the refresh produces no changes, the commit and push are
-skipped. `--fetch-only` skips the clean check and leaves the changes uncommitted.
+skipped. Snapshots are git-ignored, so only generated files under `data/` are committed.
+`--fetch-only` skips the clean check and leaves the changes uncommitted.
 
 Results are downloaded on every run, even when the benchmark release has not changed. Dated snapshot
 filenames are retrieval dates, not benchmark releases.
