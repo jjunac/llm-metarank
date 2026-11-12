@@ -1,11 +1,13 @@
 const VENDOR_PREFIX =
-  /^(?:anthropic|openai|google|meta|xai|spacexai|moonshot ai|moonshotai|moonshot|alibaba|xiaomi|nvidia|reflection|thinking machines|stepfun|tencent|z\.ai|z ai|zai|zhipu ai)\s+/;
+  /^(?:anthropic|openai|google|meta|xai|spacexai|moonshot ai|moonshotai|moonshot|alibaba|xiaomi|nvidia|reflection|thinking machines|stepfun|tencent|z\.ai|z ai|zai|zhipu ai|inclusionai|inclusion ai)[-_/\s]+/;
 
 const EFFORT_PATTERN =
   /\b(?:xhigh|extra high|high|medium|low|minimal|none|thinking|non[- ]?thinking|reasoning|default fallback|fallback|preview|instruct|chat|prompt|fc)\b/g;
 
 const HARNESS_PATTERN =
   /\b(?:claude code|codex|mini[- ]?swe[- ]?agent|swe[- ]?agent|openhands|provider adapter|muse code|grok build)\b/g;
+
+const ANTHROPIC_SHORT_PREFIX = /^(opus|sonnet|haiku|fable)\b/;
 
 /**
  * Produces a stable matching key for model names across leaderboards.
@@ -40,8 +42,16 @@ export function normalizeModelName(name: string): string {
   value = value.replace(/[-_ ]thinking[-_ ]max\b/g, " ");
   value = value.replace(/[-_ ]thinking\b/g, " ");
 
+  // Some sources format version decimals with "p", e.g. "glm-5p2" or "Minimax M3p1 Flash".
+  value = value.replace(/(\d)p(\d)/g, "$1.$2");
+
   value = value.replace(EFFORT_PATTERN, " ");
   value = value.replace(HARNESS_PATTERN, " ");
+
+  // Non-parenthesized "Max" is a reasoning effort except in Alibaba's Qwen Max series.
+  if (!/\bqwen/.test(value)) {
+    value = value.replace(/\bmax\b/g, " ");
+  }
 
   // Vendor prefixes are metadata, not part of the model identity.
   value = value.replace(VENDOR_PREFIX, "");
@@ -57,4 +67,16 @@ export function normalizeModelName(name: string): string {
   value = value.replace(/\s+20\d{2}$/, "");
 
   return value.replace(/\s+/g, " ").trim();
+}
+
+/**
+ * Canonicalizes a normalized model name so short Anthropic family names
+ * ("fable 5 2", "opus 5 5") group with their full "claude ..." key.
+ */
+export function canonicalModelKey(name: string): string {
+  const normalized = normalizeModelName(name);
+  if (ANTHROPIC_SHORT_PREFIX.test(normalized)) {
+    return `claude ${normalized}`;
+  }
+  return normalized;
 }

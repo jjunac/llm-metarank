@@ -23,8 +23,10 @@ adding a source.
 - Build input is `data/snapshots/<sourceId>/latest.json`. Dated files beside it are retrieval
   snapshots, not benchmark release dates; result dates live in `sourceUpdatedAt` and
   `benchmarkRelease`.
-- Rows whose `rawName` does not match the registry are silently excluded from scores. Run
-  `npm run data:review` (it prints `raw -> normalized`) and add aliases in `data/models.json`.
+- Rows whose `rawName` does not match the registry are silently excluded from scores. New models from
+  current-cohort benchmarks or with recent dates are registered automatically during `data:refresh`
+  or via `npm run data:register`. Run `npm run data:review` (it prints `raw -> normalized`) to
+  inspect remaining unmapped names or add custom aliases in `data/models.json`.
   Matching only indexes canonical `name` + `aliases`; the `patterns` field in `scripts/types.ts`
   is declared but not implemented.
 - A source id is simultaneously the `sources.json` id, snapshot directory name, and `--only`

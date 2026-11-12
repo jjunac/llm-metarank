@@ -43,6 +43,16 @@ describe("canonical model registry", () => {
       ["Composer 2.5", "composer-2-5"],
       ["Grok 4.20 (Beta Reasoning)", "grok-4-20-beta"],
       ["Grok 4.20 Beta 1", "grok-4-20-beta"],
+      ["Claude Fable 5.2 (Max, Default Fallback)", "claude-fable-5-2"],
+      ["Fable 5.2 Max", "claude-fable-5-2"],
+      ["Fable 5.2 Extra High", "claude-fable-5-2"],
+      ["claude-fable-5.2", "claude-fable-5-2"],
+      ["Gemini 4 Carbon High", "gemini-4-carbon"],
+      ["Inkling 2 Small", "inkling-2-small"],
+      ["Muse Ember (Max)", "muse-ember"],
+      ["Ling 3.1 Flash 1019", "ling-3-1-flash"],
+      ["mistral-large-4-0", "mistral-large-4"],
+      ["Minimax M3p1 Flash (mini-swe-agent) xhigh", "minimax-m3-1-flash"],
     ];
 
     for (const [raw, expected] of examples) {

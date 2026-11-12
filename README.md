@@ -46,7 +46,8 @@ See `/methodology` for category mappings, coverage rules, and caveats.
 npm install
 npx playwright install chromium   # full Chromium needed for the LMArena / Code Arena fetchers
 
-npm run data:refresh              # clean tree → fetch all sources → rebuild → commit + push data/
+npm run data:refresh              # clean tree → fetch all sources → register new models → rebuild → commit + push data/
+npm run data:register             # discover and register new models from existing snapshots into data/models.json
 npm run data:build                # rebuild data/leaderboard.json from existing snapshots
 npm run data:refresh -- --only=livebench
 npm run data:refresh -- --only=cursorbench
@@ -108,7 +109,7 @@ product recommendation, or a cost/value score.
 
 Costs stay separate from capability ranks. The matched-basket view computes a separate frontier for
 every supported combination of mean-cost sources. The default overall basket is currently
-**Terminal-Bench + CursorBench**, the basket with the most eligible models at build time. Artificial Analysis v5.0
+**LiveBench + CursorBench**, tied for the most eligible models at build time. Artificial Analysis v5.0
 scores are collected, but its costs are excluded until the new methodology is audited; v4.3.2 costs
 are not reused with newer scores. A model needs usable paired score/cost observations for every
 source in the selected basket. The overall view also supports a single benchmark, including
@@ -132,8 +133,8 @@ for audit but are not plotted.
 
 | Overall basket | Eligible models | Non-dominated |
 |---|---:|---:|
-| Terminal-Bench + CursorBench (default) | 13 | 5 |
-| LiveBench + CursorBench | 12 | 5 |
+| LiveBench + CursorBench (default) | 13 | 7 |
+| Terminal-Bench + CursorBench | 13 | 5 |
 | LiveBench + Terminal-Bench | 12 | 5 |
 | LiveBench + Terminal-Bench + CursorBench | 8 | 5 |
 
@@ -185,7 +186,8 @@ scripts/
   normalize/                # model-name normalization and registry matching
   build-dataset.ts          # percentiles, coverage, category scores, ranks
   costs.ts                  # matched-basket + single-benchmark frontiers, fixed references, strict Pareto dominance
-  refresh.ts                # fetch all sources and rebuild
+  refresh.ts                # fetch all sources, register new models, and rebuild
+  register-models.ts        # discover and register new models from snapshots
   check-data.ts             # dataset validation
   review-models.ts          # unmapped-name report
 src/
@@ -205,7 +207,8 @@ src/
 
 `npm run data:refresh` first checks that the git working tree is clean, so unrelated changes cannot
 be mixed into the generated data commit. It then fetches each source, writes a dated snapshot and
-`latest.json`, and rebuilds `data/leaderboard.json`. Finally it stages `data/`, commits with
+`latest.json`, automatically registers any newly discovered current-cohort or recent models in
+`data/models.json`, and rebuilds `data/leaderboard.json`. Finally it stages `data/`, commits with
 `chore: update data`, and pushes. When the refresh produces no changes, the commit and push are
 skipped. `--fetch-only` skips the clean check and leaves the changes uncommitted.
 

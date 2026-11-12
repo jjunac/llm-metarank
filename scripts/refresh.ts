@@ -4,6 +4,7 @@ import type { SourceConfig, SourceSnapshot } from "./types.js";
 import { DATA_DIR, ROOT, readJson } from "./util.js";
 import { refreshSource } from "./refresh-source.js";
 import { loadModelRegistry, matchModel } from "./normalize/models.js";
+import { registerNewModels } from "./normalize/register.js";
 import { fetchArtificialAnalysis } from "./fetch/artificial-analysis.js";
 import { fetchLiveBench } from "./fetch/livebench.js";
 import { fetchLmArenaText, fetchCodeArenaWebdev } from "./fetch/arena.js";
@@ -105,6 +106,12 @@ async function main(): Promise<void> {
   }
 
   if (!fetchOnly) {
+    const registered = await registerNewModels();
+    if (registered.length > 0) {
+      console.log(
+        `\nRegistered ${registered.length} new model(s): ${registered.map((model) => model.name).join(", ")}.`,
+      );
+    }
     const { buildDataset } = await import("./build-dataset.js");
     await buildDataset();
     commitAndPushData();

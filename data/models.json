@@ -637,5 +637,56 @@
     "aliases": [
       "composer 2 5"
     ]
+  },
+  {
+    "id": "claude-fable-5-2",
+    "name": "Claude Fable 5.2",
+    "vendor": "Anthropic",
+    "releaseDate": "2026-11-09",
+    "openWeights": false,
+    "aliases": [
+      "claude fable 5 2",
+      "fable 5 2"
+    ]
+  },
+  {
+    "id": "gemini-4-carbon",
+    "name": "Gemini 4 Carbon",
+    "vendor": "Google",
+    "releaseDate": "2026-10-28",
+    "openWeights": false,
+    "aliases": [
+      "gemini 4 carbon"
+    ]
+  },
+  {
+    "id": "inkling-2-small",
+    "name": "Inkling 2 Small",
+    "vendor": "Thinking Machines",
+    "releaseDate": "2026-11-05",
+    "openWeights": false,
+    "aliases": [
+      "inkling 2 small"
+    ]
+  },
+  {
+    "id": "ling-3-1-flash",
+    "name": "Ling 3.1 Flash",
+    "vendor": "InclusionAI",
+    "releaseDate": "2026-10-22",
+    "openWeights": true,
+    "aliases": [
+      "ling 3 1 flash"
+    ]
+  },
+  {
+    "id": "muse-ember",
+    "name": "Muse Ember",
+    "vendor": "Meta",
+    "releaseDate": "2026-11-09",
+    "openWeights": false,
+    "aliases": [
+      "muse ember"
+    ]
   }
 ]

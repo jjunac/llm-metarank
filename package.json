@@ -12,6 +12,7 @@
     "preview": "astro preview",
     "astro": "astro",
     "data:refresh": "tsx scripts/refresh.ts",
+    "data:register": "tsx scripts/register-models.ts",
     "data:build": "tsx scripts/build-dataset.ts",
     "data:check": "tsx scripts/check-data.ts",
     "data:review": "tsx scripts/review-models.ts",
