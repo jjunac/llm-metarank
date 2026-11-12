@@ -688,5 +688,14 @@
     "aliases": [
       "muse ember"
     ]
+  },
+  {
+    "id": "inkling-small",
+    "name": "Inkling small",
+    "vendor": "Thinking Machines",
+    "releaseDate": "2026-07-15",
+    "aliases": [
+      "inkling small"
+    ]
   }
 ]
