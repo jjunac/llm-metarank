@@ -697,5 +697,32 @@
     "aliases": [
       "inkling small"
     ]
+  },
+  {
+    "id": "deepseek-v4-pro",
+    "name": "DeepSeek V4 Pro",
+    "vendor": "DeepSeek",
+    "releaseDate": "2026-08-13",
+    "aliases": [
+      "deepseek v4 pro"
+    ]
+  },
+  {
+    "id": "gemini-4-hydrogen",
+    "name": "Gemini 4 Hydrogen",
+    "vendor": "Google",
+    "releaseDate": "2026-11-12",
+    "openWeights": false,
+    "aliases": [
+      "gemini 4 hydrogen"
+    ]
+  },
+  {
+    "id": "minimax-m3",
+    "name": "MiniMax M3",
+    "vendor": "MiniMax",
+    "aliases": [
+      "minimax m3"
+    ]
   }
 ]
