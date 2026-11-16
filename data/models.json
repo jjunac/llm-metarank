@@ -724,5 +724,15 @@
     "aliases": [
       "minimax m3"
     ]
+  },
+  {
+    "id": "qwen4-max",
+    "name": "Qwen4 Max",
+    "vendor": "Alibaba",
+    "releaseDate": "2026-11-16",
+    "openWeights": false,
+    "aliases": [
+      "qwen4 max"
+    ]
   }
 ]
