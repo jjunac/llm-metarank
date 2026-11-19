@@ -1,7 +1,8 @@
 import leaderboardJson from "../../data/leaderboard.json";
-import type { LeaderboardDataset, ModelRank, NormalizedSourceEntry } from "../../scripts/types";
+import { hydrateDataset } from "../../scripts/costs";
+import type { LeaderboardDataset, ModelRank, NormalizedSourceEntry, StoredLeaderboardDataset } from "../../scripts/types";
 
-export const leaderboard = leaderboardJson as unknown as LeaderboardDataset;
+export const leaderboard = hydrateDataset(leaderboardJson as unknown as StoredLeaderboardDataset);
 export type { LeaderboardDataset };
 
 function toClientEntry(entry: NormalizedSourceEntry): NormalizedSourceEntry {

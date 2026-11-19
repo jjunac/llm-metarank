@@ -11,6 +11,8 @@ import {
   type RawEntry,
   type SourceConfig,
   type SourceSnapshot,
+  type StoredLeaderboardDataset,
+  type TaskCost,
 } from "./types.js";
 import { DATA_DIR, SNAPSHOT_DIR, nowISO, readJson, writeJson } from "./util.js";
 import { loadModelRegistry, matchModel, type ModelRegistry } from "./normalize/models.js";
@@ -143,7 +145,15 @@ function normalizeEntry(work: SourceWork, modelId: string, entry: RawEntry): Nor
   const selected = work.bestByModel.get(modelId) === entry;
   const scores = [...work.bestByModel.values()].map((item) => item.score);
   const metricPercentiles: Record<string, number> = {};
+  const metrics: Record<string, number> = {};
+  const metricCosts: Record<string, TaskCost> = {};
   for (const [metric, values] of Object.entries(work.metricPercentiles)) {
+    if (metric !== "overall") {
+      const rawMetric = entry.metrics?.[metric];
+      if (typeof rawMetric === "number" && Number.isFinite(rawMetric)) metrics[metric] = rawMetric;
+      const rawCost = entry.metricCosts?.[metric];
+      if (rawCost) metricCosts[metric] = rawCost;
+    }
     if (selected) {
       const value = values.get(modelId);
       if (typeof value === "number") metricPercentiles[metric] = value;
@@ -158,12 +168,13 @@ function normalizeEntry(work: SourceWork, modelId: string, entry: RawEntry): Nor
   }
   return {
     sourceId: work.config.id, rawName: entry.rawName, modelId, score: entry.score,
-    metrics: entry.metrics ?? {},
+    metrics,
     percentile: selected ? work.overallPercentiles.get(modelId)! : percentile(entry.score, scores),
     metricPercentiles, variant: entry.variant, harness: entry.harness, date: entry.date,
     url: entry.url ?? work.config.url, sourceSize: work.bestByModel.size,
     rankInSource: selected ? work.rankInSource.get(modelId)! : 1 + scores.filter((score) => score > entry.score).length,
-    runId: entry.runId, cost: entry.cost, metricCosts: entry.metricCosts,
+    runId: entry.runId, cost: entry.cost,
+    metricCosts: Object.keys(metricCosts).length > 0 ? metricCosts : undefined,
     costUnavailableReason: entry.costUnavailableReason, runCostUsd: entry.runCostUsd,
   };
 }
@@ -256,7 +267,7 @@ export async function buildDataset(): Promise<LeaderboardDataset> {
       rank: null,
       coverage,
       categories,
-      sources: modelSources.sort((a, b) => b.percentile - a.percentile),
+      sources: modelSources.sort((a, b) => a.sourceId.localeCompare(b.sourceId)),
       costedRuns: costedRunsByModel.get(modelId) ?? [],
       missingSourceIds: sources.filter((source) => !modelSources.some((entry) => entry.sourceId === source.id)).map((source) => source.id),
       status: isRanked ? "ranked" : "limited",
@@ -291,12 +302,7 @@ export async function buildDataset(): Promise<LeaderboardDataset> {
     });
   }
 
-  modelRanks.sort((a, b) => {
-    if (a.status !== b.status) return a.status === "ranked" ? -1 : 1;
-    if (a.status === "ranked") return (a.rank ?? 0) - (b.rank ?? 0);
-    if ((b.overall ?? -1) !== (a.overall ?? -1)) return (b.overall ?? -1) - (a.overall ?? -1);
-    return a.name.localeCompare(b.name);
-  });
+  modelRanks.sort((a, b) => a.id.localeCompare(b.id));
 
   const datasetSources: DatasetSource[] = works.map((work) => {
     const dataDate = work.snapshot.sourceUpdatedAt ?? work.snapshot.fetchedAt.slice(0, 10);
@@ -335,19 +341,35 @@ export async function buildDataset(): Promise<LeaderboardDataset> {
     ]),
   ) as Record<Category, string[]>;
 
-  const dataset: LeaderboardDataset = {
+  const outputPath = resolve(DATA_DIR, "leaderboard.json");
+  const stored: StoredLeaderboardDataset = {
     generatedAt: nowISO(),
     methodologyVersion: "1.4",
     sourceCount: sources.length,
     trackedModelCount: modelRanks.length,
     rankedModelCount: ranked.length,
     sources: datasetSources,
-    models: modelRanks,
+    models: modelRanks.map(({ costedRuns: _costedRuns, ...model }) => model),
     categorySources,
+  };
+
+  try {
+    const previous = await readJson<StoredLeaderboardDataset>(outputPath);
+    if (JSON.stringify({ ...previous, generatedAt: "" }) === JSON.stringify({ ...stored, generatedAt: "" })) {
+      stored.generatedAt = previous.generatedAt;
+    }
+  } catch {
+    // First build or unreadable existing file.
+  }
+
+  await writeJson(outputPath, stored);
+
+  const dataset: LeaderboardDataset = {
+    ...stored,
+    models: modelRanks,
     costAnalysis: buildCostAnalysis(modelRanks, datasetSources),
   };
 
-  await writeJson(resolve(DATA_DIR, "leaderboard.json"), dataset);
   console.log(
     `\nBuilt dataset: ${dataset.trackedModelCount} tracked models, ${dataset.rankedModelCount} ranked, ${dataset.sourceCount} sources.`,
   );

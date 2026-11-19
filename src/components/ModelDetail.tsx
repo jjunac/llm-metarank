@@ -195,7 +195,7 @@ export default function ModelDetail({
             </div>
             <div className="overflow-hidden rounded-2xl border border-line">
               <div className="divide-y divide-line">
-                {model.sources.map((entry) => {
+                {[...model.sources].sort((a, b) => b.percentile - a.percentile).map((entry) => {
                   const source = data.sources.find((item) => item.id === entry.sourceId);
                   if (!source) return null;
                   const rawNameLower = entry.rawName.toLowerCase();

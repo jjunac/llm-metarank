@@ -5,10 +5,12 @@ import {
   type CostBasket,
   type CostScope,
   type DatasetSource,
+  type LeaderboardDataset,
   type MetaCostFrontier,
   type MetaCostPoint,
   type ModelRank,
   type NormalizedSourceEntry,
+  type StoredLeaderboardDataset,
   type TaskCost,
 } from "./types.js";
 
@@ -202,6 +204,18 @@ export function buildCostAnalysis(models: ModelRank[], sources: DatasetSource[])
   return {
     baselines, applicableSourceIds, singleSourceIds, baskets, defaultBasketId,
     frontiers, singleSourceFrontiers,
+  };
+}
+
+export function hydrateDataset(dataset: StoredLeaderboardDataset): LeaderboardDataset {
+  const models: ModelRank[] = dataset.models.map((model) => ({
+    ...model,
+    costedRuns: model.costedRuns ?? [],
+  }));
+  return {
+    ...dataset,
+    models,
+    costAnalysis: dataset.costAnalysis ?? buildCostAnalysis(models, dataset.sources),
   };
 }
 

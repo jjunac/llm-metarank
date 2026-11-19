@@ -79,14 +79,12 @@ export async function fetchLiveBench(): Promise<SourceSnapshot> {
       const value = parseNumber(row[column]);
       if (value === null) continue;
       metrics[column] = value;
-      metrics[label] = value;
       scoredColumns.push(column);
       const cost = liveBenchTaskCost(costRows.get(model), [column], {
         fetchedAt, sourceUrl: costUrl, scope: `LiveBench ${releaseId} · ${label}`,
       });
       if (cost) {
         metricCosts[column] = cost;
-        metricCosts[label] = cost;
       }
       weightedSum += value * weight;
       weightSum += weight;

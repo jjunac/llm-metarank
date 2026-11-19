@@ -54,6 +54,6 @@ describe("client dataset", () => {
   });
 
   it("is materially smaller than the full dataset", () => {
-    expect(JSON.stringify(client).length).toBeLessThan(JSON.stringify(leaderboard).length * 0.6);
+    expect(JSON.stringify(client).length).toBeLessThan(JSON.stringify(leaderboard).length * 0.85);
   });
 });

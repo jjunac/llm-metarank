@@ -59,4 +59,53 @@ describe("safe source refresh", () => {
     expect(result).toEqual({ ok: false, snapshot: null, error: "offline" });
     await expect(readJson(resolve(dir, "new-source/latest.json"))).rejects.toThrow();
   });
+
+  it("preserves fetchedAt timestamps when cost observations or snapshot data are unchanged", async () => {
+    const initial: SourceSnapshot = {
+      ...previous,
+      fetchedAt: "2026-10-25T00:00:00Z",
+      entries: [
+        {
+          rawName: "Previous model",
+          score: 80,
+          cost: {
+            usd: 1.5,
+            currency: "USD",
+            unit: "task",
+            statistic: "mean",
+            method: "reported",
+            scope: "test",
+            sourceUrl: "https://example.com",
+            fetchedAt: "2026-10-25T00:00:00Z",
+            complete: true,
+          },
+        },
+      ],
+    };
+    await writeJson(resolve(dir, "test/latest.json"), initial);
+
+    const sameDataNewClock: SourceSnapshot = {
+      ...structuredClone(initial),
+      fetchedAt: "2026-10-29T12:00:00Z",
+    };
+    sameDataNewClock.entries[0].cost!.fetchedAt = "2026-10-29T12:00:00Z";
+
+    const unchanged = await refreshSource("test", vi.fn().mockResolvedValue(sameDataNewClock), dir);
+    expect(unchanged.ok).toBe(true);
+    expect(unchanged.snapshot?.fetchedAt).toBe("2026-10-25T00:00:00Z");
+    expect(unchanged.snapshot?.entries[0].cost?.fetchedAt).toBe("2026-10-25T00:00:00Z");
+
+    const addedModel: SourceSnapshot = {
+      ...structuredClone(sameDataNewClock),
+      fetchedAt: "2026-10-29T12:00:00Z",
+      entries: [
+        ...structuredClone(sameDataNewClock.entries),
+        { rawName: "New model", score: 90 },
+      ],
+    };
+    const partial = await refreshSource("test", vi.fn().mockResolvedValue(addedModel), dir);
+    expect(partial.ok).toBe(true);
+    expect(partial.snapshot?.fetchedAt).toBe("2026-10-29T12:00:00Z");
+    expect(partial.snapshot?.entries[0].cost?.fetchedAt).toBe("2026-10-25T00:00:00Z");
+  });
 });

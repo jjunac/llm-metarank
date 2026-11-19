@@ -1,11 +1,11 @@
 import { describe, expect, it } from "vitest";
 import { resolve } from "node:path";
-import type { LeaderboardDataset, SourceConfig, SourceSnapshot } from "./types.js";
+import type { SourceConfig, SourceSnapshot, StoredLeaderboardDataset } from "./types.js";
 import { DATA_DIR, readJson } from "./util.js";
-import { buildCostAnalysis, canonicalBasketId, isUsableTaskCost } from "./costs.js";
+import { buildCostAnalysis, canonicalBasketId, hydrateDataset, isUsableTaskCost } from "./costs.js";
 import { loadModelRegistry, matchModel } from "./normalize/models.js";
 
-const dataset = await readJson<LeaderboardDataset>(resolve(DATA_DIR, "leaderboard.json"));
+const dataset = hydrateDataset(await readJson<StoredLeaderboardDataset>(resolve(DATA_DIR, "leaderboard.json")));
 const configs = await readJson<SourceConfig[]>(resolve(DATA_DIR, "sources.json"));
 
 describe("generated leaderboard dataset", () => {
@@ -24,7 +24,12 @@ describe("generated leaderboard dataset", () => {
     for (const id of ["cursorbench", "tau3-banking", "frontiermath"]) {
       expect(dataset.sources.find((source) => source.id === id)?.mappedCount).toBeGreaterThanOrEqual(3);
     }
-    expect(dataset.costAnalysis.singleSourceIds.overall).toContain("cursorbench");
+    const cursorbench = dataset.sources.find((source) => source.id === "cursorbench");
+    if (cursorbench?.status === "current") {
+      expect(dataset.costAnalysis.singleSourceIds.overall).toContain("cursorbench");
+    } else {
+      expect(dataset.costAnalysis.singleSourceIds.overall).not.toContain("cursorbench");
+    }
     expect(dataset.costAnalysis.applicableSourceIds.overall).not.toContain("tau3-banking");
     expect(dataset.costAnalysis.applicableSourceIds.overall).not.toContain("frontiermath");
   });

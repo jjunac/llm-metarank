@@ -105,7 +105,9 @@ export function sourceName(dataset: LeaderboardDataset, sourceId: string): strin
 }
 
 export function rankedModels(dataset: LeaderboardDataset): ModelRank[] {
-  return dataset.models.filter((model) => model.status === "ranked");
+  return dataset.models
+    .filter((model) => model.status === "ranked")
+    .sort((a, b) => (a.rank ?? Infinity) - (b.rank ?? Infinity));
 }
 
 /** Ranks every model with a meta score, ignoring the official coverage floor. */

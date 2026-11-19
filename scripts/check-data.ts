@@ -1,8 +1,8 @@
 import { readFileSync } from "node:fs";
 import { resolve } from "node:path";
-import type { CostScope, LeaderboardDataset, SourceConfig, SourceSnapshot, TaskCost } from "./types.js";
+import type { CostScope, SourceConfig, SourceSnapshot, StoredLeaderboardDataset, TaskCost } from "./types.js";
 import { DATA_DIR } from "./util.js";
-import { buildCostAnalysis, canonicalBasketId, isUsableTaskCost } from "./costs.js";
+import { buildCostAnalysis, canonicalBasketId, hydrateDataset, isUsableTaskCost } from "./costs.js";
 
 function validateCost(cost: TaskCost, context: string, errors: string[]): void {
   const invalid = (message: string) => errors.push(`${context}: ${message}`);
@@ -30,7 +30,7 @@ function validateCost(cost: TaskCost, context: string, errors: string[]): void {
 }
 
 function main(): void {
-  const dataset = readJsonSync<LeaderboardDataset>(resolve(DATA_DIR, "leaderboard.json"));
+  const dataset = hydrateDataset(readJsonSync<StoredLeaderboardDataset>(resolve(DATA_DIR, "leaderboard.json")));
   const errors: string[] = [];
   const warnings: string[] = [];
 
@@ -86,7 +86,10 @@ function main(): void {
       }
       if (entry.cost || Object.keys(entry.metricCosts ?? {}).length) {
         const raw = snapshots.get(entry.sourceId)?.entries.find((raw) => raw.rawName === entry.rawName && raw.score === entry.score && raw.runId === entry.runId && raw.variant === entry.variant && raw.harness === entry.harness);
-        if (!raw || JSON.stringify(raw.cost) !== JSON.stringify(entry.cost) || JSON.stringify(raw.metricCosts) !== JSON.stringify(entry.metricCosts)) {
+        const metricCostsMatch = Object.entries(entry.metricCosts ?? {}).every(
+          ([metric, cost]) => JSON.stringify(raw?.metricCosts?.[metric]) === JSON.stringify(cost),
+        );
+        if (!raw || JSON.stringify(raw.cost) !== JSON.stringify(entry.cost) || !metricCostsMatch) {
           errors.push(`${model.name}/${entry.sourceId}: cost is not paired with the exact raw scored run.`);
         }
       }
@@ -98,6 +101,15 @@ function main(): void {
     if (source.entryCount === 0) errors.push(`${source.shortName}: snapshot has no rows.`);
     if (source.mappedCount < 3) warnings.push(`${source.shortName}: only ${source.mappedCount} tracked models mapped.`);
     for (const warning of source.warnings) warnings.push(`${source.shortName}: ${warning}`);
+    for (const raw of snapshots.get(source.id)?.entries ?? []) {
+      if (raw.runCostUsd !== undefined && (!Number.isFinite(raw.runCostUsd) || raw.runCostUsd < 0)) {
+        errors.push(`${source.shortName}/${raw.rawName}: invalid run-total cost.`);
+      }
+      if (raw.cost) validateCost(raw.cost, `${source.shortName}/${raw.rawName}`, errors);
+      for (const [metric, cost] of Object.entries(raw.metricCosts ?? {})) {
+        validateCost(cost, `${source.shortName}/${raw.rawName}/${metric}`, errors);
+      }
+    }
     const selected = dataset.models.flatMap((model) => model.sources.filter((entry) => entry.sourceId === source.id));
     const usable = source.status === "stale" ? 0 : selected.filter((entry) => isUsableTaskCost(entry.cost)).length;
     if (usable !== source.costCoverage.usableModels) errors.push(`${source.shortName}: task-cost coverage count is inconsistent.`);
@@ -188,7 +200,9 @@ function main(): void {
     }
   }
 
-  const ranked = dataset.models.filter((model) => model.status === "ranked");
+  const ranked = dataset.models
+    .filter((model) => model.status === "ranked")
+    .sort((a, b) => (a.rank ?? Infinity) - (b.rank ?? Infinity));
   const top = ranked.slice(0, 10);
   if (top.length === 0) errors.push("No ranked models.");
 

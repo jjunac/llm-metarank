@@ -246,6 +246,15 @@ export interface CostAnalysis {
   singleSourceFrontiers: Record<CostScope, Record<string, MetaCostFrontier>>;
 }
 
+export type StoredModelRank = Omit<ModelRank, "costedRuns"> & {
+  costedRuns?: NormalizedSourceEntry[];
+};
+
+export type StoredLeaderboardDataset = Omit<LeaderboardDataset, "models" | "costAnalysis"> & {
+  models: StoredModelRank[];
+  costAnalysis?: CostAnalysis;
+};
+
 export interface LeaderboardDataset {
   generatedAt: string;
   methodologyVersion: string;

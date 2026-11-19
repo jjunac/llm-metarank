@@ -2,10 +2,10 @@
 import Base from "../layouts/Base.astro";
 import Leaderboard from "../components/Leaderboard";
 import { leaderboard, toClientDataset } from "../lib/data";
-import { CATEGORY_COPY, CATEGORY_ORDER, formatDate, formatScore } from "../lib/format";
+import { CATEGORY_COPY, CATEGORY_ORDER, formatDate, formatScore, rankedModels } from "../lib/format";
 import { Badge, ModelAvatar } from "../components/ui";
 
-const ranked = leaderboard.models.filter((model) => model.status === "ranked");
+const ranked = rankedModels(leaderboard);
 const topThree = ranked.slice(0, 3);
 const updated = formatDate(leaderboard.generatedAt.slice(0, 10));
 const clientLeaderboard = toClientDataset(leaderboard);
