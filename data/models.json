@@ -771,5 +771,15 @@
     "aliases": [
       "ember 1"
     ]
+  },
+  {
+    "id": "gemini-4-neon",
+    "name": "Gemini 4 Neon",
+    "vendor": "Google",
+    "releaseDate": "2026-11-18",
+    "openWeights": false,
+    "aliases": [
+      "gemini 4 neon"
+    ]
   }
 ]
