@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T19:15:30.506Z",
+  "generatedAt": "2026-11-19T20:49:30.418Z",
   "methodologyVersion": "1.4",
   "sourceCount": 13,
   "trackedModelCount": 78,
@@ -73,7 +73,7 @@
       "dataDate": "2026-11-19",
       "sourceUpdatedAt": "2026-11-19",
       "benchmarkRelease": "2026-11-06",
-      "fetchedAt": "2026-11-19T18:18:43.810Z",
+      "fetchedAt": "2026-11-19T20:47:50.002Z",
       "entryCount": 39,
       "mappedCount": 36,
       "warnings": [],
@@ -116,7 +116,7 @@
       "entryCount": 421,
       "mappedCount": 59,
       "warnings": [
-        "Refresh failed 2026-11-19T18:18:45.989Z: Arena: HTTP 403 (Just a moment...); leaderboard access was blocked"
+        "Refresh failed 2026-11-19T20:48:37.497Z: page.waitForSelector: Timeout 45000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('table tbody tr') to be visible\u001b[22m\n"
       ],
       "status": "stale",
       "costCoverage": {
@@ -348,7 +348,7 @@
       "entryCount": 161,
       "mappedCount": 69,
       "warnings": [
-        "Refresh failed 2026-11-19T18:19:37.794Z: page.waitForSelector: Timeout 45000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('table tbody tr') to be visible\u001b[22m\n"
+        "Refresh failed 2026-11-19T20:49:27.483Z: page.waitForSelector: Timeout 45000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('table tbody tr') to be visible\u001b[22m\n"
       ],
       "status": "stale",
       "costCoverage": {
@@ -427,7 +427,7 @@
       "entryCount": 91,
       "mappedCount": 21,
       "warnings": [
-        "Refresh failed 2026-11-19T18:19:38.682Z: CursorBench: expected version 4.0, found \"CursorBench 4.1\""
+        "Refresh failed 2026-11-19T20:49:28.525Z: CursorBench: expected version 4.0, found \"CursorBench 4.1\""
       ],
       "status": "stale",
       "costCoverage": {
