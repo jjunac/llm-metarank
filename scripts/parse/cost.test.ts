@@ -3,7 +3,7 @@ import { AA_COST_EVALUATIONS, AA_COST_VERSION, aaTaskCost, extractJsonProperty, 
 import { costFromTotals, parseUsdTaskAmount } from "./cost.js";
 import { liveBenchTaskCost, indexLiveBenchCosts } from "./livebench.js";
 import { terminalTaskCost } from "./terminal-bench.js";
-import { parseArenaTable } from "./arena.js";
+import { parseArenaPayload, parseArenaTable } from "./arena.js";
 
 const options = { sourceUrl: "https://example.com/run", fetchedAt: "2026-10-25T00:00:00Z", scope: "test" };
 
@@ -134,5 +134,36 @@ describe("Arena's Cost/Task (P50) column", () => {
     const result = parseArenaTable(["Model", "Score", "Cost/Task (P50)"], [["Example", "1500", "N/A"]], { url: options.sourceUrl, fetchedAt: options.fetchedAt });
     expect(result.entries).toHaveLength(1);
     expect(result.entries[0].cost).toBeUndefined();
+  });
+
+  it("enforces Arena's sample-coverage threshold and excludes Day 1 AutoEval rows in Next.js payloads", () => {
+    const payload = JSON.stringify({
+      leaderboard: {
+        voteCutoffISOString: "2026-11-20T00:00:00.000Z",
+        totalModels: 4,
+        entries: [
+          { rank: 1, modelKey: "valid", modelDisplayName: "Valid Model (High)", rating: 1526.9, votes: 1000, modelOrganization: "Google", inputPricePerMillion: 2, outputPricePerMillion: 10 },
+          { rank: 2, modelKey: "low-ratio", modelDisplayName: "Low Ratio Model", rating: 1500.1, votes: 1000, modelOrganization: "Meta" },
+          { rank: 3, modelKey: "low-count", modelDisplayName: "Low Count Model", rating: 1480.4, votes: 40, modelOrganization: "OpenAI" },
+          { rank: 0, modelKey: "autoeval", modelDisplayName: "Preview AutoEval", rating: 1600, votes: 200, modelOrganization: "Baidu", isDay1: true },
+        ],
+      },
+      initialBattleCost: {
+        entries: [
+          { modelKey: "valid", medianUsd: 0.048602, totalSampleCount: 1000, pricedSampleCount: 600 },
+          { modelKey: "low-ratio", medianUsd: 0.05, totalSampleCount: 1000, pricedSampleCount: 499 },
+          { modelKey: "low-count", medianUsd: 0.05, totalSampleCount: 49, pricedSampleCount: 49 },
+        ],
+      },
+    });
+    const html = `<script>self.__next_f.push([1,${JSON.stringify(payload)}])</script>`;
+    const result = parseArenaPayload(html, { url: options.sourceUrl, fetchedAt: options.fetchedAt });
+    expect(result.entries).toHaveLength(3);
+    expect(result.expectedRows).toBe(3);
+    expect(result.sourceUpdatedAt).toBe("2026-11-20");
+    expect(result.entries[0].cost?.usd).toBe(0.048602);
+    expect(result.entries[0].cost?.statistic).toBe("median");
+    expect(result.entries[1].cost).toBeUndefined();
+    expect(result.entries[2].cost).toBeUndefined();
   });
 });

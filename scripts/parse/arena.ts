@@ -1,7 +1,145 @@
-import type { RawEntry } from "../types.js";
-import { cleanText, extractFirstNumber, parseNumber } from "../util.js";
+import type { RawEntry, TaskCost } from "../types.js";
+import { cleanText, extractFirstNumber, findDate, parseNumber } from "../util.js";
 import { parseAnnotations } from "./annotations.js";
-import { reportedTaskCost } from "./cost.js";
+import { nonNegative, reportedTaskCost } from "./cost.js";
+import { extractJsonProperty, extractNextPayload } from "./next-data.js";
+
+export interface ArenaParseResult {
+  entries: RawEntry[];
+  sourceUpdatedAt?: string;
+  expectedRows?: number;
+  warnings: string[];
+}
+
+interface ArenaPayloadRow {
+  rank?: number | null;
+  modelKey?: string;
+  modelDisplayName?: string;
+  rating?: number | null;
+  votes?: number | null;
+  modelOrganization?: string | null;
+  license?: string | null;
+  inputPricePerMillion?: number | null;
+  outputPricePerMillion?: number | null;
+  contextLength?: number | null;
+  isDay1?: boolean | null;
+}
+
+interface ArenaPayloadLeaderboard {
+  id?: string;
+  voteCutoffISOString?: string;
+  totalVotes?: number;
+  totalModels?: number;
+  entries?: ArenaPayloadRow[];
+}
+
+interface ArenaBattleCostRow {
+  modelKey?: string;
+  medianUsd?: number | null;
+  totalSampleCount?: number | null;
+  pricedSampleCount?: number | null;
+}
+
+interface ArenaBattleCostPayload {
+  entries?: ArenaBattleCostRow[];
+}
+
+/**
+ * Matches Arena's own client-side sample-coverage gate: rows with fewer than 50 priced
+ * battles or <50% priced sample coverage are shown as N/A and excluded from plots.
+ */
+function hasSufficientArenaCost(
+  row: ArenaBattleCostRow | undefined,
+): row is ArenaBattleCostRow & { medianUsd: number } {
+  if (!row || !nonNegative(row.medianUsd) || row.medianUsd <= 0) return false;
+  if (typeof row.totalSampleCount !== "number" || typeof row.pricedSampleCount !== "number") return false;
+  return row.totalSampleCount > 0 && row.pricedSampleCount >= 50 && row.pricedSampleCount / row.totalSampleCount >= 0.5;
+}
+
+export function parseArenaPayload(
+  html: string,
+  options: { url: string; fetchedAt: string },
+): ArenaParseResult {
+  const payload = extractNextPayload(html);
+  const leaderboard = extractJsonProperty<ArenaPayloadLeaderboard>(payload, "leaderboard");
+  if (!leaderboard || !Array.isArray(leaderboard.entries)) {
+    throw new Error("Arena: leaderboard payload was not found");
+  }
+  const battleCost = extractJsonProperty<ArenaBattleCostPayload>(payload, "initialBattleCost");
+  const hasCostPayload = Array.isArray(battleCost?.entries);
+  const costByKey = new Map<string, ArenaBattleCostRow>();
+  for (const item of battleCost?.entries ?? []) {
+    if (typeof item.modelKey === "string") costByKey.set(item.modelKey, item);
+  }
+
+  let day1Count = 0;
+  const entries: RawEntry[] = [];
+  for (const row of leaderboard.entries) {
+    if (row.isDay1 === true) {
+      day1Count += 1;
+      continue;
+    }
+    const name = cleanText(row.modelDisplayName ?? "");
+    const score = typeof row.rating === "number" && Number.isFinite(row.rating) ? Math.round(row.rating) : null;
+    if (!name || score === null) continue;
+    const annotations = parseAnnotations(name);
+    const costRow = row.modelKey ? costByKey.get(row.modelKey) : undefined;
+    const usd = hasSufficientArenaCost(costRow) ? Number(costRow.medianUsd.toFixed(8)) : undefined;
+    const cost: TaskCost | undefined = usd !== undefined && usd > 0
+      ? {
+          usd,
+          upperBound: false,
+          statistic: "median",
+          sourceUrl: options.url,
+          fetchedAt: options.fetchedAt,
+          scope: "Arena · Cost/Task (P50)",
+          currency: "USD",
+          unit: "task",
+          method: "reported",
+          complete: true,
+        }
+      : undefined;
+    const price = nonNegative(row.inputPricePerMillion) && nonNegative(row.outputPricePerMillion)
+      ? `$${row.inputPricePerMillion} / $${row.outputPricePerMillion}`
+      : undefined;
+    entries.push({
+      rawName: name,
+      score,
+      variant: annotations.variant,
+      harness: annotations.harness,
+      vendor: row.modelOrganization?.trim() || undefined,
+      url: options.url,
+      runId: `${options.url}:${name}`,
+      cost,
+      costUnavailableReason: cost
+        ? undefined
+        : !hasCostPayload
+          ? "A verified Cost/Task (P50) column was not found."
+          : "The source does not report a numeric median task cost for this run.",
+      extra: {
+        rank: typeof row.rank === "number" && row.rank > 0 ? row.rank : undefined,
+        votes: typeof row.votes === "number" ? row.votes : undefined,
+        costPerTask: cost ? `$${cost.usd}` : undefined,
+        price,
+        context: row.contextLength ?? undefined,
+      },
+    });
+  }
+
+  const expectedRows = typeof leaderboard.totalModels === "number"
+    ? Math.max(0, leaderboard.totalModels - day1Count)
+    : undefined;
+  const sourceUpdatedAt = leaderboard.voteCutoffISOString
+    ? findDate(leaderboard.voteCutoffISOString)
+    : undefined;
+
+  return {
+    entries,
+    sourceUpdatedAt,
+    expectedRows,
+    warnings: hasCostPayload ? [] : ["No verified Cost/Task (P50) header; API prices were not used as task costs."],
+  };
+}
 
 export function parseArenaTable(
   headers: string[],
